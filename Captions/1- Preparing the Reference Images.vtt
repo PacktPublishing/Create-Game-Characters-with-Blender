@@ -1,0 +1,646 @@
+WEBVTT
+
+00:01.100 --> 00:03.860
+So to begin with we need a character.
+
+00:03.860 --> 00:13.040
+And what I've done is I've created a character here in GIMP and I'm calling him a teen goblin.
+
+00:13.040 --> 00:14.020
+I don't know why.
+
+00:14.030 --> 00:17.500
+I just want to do a teen goblin.
+
+00:17.690 --> 00:26.630
+I want him to be kind of tough looking but also kind of cute like he's still innocent and not quite
+
+00:27.080 --> 00:29.100
+grown up yet.
+
+00:29.360 --> 00:33.220
+So I have him here in Gimp.
+
+00:33.230 --> 00:40.430
+GIMP if you don't know is a great image manipulation program that is similar to Adobe Photoshop but
+
+00:40.430 --> 00:42.020
+it's completely free.
+
+00:42.020 --> 00:50.450
+You can download Gimp you see here at gimp dot org and I can bring up the Web site here.
+
+00:50.440 --> 00:51.870
+Here we go.
+
+00:51.920 --> 00:58.850
+You can download Gimp for just about any operating system and start drawing and painting and manipulating
+
+00:58.850 --> 01:01.240
+images all for free.
+
+01:01.250 --> 01:08.750
+So what I've done here is I've created my character and I've got him in different layers here so I can
+
+01:09.710 --> 01:16.460
+turn the layers off and on for the different parts of the character and what we'll be doing is will
+
+01:16.460 --> 01:23.660
+be cutting out the front and the side views to take into blender to use as reference images.
+
+01:23.660 --> 01:30.680
+Now of course I'm also going to be using blender which as you probably already know is a free 3-D animation
+
+01:30.740 --> 01:37.490
+suite of tools you can get that at Blender dot org right over here.
+
+01:37.740 --> 01:41.320
+All you got to do is click here and download it.
+
+01:41.320 --> 01:49.010
+Here it is free to use free to download and you can get it for just about any operating system you might
+
+01:49.100 --> 01:50.820
+imagine.
+
+01:50.840 --> 02:00.010
+Now if you want to follow along on my progress here as I go you can download this image here at my Web
+
+02:00.010 --> 02:03.740
+site at Deren Lyle dotcom.
+
+02:03.800 --> 02:11.180
+Now if you go to the home page here and then go to free tutorials you can click on this and then if
+
+02:11.180 --> 02:19.220
+you scroll down here to this little link it says you can find reference images and scene files if you
+
+02:19.220 --> 02:20.490
+click here.
+
+02:20.870 --> 02:27.610
+You'll be able to then download this team goblin character the download file is here.
+
+02:27.620 --> 02:35.120
+So this is actually the gimp file so to open this you will need to download and install GIMP on your
+
+02:35.120 --> 02:36.790
+computer.
+
+02:36.800 --> 02:42.690
+So let's start cutting the front and side views out here to bring him to Blender.
+
+02:42.890 --> 02:44.330
+Let's get the front view first.
+
+02:44.360 --> 02:54.010
+I'm going to come over here and hide the various layers that are in here except for this one front view.
+
+02:54.340 --> 03:03.710
+And I'm going to select that front view in the layers panel over here and I'll go to edit copy.
+
+03:04.010 --> 03:13.960
+And now I'm going to go to Edit Paste as a new image and if I do that it will create a new image exactly
+
+03:13.960 --> 03:16.630
+as big as the copied image.
+
+03:16.630 --> 03:23.030
+So I'm going to zoom out a bit with the minus key on the keyboard here and there it is.
+
+03:23.110 --> 03:30.880
+So I will call this front view and let's go back and get the side view.
+
+03:31.000 --> 03:33.270
+So I'll come back over here.
+
+03:33.280 --> 03:43.160
+Hide the front view turn on the side view select it and then I'll go to edit copy and then I'll come
+
+03:43.160 --> 03:50.200
+back over here to this new image and go to Edit Paste.
+
+03:50.350 --> 03:57.780
+And there he is now in GIMP when you paste a layer where you paste an image into a document.
+
+03:57.940 --> 04:01.430
+It gives you this floating selection pasted layer.
+
+04:01.720 --> 04:07.090
+And what that is it's kind of a temporary layer and you have to anchor it to something so you could
+
+04:07.120 --> 04:10.110
+anchor it to this existing layer.
+
+04:10.390 --> 04:13.310
+Or you could create a new layer for it to be anchored to.
+
+04:13.510 --> 04:17.150
+I don't want to combine it with this when I want to keep them separate.
+
+04:17.230 --> 04:22.480
+So what I'll do is all right click on this and choose two new layer.
+
+04:22.480 --> 04:26.660
+And now that will give that its own layer in the document.
+
+04:26.920 --> 04:29.520
+So I call this side view.
+
+04:30.430 --> 04:37.300
+So now I have my front view and my side view ready to be saved out.
+
+04:37.300 --> 04:41.340
+And one thing I want to do is make sure that they're aligned properly.
+
+04:41.350 --> 04:50.440
+I want the feet and the eyes and the nose et cetera to be lined up between the side view and the front
+
+04:50.440 --> 04:51.580
+view.
+
+04:51.580 --> 04:56.070
+So what I'm going to do is turn the opacity down here I'm going to click.
+
+04:56.080 --> 05:01.630
+I'm going to hover right over here and the opacity and drag this down some so that I can see through
+
+05:01.630 --> 05:08.170
+that side view and you can see the eyes were a little bit off so I'm going to zoom in and click out
+
+05:08.170 --> 05:13.500
+here and press the Z key and click and drag here to zoom in and then I'm going to come over here to
+
+05:13.590 --> 05:16.640
+move to all or the AM key.
+
+05:16.720 --> 05:26.530
+I'm just going to take the arrow keys on the keyboard and move it over so that the nose and the eyes
+
+05:26.530 --> 05:32.980
+are kind of lined up so I'm thinking something like that.
+
+05:32.990 --> 05:38.330
+I mean granted my drawing isn't perfect just not completely aligned but if I can get the bottom of the
+
+05:38.330 --> 05:44.920
+nose and maybe the mouth lined up like this as well as the bottom of the eyes.
+
+05:45.260 --> 05:46.990
+I think that might be good.
+
+05:47.360 --> 05:54.680
+Now the ear isn't lined up and that's OK I'm not too worried about that but it's the nose in the eyes
+
+05:54.830 --> 05:56.790
+that I'm concerned with here.
+
+05:57.050 --> 06:03.320
+So now that I've got that lined up I'm going to press shift to constrain it and then click and drag
+
+06:03.320 --> 06:06.030
+it back over here like that.
+
+06:06.170 --> 06:09.150
+So it's more in the center of the image.
+
+06:09.200 --> 06:16.890
+And now to zoom back out I'm going to press shift commander control J to zoom out to full screen there.
+
+06:17.270 --> 06:20.780
+I'll bring the opacity back up to 100 percent.
+
+06:20.780 --> 06:22.360
+And there he is.
+
+06:22.400 --> 06:25.280
+So now I know that they're pretty well lined up.
+
+06:25.280 --> 06:29.070
+I mean you can see that the belt isn't quite right.
+
+06:29.210 --> 06:30.930
+The feet are pretty good.
+
+06:30.980 --> 06:36.060
+Of course the hands and the arms are separate pieces in the drawing.
+
+06:36.380 --> 06:43.160
+But it looks to me like the eyes and the nose are lined up and at least for me for now that's kind of
+
+06:43.160 --> 06:44.980
+my main concern.
+
+06:44.990 --> 06:45.680
+All right.
+
+06:45.830 --> 06:52.910
+So now that I have these lined up I'm going to hide one of the layers here so I'll just deal with the
+
+06:53.150 --> 06:54.610
+front view.
+
+06:54.620 --> 07:01.220
+So now what I'm going to do is save these images out so that I can bring them into blender as reference
+
+07:01.220 --> 07:02.150
+images.
+
+07:02.210 --> 07:16.280
+So now I'll just go to file export as and I will call this gobbler in front view and it's automatically
+
+07:16.280 --> 07:18.380
+going to save it out as a P and G.
+
+07:18.380 --> 07:20.840
+That's actually what I want.
+
+07:20.840 --> 07:29.860
+You could choose from different file types here but PAGG is exactly what I want here so I'll save this
+
+07:29.910 --> 07:36.520
+all exported as a P and G and click export.
+
+07:36.530 --> 07:39.800
+Now I want to do the side view so I'll turn that on.
+
+07:39.800 --> 07:41.990
+Turn the front view off.
+
+07:41.990 --> 07:50.430
+Go to a file export as and save this as the goblin side view.
+
+07:55.490 --> 07:56.790
+And there we go.
+
+07:56.790 --> 08:02.010
+So now let's go back into blender and bring those in here in Blender.
+
+08:02.040 --> 08:08.090
+We don't need all of this stuff we don't need the camera the point like the cube at this point in time
+
+08:08.100 --> 08:10.800
+so I'll just hit the A key to select all.
+
+08:10.830 --> 08:13.900
+Hit the x key and delete.
+
+08:13.950 --> 08:21.760
+Now if you're brand new to Blender I have a couple of resources for you on my web site if you go to
+
+08:21.760 --> 08:28.430
+the home page you can see that you've got a blender Quickstart Guide here.
+
+08:28.430 --> 08:38.120
+It's a 25 page PTF file that goes over the essential tools and concepts of Blender that will kind of
+
+08:38.120 --> 08:42.890
+help you get up to speed quickly so you can follow along.
+
+08:42.980 --> 08:50.150
+In addition if you go to my YouTube channel and scroll all the way down to the bottom here you've got
+
+08:50.150 --> 08:57.850
+this blender Quickstart Guide here as well a 10 minute video that goes over much the same things.
+
+08:57.860 --> 09:05.390
+So if you get that blender Quickstart Guide PTF as well as watch this 10 minute video.
+
+09:05.510 --> 09:12.260
+You should be up to speed and ready to go to follow along in this series.
+
+09:12.260 --> 09:12.590
+All right.
+
+09:12.590 --> 09:18.980
+So let's go back to blender and what I'm going to do is bring in that front and side view into blender
+
+09:18.980 --> 09:23.650
+so that we can see it when we're in the front and inside orthographic views.
+
+09:23.750 --> 09:27.820
+Blender has a lot of different screen lay out here.
+
+09:27.830 --> 09:30.640
+One is the default which we see here.
+
+09:30.740 --> 09:37.730
+We've got U-V editing an animation and motion tracking we've got a lot of different screen layouts that
+
+09:37.730 --> 09:45.620
+come with Blendr But what I'd like to do is create a new one for my character images so I'm going to
+
+09:45.620 --> 09:53.330
+come up here and click the plus icon to create a new one it'll say default 0 0 1 and I want to call
+
+09:53.330 --> 10:03.800
+this character images now whatever I'd do to this screen layout it will save it to this screen layout
+
+10:03.950 --> 10:07.780
+selection rather than changing my default view.
+
+10:07.790 --> 10:13.240
+So I want to keep the default and have this one to change.
+
+10:13.250 --> 10:18.320
+So what I'll do is go to this little tab right up here in the very right hand corner and click and drag
+
+10:18.350 --> 10:21.150
+and drag out a new window.
+
+10:21.290 --> 10:26.870
+For now I'd like to get rid of this panel and this panel and to do that I'm going to hover over the
+
+10:26.870 --> 10:33.380
+screen and press the T key on the keyboard and that will get rid of that and the T key over here and
+
+10:33.380 --> 10:34.970
+that will get rid of that.
+
+10:34.970 --> 10:39.690
+So now I've got two of the exact same windows here.
+
+10:39.740 --> 10:46.250
+Now I can change the view or the camera that I'm viewing this through like coming down here to the View
+
+10:46.280 --> 10:46.980
+menu.
+
+10:47.210 --> 10:57.110
+And you've got the the top camera the bottom front back right left etc. and what I want is the right
+
+10:57.110 --> 10:58.210
+camera.
+
+10:58.250 --> 11:05.340
+Notice that it has a shortcut key the three key on the number pad.
+
+11:05.720 --> 11:13.720
+So if I click that it will go to the right camera and notice that it says right.
+
+11:13.720 --> 11:20.210
+Perspective there are perspective cameras and orthographic cameras and the orthographic cameras give
+
+11:20.210 --> 11:23.690
+you a very flat two dimensional view of the scene.
+
+11:23.780 --> 11:29.540
+And for this two dimensional reference image I want an orthographic camera so I'm going to come back
+
+11:29.540 --> 11:36.860
+down here to view and I can switch from the perspective to the orthographic camera with this menu item
+
+11:36.920 --> 11:40.550
+or the 5 key on the number pad.
+
+11:40.610 --> 11:44.990
+So I click that and there we have our right view.
+
+11:45.020 --> 11:49.040
+Now I want to come over here and do the same thing for the front view.
+
+11:49.280 --> 11:55.070
+So I could come down here to the view menu but for the front I've got numpad one here so I'm just going
+
+11:55.070 --> 12:04.100
+to press the one key on the numpad and then I'm going to press the five key on the numpad and there
+
+12:04.100 --> 12:04.890
+we go.
+
+12:05.240 --> 12:13.190
+Now we've got front and right orthographic views and these changes have just been applied to this screen
+
+12:13.270 --> 12:15.140
+layout that I created.
+
+12:15.140 --> 12:18.890
+If I go back to the default it's still the same.
+
+12:18.920 --> 12:19.220
+All right.
+
+12:19.220 --> 12:20.930
+So let's go back to here.
+
+12:22.230 --> 12:29.640
+Now if you don't have a number pad on your keyboard you can always emulate the number pad with the numbers
+
+12:29.640 --> 12:37.890
+on the keyboard by going to file user preferences and in the user preferences you can turn on emulate
+
+12:37.980 --> 12:45.300
+numpad and this will make the numbers on the keyboard act like the numbers on the number pad and then
+
+12:45.300 --> 12:48.890
+just be sure and click save user settings.
+
+12:48.900 --> 12:52.810
+All right so now let's bring in those images to do that.
+
+12:52.830 --> 12:58.980
+I need to bring up the properties panel for each of these windows and to do that I'll press the end
+
+12:58.980 --> 13:07.830
+key on the keyboard and if I scroll down I have this area called background images here and I'll roll
+
+13:07.830 --> 13:08.620
+that out.
+
+13:09.550 --> 13:17.600
+And click add image and now if I scroll down I have this area where I can open an image and bring it
+
+13:17.600 --> 13:18.290
+in.
+
+13:18.290 --> 13:21.680
+Now this one is only going to be for the right view.
+
+13:21.680 --> 13:26.020
+So I'm going to choose this all views menu choose right.
+
+13:27.790 --> 13:29.050
+Now and click open.
+
+13:29.350 --> 13:38.390
+And here they are so I will choose the side view right here click open and then we have our character.
+
+13:38.410 --> 13:45.250
+Now I can adjust the opacity here make him more opaque or more transparent.
+
+13:45.280 --> 13:51.490
+So I think I want to take him down to about point 3 for the opacity.
+
+13:51.580 --> 13:55.030
+Now let's do the same thing over here for the front view.
+
+13:55.030 --> 13:56.730
+We're going to press the end key.
+
+13:56.760 --> 14:00.730
+I'm going to hover over this view press the end key to bring up the properties panel.
+
+14:00.730 --> 14:02.650
+Scroll down.
+
+14:02.650 --> 14:06.830
+Roll out the background image section and click add image.
+
+14:07.330 --> 14:10.830
+And for this I want it to be the front for you.
+
+14:10.840 --> 14:11.470
+Where's the front.
+
+14:11.470 --> 14:12.340
+Here it is.
+
+14:12.760 --> 14:16.550
+And click open and bring in this front view.
+
+14:17.830 --> 14:19.760
+Then there is.
+
+14:19.760 --> 14:25.310
+Now I'm going to adjust the opacity again I put the other one at point three.
+
+14:25.310 --> 14:26.240
+Here we go.
+
+14:26.240 --> 14:26.690
+All right.
+
+14:26.690 --> 14:32.380
+So now I have my characters in the front and right orthographic views.
+
+14:32.570 --> 14:37.690
+Notice that if I go back to the default view I don't see it which is fine.
+
+14:37.760 --> 14:43.970
+In fact I like it that way so that the images don't distract me when I'm looking at it in the perspective
+
+14:43.970 --> 14:44.750
+view.
+
+14:45.110 --> 14:51.320
+So let's go back here once again to the character images and what I'd like to do is bring him up so
+
+14:51.380 --> 15:01.670
+he's actually standing on the grid here this red and green line signify this grid space here so I want
+
+15:01.670 --> 15:07.310
+those images standing on the grid so that as I create the character it will be standing on the grid
+
+15:07.310 --> 15:08.270
+as well.
+
+15:08.330 --> 15:15.820
+So I'm going to go back to character images and I want to adjust this x and y axis.
+
+15:16.010 --> 15:24.260
+So even though the three dimensional axes here say Y and Z or x and z here in the two dimensional plane
+
+15:24.620 --> 15:30.050
+we're going to be dealing with X to the left and the right and Y up and down.
+
+15:30.050 --> 15:37.970
+So I'm just going to click and drag in this view and notice that it scrolls in the X and I don't want
+
+15:38.040 --> 15:38.530
+to do that.
+
+15:38.540 --> 15:39.530
+I want the Y.
+
+15:39.550 --> 15:46.760
+So I'm going to put zero back in this field and I'm going to come over here and hover over the y axis
+
+15:47.120 --> 15:50.530
+and click and drag and move him up.
+
+15:50.540 --> 15:53.610
+So I want him to be right about there.
+
+15:53.610 --> 15:55.720
+I've got four point eight.
+
+15:55.720 --> 15:57.400
+Let's try five.
+
+15:57.760 --> 15:59.480
+That's a little too much.
+
+15:59.510 --> 16:02.180
+How about four point nine.
+
+16:03.290 --> 16:03.830
+There we go.
+
+16:03.830 --> 16:09.240
+So now I've got that foot pretty much right on the ground playing.
+
+16:09.320 --> 16:17.380
+I'll come over here and for the y axis I'll go ahead and type in four point nine as well like that.
+
+16:17.390 --> 16:22.850
+Now if you're using your own characters the numbers here may be different.
+
+16:22.850 --> 16:29.810
+So I'm going to zoom out with the scroll wheel here on the mouse and I'm going to press shift and the
+
+16:29.810 --> 16:34.960
+middle mouse button to pan or drag him up and down like that.
+
+16:35.420 --> 16:40.100
+I can zoom in with the scroll wheel on the mouse.
+
+16:40.100 --> 16:41.090
+And there we go.
+
+16:41.300 --> 16:47.230
+So now I've got my character standing on the ground plane in the front and side views.
+
+16:47.370 --> 16:53.360
+And one thing I want to do is make sure this character is actually aligned right down the center of
+
+16:53.360 --> 17:01.160
+the view here so I'm going to zoom in with the scroll wheel and press shift and middle mouse button
+
+17:01.220 --> 17:03.520
+and click and drag down some.
+
+17:03.890 --> 17:05.960
+So let's take a look at him here.
+
+17:06.020 --> 17:08.860
+He looks like he's a little bit off center.
+
+17:09.110 --> 17:14.230
+So maybe if I use this x axis I can get him more right down the center.
+
+17:14.480 --> 17:23.570
+And it looks like if I just click these arrows and take it to point one it looks like that's more directly
+
+17:23.570 --> 17:24.860
+down the center.
+
+17:24.860 --> 17:26.320
+So let's go with that.
+
+17:26.540 --> 17:31.910
+All right so I'm going to zoom out with the scroll wheel again press shift to middle mouse button to
+
+17:32.890 --> 17:35.900
+drag him up a bit and there we go.
+
+17:36.720 --> 17:43.830
+Our front and side views are going to press the End key and the key to get out of those views and we
+
+17:43.830 --> 17:48.840
+will use these as our reference images as we build our character.
+
+17:48.840 --> 17:55.560
+So in the next video we'll create the base geometry for our characters so that we can begin using Blender's
+
+17:55.680 --> 17:56.640
+sculped tools.

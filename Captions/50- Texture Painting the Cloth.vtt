@@ -1,0 +1,427 @@
+WEBVTT
+
+00:01.100 --> 00:06.220
+Now that we have our interface set up for texture painting the cloth here.
+
+00:06.380 --> 00:08.820
+Let's go ahead and work on this see what we can do.
+
+00:09.170 --> 00:17.420
+I've got these images up to sample colors but I think I'd also like to use this image as a stencil actually
+
+00:17.480 --> 00:21.210
+lay that texture down on this cloth.
+
+00:21.590 --> 00:29.240
+I'm going to scroll down here and instead of the noise brush let's add a new texture to our brush and
+
+00:29.270 --> 00:35.110
+maybe we could call this what we call this cloth cloth brush.
+
+00:35.570 --> 00:41.590
+And over here let's change or find an image for that.
+
+00:41.590 --> 00:42.650
+Let's find that image.
+
+00:42.650 --> 00:47.620
+So here's the material here's the textures of the material.
+
+00:47.630 --> 00:51.670
+And here is the brush texture or cloth brush.
+
+00:51.680 --> 00:59.110
+Let's go ahead and keep this as image or movie and let's come down here and click on Open.
+
+00:59.240 --> 01:04.040
+And now I need to find my images and reference images.
+
+01:04.700 --> 01:06.650
+And let's see which one it is.
+
+01:06.650 --> 01:18.220
+Let's go with this cloth one and we go so now we have this image loaded up as a texture in our brush.
+
+01:18.220 --> 01:25.450
+Now what we need to do is change this brush mapping from random to stencil.
+
+01:25.510 --> 01:34.130
+I'll also come down here and turn the jitter down and turn the spacing down a bit as well and you can
+
+01:34.130 --> 01:39.490
+see when I hover over the 3D view I get this preview of the texture.
+
+01:39.530 --> 01:41.030
+You can see it here.
+
+01:41.330 --> 01:46.640
+Now I can move this around by using the right mouse button.
+
+01:46.640 --> 01:54.440
+So if I click the right mouse button and drag I can move it around and if I press the shift button and
+
+01:54.440 --> 01:57.910
+the right mouse button and click and drag I can zoom in and out.
+
+01:58.070 --> 02:03.090
+I can also rotate it with the Control key and the right mouse button as well.
+
+02:03.560 --> 02:12.360
+So then with the normal mouse buttons I can move my character around here like so so let's try this.
+
+02:12.360 --> 02:18.330
+Let's see if we can get the texture on this front panel here.
+
+02:18.550 --> 02:21.330
+Let's adjust our color here.
+
+02:21.340 --> 02:23.040
+We don't want this Baloo.
+
+02:23.290 --> 02:29.860
+Let me come over here to this image hold the key down and let me sample and nice fairly light brownish
+
+02:29.860 --> 02:32.340
+color here if I can find one.
+
+02:32.470 --> 02:35.580
+Maybe I'll come up here and try this.
+
+02:35.930 --> 02:36.970
+Something like that.
+
+02:36.970 --> 02:38.360
+There we go.
+
+02:38.560 --> 02:39.640
+I can get rid of this.
+
+02:39.640 --> 02:40.660
+I don't want that.
+
+02:41.230 --> 02:43.670
+And maybe I'll even make this a little bit brighter.
+
+02:44.770 --> 02:45.520
+Yeah let's try this.
+
+02:45.520 --> 02:49.420
+I'm going to hit the F key and increase the size of the brush.
+
+02:49.630 --> 02:56.010
+I want to come down here and turn on face masking because I only want to work on this front panel so
+
+02:56.010 --> 03:02.830
+I'll turn on face masking hit the A key to make sure everything's de-selected all hover over this and
+
+03:02.830 --> 03:04.720
+press the L key.
+
+03:04.810 --> 03:10.190
+And now if we click and drag on here let's see what happens.
+
+03:12.000 --> 03:18.570
+You can barely see I mean you zoom in here that that texture is being laid down on that and I think
+
+03:18.570 --> 03:22.610
+I want it to be a little bit more than that little bit better.
+
+03:22.620 --> 03:30.450
+Let's try and bring our brush color down a bit and maybe I'll increase the strength of hair.
+
+03:30.450 --> 03:31.470
+Let's try again.
+
+03:33.640 --> 03:35.140
+See how this works.
+
+03:37.240 --> 03:38.640
+It's a little bit better.
+
+03:38.660 --> 03:39.380
+Yeah.
+
+03:39.890 --> 03:43.770
+We're getting a little bit more of that texture on there.
+
+03:44.300 --> 03:46.800
+But still not enough to undo.
+
+03:47.240 --> 03:50.050
+I think I want that color to be a little bit lighter.
+
+03:50.270 --> 03:52.190
+Let me try this.
+
+03:52.880 --> 04:03.240
+Something like this I'm actually going to increase the strength a little bit more and let's try this.
+
+04:03.280 --> 04:06.430
+Now we're getting some of that color down.
+
+04:07.000 --> 04:10.370
+That's looking a little better.
+
+04:10.380 --> 04:11.580
+Kind of like that.
+
+04:11.580 --> 04:13.810
+Let me turn off the stencil real quick.
+
+04:13.810 --> 04:17.460
+I'll change that back to the plane and let's take a look at it.
+
+04:19.540 --> 04:22.050
+Yeah kind of like that.
+
+04:22.050 --> 04:25.910
+Now we also need to do that for the edges around here as well.
+
+04:26.190 --> 04:34.020
+Let's go back to that face select and let me see if I can get some of that down on the corners there
+
+04:34.080 --> 04:35.120
+on the edges.
+
+04:35.310 --> 04:40.680
+So I'll go back to stencil and see if we can do here.
+
+04:41.200 --> 04:46.630
+Let me take that brush down just a hair and paint right in there.
+
+04:47.820 --> 04:55.200
+And we go let me grab this down here like that.
+
+04:55.820 --> 04:57.470
+And over here on this edge
+
+05:00.590 --> 05:04.390
+OK so we've got that front panel down.
+
+05:04.540 --> 05:05.850
+That's not too bad.
+
+05:06.910 --> 05:07.910
+Once again.
+
+05:07.910 --> 05:08.570
+Yeah.
+
+05:08.830 --> 05:09.290
+All right.
+
+05:09.290 --> 05:13.770
+So let's now work on one of the side panels here.
+
+05:14.800 --> 05:21.940
+Zoom in to about the same size as we were before because we want the texture to be pretty much the same
+
+05:22.030 --> 05:29.280
+scale all the way around and hit the A key to de-select that area of the L key to select this panel.
+
+05:30.420 --> 05:32.630
+And let's see what we can do here.
+
+05:32.680 --> 05:42.400
+I'm going to increase the breast size and I'll just lay this down here.
+
+05:42.720 --> 05:43.540
+OK.
+
+05:43.930 --> 05:45.700
+Let's spin around to this side
+
+05:48.400 --> 05:53.580
+a key press the L key and let's lay it down here.
+
+05:55.330 --> 06:01.290
+And lastly let's get this signed selected with the L key.
+
+06:01.410 --> 06:07.580
+Increase the brush size of BET let's lay this down.
+
+06:07.630 --> 06:08.020
+All right.
+
+06:08.020 --> 06:12.070
+Let me turn back to view plain de-select everything.
+
+06:12.070 --> 06:13.870
+Turn off face masking.
+
+06:13.870 --> 06:16.570
+Zoom out a bit and see what we got here.
+
+06:16.840 --> 06:18.030
+Yeah that's not too bad.
+
+06:18.070 --> 06:22.320
+It kind of gives the sense that there's a texture to it.
+
+06:23.100 --> 06:30.930
+I think also I need to work a little bit on emphasizing the light and shadow of the folds here.
+
+06:30.930 --> 06:37.890
+Kind of like this but that's a good base texture I think to work with.
+
+06:37.890 --> 06:38.190
+All right.
+
+06:38.190 --> 06:45.420
+So I think to paint the light and shadow we don't really need this stencil here anymore.
+
+06:45.420 --> 06:48.560
+I'll hit the x key to remove that.
+
+06:48.810 --> 06:53.480
+I'd like to come down here and it looks like spacing and jitter is good.
+
+06:53.490 --> 06:54.800
+Those are pretty low.
+
+06:54.820 --> 06:55.780
+That's good.
+
+06:56.930 --> 07:04.790
+For painting the folds I think I'm going to need to turn on the pressure sensitivity for the radius
+
+07:04.790 --> 07:12.950
+of the brush so that I can draw a thin line on top and have it get thicker as it goes to the bottom
+
+07:12.950 --> 07:17.420
+to kind of replicate a fold in the cloth.
+
+07:17.660 --> 07:24.110
+So I'll turn the pressure sensitivity on here and let's sample another color here I'll press ass and
+
+07:24.110 --> 07:26.610
+sample a little bit darker color here.
+
+07:29.460 --> 07:36.160
+And I think I'm going to be drawing this down on this part right here.
+
+07:38.470 --> 07:38.800
+All right.
+
+07:38.800 --> 07:39.580
+Let's try this
+
+07:44.370 --> 07:44.760
+yeah.
+
+07:44.770 --> 07:45.900
+Something like that now.
+
+07:45.990 --> 07:48.300
+I don't know if you can see it but I'm just barely getting it.
+
+07:48.300 --> 07:49.170
+And that's what I want.
+
+07:49.170 --> 07:51.550
+I don't want anything real strong here.
+
+07:54.950 --> 07:59.860
+So this is very light and very subtle.
+
+07:59.900 --> 08:04.760
+I hope that's what I'm trying to do and I'm trying to be small up top.
+
+08:04.760 --> 08:10.640
+And then as I come down I'm pushing more to get the brush a little bit wider.
+
+08:10.640 --> 08:13.850
+Now one thing I notice look down here.
+
+08:14.330 --> 08:16.000
+That's bad.
+
+08:16.100 --> 08:21.290
+I'm pushing the brush stroke on down into the legs.
+
+08:21.290 --> 08:22.610
+Let me do this.
+
+08:24.120 --> 08:32.940
+Glad I caught that early so I'm going to go ahead and turn on face masking again and just select this
+
+08:32.940 --> 08:37.540
+panel so I don't accidentally paint on other parts of the models.
+
+08:38.780 --> 08:39.010
+Right.
+
+08:39.010 --> 08:40.280
+So I'll try it again.
+
+08:44.440 --> 08:50.710
+Well hopefully you can begin to see that shadow there happening in the folds.
+
+08:50.740 --> 08:52.900
+It's very subtle.
+
+08:52.930 --> 08:55.380
+I'm just trying not to do too much.
+
+08:55.390 --> 08:58.570
+It's easy to do too much on something like this.
+
+08:58.600 --> 09:06.310
+So now that I've got those in there I want to go back to a lighter color maybe something like this and
+
+09:06.310 --> 09:13.080
+start doing the same thing on the top of the fold here to get that highlight.
+
+09:13.090 --> 09:14.750
+So let's try that
+
+09:18.980 --> 09:19.430
+yeah.
+
+09:19.440 --> 09:28.500
+So you can see I think hopefully that will help the shadows pop out a little bit as well.
+
+09:36.690 --> 09:38.090
+All right so there we go.
+
+09:38.160 --> 09:45.780
+We've got a nice cloth texture that we've put down with the stencil brush and we've also done a little
+
+09:45.780 --> 09:50.790
+bit of hand painting to kind of make those folds pop.
+
+09:50.790 --> 09:56.920
+Now in addition to the normal map and the ambient occlusion map that will add in the game engine.
+
+09:56.940 --> 10:02.990
+I think this will really help give some realism and some interest to the cloth here.
+
+10:03.180 --> 10:08.730
+So I'll begin working on the rest of the tunic here.
+
+10:08.730 --> 10:15.790
+Just going through and doing the same kind of thing now I feel I would be remiss if I didn't mention
+
+10:15.790 --> 10:19.540
+yet again that we need to save this image.
+
+10:19.540 --> 10:26.590
+If I exited out of Blender now even if I saved my scene if I came in here and press control or command
+
+10:26.650 --> 10:32.980
+s and save the scene and then I exited all this would go away.
+
+10:33.070 --> 10:38.950
+So I just want to emphasize once again to be sure and save your images.
+
+10:38.950 --> 10:46.570
+So for me I'll come back over to the slots tab and click on Save all images and that makes the Asterix
+
+10:46.570 --> 10:47.810
+go away.
+
+10:47.830 --> 10:53.050
+It only takes a couple of times of losing your payment information for you to begin to remember to do
+
+10:53.050 --> 10:54.520
+that.

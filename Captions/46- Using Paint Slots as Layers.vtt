@@ -1,0 +1,340 @@
+WEBVTT
+
+00:00.660 --> 00:07.190
+Let's continue our texture painting and as I've said before I kind of like to try and find that the
+
+00:07.220 --> 00:09.260
+easiest thing to do first.
+
+00:09.260 --> 00:16.400
+It kind of eases me into the process whatever it is working on currently and I'm not sure exactly what
+
+00:16.400 --> 00:17.900
+would be the easiest for me.
+
+00:17.900 --> 00:20.300
+Maybe this belt.
+
+00:20.300 --> 00:27.900
+I was thinking maybe I should do the belt and straps first and that would kind of ease me into the process.
+
+00:27.920 --> 00:32.330
+So what I really need to do is find reference images.
+
+00:32.330 --> 00:36.830
+So I'm going to go out to Google and just see what I can find.
+
+00:36.950 --> 00:45.620
+So I'm just going to look for leather belt on Google and go to images and they look a little too new
+
+00:45.620 --> 00:46.420
+to me.
+
+00:47.370 --> 00:56.720
+Let's about something like worn leather belt that's getting there something like this.
+
+00:58.210 --> 01:02.530
+And old old worn leather belt.
+
+01:03.040 --> 01:11.440
+I'm also going to come over here to the search tools go to size and look for anything large like that
+
+01:11.530 --> 01:16.090
+just so I have a nice big image to work with.
+
+01:16.220 --> 01:20.050
+I kind of like the leather of this chair.
+
+01:20.050 --> 01:24.910
+I guess that's for shotgun shells or something I kind of like that.
+
+01:24.910 --> 01:29.070
+I may grab that kind of like this one too.
+
+01:29.510 --> 01:36.980
+So I think I'll grab a couple out of here that I can use in Blender to be a reference image as well
+
+01:36.980 --> 01:39.480
+as to sample colors off of.
+
+01:39.560 --> 01:40.770
+All right back in Blender.
+
+01:40.770 --> 01:46.760
+Let's go ahead and create a new window here I'm going to click on this tab and drag down to create a
+
+01:46.760 --> 01:48.030
+new window.
+
+01:48.500 --> 01:56.150
+And in this window what I'd like to do is open up a new image and I'll go find those reference images
+
+01:56.990 --> 02:02.270
+and I'll click on this button up here to display thumbnails of all the images.
+
+02:02.270 --> 02:04.100
+And here we go.
+
+02:04.100 --> 02:10.300
+So I've got a couple of images kind of like this one for different colors.
+
+02:10.310 --> 02:15.390
+I'll begin with this one I think and I'll open the image and there it is.
+
+02:15.770 --> 02:24.470
+So also what I need to do is come over here and make sure that this mode is set to paint and I don't
+
+02:24.470 --> 02:34.200
+really need the U-V wires over this so I'll go to View and turn off draw texture paint UVA's and there
+
+02:34.200 --> 02:35.520
+we go.
+
+02:36.300 --> 02:44.250
+So this has some nice imagery here with the different colors and even the texture I kind of like I don't
+
+02:44.250 --> 02:49.460
+know that I'll try and replicate the texture exactly but I do like what's going on here.
+
+02:49.470 --> 02:49.860
+All right.
+
+02:49.860 --> 02:53.800
+So having said that let's zoom in to our belt here.
+
+02:54.150 --> 03:00.420
+Once we get here I'm going to press alt F to frame up the area underneath the cursor and now it will
+
+03:01.080 --> 03:03.460
+tumble around at that point.
+
+03:03.960 --> 03:07.460
+I'm going to zoom in to where it is on the UVM map.
+
+03:07.530 --> 03:08.630
+Here it is.
+
+03:09.060 --> 03:16.320
+So to begin I'm going to create a new texture paint slot that's transparent that when I paint on it
+
+03:16.620 --> 03:19.570
+we'll be able to see over the base color.
+
+03:19.740 --> 03:28.650
+So I'll come up here to add texture paint slot create a diffuse color slot I'll call this.
+
+03:29.040 --> 03:32.270
+Oh I don't know let's just call this details one.
+
+03:32.970 --> 03:34.200
+Let's do that.
+
+03:34.680 --> 03:40.480
+Let's make these 2048.
+
+03:40.690 --> 03:42.640
+And now here's the important part of this.
+
+03:42.640 --> 03:50.530
+We need to take the color from this black and we need to change this from an alpha of one to an alpha
+
+03:50.530 --> 03:51.720
+of zero.
+
+03:51.970 --> 03:57.820
+So that this slot is completely transparent and we can see through it to the base color.
+
+03:57.940 --> 04:02.020
+So now that I've got that Alpha to zero Our click OK.
+
+04:02.410 --> 04:06.700
+And there we go we've got our details map here.
+
+04:06.890 --> 04:07.870
+Right here it is.
+
+04:07.870 --> 04:10.130
+It's transparent.
+
+04:10.390 --> 04:15.370
+But when we use it to paint with we'll be able to see it over our base color.
+
+04:15.370 --> 04:20.320
+Let me switch back to the belt image here.
+
+04:20.590 --> 04:26.690
+So now if I come in here and hover over this image I'll hold down the Esc key.
+
+04:26.830 --> 04:29.550
+I can then click and sample a color.
+
+04:29.590 --> 04:37.900
+Let me go back to the Tools tab and I'll switch from the Phil brush to the texture draw so I can hover
+
+04:37.900 --> 04:38.820
+over here.
+
+04:39.990 --> 04:48.020
+And find a color maybe something like this.
+
+04:48.190 --> 04:58.360
+And now I have that color sampled here I'll reduce the strength and if I zoom in here you can see that
+
+04:58.390 --> 05:03.740
+I can begin just laying down bits of color there.
+
+05:03.790 --> 05:07.180
+Now it's a little blotchy.
+
+05:07.180 --> 05:12.730
+There are some things I can do to add a bit of interest to the paint stroke here.
+
+05:12.790 --> 05:15.600
+I'll scroll down in the Tools tab.
+
+05:17.850 --> 05:28.590
+Down here to stroke and within here we've got the jitter and spacing fields the jitter just sprays the
+
+05:28.590 --> 05:30.620
+paint out in blotches.
+
+05:30.630 --> 05:38.400
+So I'm gonna increase that just a bit and the spacing dictates how far those blotches will be will be
+
+05:38.400 --> 05:39.350
+dispersed.
+
+05:39.390 --> 05:45.540
+So if I come in here and I draw here let me get the spacing out a little bit more and the jitter out
+
+05:45.540 --> 05:47.480
+a little bit more.
+
+05:47.650 --> 05:52.860
+You can see it's beginning to lay down these kind of blotches as I paint.
+
+05:52.870 --> 05:54.690
+Now that's not quite what I wanted.
+
+05:54.690 --> 06:00.550
+But we're getting there so I want to reduce that a bit reduce the jitter a bit.
+
+06:01.620 --> 06:06.900
+And just come in here and lightly paint along the edges and you can see now I'm getting a little bit
+
+06:06.900 --> 06:13.740
+more randomness to the stroke and that's kind of what I want I mean and do this and I'm going to take
+
+06:13.740 --> 06:19.200
+this strength down just a little bit more.
+
+06:19.280 --> 06:25.720
+Now just going to paint around the edges here as if it's been worn around the edges.
+
+06:25.890 --> 06:26.460
+You know we go
+
+06:37.690 --> 06:43.330
+now you should be able to see the strokes laying down here in the U-V editor and sure enough here they
+
+06:43.330 --> 06:44.600
+are.
+
+06:44.600 --> 06:55.000
+Now if my mowed down here is set to paint and it is I can use the paint tools over here in the U-V editor
+
+06:55.000 --> 06:55.890
+as well.
+
+06:56.750 --> 07:02.330
+So if I came in here and reduce the size of the brush I'm going to hit the F key and reduce the size
+
+07:02.330 --> 07:08.210
+of the brush so I could actually do my painting here if I wanted as well.
+
+07:08.210 --> 07:16.840
+Just like this you can see that that extends the paint on over here.
+
+07:18.490 --> 07:24.750
+So it's really kind of how you want to do the work kind of helps to have both.
+
+07:24.760 --> 07:27.240
+So you can see what you're doing.
+
+07:27.250 --> 07:37.150
+So in addition to having your texture slot come in or be a blend type of mix you can also change your
+
+07:37.150 --> 07:45.550
+blend types here so maybe what you've painted now you'd like to have be blended with the multiply mode
+
+07:45.550 --> 07:47.560
+and you can see how that darkens that up.
+
+07:47.560 --> 07:58.600
+Now you could change to screen or Litan so you can have different mix modes here.
+
+07:58.600 --> 08:04.730
+Now as I mentioned before this image is a completely separate image now.
+
+08:04.750 --> 08:07.750
+It's not it's not by default.
+
+08:07.750 --> 08:09.520
+Part of the scene file.
+
+08:09.700 --> 08:14.400
+So each texture slot is its own image file on your hard drive.
+
+08:14.410 --> 08:17.490
+And notice here we have the Asterix again.
+
+08:17.620 --> 08:23.780
+So I'm going to click on the image menu and I'm going to save this as its own image.
+
+08:23.800 --> 08:31.690
+I want to click save as image and here's where I'm keeping my texture paint layers and this one details
+
+08:31.690 --> 08:35.570
+one that sounds pretty good so I'll just click save as image.
+
+08:35.590 --> 08:39.610
+Now that's been saved as an image on its own.
+
+08:39.790 --> 08:47.250
+If we want to then save it again if I do a little more painting here let's say I come around here and
+
+08:47.250 --> 08:48.990
+do a little more painting.
+
+08:48.990 --> 08:50.770
+Now the Asterix is back.
+
+08:50.910 --> 08:55.010
+I can always come in and click alt s here.
+
+08:55.330 --> 08:56.030
+Yes.
+
+08:56.100 --> 08:57.400
+To save the image.
+
+08:57.420 --> 09:05.130
+Here it says saved image up here but once again I also need to press control or command s to save the
+
+09:05.130 --> 09:06.850
+scene as well.
+
+09:06.920 --> 09:15.290
+Now in the end you can always pack your scene and your images together over here under external data.
+
+09:15.300 --> 09:22.830
+You can pack all into a single blend file but that really doesn't help you as you're working as you're
+
+09:22.830 --> 09:27.410
+saving the scene and the image again and again.
+
+09:27.480 --> 09:34.530
+All right so I'm going to work a little bit more on the straps and the belt and in the next video we'll
+
+09:34.530 --> 09:36.620
+continue on with our texture painting.

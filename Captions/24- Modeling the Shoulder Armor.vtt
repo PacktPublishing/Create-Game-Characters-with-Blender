@@ -1,0 +1,400 @@
+WEBVTT
+
+00:00.780 --> 00:02.010
+Well we're getting pretty close.
+
+00:02.010 --> 00:06.940
+Now we've got most of the pieces modeled and sculpted.
+
+00:07.050 --> 00:15.780
+The one thing that I really need to do here is this shoulder armor thing I did this some time ago and
+
+00:15.780 --> 00:17.160
+I'm not really happy with it.
+
+00:17.160 --> 00:21.740
+It basically looks like half of a sphere squished and extruded.
+
+00:21.750 --> 00:24.010
+And that's exactly what it is.
+
+00:24.150 --> 00:29.970
+And I'll tell you I think one of the reasons why it turned out like this and that I'm not pleased with
+
+00:29.970 --> 00:37.770
+it is because I didn't use any reference images I didn't go out and search for images like these to
+
+00:37.770 --> 00:38.450
+help me.
+
+00:38.490 --> 00:39.880
+Grounded in reality.
+
+00:39.930 --> 00:45.290
+I was just looking at the drawing I made so I'm not happy with it.
+
+00:45.300 --> 00:46.990
+I want to do it again.
+
+00:47.220 --> 00:52.410
+So I'm just going to hit X and delete now.
+
+00:52.560 --> 01:02.220
+I think what I want to do is use the read typology tools again just to get a base mesh of the shoulder.
+
+01:02.220 --> 01:04.480
+I just want to do that.
+
+01:04.530 --> 01:13.730
+So what I'm going to do is just go to the body here and I'm going to come in here and use those read
+
+01:13.730 --> 01:15.960
+apology tools again.
+
+01:15.960 --> 01:21.600
+So before we draw anything out on the shoulder here with the grease pencil Let's go ahead and create
+
+01:21.600 --> 01:24.780
+one of those empty objects that we used before.
+
+01:24.960 --> 01:32.130
+When I come over here to the Create tab and just create a cube and that's down here now I'm going to
+
+01:32.130 --> 01:39.210
+hit the tab key and I just want to collapse all of these vertices down into one point.
+
+01:39.390 --> 01:43.520
+I don't need it to have any surface at all.
+
+01:43.530 --> 01:52.130
+So with the cube in edit mode and in vertex mode here I'll press alt M and choose at center.
+
+01:52.200 --> 01:54.910
+And now that's collapsed into one point.
+
+01:55.270 --> 01:57.390
+Let's find that object here.
+
+01:57.390 --> 01:58.650
+There it is.
+
+01:58.650 --> 02:01.790
+I'll just call this shoulder armor.
+
+02:02.070 --> 02:06.210
+And so now we have this point in edit mode here.
+
+02:06.270 --> 02:06.540
+All right.
+
+02:06.540 --> 02:10.500
+So let's go over to the grease pencil and with this.
+
+02:10.510 --> 02:20.160
+Now I need to create a new greased pencil data block and I need to draw on the surface of the object
+
+02:20.160 --> 02:22.360
+so I click surface.
+
+02:22.380 --> 02:27.280
+Make sure that object is selected and click draw.
+
+02:27.870 --> 02:31.680
+So now we've got a new grease pencil layer here.
+
+02:31.680 --> 02:39.180
+We're drawing on the object on the surface so I should be able to come in here and now draw the beginnings
+
+02:39.180 --> 02:44.360
+of my geometry for the shoulder armor here so I'm just going to draw a straight across here.
+
+02:45.690 --> 02:47.860
+And then draw straight across here.
+
+02:49.520 --> 03:01.660
+And then I'll add a couple of edges this way something like that Tenafly tumble around we can see that
+
+03:01.660 --> 03:07.810
+those grease pencil lines have conformed to the character's shoulder.
+
+03:07.810 --> 03:14.380
+All right so now that I have those I'm going to press Enter I'll go back to my tools tab and I'll just
+
+03:14.650 --> 03:20.360
+roll up the transform section here and roll up the mash section.
+
+03:20.680 --> 03:24.220
+And now I can see the B surfaces a little better.
+
+03:24.220 --> 03:31.370
+So now I should be able with my shoulder armor selected and it in edit mode.
+
+03:31.550 --> 03:35.920
+I should be able to hit add surfaces and there we go.
+
+03:36.150 --> 03:42.180
+Now it's got new geometry here for the beginning of that shoulder pad.
+
+03:42.420 --> 03:49.650
+I need to see it a little better so I'll come over here to the object window and scroll down and choose
+
+03:49.710 --> 03:53.980
+x ray so we can see that a little better now.
+
+03:54.000 --> 03:54.390
+All right.
+
+03:54.390 --> 04:04.050
+So what I want to do is select this edge and extrude it on up over the shoulder up to here I think and
+
+04:04.050 --> 04:10.320
+then I'll just use this as the base geometry to then create something kind of like this or maybe like
+
+04:10.320 --> 04:10.640
+that.
+
+04:10.650 --> 04:12.320
+I'm not sure yet.
+
+04:12.570 --> 04:16.600
+Let's go back to the grease pencil and let's click draw.
+
+04:16.650 --> 04:23.660
+And what I want to do is just then extend this geometry up to the shoulder area right up in here.
+
+04:23.730 --> 04:28.000
+So I click draw and now I'm just going to extend this up to here.
+
+04:29.160 --> 04:30.730
+Maybe like this
+
+04:33.360 --> 04:43.950
+this and I'm just trying to get the basic shape of the object that's all yeah let's work let's work
+
+04:43.950 --> 04:45.510
+with that.
+
+04:45.520 --> 04:45.820
+All right.
+
+04:45.820 --> 04:47.930
+So I'm going to press the enter key.
+
+04:48.160 --> 04:54.640
+I'm going to come back over here and go to edge mode and select these edges.
+
+04:54.740 --> 05:02.750
+And now if I go back to my tools tab and click add surfaces I can just extend that on up over the shoulder.
+
+05:02.750 --> 05:10.880
+Now I don't need that many polygons again all reduce reduced follow to 1 and that'll give me a nice
+
+05:11.180 --> 05:15.890
+beginning I think to what will be the shoulder pad there.
+
+05:16.310 --> 05:23.000
+All right so I'm going to tab out of edit mode and there we have our shoulder piece.
+
+05:23.120 --> 05:26.930
+I will hit the end key to move it to a new layer.
+
+05:26.930 --> 05:29.230
+I'll just move it to layer 3 here.
+
+05:30.950 --> 05:35.550
+Riego and now I've got this piece that I can work with.
+
+05:35.830 --> 05:43.690
+I want to go ahead and turn off the mat cap simply because I don't know I just feel like it.
+
+05:43.750 --> 05:46.730
+Now I want to see it in that gray shading.
+
+05:46.750 --> 05:51.460
+I don't know I just feel like I'm more used to that when I'm polygon modeling.
+
+05:51.550 --> 05:53.000
+I don't know why.
+
+05:53.560 --> 06:00.060
+I think I'll move the pivot point back to the geometry so I'll come over here to the tools tab click
+
+06:00.060 --> 06:03.440
+Set origin and move the origin to the geometry.
+
+06:03.850 --> 06:05.740
+So there it is.
+
+06:05.740 --> 06:11.410
+And if I hit the period key you'll notice that it doesn't really frame up the object here.
+
+06:11.740 --> 06:18.490
+Well the problem is is there still a point down here I can tap into Edit Mode go to vertex mode and
+
+06:18.490 --> 06:20.670
+wait and here there's a little point.
+
+06:20.770 --> 06:29.140
+So if I can just hit X and choose vertices get rid of that then hopefully if I go back to object mode
+
+06:29.170 --> 06:31.290
+and hit the period key it'll zoom into it.
+
+06:33.610 --> 06:41.650
+All right so here is the beginnings of our shoulder armor from here it's just a matter of using good
+
+06:41.650 --> 06:46.250
+old fashioned polygon modeling to get it the way we want it to look.
+
+06:47.570 --> 06:51.100
+So what I'm going to do is begin over here.
+
+06:51.100 --> 06:58.630
+And I think I just want to get one more extrusion over the shoulder here maybe I'll bring back the character
+
+06:58.630 --> 07:01.210
+so I can see a little better.
+
+07:01.570 --> 07:06.310
+And I'm just going to bring it up and maybe over a bit.
+
+07:08.990 --> 07:13.670
+So I can see the shoulder armor above the shoulder there.
+
+07:13.760 --> 07:16.310
+Let's also see where that strap is.
+
+07:16.310 --> 07:18.250
+Bring back that layer.
+
+07:18.260 --> 07:22.580
+All right so the strap is pretty high up it's higher than I would have expected.
+
+07:22.580 --> 07:26.690
+I'm going to need to extrude this out one more time.
+
+07:26.690 --> 07:33.970
+So let me go back to edge mode here and select these and extrude and pull that up.
+
+07:35.030 --> 07:41.130
+So yeah we get something like that to cover where it's going to meet with the strap.
+
+07:42.080 --> 07:48.140
+So what let's do now is just select this edge and extrude it down and over the front of the shoulder
+
+07:48.140 --> 07:48.890
+here.
+
+07:49.280 --> 07:59.960
+So if I select these edges here and then extrude down around the shoulder they'll just hit me and extrude
+
+07:59.960 --> 08:01.470
+this once and down.
+
+08:05.250 --> 08:09.660
+Maybe move it over a bit.
+
+08:09.740 --> 08:17.690
+I think it needs one more hit me and pull it down a bit.
+
+08:17.750 --> 08:26.340
+I'll do the same thing over the back.
+
+08:26.580 --> 08:28.300
+And let's pull it down.
+
+08:32.510 --> 08:33.330
+You again
+
+08:41.810 --> 08:47.700
+I'm also going to grab these two edges I think and extrude these down as well.
+
+08:47.760 --> 08:48.630
+So
+
+08:55.220 --> 09:00.050
+and maybe over here to connect up with the strap here.
+
+09:03.360 --> 09:08.730
+So now let's go ahead and figure out how tall this needs to come up here.
+
+09:08.730 --> 09:16.510
+I'd like it to come up a bit to protect the neck if we can use this edge right here.
+
+09:18.000 --> 09:19.840
+And let's extrude this straight up
+
+09:22.930 --> 09:23.740
+like that.
+
+09:26.770 --> 09:32.230
+And then go to our Virtex mode here and I'm just going to bring these pieces down so they're not quite
+
+09:32.230 --> 09:33.040
+as high.
+
+09:37.140 --> 09:41.260
+Now I think I'd like to start shaping this area a little better now.
+
+09:41.430 --> 09:48.240
+So I'm going to go to Virtex mode and I'm just going to begin pulling points and tell and see if I can
+
+09:48.240 --> 09:52.750
+get a basic shape here that I like.
+
+09:54.470 --> 09:56.360
+Sometimes this is just what you need to do.
+
+09:56.360 --> 09:59.030
+Just start pulling points and seeing what happens.
+
+10:06.310 --> 10:10.710
+Right go ahead and add a subdivision surface modifier and see what happens.
+
+10:10.710 --> 10:13.360
+I don't honestly know what's going to happen here.
+
+10:13.570 --> 10:14.930
+But let's give it a try.
+
+10:16.820 --> 10:18.920
+And always smooth it a bit.
+
+10:19.480 --> 10:21.510
+All right so that looks pretty good.
+
+10:21.520 --> 10:24.010
+But let's go into edit mode here.
+
+10:24.830 --> 10:29.570
+And I'm going to select the edge all the way around.
+
+10:29.720 --> 10:37.570
+Just going to hold shift and alt and click these edges all the way around.
+
+10:37.710 --> 10:49.890
+And I think I'll just extrude and click and I'm going to drag straight down and move it a bit.
+
+10:49.890 --> 10:51.030
+Now let's just test this.
+
+10:51.030 --> 10:56.760
+Let's add a few edge loops along here and see what happens.
+
+10:56.850 --> 10:59.880
+See if that holds that pretty well.
+
+11:01.070 --> 11:02.660
+Yeah it's beginning to.
+
+11:02.880 --> 11:07.730
+This is kind of rounded here I'd like it a little more pointed if I could.
+
+11:08.220 --> 11:10.890
+But let's see if we can do with that.
+
+11:11.940 --> 11:14.300
+Yeah I think we're getting there.
+
+11:14.310 --> 11:18.070
+I think that's beginning to look a little better than the last time.

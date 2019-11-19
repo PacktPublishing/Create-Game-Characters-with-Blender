@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00.520 --> 00:05.700
+Hi I'm Daryn Lyle a blender foundation certified trainer in this course.
+
+00:05.710 --> 00:11.860
+We will first bottle a base measure of our character then we will use blenders multi resolution modifier
+
+00:12.070 --> 00:15.940
+to create high resolution sculpted detail on the character.
+
+00:16.030 --> 00:20.250
+We will then use Blender's reached apology tools to create a low poly version.
+
+00:20.470 --> 00:26.560
+We will use Blender's U.V. mapping tools to create an organized U.V. map that can be exported to external
+
+00:26.560 --> 00:30.490
+paint programs like Photoshop or GIMP for texturing.
+
+00:30.490 --> 00:35.890
+We will bake normal and ambient occlusion maps and then import these into unity and test them on our
+
+00:35.890 --> 00:41.650
+character and we will look at Blender's texture painting tools and how to use them to create texture
+
+00:41.650 --> 00:43.030
+maps as well.
+
+00:43.030 --> 00:48.400
+Next you'll learn how to prep the character for rigging and generate the bass rig will create the control
+
+00:48.400 --> 00:52.300
+objects of the rig and go over how they can be used during animation.
+
+00:52.300 --> 00:58.030
+From there we will adjust the weight to the character using Blender's Virtex groups and parent the characters
+
+00:58.030 --> 01:00.540
+warhammer and shield to the rig.
+
+01:00.550 --> 01:06.400
+You'll then learn the basics of creating animations cycles for a game character will use Blender's graph
+
+01:06.400 --> 01:12.460
+editor and dope sheet to animate the idol and run animations as well as create a jump pose.
+
+01:12.460 --> 01:17.560
+Finally we will take it all into unity and write some code to get our character running and jumping
+
+01:17.560 --> 01:18.940
+through the test level.
+
+01:18.940 --> 01:22.280
+So join me as we create a game character with Blendr.

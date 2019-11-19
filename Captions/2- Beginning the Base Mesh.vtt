@@ -1,0 +1,481 @@
+WEBVTT
+
+00:00.870 --> 00:05.510
+Well let's start building our base geometry for sculpting.
+
+00:05.730 --> 00:12.650
+In the last video we brought in our reference images and set them up in the front and right orthographic
+
+00:12.660 --> 00:13.930
+views.
+
+00:13.980 --> 00:21.690
+Now we can go ahead and begin building the model what I'm to do is just use basic box modeling techniques
+
+00:22.200 --> 00:28.280
+to build up a base geometry and then from that we'll be able to sculpt.
+
+00:28.350 --> 00:31.720
+So to do that let's just begin by creating a cube.
+
+00:32.250 --> 00:40.380
+I can do that two ways I can press the T key over here and bring up the Tools panel and go to the Create
+
+00:40.380 --> 00:42.480
+tab and I can click cube.
+
+00:42.960 --> 00:49.350
+I can also hover over here and I can press shift a and that will give me the ADD menu and I can add
+
+00:49.350 --> 00:57.660
+lots of different things like polygon meshes and curves and armatures and camera et cetera.
+
+00:57.780 --> 01:03.990
+So I'm just going to come over here to create tab and click cube and there it is.
+
+01:03.990 --> 01:11.370
+Now if you're new to Blender you've got the move rotate and scale tools down here at the bottom of each
+
+01:11.370 --> 01:20.210
+of the 3D views I can middle mouse button click and drag this bar and get to them over here as well.
+
+01:22.700 --> 01:25.690
+But they also have shortcut keys for move.
+
+01:25.700 --> 01:30.260
+You can press the G for grab and move that around.
+
+01:30.260 --> 01:38.500
+Now going to press the right mouse button to inactivate that you can also press the Archey and rotate.
+
+01:38.930 --> 01:42.770
+Or you can press the s key and scale.
+
+01:42.770 --> 01:46.040
+Now I like to use the manipulator here.
+
+01:46.100 --> 01:53.690
+The move rotate and scale manipulators but I don't like to come down here and continually click a button.
+
+01:53.720 --> 02:03.470
+So what I do is I come into the user preferences panel and enter input and 3D view and 3D global.
+
+02:03.710 --> 02:14.130
+If you scroll all the way down what I've done is I've added a couple of shortcuts to the list here.
+
+02:14.240 --> 02:24.590
+So what I've done is I've added Control alt left arrow to bring up the manipulator for translate I've
+
+02:24.590 --> 02:32.120
+used control all down arrow to bring up the manipulator for rotate and control alt.
+
+02:32.150 --> 02:35.050
+Right arrow for scale.
+
+02:35.240 --> 02:43.710
+Now the essential piece of code that you need here is this view 3D dot enable underscore manipulator
+
+02:44.570 --> 02:47.030
+so you can scroll all the way down here.
+
+02:47.030 --> 02:56.180
+Click on Add new and create new shortcut keys that look like this for the manipulators.
+
+02:56.480 --> 02:58.960
+So you'll see me doing that quite a bit.
+
+02:58.970 --> 03:06.710
+I'll switch press control alt down control all right control alt left arrow to switch between the manipulator
+
+03:06.710 --> 03:07.760
+tools.
+
+03:07.760 --> 03:12.980
+All right so now that I've got that I'm going to go and drag this up and this is going to be for the
+
+03:12.980 --> 03:13.580
+pelvis.
+
+03:13.580 --> 03:23.180
+This particular box right here is just the pelvis so I'm going to scale this and place it where it needs
+
+03:23.180 --> 03:25.000
+to be.
+
+03:25.020 --> 03:29.180
+Now the next thing I want to do is extrude this up toward the head.
+
+03:29.220 --> 03:34.250
+So what I need to do is select that top face and extrude it up.
+
+03:34.300 --> 03:40.290
+When I go and press the tiki to get rid of that Tools panel now to go to Edit mode I can hit the tab
+
+03:40.290 --> 03:46.910
+key and choose faces I can press control tab and hit face.
+
+03:46.920 --> 03:52.140
+Now I've got all these selected I don't need them all I'm going to hit the A key to de-select and I
+
+03:52.140 --> 03:54.750
+just want to select that face on top.
+
+03:54.890 --> 04:02.490
+What I can do is just middle mouse button click and drag and rotate it so I can see the top and then
+
+04:02.490 --> 04:09.660
+go back to my front view by pressing the one key on the numpad and the five key will ensure that I'm
+
+04:09.660 --> 04:11.440
+in the orthographic view again.
+
+04:12.280 --> 04:18.360
+So what I want to do next is extrude this up toward the head so to extrude.
+
+04:18.370 --> 04:26.530
+I'm going to press the e key and just drag straight up with the mouse till I get right about two here
+
+04:26.560 --> 04:28.690
+maybe just below the rib cage.
+
+04:28.690 --> 04:36.500
+Hit e again to extrude and move that up to about the chest maybe somewhere right in here.
+
+04:36.510 --> 04:38.730
+Now I'm going to extrude again with the key.
+
+04:38.730 --> 04:41.030
+Go up to the clavicle.
+
+04:41.070 --> 04:48.960
+I'm going to go ahead and scale that down to the width of the neck and then I'm going extrude again
+
+04:49.050 --> 04:56.980
+up to kind of the top of the neck and then extrude again for the top of the head.
+
+04:57.380 --> 04:58.740
+Something like that.
+
+04:58.760 --> 05:03.950
+So it's looking pretty basic at this point in time and that's OK.
+
+05:03.980 --> 05:07.420
+You can always do some some adjusting here if you want.
+
+05:07.430 --> 05:13.430
+I'm going to press control tab and go to edge mode and I can select an edge here but it doesn't go all
+
+05:13.430 --> 05:14.600
+the way around.
+
+05:14.660 --> 05:20.270
+If I press alt and click the edge it will select the whole edge loop all the way around and I can move
+
+05:20.270 --> 05:23.980
+this up and down as needed here.
+
+05:24.320 --> 05:30.880
+Something like that let's say Now I'm going to insert three edge loops along here to do that.
+
+05:30.890 --> 05:35.920
+I'm going to use the loop cut and slide to will which is control are.
+
+05:36.170 --> 05:44.260
+And then I'm going to scroll the mouse wheel like that to create three edge loops and you can scroll
+
+05:44.860 --> 05:46.090
+as much as you want.
+
+05:46.090 --> 05:51.490
+You can create one edge loop you can create three but I'm going create three here and I'm going to click
+
+05:52.390 --> 05:54.240
+now that I've got this.
+
+05:54.430 --> 05:57.080
+It's still kind of sliding here.
+
+05:57.130 --> 06:02.590
+I need to click again to confirm the tool and drop the edges onto the object.
+
+06:02.590 --> 06:09.420
+Now I've made sure that that center line is right down the center of the object here.
+
+06:09.460 --> 06:14.470
+I'm now going to go to the scale tool and scale these in a bat.
+
+06:14.480 --> 06:21.350
+The reason why we've inserted these edge loops is so we have some faces to extrude down for the legs.
+
+06:21.350 --> 06:27.140
+So I want to come back up here and I'm going to a middle mouse button click and drag and rotate and
+
+06:27.140 --> 06:35.360
+tumble so I can see these faces on the bottom and hit the A key to de-select those edges and then on
+
+06:35.360 --> 06:39.080
+to press control tab and go to face mode.
+
+06:39.440 --> 06:47.360
+And now I can select this face and shift select this phase go back to the front view with the one key
+
+06:48.940 --> 06:53.460
+and now I can hit the key and extrude straight down.
+
+06:53.450 --> 06:56.800
+So I'm going to extrude down to kind of the top of the knee here.
+
+06:57.740 --> 07:01.620
+Hit the key again and screwed down to the bottom of the knee.
+
+07:02.960 --> 07:08.910
+And then I'm just going to hit the key and go all the way down to the bottom of the character and about
+
+07:08.910 --> 07:10.150
+like that.
+
+07:10.740 --> 07:15.750
+All right so we've got the front and the side view kind of blocked out.
+
+07:15.750 --> 07:19.830
+Now it's looking pretty terrible at this point in time and that's ok.
+
+07:20.190 --> 07:26.970
+I want to insert an edge loop along the side here so I'm going to press control r and hover over here
+
+07:27.270 --> 07:31.410
+until I get an edge loop and click once and then a click twice.
+
+07:31.410 --> 07:36.970
+I also want to insert an edge loop here at the ankle so when I press control are click and I'm going
+
+07:36.960 --> 07:42.090
+to drag this down to right about here where the ankle is supposed to be.
+
+07:42.210 --> 07:44.710
+I'll hit the A key to de-select that.
+
+07:45.240 --> 07:52.020
+And now I need to select all of these points here and scale them in and drag them back a bit to select
+
+07:52.020 --> 07:52.770
+all these points.
+
+07:52.770 --> 07:58.240
+I'm going to press the Z key on the keyboard to go into wireframe mode.
+
+07:58.290 --> 08:02.360
+I'm going to press the control tab key to go to vertex mode.
+
+08:02.550 --> 08:09.080
+And now I the border select all of these by pressing the key click and drag.
+
+08:09.510 --> 08:12.270
+And now I've got all of those selected.
+
+08:12.270 --> 08:16.520
+So I'll switch to my move tool and move them all back a bit.
+
+08:17.480 --> 08:26.330
+And then I also want to scale the man something to scale this way like that and move him back a bit
+
+08:26.330 --> 08:26.870
+like that.
+
+08:26.870 --> 08:32.390
+So they're kind of beginning to be in line with the actual character drawing.
+
+08:32.630 --> 08:40.970
+I'm going to press control minus on the numpad to reduce the selection and then pull that back a bit
+
+08:41.150 --> 08:42.560
+like this.
+
+08:42.560 --> 08:44.620
+Something like that.
+
+08:44.660 --> 08:50.630
+Now there's more adjusting to be done here but I think I'm going to work on the feet really quick for
+
+08:50.630 --> 08:51.600
+the feet.
+
+08:51.680 --> 08:53.810
+I'm going to go back to my default view.
+
+08:53.810 --> 08:56.860
+I'm going to go here into default.
+
+08:56.870 --> 09:01.640
+And now we can see this in perspective mode.
+
+09:01.940 --> 09:09.830
+And now that we're here we can see that I didn't insert a loop over here to match this one so I better
+
+09:09.830 --> 09:11.110
+do that.
+
+09:11.160 --> 09:15.730
+I'm going to go ahead and click that there.
+
+09:16.110 --> 09:26.760
+Now for the feat what let's do is selected this face once again control tab to get into face mode and
+
+09:26.850 --> 09:31.560
+I'm going to scale these in but if I select them both have a scale in like that.
+
+09:31.740 --> 09:38.280
+That's not going to work what I need to do is change the point of pivot for each of these faces and
+
+09:38.280 --> 09:46.020
+I can do that right down here so I can change the pivot point to the 3D cursor active elements.
+
+09:46.050 --> 09:52.860
+The default is median point but I'm going to change it to individual Origin's and Riego.
+
+09:52.860 --> 10:00.810
+So now if I scale in they collapse and like that uniformly and I believe I'll pull these back just a
+
+10:00.810 --> 10:02.560
+bit like so.
+
+10:03.360 --> 10:07.090
+Maybe move these scale these out a bit small scale.
+
+10:07.110 --> 10:12.360
+All of these out once again like this.
+
+10:12.360 --> 10:14.280
+There we go.
+
+10:14.290 --> 10:19.170
+So now I've got these three faces on the front selected.
+
+10:19.240 --> 10:25.780
+I'm going to go back to my character images and now I'm just going to get easy and extrude straight
+
+10:25.780 --> 10:26.300
+out.
+
+10:27.790 --> 10:29.050
+Like so.
+
+10:29.910 --> 10:33.690
+And then I'll scale like that.
+
+10:36.070 --> 10:38.890
+And move them down to the ground play like that.
+
+10:40.230 --> 10:41.910
+Where we have our feet.
+
+10:42.440 --> 10:51.410
+Let's go ahead and select the faces at the front of the character here press control tab face and I
+
+10:51.410 --> 10:59.000
+want to select just these up here so press the C key for a circle select and drag selected these four
+
+10:59.060 --> 10:59.750
+faces.
+
+10:59.750 --> 11:06.320
+All right click to get out of the circle select tool press the three key to go back to orthographic
+
+11:06.320 --> 11:08.170
+view for the side view.
+
+11:08.830 --> 11:12.740
+And I'll go ahead and hit E and extrude this out.
+
+11:12.820 --> 11:22.630
+I also want to insert an edge loop here straight across like that and now I should be able to go to
+
+11:22.630 --> 11:32.120
+wireframe with the Zeek the control tab Virtex mode and now I should be able to just box select these
+
+11:32.120 --> 11:42.480
+pieces and press the G key to move them around and I just want to get these shaped a little bit better
+
+11:42.480 --> 11:46.440
+so they follow the contours of the character.
+
+11:46.440 --> 11:51.460
+So I'm just pressing the B key and then the G key and moving these around a bit.
+
+11:52.960 --> 11:57.410
+Something like that I'll grab these points and move them down a bit.
+
+11:57.640 --> 12:00.140
+I'm not going to deal with the ears quite yet.
+
+12:01.330 --> 12:05.660
+So they were beginning to pull the points to match our model.
+
+12:05.680 --> 12:12.940
+We've got some polling to do here of course but I'm going to go through now and select edges so all
+
+12:13.270 --> 12:20.190
+press control tab and go into edge mode and I'll Allt select this edge so it'll select the entire loop
+
+12:20.860 --> 12:27.490
+and I'm going to begin going through and just kind of angling and placing these edges to match my character
+
+12:27.490 --> 12:28.100
+drawing.
+
+12:28.360 --> 12:32.520
+So I pressed the Z key to go into wireframe and G.
+
+12:32.830 --> 12:39.460
+And then I'll press the R key to kind of rotate it and get it in place like this.
+
+12:39.460 --> 12:40.940
+This when I'm going to scale.
+
+12:40.960 --> 12:46.450
+So it fits a little better for the character and rotate it just a hair.
+
+12:48.040 --> 12:55.210
+This one I'm going to move in line with the base of the rib cage which is kind of like this.
+
+12:55.300 --> 13:03.390
+This one here move up a bit and angled down like that maybe scale it in some like.
+
+13:03.390 --> 13:12.550
+So this one here I'm going to have to press the Z key and go to vertex mode to select because it won't
+
+13:12.550 --> 13:20.090
+select that entire edge all the way around here so I'll just border select this and get that.
+
+13:20.280 --> 13:27.010
+I'll bring this down a bit maybe down here tilted a bit.
+
+13:27.010 --> 13:29.680
+Scale it in in the y here.
+
+13:29.920 --> 13:31.450
+Something like that.
+
+13:31.810 --> 13:34.320
+I'm going to need to border select these as well.
+
+13:35.720 --> 13:37.810
+I'll scale that in.
+
+13:37.880 --> 13:40.830
+Move it here to the top of the knees.
+
+13:40.850 --> 13:49.130
+This one is going to define the Cavs so I get this right here.
+
+13:52.670 --> 13:57.820
+This one of course will be the ankle's.
+
+13:57.890 --> 14:07.370
+So there is a rough outline of our character from the side in the next video I go through and I'll begin
+
+14:07.370 --> 14:08.480
+pulling these out.
+
+14:08.480 --> 14:14.690
+So he looks a little better from the front and also will work on dealing with the arms.

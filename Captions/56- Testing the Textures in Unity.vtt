@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.330 --> 00:08.070
+Well we've got the color map ready to go here what we need to do now is export out our low poly character
+
+00:08.430 --> 00:16.860
+so we can take it into a game engine and go back to the default view and I don't need texturing on right
+
+00:16.860 --> 00:17.640
+now.
+
+00:17.970 --> 00:26.520
+So here is the character that we're going to export what we need to do is export out the low poly character
+
+00:26.520 --> 00:27.760
+as well as the eyes.
+
+00:27.810 --> 00:30.140
+So I'll just select each one of these.
+
+00:30.390 --> 00:35.380
+The chefs select the R and the low poly character.
+
+00:35.610 --> 00:39.280
+We don't need the high poly character we don't need the lights.
+
+00:39.420 --> 00:47.080
+So now we can come over here to file and export and I'm going to export it as an FBI X..
+
+00:47.320 --> 00:54.370
+You can drag your blend files directly into unity and it will convert them to SBX the way it does it
+
+00:54.370 --> 01:00.470
+is it goes and finds the original program that the file was created in like blender.
+
+01:00.550 --> 01:08.140
+It opens it up in the background uses Blender's FDX converter to convert the file and then closes Blendr
+
+01:08.140 --> 01:08.800
+up.
+
+01:08.800 --> 01:13.750
+So if all that's going to happen we might as well just convert it ourselves here in Blender.
+
+01:13.810 --> 01:16.100
+So I'll choose FDX.
+
+01:16.170 --> 01:20.050
+Now I want to come over here and choose selected objects right here.
+
+01:21.390 --> 01:32.500
+And eyebrows up to actually create a folder called exports to that and I'll put it right in here.
+
+01:32.500 --> 01:34.170
+So this is.
+
+01:34.420 --> 01:36.580
+I'll call this game character export
+
+01:39.450 --> 01:40.450
+0 1.
+
+01:40.650 --> 01:45.890
+Yes let's do that and away it goes.
+
+01:45.890 --> 01:50.800
+So now what let's do is let's open up unity and bring all of our files in.
+
+01:51.200 --> 01:52.620
+Ok hearing unity.
+
+01:52.660 --> 01:58.640
+Let's go ahead and bring in our files here are our files right here.
+
+01:58.720 --> 02:02.000
+We've got our game character SBX.
+
+02:02.140 --> 02:08.040
+We've got our normal map are ambient occlusion map and our color map.
+
+02:08.050 --> 02:09.810
+So let's go ahead and drag these in.
+
+02:09.810 --> 02:14.650
+All we've got to do is take these files and drag them into the assets window here.
+
+02:15.500 --> 02:22.520
+So there are the materials that came with the character and here is the actual character.
+
+02:22.520 --> 02:24.720
+Let's bring in the other files as well.
+
+02:24.710 --> 02:30.260
+Let's bring in the normal map right here.
+
+02:30.930 --> 02:37.660
+Let's bring in the ambient occlusion and let's bring in the color map.
+
+02:39.060 --> 02:40.090
+And then we go.
+
+02:40.440 --> 02:41.620
+So now let's hook them all up.
+
+02:41.640 --> 02:46.400
+Oh and one more thing I need the eye texture as well.
+
+02:46.410 --> 02:48.800
+Let me go find that.
+
+02:48.900 --> 02:49.300
+All right.
+
+02:49.320 --> 02:50.060
+I have it here.
+
+02:50.070 --> 02:53.060
+I'm just going to paste it into this folder.
+
+02:53.070 --> 02:56.620
+This is the texture that we used earlier in Blender.
+
+02:56.640 --> 02:59.730
+So just drag that in as well.
+
+02:59.730 --> 03:00.500
+There we go.
+
+03:00.660 --> 03:03.280
+So now I think we have everything we need.
+
+03:03.520 --> 03:06.660
+I'll go back to unity and let's give this a try.
+
+03:06.660 --> 03:10.770
+So I'm going to take this character and just drag him in.
+
+03:11.860 --> 03:17.040
+And I'll come over here to the inspector and zeroed these out.
+
+03:20.510 --> 03:23.920
+So he's right in the center of the grid.
+
+03:26.630 --> 03:28.100
+There he is.
+
+03:28.320 --> 03:36.120
+Now we come over here and choose the low poly character you can see the base color Shater over here
+
+03:36.120 --> 03:39.110
+that came in from Blendr.
+
+03:39.210 --> 03:43.650
+This is now a standard Shater in unity.
+
+03:43.650 --> 03:50.480
+So this is where we'll put all of our texture maps the ambient occlusion map can go over here and the
+
+03:50.480 --> 03:57.680
+occlusions slot the normal map can go over here and the normal map slot.
+
+03:57.930 --> 04:03.960
+And then of course it says it needs to be marked as a normal map so we'll click fix now.
+
+04:05.270 --> 04:06.320
+And that helps.
+
+04:06.590 --> 04:10.860
+And then we take our color map and bring it over into the albedo slot.
+
+04:11.810 --> 04:13.550
+And then we go.
+
+04:13.590 --> 04:20.600
+So now we have our character now he's the light in the scene is kind of turned the wrong way let me
+
+04:20.600 --> 04:23.960
+select the directional light and I'm going to bring it up.
+
+04:24.110 --> 04:29.090
+And I'm also going to just rotate it in the scene so I like it.
+
+04:29.100 --> 04:37.460
+So it points more at the front of the character and where you go now we should be able to see him a
+
+04:37.460 --> 04:38.940
+little bit better.
+
+04:39.020 --> 04:39.620
+And there you go.
+
+04:39.620 --> 04:41.020
+Yeah he looks pretty good.
+
+04:41.030 --> 04:45.380
+You can see he's got the normal map information in there.
+
+04:45.380 --> 04:47.420
+We've got the color map.
+
+04:47.480 --> 04:48.830
+He doesn't look too bad.
+
+04:50.560 --> 04:54.850
+You can see the sculped information in here.
+
+04:56.100 --> 04:59.550
+Yeah look at that again character.
+
+05:00.000 --> 05:03.100
+Oh and let's also work on the ice here.
+
+05:03.720 --> 05:13.450
+If we select the eyes Here's one and bring in our eye texture into the albedo and we've got that good.
+
+05:13.470 --> 05:15.130
+OK.
+
+05:15.330 --> 05:17.040
+Now there he is.
+
+05:17.040 --> 05:17.910
+You can see
+
+05:21.550 --> 05:25.050
+we've got the eyes in there.
+
+05:25.060 --> 05:26.380
+The color map.
+
+05:26.380 --> 05:29.150
+The normal map the ambient occlusion.
+
+05:29.160 --> 05:30.860
+It doesn't look too bad.
+
+05:31.030 --> 05:33.750
+And there we go our game character.

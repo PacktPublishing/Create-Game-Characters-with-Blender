@@ -1,0 +1,340 @@
+WEBVTT
+
+00:00.630 --> 00:07.800
+Well even though we've got all the standard poses down now we've got the contact pose here at frame
+
+00:07.800 --> 00:12.970
+1 and at frame 7 we've got the down pose here at frame 2.
+
+00:13.080 --> 00:20.670
+We've got the passing pose frame four and we've got the up at frame 5 and we've got the reverse of all
+
+00:20.670 --> 00:25.050
+of these over here from 7 to 13.
+
+00:25.050 --> 00:32.730
+But if you notice there's these empty frames There's three and six here and even though I don't have
+
+00:32.730 --> 00:36.580
+a particular name for these I feel like I need to clean them up a bit.
+
+00:36.600 --> 00:42.490
+They're kind of wonky now and and they don't really look good as poses.
+
+00:42.660 --> 00:45.120
+So let's try and work on these a bit.
+
+00:45.120 --> 00:51.650
+So we've got our contact pose here are down when the foot hits flat here on the ground.
+
+00:51.840 --> 00:58.800
+What I need unframed three is that foot to continue to be flat on the ground and actually be underneath
+
+00:58.800 --> 01:06.030
+the character kind of supporting the weight or the centerline of the character and I need this back
+
+01:06.030 --> 01:08.230
+foot kind of passing by that.
+
+01:08.250 --> 01:09.240
+So let's try that.
+
+01:09.240 --> 01:16.110
+I want to take that foot control here of the left foot and hit Allt are in clear the rotation on that
+
+01:16.480 --> 01:24.840
+I'll also press all g to clear the location and on this foot roll I'll press alt r as well so now we've
+
+01:24.840 --> 01:31.590
+got that foot right back in the center where it began flat on the ground and that's what I think we
+
+01:31.590 --> 01:35.040
+want for that for this one here.
+
+01:35.080 --> 01:38.280
+I mean make sure the rotations zeroed out.
+
+01:38.370 --> 01:39.660
+Yikes.
+
+01:39.720 --> 01:44.650
+And let me clear the rotation on this one real quick and now rotate that back.
+
+01:47.030 --> 01:54.890
+Let me go to my rotate tool so I can rotate it in this axis exactly like this.
+
+01:55.030 --> 01:56.530
+All right let's see how that works.
+
+01:56.530 --> 02:01.260
+I'm going to come back to my contact.
+
+02:01.420 --> 02:08.980
+There's the down there's that in-between on frame three and then passing it frame for that looks pretty
+
+02:08.980 --> 02:09.990
+good.
+
+02:10.880 --> 02:23.480
+I like that we've got our position at frame 5 and at frame 6 this is should be kind of the only frame
+
+02:23.480 --> 02:27.930
+in the cycle where both feet are off the ground and they are and that's good.
+
+02:28.070 --> 02:30.900
+But the pose itself isn't real great.
+
+02:30.920 --> 02:35.600
+I'll go ahead and make sure this is cleared with all that are.
+
+02:35.660 --> 02:44.030
+And then I'll rotate it back up just a bit like so and maybe even bring that out a little bit so it's
+
+02:44.030 --> 02:52.770
+a little more extreme and this I'll go ahead and clear the rotation just so I know it's clear.
+
+02:52.790 --> 02:54.640
+And then I'll rotate this back.
+
+02:55.780 --> 02:58.230
+And maybe bringing him up like that.
+
+02:58.280 --> 03:02.290
+So it's a little more of an interesting pose.
+
+03:04.650 --> 03:08.130
+Angle that backs some like that.
+
+03:08.130 --> 03:08.450
+All right.
+
+03:08.460 --> 03:11.780
+So we've got let's see how we did here.
+
+03:12.000 --> 03:23.250
+Contac down that in-between pose at frame three the passing the up and that in-between when his feet
+
+03:23.250 --> 03:26.600
+are off the ground and then back to the contact.
+
+03:27.030 --> 03:29.950
+OK so let's select everything now.
+
+03:29.970 --> 03:40.070
+I'm going to go and save just in case here and I'll go back over to frame three and I'll copy that with
+
+03:40.070 --> 03:41.420
+this button here.
+
+03:42.780 --> 03:51.660
+And then I'll move it to the mirror image frame which is going to be frame 9 and paste that.
+
+03:51.700 --> 03:52.560
+All right.
+
+03:53.340 --> 03:58.170
+Then I want to go back to frame 6 right here.
+
+03:59.360 --> 04:01.870
+I'll copy that.
+
+04:02.030 --> 04:08.880
+And I want to go up to frame 12 right and paste that here.
+
+04:10.310 --> 04:11.140
+There we go.
+
+04:12.720 --> 04:18.000
+OK a save and let's scroll through and see what we got.
+
+04:18.200 --> 04:19.070
+How does it look.
+
+04:19.070 --> 04:21.830
+Did I destroy anything in what I just did here.
+
+04:21.860 --> 04:23.690
+That sometimes happens.
+
+04:23.720 --> 04:32.450
+So here's frame one frame to frame three four five five looks a little high.
+
+04:32.450 --> 04:35.190
+He looks like he's kicking his leg up a little high.
+
+04:35.200 --> 04:37.740
+But let's let's go with it for now here.
+
+04:38.530 --> 04:39.650
+Six.
+
+04:39.700 --> 04:47.560
+That's when he's off the ground and back to the contact there's the down that passing or that extra
+
+04:47.600 --> 04:56.540
+in-between there's the passing the up that extra when he's off the ground and back down.
+
+04:56.540 --> 04:59.760
+All right let's play this and see how it looks.
+
+05:01.510 --> 05:01.720
+All right.
+
+05:01.720 --> 05:02.260
+Not bad.
+
+05:02.260 --> 05:08.080
+Now one thing you'll notice is that it's got a little bit of extra a glitch or something at the very
+
+05:08.080 --> 05:13.920
+end of the cycle and that's because we have duplicated frame one to frame 13.
+
+05:13.930 --> 05:17.920
+And I did that just so we would have a constant loop.
+
+05:17.920 --> 05:24.410
+But ultimately when we actually use the run cycle we'll just use frames 1 through 12.
+
+05:24.430 --> 05:30.630
+So I've changed the end to 12 here and now there shouldn't be quite as much of a pop.
+
+05:30.650 --> 05:34.760
+So there we go we've got him running we've got a pretty good run cycle.
+
+05:34.770 --> 05:41.690
+There's more I could do here I feel like he could come down a little bit more on the down positions.
+
+05:42.630 --> 05:44.760
+At frame two and eight.
+
+05:44.970 --> 05:46.380
+In fact why don't I just do that.
+
+05:46.380 --> 05:58.220
+I'll take this and move them straight down just a tad and then I'll take that frame to let me de-select
+
+05:58.280 --> 05:59.740
+everything over here.
+
+06:00.290 --> 06:08.210
+I'll find that torso as it is so I'll select that one keyframe there and we need to duplicate that to
+
+06:08.210 --> 06:10.230
+frame 8.
+
+06:10.320 --> 06:14.040
+So here's frame eight here.
+
+06:14.390 --> 06:18.240
+Shift DE and I'll move it to frame eight.
+
+06:18.260 --> 06:20.840
+They're And we go.
+
+06:21.110 --> 06:23.280
+So now let's see how that works.
+
+06:25.600 --> 06:25.800
+Yeah.
+
+06:25.820 --> 06:27.880
+He goes down just a little bit more.
+
+06:31.590 --> 06:32.040
+Good.
+
+06:32.130 --> 06:32.860
+OK.
+
+06:34.000 --> 06:39.910
+So now that we have the basic run cycle for the legs from the side view let's switch over to the front
+
+06:39.910 --> 06:45.760
+view I'll hit the one key and let's just take a look at where everything is positioned from the front
+
+06:45.760 --> 06:46.000
+view.
+
+06:46.000 --> 06:54.790
+Now here's the initial contact pose and it looks to me like the knees a little pointed inward a little
+
+06:54.790 --> 06:56.020
+too much.
+
+06:56.080 --> 06:57.860
+Let me go forward some.
+
+06:58.000 --> 07:06.330
+So yeah it looks like the knees especially here are pointed or are pushed in too far.
+
+07:06.560 --> 07:13.070
+So I think I just need to go through and adjust the controls a bit to try and get them the way we want
+
+07:13.070 --> 07:14.370
+them here.
+
+07:14.420 --> 07:20.480
+So maybe this can come out a bit to be more in line with the foot.
+
+07:21.310 --> 07:23.520
+Let's move forwards here.
+
+07:25.880 --> 07:28.800
+I feel like this knee could come out a bit right here.
+
+07:31.120 --> 07:37.690
+So we just need to go through and make sure it looks like the legs are in a position to support the
+
+07:38.050 --> 07:39.490
+weight of the character.
+
+07:39.490 --> 07:44.760
+Now at this pose right here I feel like that Annie could come out just a little more like that.
+
+07:46.540 --> 07:54.800
+Now I am creating a lot of key frames here and I may need to go through and delete some of these Let's
+
+07:54.800 --> 07:55.970
+see how it looks.
+
+07:59.580 --> 08:00.910
+That's not bad.
+
+08:02.300 --> 08:08.750
+We've still got a lot of work to do on the arms of course I'm going to pause for just a minute and I'm
+
+08:08.750 --> 08:16.200
+going to go through and just hide some of these layers here so I can see what's going on.
+
+08:16.200 --> 08:18.150
+We'll turn them on here in a minute again.
+
+08:18.210 --> 08:21.180
+But I just want to see it without all the controls.
+
+08:23.580 --> 08:29.780
+So we've got some jittery stuff happening on the arms and the hands and that's fine.
+
+08:30.060 --> 08:37.500
+There may be more tweaking we can do once we get the arms set up and they're not glitching out like
+
+08:37.500 --> 08:38.760
+that so much.
+
+08:39.580 --> 08:42.090
+But generally speaking I think we're doing all right.
+
+08:42.160 --> 08:46.630
+I think you know we're going to see him in game mainly from back here
+
+08:50.060 --> 08:50.410
+yeah.
+
+08:50.450 --> 08:52.310
+I think that's going to work.
+
+08:52.310 --> 09:00.020
+So when me pause him here and what we'll do in the next video is we'll start working on swinging those
+
+09:00.020 --> 09:03.560
+arms back and forth with the hammer and the shield.

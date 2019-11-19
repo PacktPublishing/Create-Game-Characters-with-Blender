@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00.730 --> 00:06.370
+Well we've got our character pretty much blocked in but the last few things we need to do is work on
+
+00:06.370 --> 00:13.690
+the head and the face and also begin pulling some points to round the character out so he isn't quite
+
+00:13.690 --> 00:15.340
+so blocky.
+
+00:15.340 --> 00:17.200
+So let's work on that.
+
+00:17.350 --> 00:22.990
+First let's deal with well let's work on the ears.
+
+00:23.070 --> 00:26.560
+Let's take a look at the front and side views again.
+
+00:26.850 --> 00:30.040
+And let's take a look at the ears here.
+
+00:32.000 --> 00:40.880
+I think that for the ears we could select maybe these four faces on the side of the head and we could
+
+00:40.880 --> 00:47.840
+use these to extrude the ears out so I'll press e for extrude and then click and I'm going to go straight
+
+00:47.840 --> 00:50.690
+to the scale tool and scale in.
+
+00:50.690 --> 00:58.570
+I'm going to hit the ESC key and scale in a bit and I might go back over to my default view to see how
+
+00:58.570 --> 01:00.160
+this is working.
+
+01:00.460 --> 01:06.610
+I mean the period key on the number pad and it's looking a little pushed in I'm going to go ahead and
+
+01:06.940 --> 01:15.170
+bring it out a bit let's bring it out like that and I'll scale this in.
+
+01:16.090 --> 01:16.390
+All right.
+
+01:16.390 --> 01:18.340
+So let's go and extrude out again.
+
+01:18.350 --> 01:20.830
+I'm going to hit E and extrude.
+
+01:20.840 --> 01:23.410
+I'll pull it out a bit.
+
+01:25.070 --> 01:29.620
+Scale it in a tad move it back a bit.
+
+01:30.400 --> 01:33.440
+We we'll just see if we can't block these out.
+
+01:33.440 --> 01:39.020
+Now remember that these need to be a little bit smaller than the actual ear just like I've tried to
+
+01:39.020 --> 01:46.100
+stay smaller than the head and the smaller than the body here we need room to sculpt out when I go back
+
+01:46.100 --> 01:49.660
+to my default view and see how we're doing here.
+
+01:49.670 --> 01:53.720
+It's pretty ugly so I'm going to have to begin pulling some points now here.
+
+01:53.720 --> 01:59.690
+So I'm just going to begin arranging the points to try and create a better shape for the ear.
+
+02:18.800 --> 02:19.160
+All right.
+
+02:19.160 --> 02:23.870
+I've done a little point pulling to get the ear shaped up a bit.
+
+02:23.900 --> 02:33.380
+I've just tried to get more of a flat rectangular shape here from the ear so I think what I'll do now
+
+02:33.380 --> 02:42.790
+is select these faces and let's start extruding again I'll go back to the character images view and
+
+02:42.800 --> 02:51.500
+now press me and then click and then pull back out with the G key scale these in a bit with the Eski
+
+02:52.460 --> 02:56.340
+so I can begin to kind of shape it up like this.
+
+02:56.450 --> 02:58.000
+I'd like to move it back a bit.
+
+02:58.010 --> 02:59.120
+I think it moves.
+
+02:59.120 --> 03:08.360
+It should kind of go back as it comes out and from here I'll go ahead and extrude one more time.
+
+03:08.600 --> 03:14.300
+Pressing the G key and pulling out scaling and.
+
+03:14.420 --> 03:20.120
+And I think I'll do it one more time beyond that as well to get out to the tip of the ear.
+
+03:21.650 --> 03:24.260
+E quick G and move out.
+
+03:24.270 --> 03:26.780
+And I'll go ahead and scale this out.
+
+03:27.560 --> 03:28.680
+Just a bit
+
+03:31.520 --> 03:34.400
+so let's take a look at it in the default view.
+
+03:35.310 --> 03:37.780
+That's a little long.
+
+03:39.390 --> 03:42.380
+Let's move that back a bit.
+
+03:42.410 --> 03:45.150
+We do that is quite an ear there.
+
+03:45.150 --> 03:53.190
+Let's move these back I'm going to go to Virtex mode and hit the Z key and I want to just grab these
+
+03:53.190 --> 04:02.020
+edges here so you can hold down the control key and click and drag and lasso select points like that.
+
+04:02.520 --> 04:06.040
+So I'm going to grab that and move them back a bit.
+
+04:06.270 --> 04:07.340
+There we go.
+
+04:07.740 --> 04:08.630
+All right.
+
+04:08.940 --> 04:12.890
+I think that will work for the ears.
+
+04:13.850 --> 04:20.480
+Let's take a look at the face now I went ahead and did the ears before the face because we're going
+
+04:20.480 --> 04:22.580
+to add more geometry to this.
+
+04:22.580 --> 04:27.830
+Now we're going to add more edges and I wanted to do the extruding and point pulling when there were
+
+04:27.830 --> 04:29.830
+fewer points to pull.
+
+04:29.840 --> 04:36.280
+So now for the eyes I think what I want is an edge right through here.
+
+04:36.440 --> 04:45.760
+So our press control our and click and drag and edge right through here and for the mouth for the mouth.
+
+04:45.760 --> 04:48.220
+I think I'll do.
+
+04:48.360 --> 04:53.180
+It's going to be tight but I think I'll try three edges in here I'm going to press control our and I'm
+
+04:53.180 --> 04:59.810
+going to scroll the mouse wheel and let's try for three edges here let's see what happens.
+
+05:01.570 --> 05:08.440
+All right for the eyes I'm going to select these faces.
+
+05:09.860 --> 05:13.500
+And I'll hit the click.
+
+05:13.500 --> 05:19.690
+Hit the key and scale those in oh let me scale this out one more time.
+
+05:20.030 --> 05:26.930
+Bring it out and I'll hit the scale and one more time.
+
+05:26.930 --> 05:34.910
+So that's just giving us geometry to work with down here in the face.
+
+05:34.910 --> 05:37.460
+We could take this area for the mouth.
+
+05:37.460 --> 05:44.240
+Hit the scale in it easy the scale in.
+
+05:44.240 --> 05:44.540
+All right.
+
+05:44.540 --> 05:50.650
+So that gives us edge loops around the mouth and the eyes that I think we can work with.
+
+05:50.960 --> 05:55.070
+Let's look at the nose should we do something with the nose here.
+
+05:55.160 --> 05:59.840
+We could give ourselves a little extra geometry for the nose as well I imagine.
+
+05:59.840 --> 06:00.580
+Let's do that.
+
+06:00.590 --> 06:09.170
+I'll select this it be I'm going to kind of pull out just a hair once again I know it doesn't look like
+
+06:09.170 --> 06:18.990
+much but that's not the point here the point here is to get us geometry that we can work with.
+
+06:19.210 --> 06:22.870
+That should help out quite a bit actually.
+
+06:26.040 --> 06:27.840
+And we go.
+
+06:27.850 --> 06:28.210
+All right.
+
+06:28.210 --> 06:31.010
+So there is the face in the ears.
+
+06:31.240 --> 06:35.170
+Let's also work just a little bit on rounding the body out.
+
+06:35.170 --> 06:37.710
+I think all the geometry is here now.
+
+06:38.230 --> 06:41.020
+Let's work on just a rounding out the body.
+
+06:41.020 --> 06:47.800
+Now I'm going to just go into vertex mode and just begin pulling points and just begin rounding the
+
+06:47.800 --> 06:49.690
+character out like this.
+
+06:49.690 --> 07:09.640
+So it isn't quite so blocky.
+
+07:09.700 --> 07:16.020
+So I've been pulling points here just trying to round out the body and the legs.
+
+07:16.090 --> 07:20.460
+And I also wanted to point out a tool that you can use for something like this.
+
+07:20.550 --> 07:25.150
+It isn't perfect but it can help sometimes like for the arms and the legs.
+
+07:25.210 --> 07:31.660
+What I have down here under the Tools tab is a section called Loop tools.
+
+07:31.660 --> 07:36.210
+And if I scroll this down you can see I've got some tools here.
+
+07:36.400 --> 07:39.530
+This circle tool can help us out.
+
+07:39.550 --> 07:49.120
+Now the way to add this plug in or add on is to go to file and user preferences and then you can go
+
+07:49.120 --> 07:50.870
+to Add ons.
+
+07:51.110 --> 07:54.750
+And notice here I've got me go scroll down.
+
+07:54.830 --> 07:56.170
+Here we go.
+
+07:56.330 --> 08:04.550
+I've got this mesh loop tools checked and this is what gives you that section over here.
+
+08:04.550 --> 08:12.050
+Now if you can't find it you can always just come up here to the search field and type in loop and it
+
+08:12.050 --> 08:13.940
+will go to that selection.
+
+08:13.940 --> 08:22.100
+Now just add a checkmark here and then click save user settings and then you should see this area or
+
+08:22.100 --> 08:25.330
+this section here in the Tools tab.
+
+08:25.340 --> 08:35.270
+Now what it can do for you is Ahman Allt select this row of edges or points here and then if I just
+
+08:35.270 --> 08:40.600
+click circle it it'll round those out into a circle.
+
+08:40.600 --> 08:42.640
+Now as I said it isn't perfect.
+
+08:42.650 --> 08:49.790
+It may not do exactly what you want it to do and then you can just undo but it can help when doing something
+
+08:49.790 --> 08:50.700
+like this.
+
+08:50.720 --> 08:58.310
+And I'm just going to use the circle to create circles for the arms and I'll come down here for the
+
+08:58.400 --> 08:59.690
+legs as well.
+
+09:01.040 --> 09:08.390
+And you see how it kind of ballooned it out so it doesn't always work perfectly but you can test it
+
+09:08.480 --> 09:09.930
+and see what you think.
+
+09:11.480 --> 09:15.140
+All right well I think we're just about ready to sculpt.
+
+09:15.140 --> 09:20.280
+We've got our base geometry done and it's looking pretty good.
+
+09:20.300 --> 09:25.070
+Now once again we did all this work up front before we began sculpting.
+
+09:25.070 --> 09:32.330
+So we would have the proper geometry and the proper edge flow so that we're not fighting against the
+
+09:32.330 --> 09:34.720
+mesh as we begin sculpting.

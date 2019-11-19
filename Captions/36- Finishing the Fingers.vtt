@@ -1,0 +1,220 @@
+WEBVTT
+
+00:00.580 --> 00:02.650
+Well I'm still working on the fingers here.
+
+00:02.650 --> 00:04.610
+Let's go ahead and zoom in.
+
+00:06.250 --> 00:09.000
+And I've got just the forefingers done.
+
+00:09.000 --> 00:15.750
+I haven't done the thumb yet but I wanted to just talk about hooking these up and extruding them back.
+
+00:15.750 --> 00:18.810
+These are all currently individual objects.
+
+00:18.810 --> 00:25.760
+So what I need to do is go ahead and select them all in press control J to join them into all one object.
+
+00:25.760 --> 00:27.320
+So now we tap into edit mode.
+
+00:27.330 --> 00:30.910
+We can see all of the components for each one.
+
+00:30.930 --> 00:34.310
+So now what I need to do is I need to connect them together.
+
+00:34.500 --> 00:42.390
+So I think when I'm going to do is just move this point and back and just select this edge and this
+
+00:42.390 --> 00:50.310
+edge and bridge these two so I'll just press control E and bridge edge loops and then I'll do the same
+
+00:50.310 --> 00:54.060
+thing with these over here this edge and this edge.
+
+00:54.070 --> 00:55.570
+Now try that again.
+
+00:55.690 --> 01:09.060
+There it is control the bridge edge loops and let's try this one over here for these two.
+
+01:09.220 --> 01:09.690
+All right.
+
+01:09.700 --> 01:14.350
+So now that we have those hooked up and they may need a little bit of point pulling to get them a little
+
+01:14.350 --> 01:19.480
+more even around the top of the fingers there.
+
+01:19.780 --> 01:26.950
+But generally speaking that's kind of what I want is these fingers to be connected up so that when we
+
+01:26.950 --> 01:32.350
+select this edge that entire edge you get selected all the way around.
+
+01:32.350 --> 01:37.220
+The problem is is we've got these extra edges selected in here and we don't want that.
+
+01:37.450 --> 01:43.740
+So I'm going to just go to edge mode here and de-select these edges here we don't need these.
+
+01:43.780 --> 01:46.090
+I only want the ones on the outside.
+
+01:47.070 --> 01:55.830
+Like so now that we've got all of those selected I'm just going to now press e for extrude and move
+
+01:55.830 --> 01:57.860
+them back up into the glove.
+
+01:57.870 --> 02:03.600
+But I think what I'd like to do is have the characters body visible to do that so I'll tab back into
+
+02:03.600 --> 02:07.530
+object mode and just select this first layer as well.
+
+02:07.530 --> 02:12.690
+And now I should be able to see that as extruded back.
+
+02:12.800 --> 02:16.030
+All right so now I could go back into edit mode.
+
+02:16.040 --> 02:20.160
+I'll hit E for extrude and bring that back a bit.
+
+02:20.270 --> 02:29.330
+Keeping an eye on it here I think I want to scale it this way just a hair.
+
+02:29.340 --> 02:34.950
+Now let's go ahead and do one more extrusion up into that glove.
+
+02:35.920 --> 02:43.990
+So I'll select all of these edges all the way around and extrude these up into here.
+
+02:45.400 --> 02:51.090
+So now we're going to need to do some point pulling to get to get the fingers to fit within that glove
+
+02:51.490 --> 02:52.180
+but that's fine.
+
+02:52.180 --> 02:55.290
+We kind of expected that.
+
+02:55.480 --> 03:04.660
+Now I think I will want this edge for the glove or the gauntlet to be extruded in so we can see up into
+
+03:04.660 --> 03:05.100
+it.
+
+03:05.170 --> 03:14.700
+So I'll just select that edge and hit me and then S and scale that in pretty far there like that.
+
+03:14.710 --> 03:19.390
+In addition we're going to need to get a thumb in there aren't we.
+
+03:19.390 --> 03:21.500
+So let's take a look at doing that.
+
+03:21.610 --> 03:23.320
+I think all I really need to do.
+
+03:23.320 --> 03:27.740
+Let me turn on the character model there.
+
+03:28.670 --> 03:36.360
+And Kyle I really need to do is just grab part of one of these fingers duplicated and bring it up here.
+
+03:37.440 --> 03:41.040
+Yes so I will tap into edit mode here.
+
+03:41.240 --> 03:52.760
+And I think what I'll do is select this ring of faces press control plus to expand that selection and
+
+03:52.760 --> 03:56.070
+maybe bring it right up to about here.
+
+03:56.270 --> 03:57.720
+Let's try that.
+
+03:57.960 --> 04:02.070
+I'll then press shift D and enter.
+
+04:02.200 --> 04:08.700
+I'll then press the P key and separate the selected object into its own object.
+
+04:09.550 --> 04:18.610
+And then now if we tab back here it is I'll move the origin to the geometry.
+
+04:18.640 --> 04:22.340
+Now I think to move it around or switch the transform orientation to global.
+
+04:22.520 --> 04:31.240
+And now we can just move this around and place it on the thumb.
+
+04:31.510 --> 04:35.030
+Now that I have it here I see it's a little bit too thin.
+
+04:35.260 --> 04:37.720
+Instead of scaling it out all the way like this.
+
+04:37.720 --> 04:43.630
+I think what I'll do is tap into edit mode and select everything and I'm going to come over to the tools
+
+04:43.630 --> 04:49.420
+tab and with this shrink Fatton tool I'll just click that and then just scale it up and it'll just kind
+
+04:49.420 --> 04:50.860
+of chunk it up a bit.
+
+04:51.690 --> 04:55.810
+So now I'm going to turn off that first layer.
+
+04:56.100 --> 05:05.230
+And there's our thumb that we've now got to extend back into the glove so I'll just tab into edit mode.
+
+05:05.230 --> 05:06.240
+Good edge mode.
+
+05:06.250 --> 05:10.460
+And let's just take this and extrude it back.
+
+05:12.020 --> 05:14.720
+It'll be scaled up a bit.
+
+05:14.960 --> 05:16.080
+And one more time.
+
+05:19.990 --> 05:24.690
+Now I think I'm going to need to scale these up a bit as it comes into the glove
+
+05:30.610 --> 05:35.320
+and maybe even move it over a bit like that.
+
+05:37.170 --> 05:40.030
+And now I'll do the same thing with the glove.
+
+05:40.030 --> 05:47.050
+I'll just take this edge and extrude and scale it in to close that off.
+
+05:47.050 --> 05:47.850
+And there we go.
+
+05:48.840 --> 05:55.200
+Still a little bit of work to do but I think that will work in terms of the fingers and the glove.
+
+05:55.620 --> 05:57.480
+Well we're getting pretty close here aren't we.
+
+05:57.480 --> 06:04.050
+I think the last thing we have to do is to deal with the tunic here and the belt and I still need to
+
+06:04.050 --> 06:07.690
+come back up here and deal with the mouth and the eyes.
+
+06:07.980 --> 06:10.030
+But we should be able do those pretty quickly.

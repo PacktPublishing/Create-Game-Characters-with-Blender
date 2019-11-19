@@ -1,0 +1,409 @@
+WEBVTT
+
+00:00.630 --> 00:04.860
+Well let's work a little more on this shoulder piece.
+
+00:04.890 --> 00:14.490
+What I'd like to do is maybe get some of this kind of edging around the shoulder plate and also try
+
+00:14.490 --> 00:16.980
+and imprint some designs on it.
+
+00:17.040 --> 00:19.050
+Kind of like this that we see here.
+
+00:19.110 --> 00:26.360
+I'd like kind of raised imprint of these kinds of designs so let's see if we can work on that.
+
+00:26.610 --> 00:30.420
+Right now I've got a subdivision surface modifier on it.
+
+00:30.420 --> 00:38.130
+I'm going to go ahead and take that off and I'm going to add a multi resolution and I'll just subdivide
+
+00:38.130 --> 00:44.460
+it always see maybe let's try five here.
+
+00:44.700 --> 00:47.930
+I will zoom in with the period key on the numpad.
+
+00:47.940 --> 00:49.840
+And here we go.
+
+00:50.190 --> 00:53.120
+I think I should probably isolate it as well.
+
+00:53.400 --> 00:56.030
+Maybe I'll just move it to a hole there or is it on it.
+
+00:56.040 --> 00:59.930
+Oh it's on it's own lair here so I'll just work with this now.
+
+01:00.390 --> 01:07.500
+So the first thing let's do is work on these ridges around the corners here around the edges to do that.
+
+01:07.500 --> 01:10.330
+I'll come back over to sculpt mode.
+
+01:10.750 --> 01:14.450
+Let's switch over to the sculpt draw brush.
+
+01:14.460 --> 01:20.990
+I don't need a texture on this so I'll just hit the X here to remove the texture.
+
+01:21.120 --> 01:29.130
+So let's see what kind of ridge we can get on this all hit the F key to shrink the size of the brush
+
+01:29.130 --> 01:36.690
+and I'll zoom in here and just do a couple of stroke tests just to see what I can get.
+
+01:36.810 --> 01:40.190
+I'll just google along here.
+
+01:40.230 --> 01:41.210
+It's not bad.
+
+01:41.220 --> 01:43.570
+I think I needed to be a little bit stronger.
+
+01:43.600 --> 01:45.440
+Let me increase the strength here.
+
+01:46.180 --> 01:47.810
+And I'll try this.
+
+01:48.610 --> 01:49.820
+That's pretty good.
+
+01:49.840 --> 01:50.940
+I like that.
+
+01:51.190 --> 01:58.850
+But let's also turn on smooth stroke so we can have a little bit smoother line.
+
+01:59.260 --> 02:07.710
+So I'll just begin here and let's try this one to begin right about here and just drag along this edge
+
+02:12.190 --> 02:15.350
+like so and see how this works.
+
+02:15.520 --> 02:18.840
+So I'll just kind of work on this around the whole piece.
+
+02:19.890 --> 02:21.770
+And see what we can come up with.
+
+02:27.910 --> 02:35.920
+Now disinter up my brush here say in this area when I'm in sculped mode I can press alt F and it will
+
+02:35.920 --> 02:40.470
+frame that up and center that point right in the center of my view.
+
+02:40.690 --> 02:44.710
+And now when I tumble around it's going to tumble at that point.
+
+02:44.950 --> 02:54.910
+So that kind of helps as you're going around a piece like this.
+
+02:55.020 --> 03:04.230
+And I think maybe I'll try another madcap so I'll press the End key on the keyboard and scroll down
+
+03:04.230 --> 03:12.980
+to the Metcalf's here and see if this one is going to help me see a little better I think this one will.
+
+03:13.030 --> 03:15.370
+So I'll go back to that one.
+
+03:15.430 --> 03:18.650
+Now I want to create this in here.
+
+03:20.180 --> 03:25.320
+I'll turn on smooth stroke again and maybe give me a little bit more of a radius there.
+
+03:26.530 --> 03:29.980
+And let's try this.
+
+03:30.100 --> 03:32.300
+I'm just going to try and do it freehand.
+
+03:32.680 --> 03:38.070
+Why not.
+
+03:38.130 --> 03:46.110
+I'll begin up here and come down and then turn and
+
+03:54.210 --> 04:00.450
+something like that now I can't tell but it looks like there may be one right down the center there.
+
+04:00.910 --> 04:02.020
+Let's do that.
+
+04:02.050 --> 04:04.740
+See if I can bring one from here.
+
+04:06.970 --> 04:12.100
+All the way down to this edge or this point see how this works.
+
+04:17.420 --> 04:26.120
+So now what I'd like to do is create some of this kind of interesting pattern work here and here and
+
+04:26.120 --> 04:29.600
+maybe down here and over here.
+
+04:29.600 --> 04:31.940
+Let's see if we can do that.
+
+04:32.750 --> 04:40.610
+So what I've done is I've gone out to Google images and I've found some tattoo designs.
+
+04:40.970 --> 04:48.450
+I just googled tattoo designs and hundreds of them came up and I just grabbed this one here.
+
+04:48.530 --> 04:56.240
+So what I want to do is make brushes for my texture brush from these designs.
+
+04:56.240 --> 05:06.110
+So I've already done one here and I've just taken the design deleted the background out of it and inverted
+
+05:06.110 --> 05:07.080
+the color.
+
+05:07.520 --> 05:16.640
+And this one I've saved out as a P and g file that I can then bring in as a texture to my brush in Blender.
+
+05:16.640 --> 05:24.190
+So the first thing I'll do is come up here to file and go to new and I've already typed in 1 0 0 0 0
+
+05:24.260 --> 05:25.500
+and by 1 0 0 0 0 0.
+
+05:25.520 --> 05:32.870
+So I'm just going to click OK to create a new document and here it is what I'll do now is come over
+
+05:32.870 --> 05:42.860
+here and go to my rectangle select tool and select and drag select one of these pieces right here say
+
+05:42.860 --> 05:51.890
+this one and all press control or command C to copy that and I'll come back here to my new document
+
+05:52.340 --> 05:56.650
+Press Control Command V to paste that in.
+
+05:56.660 --> 06:02.450
+Now once I do that you see I've got this floating selection pasted layer thing.
+
+06:02.450 --> 06:09.310
+I just need to right click and choose two new layer and that will create it as a layer.
+
+06:09.350 --> 06:15.860
+So if I turn off my background you can see I've got that white around this I need to get rid of that.
+
+06:15.980 --> 06:22.530
+So I'll just come over here to the fuzzy select tool and click in the white area.
+
+06:22.700 --> 06:31.030
+And now all I have do is just delete this and now it just leaving the black behind I'll de-select this
+
+06:31.040 --> 06:33.440
+by going to select none.
+
+06:33.440 --> 06:36.080
+You can also do shift command day.
+
+06:36.860 --> 06:42.710
+And now you can see that I've got just that design with no background here.
+
+06:42.890 --> 06:51.850
+So now I can invert this I'll select the layer that the design is on and I'll go to colors and invert.
+
+06:52.030 --> 06:52.930
+And there you are.
+
+06:53.020 --> 06:58.240
+So now we've got something that we can use as a texture for our brushes.
+
+06:58.240 --> 07:02.620
+So I'll go ahead and save this I'll save file export as.
+
+07:02.910 --> 07:05.900
+And it's going to export as a P and g here.
+
+07:05.920 --> 07:16.030
+And I've got a brushes folder in my project folder here so I'll just call this tattoo to and export
+
+07:21.240 --> 07:21.990
+and I'll do that.
+
+07:21.990 --> 07:28.350
+A couple more times with these other ones I'm not real sure which ones I want to use so I'll make a
+
+07:28.350 --> 07:29.820
+brush for each of them.
+
+07:29.960 --> 07:37.740
+I'll come back over here and I'll go to my rectangle select and I'll drag select this part right here
+
+07:37.740 --> 07:45.990
+to try and grab this and then I'll come over here to that document I already created and I'll just use
+
+07:45.990 --> 07:47.470
+this same one.
+
+07:47.640 --> 07:51.180
+I'll just paste this with control or command v.
+
+07:51.230 --> 08:00.530
+All right click Choose two new layer and I'll hide the old one like that fuzzy select tool.
+
+08:00.530 --> 08:04.800
+Click on the white part delete it.
+
+08:05.150 --> 08:06.710
+Select everything.
+
+08:08.110 --> 08:13.780
+And now I just need to invert the color and then we go.
+
+08:13.780 --> 08:16.550
+Now I can go to a file export as.
+
+08:16.960 --> 08:22.580
+And this one I'll call tattoo 3.
+
+08:22.580 --> 08:22.930
+All right.
+
+08:22.940 --> 08:27.510
+So now we have all of our designs saved out as PMG images.
+
+08:27.680 --> 08:33.500
+Let's go back to Blendr and see if we can use these for our texture brushes.
+
+08:33.500 --> 08:33.980
+All right.
+
+08:33.980 --> 08:35.230
+Back here in Blender.
+
+08:35.270 --> 08:40.590
+Let's go down to our textures area here.
+
+08:41.440 --> 08:45.070
+And let's create a new texture instead of clicking here.
+
+08:45.070 --> 08:48.900
+I'm going to go ahead and come over here to this texture area over here.
+
+08:49.790 --> 09:01.350
+And click on new and I want an image or a movie which is what it is there and I click Open and here
+
+09:01.350 --> 09:07.620
+we can come into our brushes folder and find those tattoo images.
+
+09:07.620 --> 09:10.700
+So here's that tattoo one I'll see you actually.
+
+09:10.720 --> 09:14.180
+Let me switch over to the images and see which one I want.
+
+09:14.190 --> 09:17.300
+So here are the brushes I have in here they are.
+
+09:17.520 --> 09:26.070
+I think maybe I'll begin with this one here or maybe this one and I'll try this here so I'll open the
+
+09:26.070 --> 09:32.760
+image and we can see that texture in our texture brush here.
+
+09:32.760 --> 09:40.740
+So now what I want to do is I'm going to align this kind of like this and I want to be able to lay it
+
+09:40.740 --> 09:50.430
+down using the stroke method of anchored and I want to have a fairly low strength here.
+
+09:50.470 --> 09:59.500
+So now if I press the F key you can see that I've got this image now attached to to my brush and I'll
+
+09:59.500 --> 10:02.270
+hit the escape key to get out of that for now.
+
+10:02.350 --> 10:11.470
+And as long as I have this anchored stroke method selected I can click and drag where I want this to
+
+10:11.470 --> 10:20.290
+appear so if I want the center of the image to begin say here I can click and drag and it will begin
+
+10:20.290 --> 10:22.360
+to put that image down like that.
+
+10:22.360 --> 10:25.410
+Now I didn't quite get it where I wanted it.
+
+10:25.510 --> 10:26.870
+Let me try that again.
+
+10:28.100 --> 10:30.860
+Maybe I'll do it here.
+
+10:31.220 --> 10:37.750
+You can see you can lay down these imprints of the brush.
+
+10:39.000 --> 10:40.060
+Something like that.
+
+10:41.130 --> 10:47.130
+Come over here and do the same thing again but this time it needs to go the other way.
+
+10:47.230 --> 10:48.160
+Right.
+
+10:48.240 --> 10:55.110
+So I need to have a mirror image of it because I'd like to put that mirror image of it right there.
+
+10:55.110 --> 11:02.700
+So what I can do is I can come up here to the size and offset area under whereas this is under the texture
+
+11:03.450 --> 11:12.540
+and for the y axis I can maybe put negative one in here and hit return and then maybe I'll come in here
+
+11:12.570 --> 11:15.350
+and try and do this right here.
+
+11:16.330 --> 11:20.180
+And that'll spin it around so it's the mirror image of it.
+
+11:20.470 --> 11:22.420
+And we try and get that right.
+
+11:24.460 --> 11:26.430
+And here looks like I need to redo that.
+
+11:26.430 --> 11:28.510
+Let me try that again.
+
+11:29.260 --> 11:33.180
+A little bit farther up we go.
+
+11:35.100 --> 11:38.210
+Maybe I want that one to be right about there.
+
+11:39.640 --> 11:40.790
+There we go.
+
+11:41.320 --> 11:50.290
+So now you can come through with different designs and lay them down on your objects to get kind of
+
+11:50.920 --> 11:59.030
+bá relief imprint from designs you can find or make in Gimp.
+
+11:59.200 --> 12:06.490
+So I'll continue on with this and a couple of more imprints on here with the other designs I have.
+
+12:06.490 --> 12:12.550
+And then in the next video I think we're going to take a look at finishing up the hands the claws or
+
+12:12.550 --> 12:20.290
+the long fingernail type things maybe work on the ears try and finish up the general details of the
+
+12:20.290 --> 12:21.510
+character itself.

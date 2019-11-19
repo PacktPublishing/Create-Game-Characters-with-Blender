@@ -1,0 +1,457 @@
+WEBVTT
+
+00:00.600 --> 00:07.260
+Well we've come a long way to get our character sculpted really apologized and U.V. mapped.
+
+00:07.260 --> 00:14.830
+Now we need to work on baking that high resolution sculpt information down to the low poly object here.
+
+00:14.970 --> 00:21.930
+But a couple of people have pointed out that I made a mistake on the last video and that is I duplicated
+
+00:21.930 --> 00:27.480
+before I mirrored the objects over and I didn't need to duplicate.
+
+00:27.570 --> 00:29.050
+Let me show you what I mean here.
+
+00:29.250 --> 00:35.370
+If I select this object and tab into edit mode and I'm going to hover over the glove and press the L
+
+00:35.370 --> 00:36.180
+key.
+
+00:36.180 --> 00:38.750
+Now I'm going to just move this out.
+
+00:38.760 --> 00:41.640
+You can see there's an extra object here.
+
+00:41.640 --> 00:49.290
+What I really needed to do was just separate the object and then mirror rather than duplicate separate
+
+00:49.560 --> 00:50.310
+and mirror.
+
+00:50.310 --> 00:53.890
+So I just need to go through and delete these.
+
+00:53.970 --> 01:00.570
+I've gone ahead and created an annotation on that previous video to let people know they don't need
+
+01:00.570 --> 01:01.580
+to do that.
+
+01:01.740 --> 01:05.400
+So I just go through and delete these extra pieces.
+
+01:08.970 --> 01:14.210
+All right with that cleaned up let's go ahead and begin working on baking out a normal map.
+
+01:14.370 --> 01:21.660
+So I have the high resolution objects over here in layers two and one what I'll need to do is select
+
+01:21.690 --> 01:26.240
+all these objects and then select the low poly version.
+
+01:26.400 --> 01:32.500
+And we're going to bake this scoped information to a normal map so to do that I mean I go back to my
+
+01:32.510 --> 01:40.470
+EUV editing screen lay out here because this gives me a view of just about everything I need to do this.
+
+01:40.680 --> 01:46.990
+The only thing I don't have is the outliner and the properties panel I think I just want to add those.
+
+01:47.010 --> 01:54.000
+So when I go up here to this little corner tab and just pull out here and then I want to change this
+
+01:54.520 --> 01:59.310
+to the properties panel which is here.
+
+01:59.640 --> 02:07.020
+And then I also want to pull down a nother window right here and I want to make this one the outliner
+
+02:07.350 --> 02:11.590
+because I need to be able to see all of this and then we go.
+
+02:11.670 --> 02:17.780
+So when baking a normal map the first thing we need is an image to bake too.
+
+02:17.790 --> 02:23.550
+So going to come over here to the U-V editing window and I'm going to click on the plus icon here to
+
+02:23.550 --> 02:25.350
+create a new image.
+
+02:25.860 --> 02:36.630
+And let's call this character underscore INHO or for normal map I'm going to increase the resolution
+
+02:36.690 --> 02:41.030
+of this map to 2048.
+
+02:41.220 --> 02:45.540
+And this of course is going to change depending on the needs of your game.
+
+02:45.570 --> 02:54.210
+I'm going to begin at 2048 if it needs to be smaller in the future I can always reduce the size in GIMP
+
+02:54.570 --> 02:59.370
+or Photoshop but 2048 I think will work just fine.
+
+02:59.370 --> 03:03.020
+And I want the type to be blank so I'll just click OK.
+
+03:04.170 --> 03:06.180
+And here it is.
+
+03:06.180 --> 03:13.080
+Now notice that there's an asterix down here by the image menu and that means that this particular image
+
+03:13.080 --> 03:16.570
+has not yet been saved to the hard drive.
+
+03:16.590 --> 03:23.680
+If I come in here to image and click save as image then it'll give me a place where I can put it.
+
+03:23.700 --> 03:29.670
+I'm going to go ahead and put it here in the baking folder that I've created and I'll just click save
+
+03:29.670 --> 03:30.570
+as.
+
+03:30.660 --> 03:38.880
+Now the thing to remember is the save up here under file saved seen is a different save than the save
+
+03:38.880 --> 03:39.920
+down here.
+
+03:40.730 --> 03:44.210
+For save as image so you'd need to do both.
+
+03:44.540 --> 03:51.110
+If you don't save the image down here when you exit out of the scene you'll lose that image.
+
+03:51.110 --> 03:57.200
+Now the next thing I want to do is add that image up in the node Ed. If I go over here to my low poly
+
+03:57.200 --> 04:05.990
+character and select that you can see I've got an image node here for that test pattern for the checker
+
+04:05.990 --> 04:13.680
+pattern that we use during U-V mapping what I need to do is switch this to that normal map image now.
+
+04:14.000 --> 04:15.670
+So I'll change that there.
+
+04:15.710 --> 04:17.230
+I can also pull this off.
+
+04:17.240 --> 04:20.280
+Here I don't even need a connection.
+
+04:20.360 --> 04:24.840
+I just need that image node to be here in the node editor.
+
+04:24.960 --> 04:30.120
+Keep in mind that this is for the cycle's render engine and not the Blendr internal.
+
+04:30.140 --> 04:38.040
+Now he's looking kind of strange here I'm going to turn this off go back to solid viewport shading here.
+
+04:38.060 --> 04:40.660
+All right so I have my image node up here.
+
+04:40.660 --> 04:44.350
+I have my new image down in the movie editing window.
+
+04:44.350 --> 04:45.620
+That's good.
+
+04:45.620 --> 04:54.730
+Another thing I should do is let's just select the low poly character right now and I want to come over
+
+04:54.730 --> 05:01.270
+here to the tools tab and I want to click smooth under the shading area just so he smoothed out a bit
+
+05:01.270 --> 05:06.130
+like this and this smoothing will transport into a game engine.
+
+05:06.130 --> 05:15.310
+Now if I went to the modifiers panel here an added subdivision surface modifier to smooth it that isn't
+
+05:15.310 --> 05:19.680
+going to transfer but this kind of smoothing will.
+
+05:20.110 --> 05:20.560
+All right.
+
+05:20.560 --> 05:27.540
+So I'm going to bring back layers one into and now what I want to do.
+
+05:27.800 --> 05:34.940
+Let's go over to the render panel and take a look at the back section which is way down here on the
+
+05:34.940 --> 05:37.410
+bottom.
+
+05:37.560 --> 05:42.130
+And this is where we'll select what kind of texture map we want to bake out.
+
+05:42.300 --> 05:46.690
+So for the bake type I want to change this to normal.
+
+05:47.180 --> 05:52.600
+And I also want to enable this selected to active.
+
+05:53.640 --> 06:02.040
+And what that means is when multiple objects are selected Blendr sees the last object you choose or
+
+06:02.040 --> 06:06.330
+select as the active object and all the others as selected.
+
+06:06.330 --> 06:13.360
+So I'll just need to select all of these objects and then select the low poly character last.
+
+06:13.440 --> 06:21.430
+So it's the active so I'll come over here to the outliner and just begin shift's selecting these objects.
+
+06:21.430 --> 06:26.640
+So I'm just going to select them all.
+
+06:26.880 --> 06:30.680
+I'm going to skip over the low poly character
+
+06:35.700 --> 06:43.870
+and then I'm going to shift select the low poly character last now the other setting I want to change
+
+06:43.870 --> 06:47.320
+is this re distance here.
+
+06:47.350 --> 06:56.150
+It can be between 0 and 1 and it is how far Blendr will look to find the high poly object.
+
+06:56.290 --> 06:59.670
+So I'm just going to go ahead and just increase this to one.
+
+06:59.680 --> 07:03.820
+I haven't yet found a problem for just having it up all the way.
+
+07:03.820 --> 07:11.530
+This check box here when it's on it will clear this black out of the image and then lay the normal map
+
+07:11.530 --> 07:12.500
+onto it.
+
+07:12.550 --> 07:15.920
+If I uncheck it it will keep the black background.
+
+07:16.030 --> 07:19.360
+I'm just going to go ahead and keep it checked so you can see what happens.
+
+07:19.360 --> 07:25.640
+All right so now that I've done that I'm going to go ahead and click back and there it goes you can
+
+07:25.640 --> 07:29.200
+see you've got a progress bar up here at the top.
+
+07:29.400 --> 07:35.640
+And since this is such a high resolution character it's going to take a bit to bake.
+
+07:35.800 --> 07:36.610
+And there we go.
+
+07:36.700 --> 07:37.910
+There's our normal map.
+
+07:38.140 --> 07:43.990
+Now I'm going to hover over here and press control up arrow just so we can make this full screen and
+
+07:43.990 --> 07:51.340
+take a look at it and you can see that high resolution detail that's been captured here from the shoulder
+
+07:51.340 --> 07:54.770
+armor the face the torso.
+
+07:55.120 --> 08:02.350
+Let me hit Control up arrow again and come back here and notice again we have an asterix down here by
+
+08:02.380 --> 08:03.930
+the image menu.
+
+08:04.060 --> 08:12.290
+Let's go ahead and save this so we don't lose it save as image and we'll go ahead and save it here.
+
+08:12.290 --> 08:15.860
+So now we have our normal map.
+
+08:15.920 --> 08:16.190
+All right.
+
+08:16.190 --> 08:18.820
+Well how about an Ambien occlusion map.
+
+08:18.870 --> 08:28.240
+You can change this over here from normal to ambient occlusion right here and bake out in ambient occlusion
+
+08:28.330 --> 08:29.670
+map while we're at it.
+
+08:29.680 --> 08:38.800
+The problem is keep in mind that an Ambien occlusion map uses the render settings render sampling settings
+
+08:38.980 --> 08:39.780
+to do the bake.
+
+08:39.790 --> 08:48.040
+So I need to scroll up here and under sampling I need to be sure and increase the render samples up
+
+08:48.040 --> 08:54.520
+to something where I won't get a lot of grain and pixelization.
+
+08:54.700 --> 08:57.370
+So I've got my render samples up to 100.
+
+08:57.400 --> 08:59.950
+I think that should probably work pretty well.
+
+09:00.340 --> 09:08.510
+So I'll come back down to the bake area and with ambient occlusion the selected bake this out as well
+
+09:08.520 --> 09:18.040
+but if I hit this now it would just clear what I already have and put the ambient occlusion right over
+
+09:18.040 --> 09:20.510
+it so I'd lose my normal map.
+
+09:20.560 --> 09:30.640
+So what I need to do is just create a new image click the plus change this to a character underscore
+
+09:30.700 --> 09:33.220
+a 0 for ambient occlusion.
+
+09:33.370 --> 09:39.280
+2048 is what I had before that's good and blank and click OK.
+
+09:39.520 --> 09:47.260
+So now there is the image I'll lay down for my ambient occlusion over here I need to change that image
+
+09:47.290 --> 09:49.840
+in the image texture node.
+
+09:50.080 --> 09:57.040
+So I'll change it to character a show instead of a.r And just for good measure I'll go ahead and save
+
+09:57.040 --> 09:57.360
+this.
+
+09:57.370 --> 10:03.630
+Out to the hard drive as character AOT.
+
+10:03.650 --> 10:06.390
+All right now I'm ready.
+
+10:06.440 --> 10:15.880
+I'll come over here to the back panel and just click back OK there is our ambient occlusion map and
+
+10:16.150 --> 10:23.220
+this is just a map that's baking out the contacts shadows of all the objects you can see them here.
+
+10:23.260 --> 10:26.530
+We need to remember to save the image.
+
+10:26.650 --> 10:28.600
+Go ahead and just click save image.
+
+10:28.640 --> 10:30.090
+Alt s.
+
+10:30.340 --> 10:31.310
+And there we go.
+
+10:32.430 --> 10:34.980
+We should probably go ahead and test these.
+
+10:34.980 --> 10:40.170
+Let's test these image maps in a game engine like unity.
+
+10:40.290 --> 10:46.260
+So I'm going to go ahead and come back here to the low poly character and just select it and I'll go
+
+10:46.260 --> 10:48.820
+to the third layer there.
+
+10:49.260 --> 10:58.710
+Let's just select it and I want to export this out as an FBI X. I'll go to a file export and I'll choose
+
+10:58.710 --> 11:08.140
+FDX and I'll be sure and choose a selected object because I only want to export out the low poly character
+
+11:08.860 --> 11:16.260
+and I'll call this baking test and export.
+
+11:16.270 --> 11:16.530
+All right.
+
+11:16.540 --> 11:18.360
+Let's open up unity now.
+
+11:19.000 --> 11:20.140
+OK here in Unity.
+
+11:20.140 --> 11:24.880
+I just need to import my character and my image maps.
+
+11:25.030 --> 11:33.730
+So all I need to do is just drag them in here's the folder where I save the FBI X the normal map and
+
+11:33.730 --> 11:35.470
+the ambient occlusion.
+
+11:35.470 --> 11:44.410
+I'll just take my X file and drag it into the assets window and then out grab my normal map and drag
+
+11:44.410 --> 11:54.700
+it in and my am going occlusion So to be able to see this I just need to take the character and drag
+
+11:54.700 --> 11:56.620
+it into the scene.
+
+11:56.620 --> 12:04.840
+I'll then zero with out in the inspector here in the position X Y and Z and with it select it I'll just
+
+12:04.840 --> 12:08.720
+hit the F key to frame it up.
+
+12:08.730 --> 12:12.970
+So there he is now over here in the material.
+
+12:13.140 --> 12:19.420
+I just need to bring in the normal map and the ambient occlusion.
+
+12:19.530 --> 12:24.990
+I'm going to zoom in a bit so we can see him just a little bit better so you can see we've got him in
+
+12:24.990 --> 12:29.420
+here with just a default shader on him.
+
+12:29.520 --> 12:38.670
+So I'll just drag in the normal map over here into the normal map slot and you can see it says this
+
+12:38.730 --> 12:46.930
+texture is not marked as a normal map fix now so I'll just click that and now you can see we should
+
+12:46.930 --> 12:49.390
+have our normal map information on our character.
+
+12:49.390 --> 12:59.220
+You can see that information from the shoulder armor there and then I'll also drag in the Amul occlusion
+
+12:59.280 --> 13:06.630
+map into the occlusion slot and that'll give us some contact shadows and there we go.
+
+13:06.660 --> 13:14.490
+Now we can see our high resolution information on our character will in the next part of the series
+
+13:14.640 --> 13:20.670
+we'll begin texture painting our character using Blender's texture painting tools as well as GIMP.

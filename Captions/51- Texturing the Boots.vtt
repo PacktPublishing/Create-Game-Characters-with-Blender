@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00.940 --> 00:06.710
+Well I've taken some time and worked on the little tunic here.
+
+00:06.760 --> 00:13.780
+Let me press alt Allt to center that up and zoom in and tumble around that you can see I've just tried
+
+00:13.780 --> 00:22.420
+to highlight the folds by painting on some shadow and some highlights here just to try and have the
+
+00:22.420 --> 00:27.860
+textures emphasize or be compatible with the normal map.
+
+00:27.910 --> 00:32.920
+I think today I'm going to work on the boots of the character down here.
+
+00:32.920 --> 00:37.300
+You can see I've got kind of a reference image here for the boots.
+
+00:37.300 --> 00:44.110
+These are not exactly the same of course but I like the different colors here I like the textures and
+
+00:44.110 --> 00:48.100
+the different shades between the boot and the straps.
+
+00:48.100 --> 00:52.650
+I'm going to switch back over to the other color palette that I was using.
+
+00:52.920 --> 00:58.560
+I'm on the cloth one now with these colors on the switch back over to the straps and metal one.
+
+00:58.660 --> 01:02.710
+And here are the colors that I used mainly for the leather.
+
+01:02.710 --> 01:08.220
+However now that I think about it I may just want to begin sampling new colors right off here.
+
+01:08.260 --> 01:10.130
+So let's go ahead and create a new palette.
+
+01:10.150 --> 01:13.090
+Let's do that because these colors aren't really doing it for me I think.
+
+01:13.090 --> 01:15.610
+I want to sample it right off of there.
+
+01:15.970 --> 01:22.660
+So I'm going to come over here and click the plus create a new palette and let's just call this boots.
+
+01:22.930 --> 01:28.340
+Right now I'm not going to need this texture on the brush or just get rid of that.
+
+01:28.710 --> 01:32.380
+And let's start picking some new colors here.
+
+01:32.380 --> 01:39.890
+I like this dark color on top of this boot over here where it's worn like that one.
+
+01:39.910 --> 01:45.100
+Let's see if I can get that one to hold the key down and see if I can find that color.
+
+01:47.060 --> 01:49.070
+How about that.
+
+01:49.090 --> 01:50.080
+That's kind of nice.
+
+01:50.080 --> 01:51.780
+Let's go with that.
+
+01:51.910 --> 01:55.050
+Let's look for a lighter color now in here.
+
+01:55.570 --> 01:58.750
+Maybe something in the range of here
+
+02:01.460 --> 02:02.710
+like that.
+
+02:03.120 --> 02:05.840
+Let's start working with those.
+
+02:05.870 --> 02:10.610
+So now even though I didn't want that particular texture on the brush I do think I am going to need
+
+02:10.610 --> 02:14.930
+a texture whether be image based or procedural.
+
+02:15.230 --> 02:17.830
+Here's a nice one let me go back to this one.
+
+02:18.260 --> 02:19.680
+That's kind of nice.
+
+02:21.150 --> 02:26.370
+Let's change the brush mapping to random.
+
+02:26.610 --> 02:28.530
+Let's increase the jitter a bit.
+
+02:28.530 --> 02:30.480
+Increase the spacing a bit.
+
+02:30.570 --> 02:34.970
+So we kind of lay it down in a relatively random way.
+
+02:36.660 --> 02:38.790
+We've got the dark color on here.
+
+02:38.790 --> 02:41.840
+Let's go ahead and mask this.
+
+02:41.860 --> 02:48.960
+I'll come down here to the face masking make sure that nothing selected with the key and I'll hover
+
+02:48.960 --> 02:51.490
+over that and hit the LP here.
+
+02:52.550 --> 02:58.910
+Let's try this and maybe even down here.
+
+02:59.100 --> 02:59.870
+So let's try this.
+
+02:59.870 --> 03:06.780
+I'll just draw that down and yeah you can see I'm getting some Yeah I'm getting some kind of blotching
+
+03:06.780 --> 03:08.070
+is there that's kind of good.
+
+03:08.070 --> 03:15.840
+Let me go find where the boot is I think this is it here.
+
+03:15.920 --> 03:16.780
+All right.
+
+03:16.970 --> 03:18.140
+So let's see what we can do.
+
+03:18.140 --> 03:24.350
+I'm going to increase the brush size and just do some random painting on here just to get kind of a
+
+03:24.350 --> 03:26.010
+worn look.
+
+03:32.110 --> 03:36.060
+I mean do some down here as well on the soul.
+
+03:36.080 --> 03:37.630
+Probably not going to see that ever.
+
+03:37.640 --> 03:38.860
+But that's OK.
+
+03:39.680 --> 03:41.150
+We know it's there.
+
+03:41.280 --> 03:42.050
+All right.
+
+03:42.140 --> 03:44.560
+So now we've got some of that dark color.
+
+03:44.570 --> 03:51.920
+Now let's go back to the light and I'm going to reduce the jitter reduce the spacing a bit and let's
+
+03:51.920 --> 03:53.240
+see what I can do with this.
+
+03:53.240 --> 04:00.120
+Now I'm just looking for a very light striations here.
+
+04:03.070 --> 04:08.250
+And some of this is going to be covered up by the straps and that's fine.
+
+04:09.540 --> 04:14.230
+But maybe try and emphasize some of the wrinkles going across here.
+
+04:15.410 --> 04:20.480
+And maybe scuff marks along the toes I'm seeing here
+
+04:27.150 --> 04:33.640
+let me bring that strength down a bit with shift F and pull out a bit to reduce the strength
+
+04:38.640 --> 04:42.380
+and then I'll try and highlight some of these areas as well.
+
+04:42.530 --> 04:49.010
+The wrinkles on the back.
+
+04:49.180 --> 04:49.450
+All right.
+
+04:49.450 --> 04:56.690
+So there we're beginning to get some of the texture on there some of that light scuff mark type of texture
+
+04:57.590 --> 05:05.560
+and I feel like I do need it up on top a bit maybe where he pulls on the boot and it gets worn a bit
+
+05:05.560 --> 05:06.440
+up here.
+
+05:08.690 --> 05:12.560
+So we've got that dark color and the light color.
+
+05:12.560 --> 05:17.660
+There's also this reddish that seems to be a different color than the base.
+
+05:17.660 --> 05:22.790
+Let me capture some of that right in here.
+
+05:23.120 --> 05:25.530
+And let's use this for this.
+
+05:25.530 --> 05:35.550
+I think I will increase the jitter a little bit more increase the spacing some and lay this down kind
+
+05:35.550 --> 05:37.870
+of wire like this.
+
+05:37.890 --> 05:39.750
+Let's try this and see how it works.
+
+05:44.200 --> 05:46.870
+All right let's take a look at creating these straps.
+
+05:46.870 --> 05:50.800
+I think I'm just going to go ahead and paint directly on.
+
+05:50.950 --> 05:54.060
+I might even create a new slot just in case.
+
+05:54.080 --> 05:56.600
+I kind of messed something up.
+
+05:56.770 --> 06:03.850
+So I'm going to go ahead and create a new texture slot right here and I'm going to do this just so I
+
+06:03.850 --> 06:10.020
+have more control I can adjust the blend mode and I can erase when I need to.
+
+06:10.210 --> 06:12.330
+And I'll just call this straps.
+
+06:12.370 --> 06:19.420
+And of course we need to be sure and change the alpha here and I click on the color swatch and take
+
+06:19.420 --> 06:21.610
+the alpha down all the way.
+
+06:21.820 --> 06:28.540
+So we're painting through it and can see the other layers beneath it.
+
+06:28.540 --> 06:30.670
+I think I've been using 2048.
+
+06:30.670 --> 06:31.660
+All right.
+
+06:32.350 --> 06:33.470
+Let's do that.
+
+06:34.520 --> 06:37.200
+And click OK.
+
+06:37.280 --> 06:40.230
+So here is my new paint Lehre.
+
+06:40.430 --> 06:47.740
+I'm going to switch back to my boots here and let's go back to the Tools tab and let me sample this.
+
+06:47.740 --> 06:54.720
+This looks a lot lighter or a little bit different than that other light color so I'll grab that.
+
+06:54.940 --> 06:58.460
+And let's come in here and see if we can do.
+
+06:58.790 --> 07:01.250
+Looks like the strength is a little too strong.
+
+07:01.250 --> 07:03.220
+I'll bring that down.
+
+07:03.310 --> 07:05.300
+And let's go in and try this.
+
+07:05.300 --> 07:10.760
+Yes I'm going to use this I think to work on these straps here.
+
+07:11.140 --> 07:13.540
+Again I don't know I'll be going down here.
+
+07:13.660 --> 07:28.810
+Let's see how what we can do with this.
+
+07:29.050 --> 07:31.240
+Yes I'm going to continue with this.
+
+07:31.240 --> 07:34.450
+I'm going to continue painting those straps.
+
+07:34.450 --> 07:43.000
+I'm also probably going to have to come in and do a little dark line shading to separate the strap from
+
+07:43.090 --> 07:44.650
+the rest of the boot.
+
+07:45.370 --> 07:50.680
+And I think I'll also be able to adjust the blend mode of the layer down here.
+
+07:50.680 --> 07:53.090
+I don't know we can try multiply.
+
+07:53.090 --> 07:54.770
+Now that's not going to work.
+
+07:55.010 --> 08:01.700
+About screen we can try some different types of overlays.
+
+08:01.790 --> 08:05.160
+That's not bad to see what we can get.
+
+08:06.390 --> 08:08.290
+That's not even too bad either.
+
+08:08.360 --> 08:13.060
+So I'll be working with these blend types as well.
+
+08:13.060 --> 08:20.530
+So I'll go ahead and begin working on this hopefully try and finish up the boot so we can move on to
+
+08:20.560 --> 08:22.970
+another part of the character in the next video.

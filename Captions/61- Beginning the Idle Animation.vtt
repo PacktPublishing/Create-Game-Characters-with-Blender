@@ -1,0 +1,376 @@
+WEBVTT
+
+00:00.850 --> 00:05.880
+Before we begin animating there are some housekeeping chores that I think we need to take care of here.
+
+00:05.890 --> 00:10.500
+The first thing I'll do is go straight over to the animation screen lay out.
+
+00:10.720 --> 00:16.700
+I'm just going to click here and go to animation and this will give me just kind of a nice screen play
+
+00:16.750 --> 00:20.500
+out with the dope she the graph editor.
+
+00:20.860 --> 00:26.530
+Of course you've got the timeline down here with blender as you know you can configure things any way
+
+00:26.530 --> 00:31.490
+you want but I think this is a nice screen layout to begin with as we animate.
+
+00:32.110 --> 00:34.720
+I've got this relationship line right here.
+
+00:34.720 --> 00:40.990
+I don't think I want that I'm going to press the End key and let me scroll down to the display area
+
+00:40.990 --> 00:48.840
+which is here and we can turn off relationship lines right here so that cleans that up a bit.
+
+00:48.850 --> 00:56.740
+Now I'm going to begin with an idle cycle just the cycle of animation that runs when the game character
+
+00:56.740 --> 00:59.090
+is doing nothing at all really.
+
+00:59.140 --> 01:04.660
+And I'll probably do that between frames 1 and 40.
+
+01:04.660 --> 01:07.920
+I'm going to begin with that and just see how that works.
+
+01:07.930 --> 01:14.080
+However what I want to do is I want a key the default pose here on zero.
+
+01:14.080 --> 01:21.340
+So I've got it on frame 1 here and just I'm going to scroll back to frame zero and I'll select one of
+
+01:21.340 --> 01:24.350
+the controls and hit the key to select everything.
+
+01:24.580 --> 01:33.070
+And now if I hit the I key on the keyboard I get the insert key frame menu and I can choose to insert
+
+01:33.070 --> 01:40.980
+key frames for just location just rotation or all of them combined here and I'm just going to do that.
+
+01:40.990 --> 01:48.130
+I'm going to key the location rotation and scale for everything here at frame zero.
+
+01:48.320 --> 01:52.670
+Just so I have it open this up just a bit swing and see.
+
+01:53.000 --> 01:58.220
+So now if I scroll down here you can see I've got a keyframe for every single thing on that on that
+
+01:58.220 --> 01:58.900
+rig.
+
+02:00.080 --> 02:01.980
+It's just something I like to do it.
+
+02:02.060 --> 02:10.520
+It isn't absolutely mandatory but I like to be able to have that default pose available to me if I want
+
+02:10.520 --> 02:18.110
+to come back and copy that because I'll be moving these animation cycles around on the timeline.
+
+02:18.110 --> 02:20.580
+All right so I'll go back to frame one here.
+
+02:20.620 --> 02:21.920
+There we go.
+
+02:22.520 --> 02:28.720
+And now that I've key framed everything I can turn on Otto keyframe here.
+
+02:28.970 --> 02:30.580
+And what that will do is.
+
+02:30.590 --> 02:38.360
+Now every time I move anything it will automatically create a keyframe for me on that frame for it to
+
+02:38.360 --> 02:38.720
+work.
+
+02:38.720 --> 02:42.860
+You need to keyframe something first.
+
+02:42.860 --> 02:46.330
+Now some of these controls I'm really not going to need.
+
+02:46.370 --> 02:55.430
+Like I've already rotated and placed the fingers around the objects so I'm not going to be using these
+
+02:55.430 --> 02:56.940
+controls any more.
+
+02:57.050 --> 02:58.550
+So I'd like to kind of hide them away.
+
+02:58.550 --> 03:06.840
+I think they're kind of kind of distracting if I'm going to select this control through the shield.
+
+03:06.940 --> 03:09.950
+I've got all this here and I don't want that.
+
+03:09.950 --> 03:18.590
+So if I select one of these controls Now let me open this up a bit go to my armature panel you can see
+
+03:18.590 --> 03:23.450
+that with this control selected this layer is highlighted.
+
+03:23.450 --> 03:30.890
+So if I shift click this that turns that layer off and hides those objects let me do the same thing
+
+03:30.890 --> 03:35.210
+with the finger controls here if I select that one.
+
+03:35.210 --> 03:36.540
+You can see there it is.
+
+03:36.560 --> 03:41.650
+And if I shift click that that hides that away as well.
+
+03:41.660 --> 03:42.200
+All right.
+
+03:42.290 --> 03:50.540
+So now if I come over here and take a look at it through the shield my hand controls don't clutter up
+
+03:50.750 --> 03:52.050
+the viewport.
+
+03:52.090 --> 03:52.350
+All right.
+
+03:52.370 --> 03:55.490
+Everything else I think I will probably need.
+
+03:55.490 --> 03:59.210
+Now I said I'd begin with frames 1 through 40.
+
+03:59.210 --> 04:03.410
+So let's go ahead and type in 40 here to the end.
+
+04:04.180 --> 04:09.470
+And now we can middle mouse button click and drag and frame this up.
+
+04:09.670 --> 04:12.820
+I can scroll the mouse wheel and zoom in a bit.
+
+04:12.820 --> 04:16.830
+So now I can just see frames 1 to 40.
+
+04:16.840 --> 04:22.490
+Now this may change I'm not sure if this is exactly what I'll be using but that's OK.
+
+04:22.900 --> 04:26.190
+Look how I can select the character and I don't want to do that.
+
+04:26.190 --> 04:30.850
+I want to only be able to select the control object for the rig.
+
+04:30.940 --> 04:37.570
+So I'm going to select the character I'll hover over the outliner and press the period key on the numpad
+
+04:37.600 --> 04:40.990
+and that zooms in to my selected object.
+
+04:40.990 --> 04:48.340
+And now I want to turn off the select ability here of my character and I want to do the same thing for
+
+04:48.340 --> 04:56.890
+the eyes for the hammer and the shield so that when I select things over here I don't accidentally select
+
+04:56.950 --> 05:02.160
+the object or the character I only select the control rig.
+
+05:02.410 --> 05:02.800
+All right.
+
+05:02.830 --> 05:04.670
+I think that's going to help.
+
+05:05.080 --> 05:13.900
+So the idol I'm going to select this control object and let's move it down just a little bit so he kind
+
+05:13.900 --> 05:18.850
+of takes the weight like this.
+
+05:18.980 --> 05:25.980
+I kind of want to have the hand controls come down as well so I'll shift select those and bring those
+
+05:25.980 --> 05:30.160
+down just a bit like that.
+
+05:30.170 --> 05:31.550
+There we go.
+
+05:31.750 --> 05:36.780
+I want to make sure his center of gravity is over his feet.
+
+05:36.880 --> 05:42.360
+So I'll go to my side view here and just make sure that it's right over those feet.
+
+05:42.370 --> 05:45.390
+I don't want him leaning forward too much.
+
+05:45.400 --> 05:54.400
+His hands don't need to be that far out and his feet could be a little bit more out toward the shoulders
+
+05:54.400 --> 05:55.370
+a bit I think.
+
+05:57.180 --> 06:01.480
+And I'll move these knees out of hair like that
+
+06:04.730 --> 06:15.000
+and I'll bring these in as and rotate them a bit and I'm just hitting G and moving them around a bit
+
+06:16.220 --> 06:19.900
+and now I need to counter key that hand as you recall.
+
+06:20.030 --> 06:22.820
+So I'll just bring that out like that.
+
+06:22.820 --> 06:25.920
+Maybe a move that head forward a little bit.
+
+06:25.920 --> 06:33.470
+I'm in the middle mouse button click and drag over here and I can see that my transformation orientation
+
+06:33.470 --> 06:40.290
+is in global I'm going to change that to local and switch to rotation here.
+
+06:41.930 --> 06:43.640
+Something like this.
+
+06:45.000 --> 06:50.920
+Is it a little bit more angry maybe maybe move the elbows out just a hair.
+
+06:50.930 --> 06:52.350
+See how that works.
+
+06:54.450 --> 07:00.360
+And maybe I'll also make his feet not quite as in line with each other maybe move one back a little
+
+07:00.360 --> 07:08.880
+bit and move one forward just a hair and I could also even rotate these so they're out just a little
+
+07:08.880 --> 07:13.020
+bit like that something like that.
+
+07:14.160 --> 07:19.830
+So going to go ahead and key everything here at this key frame so select one and hit the key to select
+
+07:19.830 --> 07:26.020
+everything and once again I'm going to hit and key the location rotation and scale.
+
+07:26.220 --> 07:31.400
+I'm not going to do that every time but I'm going to go ahead and do that at the first frame here.
+
+07:31.410 --> 07:31.680
+All right.
+
+07:31.680 --> 07:36.100
+So now he's going to need to stand there and breathe a little bit.
+
+07:36.120 --> 07:39.810
+And I'm not sure exactly how long that's going to be.
+
+07:39.810 --> 07:42.350
+I'm going to begin with 12 frames now.
+
+07:42.360 --> 07:45.470
+We're working with 24 frames a second here.
+
+07:45.510 --> 07:55.050
+I think it's easier to calculate the fractions of a second in 24 frames a second but so for this frame
+
+07:55.050 --> 08:01.690
+let's kind of have that chest control kind of rotate back as if he's breathing a bit.
+
+08:02.010 --> 08:09.260
+Let's see what happens if I just rotate this back a bit you kind of breathes a little bit like that.
+
+08:09.700 --> 08:12.420
+So now if I go back you can see he's kind of
+
+08:15.370 --> 08:28.290
+breathing like that and maybe let's take that chest keyframe which is right here in the dope sheet and
+
+08:28.300 --> 08:33.940
+we can duplicate this and move it forward to say frame 24 Let's try that.
+
+08:33.940 --> 08:42.040
+I'm going to press shift D and move the mouse and I'm going to move this up to around frame 24 like
+
+08:42.070 --> 08:44.990
+that.
+
+08:45.010 --> 08:46.980
+Now let's hit play and see what happens.
+
+08:51.370 --> 08:54.220
+Seems like a little bit too quick.
+
+08:54.220 --> 08:56.720
+I'm just trying to find the timing here.
+
+08:57.040 --> 09:04.570
+So if I select that keyframe on the dope sheet for the chest and also shift select this one and hit
+
+09:04.570 --> 09:13.610
+the G key and move these forward a bit maybe I'll go to 20 and 40 Let's go in and try that.
+
+09:15.380 --> 09:18.030
+And we go back to the beginning and hit play
+
+09:22.330 --> 09:23.970
+that feels a little better to me.
+
+09:23.980 --> 09:31.210
+And I'm also watching over here I've got this particular screen set up behind him as if we're seeing
+
+09:31.210 --> 09:33.070
+him in the game.
+
+09:33.070 --> 09:34.970
+All right let's try that.
+
+09:35.140 --> 09:38.770
+I could even I could even go a little bit further couldn't I.
+
+09:38.770 --> 09:39.580
+Let me try that.
+
+09:39.580 --> 09:48.910
+I'm going to go to frame sixty four for the range of my animation here.
+
+09:48.940 --> 09:52.360
+And so now let me zoom out a bit here.
+
+09:52.360 --> 09:53.800
+So now let's take these.
+
+09:53.800 --> 10:00.000
+I'm going to take this one and this one and I'm going to move it forward to about 30.
+
+10:00.230 --> 10:03.980
+And this one forward to about 60.
+
+10:04.110 --> 10:06.560
+Let's see what happens here just the timing of it.
+
+10:12.790 --> 10:15.120
+I don't know that feels a little better to me.
+
+10:15.130 --> 10:18.080
+What do you think.
+
+10:18.090 --> 10:21.740
+Let's give it a try in the next video.
+
+10:21.750 --> 10:26.510
+We'll continue with the idle animation and we'll talk more about the graph editor in tangents.

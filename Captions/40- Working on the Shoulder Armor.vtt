@@ -1,0 +1,403 @@
+WEBVTT
+
+00:00.550 --> 00:04.360
+Well let's continue with our U-V mapping here.
+
+00:04.420 --> 00:09.310
+I think the next thing I'd like to work on is this little tunic thing.
+
+00:09.310 --> 00:16.810
+So I'm going to tab into edit mode and I'll just hover over the little tunic and press the L key and
+
+00:16.810 --> 00:22.250
+that will select all the linked components of that particular piece of the object.
+
+00:22.600 --> 00:27.360
+I'm going to press shift H and isolate it and let me just take a look at this.
+
+00:27.640 --> 00:30.430
+Let's think about how we'd want to do this.
+
+00:30.470 --> 00:36.640
+Well since the belt is going to be a different object or a different texture on the object I should
+
+00:36.640 --> 00:37.280
+say.
+
+00:37.420 --> 00:45.460
+I think we probably want to go ahead and assign a seam to this edge all the way around.
+
+00:45.460 --> 00:52.090
+So I'm going to just press alt and click and then shift alt and click and select that edge all the way
+
+00:52.090 --> 00:53.120
+around.
+
+00:53.140 --> 00:55.500
+Just want to hit Z to see it.
+
+00:55.660 --> 01:06.750
+There we go and I'll press Z to get out of wireframe and I'll then go to Control E. and Mark seem all
+
+01:06.750 --> 01:06.950
+right.
+
+01:06.950 --> 01:13.340
+So that will break the belt part off from the little tunic thing.
+
+01:13.380 --> 01:20.660
+The next thing I want to do is I think I want to break out these pieces here the front and the back.
+
+01:20.660 --> 01:25.590
+I'm going to select this edge up here and then I'm going to control click this edge right down here
+
+01:25.590 --> 01:30.760
+and that'll select all the edges in between those two.
+
+01:30.870 --> 01:32.840
+Actually I think I want to go this way.
+
+01:32.840 --> 01:44.460
+I think I'll go this way and then come down around here and then I'll select this hedge and see if I
+
+01:44.460 --> 01:50.310
+can control click this edge and that should select that all the way up there.
+
+01:50.430 --> 01:57.900
+All right so let's break them piece off control easy mark seam and let's do the same thing for the back.
+
+01:57.900 --> 02:06.580
+I'll select this control select this and then I'll have to kind of piecemeal select these edges on around.
+
+02:06.930 --> 02:11.120
+OK now let's control e Markstein with that.
+
+02:11.250 --> 02:15.230
+Now we've got this piece to think about.
+
+02:15.230 --> 02:18.990
+I think it's going to be broken off into two pieces.
+
+02:18.990 --> 02:31.890
+Let's go ahead and select this edge on around here and Marcus seem to break out this bottom part control
+
+02:31.980 --> 02:35.940
+the mark seems so let's think about this.
+
+02:35.980 --> 02:37.430
+Is that going to do what we want.
+
+02:37.430 --> 02:41.830
+We're going to break out this bottom we've got a seam all the way around.
+
+02:41.940 --> 02:48.030
+We're going to break out these panels the front and the back and we're going to break out the side panels
+
+02:48.030 --> 02:52.160
+here and here as well as the belt.
+
+02:52.160 --> 02:52.540
+All right.
+
+02:52.550 --> 02:53.450
+Let's give it a try.
+
+02:53.450 --> 02:59.030
+I'm going to switch from my default screen layout over to the editing.
+
+02:59.240 --> 03:00.260
+And here we go.
+
+03:00.260 --> 03:05.550
+I'll select everything with the key press you and unwrap OK.
+
+03:05.550 --> 03:06.910
+Not too bad actually.
+
+03:06.930 --> 03:11.130
+I'm going to switch from conformal to angle Base see if we get any thing better.
+
+03:11.130 --> 03:16.560
+Yeah I like Angle baste better because this is more circular but what part is this.
+
+03:16.560 --> 03:23.740
+I think this is the belt right here that's giving us a little bit of stretching what we could do is
+
+03:23.740 --> 03:25.240
+split the belt out.
+
+03:25.300 --> 03:31.000
+We could try giving it a seam actually instead of giving it a seam in the back.
+
+03:31.240 --> 03:35.440
+Let's give it a seam in the front where the belt buckle is.
+
+03:35.590 --> 03:39.020
+And that belt buckle will help hide the seam.
+
+03:39.080 --> 03:46.120
+I'll hit a to select all you and unwrap and we go that opens it up some.
+
+03:46.600 --> 03:50.190
+Well let's take a look at it with the texture on it.
+
+03:50.290 --> 03:59.420
+I come over here to the viewport shading and select texture and there is our test pattern.
+
+03:59.450 --> 04:00.530
+It's not bad.
+
+04:01.470 --> 04:03.870
+We've got some stretching down here.
+
+04:05.380 --> 04:10.050
+We of course have that seam there and we've got some stretching down here.
+
+04:10.130 --> 04:14.750
+So is there anything we can do to alleviate the stretching down here.
+
+04:15.360 --> 04:15.950
+Oh no.
+
+04:15.950 --> 04:25.820
+How about if we select this visage here and add a seam right down here to just break it apart down here
+
+04:25.820 --> 04:30.430
+at the bottom we shouldn't be seeing this seemed too much down here.
+
+04:30.440 --> 04:32.390
+So let's do this.
+
+04:32.980 --> 04:36.250
+I'm going to hit the A key press you and unwrap
+
+04:39.080 --> 04:40.400
+doesn't really help us much.
+
+04:40.400 --> 04:41.900
+Look at that.
+
+04:41.970 --> 04:43.050
+All right.
+
+04:43.410 --> 04:46.840
+How about these edges here let's try this
+
+04:50.740 --> 04:55.630
+and work these seams and see if that helps us at all with that pulling.
+
+04:55.860 --> 05:00.050
+Well go ahead and test that yeah.
+
+05:00.200 --> 05:01.450
+That helped.
+
+05:01.450 --> 05:02.300
+Look at that.
+
+05:02.330 --> 05:10.880
+So adding a couple of seams down here to break that apart at the bottom really helps smooth out that
+
+05:10.880 --> 05:13.580
+stretching here on the front panel.
+
+05:13.910 --> 05:16.780
+So I'll do the same thing back here now.
+
+05:17.110 --> 05:27.600
+I'll go ahead and select this edge and this edge and control the marks seem.
+
+05:28.060 --> 05:29.990
+Now let's try that.
+
+05:30.370 --> 05:32.590
+Oh yeah that looks a lot better.
+
+05:32.590 --> 05:39.430
+I like that a lot better than the last thing is do I really want to straighten this out.
+
+05:39.460 --> 05:48.100
+I could straighten the movies out here in the movie Ed. So that this texture flows more smoothly or
+
+05:48.100 --> 05:51.780
+more evenly along that belt.
+
+05:51.820 --> 05:57.460
+It would be easier to texture if I were to texture it in Photoshop or GIMP.
+
+05:57.460 --> 05:59.680
+If this was straight.
+
+06:00.080 --> 06:02.050
+So let's take a look at doing that.
+
+06:02.230 --> 06:07.830
+I'm going to press control up arrow to maximize this screen.
+
+06:08.060 --> 06:11.790
+Now let's come in here and take a look at this particular piece.
+
+06:11.860 --> 06:14.830
+I'm going to go to edge mode right down here.
+
+06:15.930 --> 06:21.500
+And I'll select this edge with alt click.
+
+06:21.750 --> 06:28.320
+And now you can see I've selected that whole edge along there along the bottom and to straighten this
+
+06:28.320 --> 06:35.490
+out to flatten it so it straight I can come down here to Uvas go to this weld a line and you've got
+
+06:35.760 --> 06:43.950
+straighten X and align X or Y Either way I'm going to try a line Y and let's see what happens.
+
+06:45.230 --> 06:48.970
+Yeah that's what I want to see how it's just made it nice and straight.
+
+06:48.980 --> 06:55.250
+Now I'm going to go through and do the same thing for all these others here press alt and click press
+
+06:55.400 --> 07:03.650
+w which is that shortcut for the world align menu and press align Y and that'll straighten that one
+
+07:03.650 --> 07:04.700
+out.
+
+07:04.700 --> 07:14.810
+I'll select the next one alt click w a line y alt click w align Y and just keep going here.
+
+07:15.160 --> 07:18.560
+All right so now we've got the horizontal edges straight.
+
+07:18.560 --> 07:25.430
+Now let's work on these vertical ones I'll just select each one of these w and this time I'll use a
+
+07:25.430 --> 07:29.190
+line X and that will just straighten those up.
+
+07:31.820 --> 07:32.300
+All right.
+
+07:32.310 --> 07:38.670
+So there they are this main part of the belt here is nice and blue and that's what we want.
+
+07:38.670 --> 07:38.940
+All right.
+
+07:38.940 --> 07:42.120
+Let's take a look at another part of the model in the press.
+
+07:42.120 --> 07:44.650
+All it takes to bring everything back.
+
+07:44.850 --> 07:46.930
+So we've got that piece done.
+
+07:47.340 --> 07:50.030
+Let's take a look at this shoulder piece.
+
+07:50.100 --> 08:00.780
+I think I'll need to break it out along here and press alt and click and I think I'm just going to have
+
+08:00.780 --> 08:02.430
+to follow this around
+
+08:06.570 --> 08:09.220
+the path of the armor here.
+
+08:09.660 --> 08:17.880
+So anywhere it meets with the skin of the character or the belt I'm going to go ahead and select an
+
+08:17.880 --> 08:18.720
+edge there.
+
+08:22.460 --> 08:29.930
+All right so now I have that edge selected all the way around I'll press control me and Mark seam and
+
+08:29.930 --> 08:38.050
+let's go take a look at this in the U-V editor come over here and go to the editing screen lay out and
+
+08:38.110 --> 08:40.730
+let's see what we can see here.
+
+08:40.750 --> 08:46.540
+I'm going to select this I'm going to hover over this and press the L key and then I'm going to change
+
+08:46.540 --> 08:54.270
+how I select linked from material back to seam and that we'll just select that piece.
+
+08:54.570 --> 09:02.850
+And now I think what I want to do is press shift H and that will hide everything except that one piece
+
+09:02.880 --> 09:07.660
+and I'm going to frame it up with the period key on the numpad.
+
+09:07.710 --> 09:08.720
+So here it is.
+
+09:08.730 --> 09:14.040
+I think what I'm going to do first is just press the key and unwrap and let's just see what we get.
+
+09:14.040 --> 09:15.700
+How ugly is it.
+
+09:16.410 --> 09:18.660
+Fairly ugly.
+
+09:18.660 --> 09:26.130
+There's some stretching up here that I don't like in here isn't too much of a concern for me because
+
+09:26.130 --> 09:28.610
+that's going to be near the neck of the character.
+
+09:28.610 --> 09:31.230
+You're not going to be able to see that very well.
+
+09:31.230 --> 09:38.710
+I think when I'd like to try is splitting off this vertical piece from the rest of the shoulder armor.
+
+09:38.970 --> 09:42.900
+I think maybe I can split this piece out completely right here.
+
+09:42.900 --> 09:52.920
+I just used Allt select to grab that whole edge and I'll press control me and Mark seam and then maybe
+
+09:52.920 --> 10:00.290
+I think I'll select this edge and this and come on around here and then we try and break this out.
+
+10:00.290 --> 10:03.000
+I'm not sure that this will work.
+
+10:03.150 --> 10:06.640
+It's good to try control easy mark see.
+
+10:06.870 --> 10:12.600
+So I'm thinking that I can break this piece out and that won't be too much of a problem because I've
+
+10:13.020 --> 10:20.490
+made I think the texture have seams or ridges along this area so I don't think that will be too much
+
+10:20.490 --> 10:22.020
+of a problem we'll see.
+
+10:22.020 --> 10:26.410
+I'll press the A key to select everything press you and unwrap.
+
+10:26.580 --> 10:29.000
+Yeah that breaks it out a little bit better.
+
+10:29.160 --> 10:33.440
+Breaks it down into multiple pieces.
+
+10:33.690 --> 10:37.570
+And I think that might be the way we have to do it.
+
+10:38.040 --> 10:49.390
+Let's go back to our default screen lay out I will press alt h to bring everything back and so far.
+
+10:49.510 --> 10:55.740
+Let's go to a viewport shading texture and so far here's what we have.
+
+10:55.900 --> 11:04.520
+We've got the shoulder armor the tunic the belt belt buckle the leg and the gauntlet.

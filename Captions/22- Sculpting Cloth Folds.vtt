@@ -1,0 +1,493 @@
+WEBVTT
+
+00:00.550 --> 00:05.200
+Well I've got the glove fairly well set up here.
+
+00:05.620 --> 00:11.440
+I think what I'd like to do now is to work on this toga I've brought in an image here just an image
+
+00:11.440 --> 00:19.910
+I found on the Internet of just cloth wrinkles kind of hanging down from a circular structure here.
+
+00:19.910 --> 00:26.530
+I don't exactly know what this is of but I think it could be helpful here just to get these kinds of
+
+00:26.530 --> 00:28.650
+wrinkles.
+
+00:28.690 --> 00:36.130
+Here's the image from my reference drawing then I'm just going to begin working on maybe this front
+
+00:36.130 --> 00:37.440
+piece here.
+
+00:37.480 --> 00:47.420
+Now I've got the character on Layer 1 right here and I've got the clothes and accessories here on Layer
+
+00:47.420 --> 00:48.110
+2.
+
+00:48.280 --> 00:52.210
+So I'll just work with layer 2 for now I think.
+
+00:52.210 --> 01:00.700
+In addition I could also select this and isolated with shift H.
+
+01:00.830 --> 01:07.900
+And so now we're just dealing with this piece alone that might be useful here at the beginning.
+
+01:08.020 --> 01:15.550
+So I'll hit the period key on the numpad to frame that up so the center of my tumble here is at that
+
+01:15.610 --> 01:18.910
+piece of geometry and let's test this out.
+
+01:18.910 --> 01:28.600
+So once again if I add a subdivision surface modifier just to test how this is going to look I can see
+
+01:28.600 --> 01:35.810
+that if I increase the view to two I get it it's kind of curvy here on the corners.
+
+01:35.920 --> 01:43.420
+I'll also hit smooth over here on the Tools tab under shading tab into edit mode and press control are
+
+01:43.420 --> 01:49.700
+to insert an edge loop here and I'll drag it down just a bit like that.
+
+01:49.990 --> 01:58.930
+And I'll also do the same thing over here like this and drag it to the in there and maybe one over here
+
+01:58.930 --> 01:59.670
+as well.
+
+02:02.520 --> 02:07.670
+So that tightens up those corners just a little bit better.
+
+02:07.860 --> 02:11.090
+In addition maybe I should do one up here at the top.
+
+02:12.480 --> 02:15.090
+Like so.
+
+02:15.130 --> 02:17.560
+So let's try this.
+
+02:17.770 --> 02:20.850
+Let's go to the sculptor mode here.
+
+02:21.780 --> 02:31.440
+And I'll go ahead and remove the subdivision surface modifier and let's go ahead and add multi resolution
+
+02:31.680 --> 02:36.870
+modifier and I'll subdivide it several times.
+
+02:36.870 --> 02:43.450
+Let's go let's go and go with 4 right up front and see what that does for us.
+
+02:43.530 --> 02:49.870
+I want to make sure that the curve graph here is on the default one.
+
+02:50.080 --> 02:51.670
+Yeah it looks good.
+
+02:52.320 --> 02:55.320
+And let's just start testing this out.
+
+02:55.770 --> 02:59.150
+So if I laid down a stroke here how does that look.
+
+02:59.980 --> 03:07.300
+OK but I've got the mirror on I've got the X mirror on and I don't think I need that for this.
+
+03:07.300 --> 03:15.640
+So I come down here to symmetry lock and I'll just turn this off I'll turn off the X mirror because
+
+03:15.640 --> 03:21.240
+I don't want it to be exactly symmetrical for something like this.
+
+03:21.250 --> 03:25.840
+All right so back up here I'll increase the strength of BET and let's give this a try.
+
+03:25.840 --> 03:31.500
+So here is how it's going to look and that doesn't look too bad.
+
+03:31.540 --> 03:38.320
+In addition I think I may come over here to the smooth stroke and let's test this out.
+
+03:38.320 --> 03:44.250
+I want to be able to draw fairly straight lines here.
+
+03:44.650 --> 03:48.840
+So I'll just start from the top just draw straight down.
+
+03:48.870 --> 03:53.680
+I think I'll hold the control key down and drag along here.
+
+03:53.950 --> 04:04.130
+So I get a cut in right next to that bulge out and then for the next two and I'll bulge it out a bit.
+
+04:04.170 --> 04:05.400
+Try this at
+
+04:12.830 --> 04:13.750
+or when you go
+
+04:16.820 --> 04:23.750
+and now I will try and get an edge up right here along the side of it.
+
+04:25.560 --> 04:26.870
+I like that.
+
+04:27.340 --> 04:32.200
+I think I'll bring back everything else and go back to object mode here.
+
+04:32.380 --> 04:42.430
+Increase the preview up to four and I'll press alt h to bring these back and maybe even bring back the
+
+04:42.430 --> 04:43.070
+character here.
+
+04:43.090 --> 04:47.940
+Let's do that just to get a sense of what we're doing here.
+
+04:48.010 --> 04:51.490
+I think I need a little bit more information.
+
+04:51.490 --> 04:57.290
+This doesn't give me what the Cluff looks like at the bottom here I think what I'll do.
+
+04:57.460 --> 05:01.780
+I've got another reference image here.
+
+05:01.810 --> 05:02.460
+Try this.
+
+05:02.470 --> 05:04.430
+Let's take a look at this.
+
+05:04.480 --> 05:05.200
+This one here.
+
+05:05.200 --> 05:10.060
+Cloth one it's got more information about what happens at the bottom of the cloth here someone open
+
+05:10.060 --> 05:11.620
+this one up as well.
+
+05:11.770 --> 05:15.340
+Maybe zoom in on this stuff down here.
+
+05:16.000 --> 05:16.570
+Yeah.
+
+05:16.630 --> 05:22.120
+I just always need some sort of a reference to help me.
+
+05:22.180 --> 05:26.650
+It's very difficult for me to do things right out of my head.
+
+05:26.740 --> 05:36.600
+It looks to me like the wrinkles are the creases get deeper as the cloth comes down to the bottom.
+
+05:36.610 --> 05:39.740
+So I need to keep that in mind I think as well.
+
+05:39.790 --> 05:42.160
+So let's continue here.
+
+05:42.160 --> 05:52.030
+I'm going to adjust the size of my brush here and maybe what I'll do is as I begin up at the top I'll
+
+05:52.120 --> 06:00.760
+have a light stroke and then maybe kind of really hunkered down as I get closer to the bottom like this
+
+06:02.210 --> 06:03.360
+like that.
+
+06:03.670 --> 06:06.250
+And I'll try and do the same thing here.
+
+06:06.330 --> 06:13.410
+I'll hold the control key and do a light stroke and then really push down as I get near the bottom.
+
+06:14.800 --> 06:22.270
+Yeah I think that's looking a little bit better so it's that change in pressure on the tablet that I
+
+06:22.270 --> 06:23.680
+think is going to help.
+
+06:24.100 --> 06:27.920
+So I'll continue with this all begin up here.
+
+06:27.970 --> 06:31.390
+Maybe I'll change the width start up here at the top.
+
+06:31.390 --> 06:35.340
+Very lightly.
+
+06:35.530 --> 06:44.040
+And then as I come down or really push down something like that and we go I think that's looking a little
+
+06:44.040 --> 06:44.570
+bit better.
+
+06:44.570 --> 06:46.410
+I like that.
+
+06:46.410 --> 06:48.810
+And I'll work on crease here.
+
+06:48.810 --> 06:54.700
+I'll do it very lightly up here and then really push it in as I get down here.
+
+06:56.010 --> 06:56.550
+Yeah.
+
+06:56.940 --> 06:57.330
+OK.
+
+06:57.330 --> 07:04.720
+So that's helping I think and with the strength how I'm getting a stronger stroke as I push in harder.
+
+07:04.900 --> 07:07.000
+I've got this turned on right here.
+
+07:07.150 --> 07:12.090
+So enabling the tablet pressure sensitivity for strength.
+
+07:12.400 --> 07:16.510
+I don't have it for radius and that's something that I could try.
+
+07:16.510 --> 07:23.530
+So as it gets down to the bottom of the cloth maybe the width of the fold gets bigger as well we can
+
+07:23.530 --> 07:34.170
+try that so I'll turn that on LIT's turn on smooth stroke and I'll begin up here very lightly and then
+
+07:34.170 --> 07:40.800
+as I push down you can see the width of the stroke get bigger with the serve as the circle gets bigger
+
+07:40.800 --> 07:41.910
+there.
+
+07:42.600 --> 07:45.370
+So yeah that's kind of kind of nice.
+
+07:46.870 --> 07:53.440
+Let's do that with cutting in as well so all we do this and what I'll do is I'll cut in holding the
+
+07:53.440 --> 07:55.720
+control key right up here.
+
+07:56.150 --> 08:04.100
+It Down and you can see as I push a little bit harder that circle gets a little bit bigger it down like
+
+08:04.100 --> 08:07.260
+that we go.
+
+08:07.500 --> 08:13.920
+So there we have our cloth tunic thing on the front to bring everything back.
+
+08:13.920 --> 08:20.960
+I need to go back to object mode then press alt H and bring everything back.
+
+08:20.980 --> 08:21.360
+All right.
+
+08:21.360 --> 08:22.750
+So we have that.
+
+08:22.980 --> 08:24.100
+It's not too bad.
+
+08:25.530 --> 08:33.090
+Now let's go around to the back and do this one here so I'll select just this one shift h to isolate
+
+08:33.250 --> 08:38.580
+and press the period key on the numpad to zoom in.
+
+08:39.630 --> 08:42.100
+And let's work on this one.
+
+08:42.330 --> 08:47.220
+Once again I need to tab into edit mode and add some edge loops will do that.
+
+08:47.220 --> 08:52.080
+I'll add one here so that'll kind of help hold those edges.
+
+08:52.410 --> 08:57.740
+I'll add a modifier a multi resolution modifier here.
+
+08:58.760 --> 09:02.150
+And let's take the subdivision level up pretty high.
+
+09:02.150 --> 09:05.600
+Once again I think it four was what I had it before.
+
+09:05.830 --> 09:09.670
+And let's click on smooth shading to make sure we have that.
+
+09:09.890 --> 09:10.400
+And there we go.
+
+09:10.400 --> 09:11.560
+That looks pretty good.
+
+09:11.600 --> 09:13.810
+So let's go through the same process here.
+
+09:13.910 --> 09:22.000
+I'm going to go back to sculpt mode and with the pressure sensitivity turned on for both of these both
+
+09:22.000 --> 09:29.990
+the radius and the strength I will come in here and start creating some more wrinkles.
+
+09:29.990 --> 09:30.470
+All right.
+
+09:30.470 --> 09:35.420
+So let me make the brush a little bigger and I'll begin right up here.
+
+09:35.480 --> 09:47.870
+Gently lightly doing this and then are really hunkering down as I get to the bottom and I'll cut in
+
+09:47.870 --> 09:51.430
+on the sides with that holding the control key down.
+
+09:55.620 --> 09:57.520
+And I'll do the same thing over here.
+
+09:57.740 --> 09:59.190
+Maybe a little bit bigger this time
+
+10:09.240 --> 10:16.430
+and I'll just continue doing this and try and build these up build the wrinkles up for this piece of
+
+10:16.430 --> 10:19.070
+cloth as well.
+
+10:19.070 --> 10:19.540
+All right.
+
+10:19.550 --> 10:25.750
+So we've got that let's go back to object mode here and bring everything back with old age.
+
+10:25.760 --> 10:31.030
+And so we've got our back and our front here.
+
+10:32.510 --> 10:37.500
+Let's now work on this piece here.
+
+10:38.000 --> 10:41.910
+Let's go ahead and add a multi resolution modifier.
+
+10:43.030 --> 10:51.620
+We can also smooth it over here under the Tools tab and let's increase it again maybe two subdivision
+
+10:51.620 --> 11:02.780
+for here I'm going to press alt H and I want to select this and the front and the back.
+
+11:03.150 --> 11:07.150
+And now it's hide everything else with shift date.
+
+11:07.650 --> 11:13.740
+And now I can see what it is I need to do and what is I I don't need to do because I don't need to work
+
+11:13.740 --> 11:17.640
+on what's under here so I'll just select this one.
+
+11:18.660 --> 11:20.570
+And let's go to sculpt mode.
+
+11:22.210 --> 11:32.690
+And we go and let's start creating the wrinkles here so I press the F key to change the radius.
+
+11:32.690 --> 11:35.180
+I'll turn on pressure sensitivity.
+
+11:35.650 --> 11:40.860
+Let's change the smooth stroke.
+
+11:41.230 --> 11:46.560
+Let's increase the radius and increase the radius and see if that changes anything.
+
+11:47.510 --> 11:49.580
+That'll extend to that line.
+
+11:49.580 --> 11:56.280
+So we have a little bit more time to play before it begins sculpting there.
+
+11:56.850 --> 12:05.360
+Let's try this is going to do some basic sculpting on the here to get it push out.
+
+12:06.530 --> 12:09.090
+And then I'll go back in and do the cutting.
+
+12:11.420 --> 12:12.730
+With the control key.
+
+12:12.770 --> 12:14.900
+But for right now I'm just going to try this.
+
+12:14.900 --> 12:20.710
+I'm just changing the brush size periodically changing how hard I push down.
+
+12:22.380 --> 12:27.100
+Just to try and get these to look a little more like cloth.
+
+12:27.120 --> 12:27.800
+Here we go.
+
+12:27.800 --> 12:28.090
+OK.
+
+12:28.100 --> 12:29.470
+That looks pretty good.
+
+12:29.600 --> 12:33.000
+I'll continue over here on this other side same kind of thing.
+
+12:33.210 --> 12:40.380
+Before I go in and cut it in with the control key I'll just get all the ridges that push out
+
+12:46.510 --> 12:47.570
+and then we go.
+
+12:47.620 --> 12:47.980
+All right.
+
+12:47.980 --> 12:50.040
+That's looking pretty good.
+
+12:50.050 --> 12:57.560
+Let's go back and cut in on a few of these to deepen the creases a little bit.
+
+12:57.610 --> 13:06.770
+So I'll go down to a smaller brush here and press control and just begin cutting in some of the like
+
+13:06.800 --> 13:12.690
+that.
+
+13:12.720 --> 13:13.250
+All right.
+
+13:13.290 --> 13:16.710
+So we've got our tunic pretty much done.
+
+13:16.710 --> 13:21.700
+Let's go back to object mode and press alt H.
+
+13:22.190 --> 13:23.070
+And there we go.
+
+13:23.070 --> 13:28.620
+So we've got our cloth tunic looking pretty good there.
+
+13:30.470 --> 13:36.800
+I think the next task will be to work on the belts and straps and maybe try and mirror some of this
+
+13:36.800 --> 13:41.650
+seam work here on those belts and straps and stuff.
+
+13:41.810 --> 13:43.860
+So we'll see if we can do that next time.

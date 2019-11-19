@@ -1,0 +1,412 @@
+WEBVTT
+
+00:00.670 --> 00:06.100
+Well we're getting now to the more difficult parts of our U-V mapping.
+
+00:06.130 --> 00:14.470
+I'm going to switch over to the texture view and this is what we've done so far we've done the shoulder
+
+00:14.480 --> 00:17.420
+the tunic the glove and the leg.
+
+00:18.130 --> 00:27.370
+I'm probably going to be mirroring these over the glove the leg here so I'm not doing the other side
+
+00:27.370 --> 00:32.190
+right now but what I'd like to do now is these straps.
+
+00:32.210 --> 00:35.040
+Let's see what it's going to take to get these done.
+
+00:35.140 --> 00:42.160
+So I'm going to go ahead and select him and I'll go back to solid view here and let's figure out what
+
+00:42.160 --> 00:47.460
+kind of seams we need to mark for this.
+
+00:47.710 --> 00:54.550
+I'm going to try and press Allt and select this edge right here and that looks like it goes all the
+
+00:54.550 --> 00:56.530
+way down to here.
+
+00:56.620 --> 01:03.830
+Continue with it and shift and clicking here and that looks like it goes all the way around there so
+
+01:03.830 --> 01:06.240
+let's go ahead and mark a seam there.
+
+01:08.310 --> 01:16.890
+And I'll try the same thing down here Allt and select And let's see how far that goes right about to
+
+01:16.930 --> 01:28.720
+here and I'll press alt and shift and see what I can add to it like that and then down here like this.
+
+01:28.870 --> 01:30.460
+All right I've got that.
+
+01:30.580 --> 01:33.920
+Press Control E and Mark seam.
+
+01:33.960 --> 01:38.040
+Now let's come over here and let's work on the seam here.
+
+01:38.210 --> 01:41.170
+I'll press alt and click.
+
+01:41.170 --> 01:42.760
+That doesn't take me very far.
+
+01:42.760 --> 01:46.890
+How about let's continue on down here.
+
+01:47.450 --> 01:55.130
+I'm just pressing alt and shift and then I'll press control E and Mark seem all right we've got those
+
+01:55.130 --> 01:59.590
+seams marked looks good Let's come around here and do that to the back.
+
+02:00.550 --> 02:10.060
+I'll select this one and this one looks like that connected up so I'll press control E and Mark seam.
+
+02:10.270 --> 02:11.660
+And how about over here.
+
+02:11.680 --> 02:21.990
+Let's try this what I want to do is select this whole area with the L key and then we go and for Selecta
+
+02:22.010 --> 02:28.630
+linked I'll come back up here for material so that selects that entire torso.
+
+02:29.330 --> 02:33.350
+And now press shift h to hide all of that.
+
+02:33.470 --> 02:38.130
+So I can work on this a little better and see if we're getting all the edges.
+
+02:38.270 --> 02:39.560
+So this helps.
+
+02:39.920 --> 02:43.400
+Yeah I'll go ahead and re Mark this seam here now.
+
+02:45.280 --> 02:46.970
+And I'll do the same over here.
+
+02:52.270 --> 02:55.350
+You know Rigaud Let's try it.
+
+02:55.350 --> 03:00.550
+What I want to do is I'm going to hover over the strap and press the L key again but this time I'm going
+
+03:00.550 --> 03:06.100
+to switch back to choosing it or limiting it by the seam.
+
+03:06.190 --> 03:09.880
+And there we have just the strap.
+
+03:09.880 --> 03:10.370
+All right.
+
+03:10.390 --> 03:13.650
+Let's go over to our U-V editing view here.
+
+03:14.970 --> 03:21.440
+And with this selected press you and unwrap
+
+03:24.880 --> 03:28.200
+what do you think of that that's not too bad actually.
+
+03:28.750 --> 03:31.970
+I'm a little surprised at how well that turned out.
+
+03:33.690 --> 03:35.540
+It looks pretty good.
+
+03:35.580 --> 03:35.930
+All right.
+
+03:35.940 --> 03:38.690
+Let's go ahead and work with that.
+
+03:38.700 --> 03:46.380
+So now what we can do is begin selecting these areas down here that have been marked out by the seams.
+
+03:46.380 --> 03:48.000
+We just did.
+
+03:48.180 --> 03:53.250
+Let's take this now and press you and unwrap and see how that works.
+
+03:53.250 --> 03:55.520
+That's not bad.
+
+03:55.540 --> 03:57.960
+All right.
+
+03:59.350 --> 04:00.440
+The next one.
+
+04:00.580 --> 04:02.700
+Let's take a look at this right here.
+
+04:02.700 --> 04:06.080
+I think we're going to have to do something with this.
+
+04:06.160 --> 04:12.760
+We can't leave the arm or the glove here connected so I better split this off.
+
+04:12.850 --> 04:19.630
+I'm going to select this edge with all click and then I'll press control E and this time I'll choose
+
+04:20.050 --> 04:29.910
+edge split just to separate that from the rest of the torso and then I'll select this piece here.
+
+04:30.830 --> 04:32.610
+And let's just try and unwrap this.
+
+04:32.610 --> 04:39.330
+Actually I think what I'm going to need to do is create a seam right in here right underneath the arm
+
+04:40.290 --> 04:41.650
+actually right here.
+
+04:41.730 --> 04:45.120
+I'll choose alt and click that scene right there.
+
+04:45.120 --> 04:50.490
+And I don't need it to come all the way over so I'll de-select these.
+
+04:50.550 --> 04:57.070
+We've already got the belts done so I don't need that now press control.
+
+04:57.090 --> 04:59.640
+Me and Mark seem.
+
+05:00.240 --> 05:01.710
+And we go.
+
+05:02.160 --> 05:09.940
+Now if I hover over this and press l I'll press you and unwrap.
+
+05:10.190 --> 05:12.610
+That's not too bad either.
+
+05:12.650 --> 05:13.910
+All right.
+
+05:13.910 --> 05:22.020
+Now the next part this is the more complex part that we're going to have to actually think about.
+
+05:22.020 --> 05:29.930
+I'm going to come back to the default view here and let's think a little bit about this.
+
+05:30.190 --> 05:36.010
+Well we know we're going to need a seam down here just like we had for this arm.
+
+05:36.040 --> 05:41.000
+We know we're going to need a seam down here like this.
+
+05:41.300 --> 05:45.090
+Maybe let's make it more like this.
+
+05:45.090 --> 05:47.560
+There we go like that.
+
+05:47.570 --> 05:52.760
+All right so we know we've got that underneath the arm Let's go ahead and mark that scene.
+
+05:53.210 --> 05:59.450
+We probably are going to need to split this head off like this as much as I don't want to since this
+
+05:59.450 --> 06:04.640
+is all a continuous space or would be a continuous texture.
+
+06:04.640 --> 06:13.540
+I hate to break that up for fear of having a visible seam but I'm not seeing at least right now another
+
+06:13.540 --> 06:15.080
+way of doing that.
+
+06:15.220 --> 06:17.730
+Actually before I do that let's just test this.
+
+06:17.740 --> 06:24.010
+I'm going to go back to my U-V editing view and I'm going to hover over this and press.
+
+06:24.030 --> 06:25.840
+Well let's just test it.
+
+06:25.840 --> 06:26.370
+I'm depressed.
+
+06:26.380 --> 06:37.030
+You and unwrap not great not great look at the way the head just collapses in there.
+
+06:37.030 --> 06:39.610
+So that's going to have to be broken out.
+
+06:39.640 --> 06:39.970
+All right.
+
+06:39.970 --> 06:45.640
+So it doesn't look like I'm going to get away with just that seem on this.
+
+06:45.640 --> 06:47.200
+So let's go ahead and try this.
+
+06:47.200 --> 06:55.300
+I'm going to select this team now and I'll go ahead and select it all the way around to here and here.
+
+06:55.300 --> 07:03.260
+All right so Mark seeing him do that and then probably back here.
+
+07:04.060 --> 07:13.030
+I'm going to select this and then control click on up to here like that.
+
+07:13.030 --> 07:15.520
+Bring that seam up here.
+
+07:16.170 --> 07:17.400
+Maybe not that high.
+
+07:17.400 --> 07:26.700
+And usually for a head like this you want kind of a T shape may be coming off like this and maybe they
+
+07:26.700 --> 07:28.350
+could connect up with the ears.
+
+07:28.350 --> 07:35.460
+Let's just test that control e Mark seem all right so with those seams select let's just hover over
+
+07:35.460 --> 07:41.960
+the head and select that and let's just test these particular seams on a press you and unwrap.
+
+07:42.510 --> 07:48.750
+And that's a little better so we can begin to see the face on here.
+
+07:48.750 --> 07:54.660
+I'm going to go ahead and select all of this with the eight key and press R and rotated a bit just to
+
+07:54.660 --> 08:01.440
+try and line up those texture pattern just so I can see it and take a look at this and see if there's
+
+08:01.680 --> 08:04.870
+a whole lot of stretching is not bad on the face.
+
+08:04.980 --> 08:10.350
+And we've got the ears that are pretty stretched so it looks like we're going to have to select the
+
+08:10.350 --> 08:13.020
+seams for the ears around here.
+
+08:13.780 --> 08:16.550
+Like this.
+
+08:16.760 --> 08:24.740
+I'll go ahead and mark seem so I'll hover over the ear and press the L key and the head and press the
+
+08:24.920 --> 08:27.600
+key and let's try these again.
+
+08:27.620 --> 08:31.540
+I'll unwrap this and see how the ear breaks out.
+
+08:32.440 --> 08:39.470
+That breaks out kind of oddly we're going to need a seam there as well maybe a seam would be best down
+
+08:39.530 --> 08:42.880
+underneath the ear where we wouldn't see it very well.
+
+08:43.280 --> 08:46.610
+You always want to hide those seams whenever you can.
+
+08:47.160 --> 08:48.440
+So let's try this
+
+08:51.730 --> 08:57.050
+and we go and try that again you and unwrap.
+
+08:57.300 --> 08:58.860
+That's better.
+
+08:58.860 --> 09:00.570
+That's looking pretty good for the ear.
+
+09:00.570 --> 09:04.220
+I'll go ahead and do that same thing for the ear over here.
+
+09:07.950 --> 09:09.880
+All right with that ear mark.
+
+09:09.930 --> 09:13.070
+Let's go ahead and unwrap this see how it works.
+
+09:14.100 --> 09:15.990
+That is not looking too bad.
+
+09:17.700 --> 09:22.290
+There is a bit of stretching here around the face.
+
+09:22.290 --> 09:28.580
+These are a little bit bigger than the rest of the head.
+
+09:28.620 --> 09:33.000
+One way that we might be able to alleviate that is a seam down here.
+
+09:33.000 --> 09:35.730
+I'm not sure I want to do it but I'm going to try it and see
+
+09:38.460 --> 09:42.510
+what's Markis seem right here and try this
+
+09:46.460 --> 09:48.660
+a little bit better.
+
+09:48.720 --> 09:55.950
+I'm not sure I like the fact that these textures are a little bit smaller than the rest of the torso
+
+09:56.970 --> 10:03.130
+but I can always arrange them and scale them in the U-V Ed. We're getting there.
+
+10:03.450 --> 10:08.490
+I'm not totally happy with it yet but what we can do is we can test this.
+
+10:08.490 --> 10:14.490
+What I'm going to do is select everything just with the A key and I'm going to come over here and with
+
+10:14.490 --> 10:18.920
+the A key select everything to make sure all the U-V islands are selected.
+
+10:19.470 --> 10:26.370
+And then if you come down here to Uvas you can see you've got this average Island scale and pack islands.
+
+10:26.370 --> 10:32.340
+So average Island scale will make all of these proportionally the size that they are and the 3-D view
+
+10:32.940 --> 10:38.530
+and then pack islands will pack it all into the UV-A edited here all into this square.
+
+10:38.550 --> 10:42.110
+So what I'll do is I'll press control a.
+
+10:42.280 --> 10:45.220
+And that makes everything about the same size.
+
+10:45.220 --> 10:49.470
+And then I'll press control P and pack it in.
+
+10:49.480 --> 10:52.840
+Now it didn't pack it in very efficiently and that's ok.
+
+10:52.840 --> 10:54.520
+I just wanted to test this.
+
+10:54.700 --> 11:02.440
+I think in the next video what we should do is work with the U-V editing tools over in the U-V editor
+
+11:03.190 --> 11:08.440
+to try and read proportioned the face to match the rest of the body.
+
+11:08.470 --> 11:10.510
+So stay tuned for that in the next video.

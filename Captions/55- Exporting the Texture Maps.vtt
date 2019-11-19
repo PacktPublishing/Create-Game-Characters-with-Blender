@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.600 --> 00:05.340
+I think the lemmas piece of work that I need to do here is on the eyes.
+
+00:05.640 --> 00:14.820
+I think I talked about earlier that the U-V islands for the AIS may be a little bit small for what we're
+
+00:14.910 --> 00:16.080
+doing here.
+
+00:16.080 --> 00:20.190
+I think I may go back to the base color here.
+
+00:21.830 --> 00:26.590
+Yeah I think this is them over here.
+
+00:27.480 --> 00:29.490
+And I think that's a little small.
+
+00:29.490 --> 00:35.680
+I think if we tried to put a texture on that that just be it would be too pixilated and too small.
+
+00:36.030 --> 00:43.110
+So what I'd like to do is go ahead and split these out into their own objects and create U-V maps for
+
+00:43.110 --> 00:52.230
+them or just one for the eyes and then will bring an eye texture in and lay it down on top of that U-V
+
+00:52.290 --> 00:52.960
+map.
+
+00:53.250 --> 00:54.850
+So let's try that.
+
+00:56.120 --> 01:04.440
+So I'm going to go back to object mode here and I'm going to zoom in and I'm a select one of these eyes
+
+01:05.220 --> 01:14.250
+so tab and edit mode and all hover over this and press the L key and then press the P key and I'll choose
+
+01:14.250 --> 01:17.180
+to separate this out by selection.
+
+01:17.380 --> 01:19.060
+So choose that.
+
+01:19.260 --> 01:22.910
+And now here it is right here.
+
+01:24.740 --> 01:28.800
+Here it is.
+
+01:28.820 --> 01:32.060
+So I'll change the name here too.
+
+01:32.210 --> 01:37.750
+Let's call this I underscore well for the left eye.
+
+01:39.000 --> 01:46.500
+Now let's come over here to the editing lay out and I'll just move this over for now.
+
+01:47.010 --> 01:54.810
+So what let's do is let's take a look at that I selected over here and I'll zoom in with the period
+
+01:54.810 --> 02:03.260
+key on the numpad And let's just try and U-V map this maybe even I will isolate it.
+
+02:03.270 --> 02:10.200
+I'm going to press shift h to isolate it from the other parts of the character and Alt-Tab into edit
+
+02:10.200 --> 02:11.020
+mode.
+
+02:11.070 --> 02:13.560
+Looks like I've still got the seams here.
+
+02:13.570 --> 02:19.860
+I'll hit the A key to select everything and then I'll press you and unwrap and there we go.
+
+02:19.860 --> 02:23.190
+So here is our U-V map.
+
+02:23.190 --> 02:28.830
+Now we're going to need to give this material so I'll come over here to the materials panel and we just
+
+02:28.830 --> 02:35.840
+need to remove this one and I'll switch back to object mode and hit the minus button to remove that.
+
+02:35.850 --> 02:41.940
+Now before I create a new material I'm going to go ahead and switch this renderer up here from Blendr
+
+02:42.240 --> 02:44.630
+to the cycle's render engine.
+
+02:44.790 --> 02:49.970
+And that's just so that I have the newer nodes here up in the node Ed..
+
+02:49.980 --> 02:56.630
+I just prefer the cycle nodes over the blender it's just completely personal preference.
+
+02:56.670 --> 03:04.020
+So now that I've got this cycle's renderer selected I'm just going to press new and let's call this
+
+03:04.560 --> 03:07.560
+material Let's call this eyes.
+
+03:07.650 --> 03:16.700
+So now we have our eyes material over here and what we can do now is bring in an image to lay over our
+
+03:16.700 --> 03:18.010
+U.V. map.
+
+03:18.010 --> 03:27.550
+I'm going to click add and I'm going to add a new image texture and I've got an image texture on my
+
+03:27.550 --> 03:30.820
+drive here that I found.
+
+03:31.000 --> 03:33.960
+I've got it here this green eye texture.
+
+03:33.970 --> 03:42.600
+I can bring that in and I'll hook it up to the diffuse node and you can see it here in the 3-D view.
+
+03:42.610 --> 03:51.330
+And I'll also open it up over here in the U-V editor so you can see now that the guy is just too big
+
+03:51.340 --> 03:53.220
+the texture is just too big.
+
+03:53.440 --> 04:00.460
+And what I can do here I'm going to move this over and make sure I select this vertex editor and or
+
+04:00.460 --> 04:01.150
+selection.
+
+04:01.180 --> 04:05.670
+And I'm like this middle Virtex and I can press control.
+
+04:05.680 --> 04:11.620
+And the plus button on the number pad and expanded that selections.
+
+04:12.020 --> 04:14.740
+And it looks like I've got a couple of extras out here.
+
+04:14.740 --> 04:17.820
+Let me de-select these.
+
+04:17.870 --> 04:23.930
+So now I can take these and begin to scale them out and I'll also use this proportional editing tool
+
+04:24.230 --> 04:25.310
+as well.
+
+04:25.310 --> 04:32.410
+If I hit the ESC key you can see the size of the influence here as I scroll it in and out.
+
+04:32.570 --> 04:37.890
+So I could maybe begin expanding these out a bit.
+
+04:38.390 --> 04:42.410
+I mean decrease the selection to here and try this.
+
+04:42.410 --> 04:43.610
+Something like that.
+
+04:43.610 --> 04:44.790
+Now we're getting it.
+
+04:45.230 --> 04:48.740
+And you can kind of see it in the 3-D view here.
+
+04:49.720 --> 04:51.400
+Let's go with that for now.
+
+04:51.610 --> 04:58.210
+I'm going to turn the proportional editing tool off and select all of this and maybe scale this down
+
+04:58.210 --> 04:58.960
+a bit.
+
+05:00.860 --> 05:02.320
+So it's not quite so big.
+
+05:02.330 --> 05:04.610
+And then I may actually try this again.
+
+05:08.870 --> 05:10.110
+Let's try that.
+
+05:11.800 --> 05:18.850
+All right let's try this one a tad back into object mode and gentlemen press auld h to bring everything
+
+05:18.850 --> 05:19.930
+back.
+
+05:19.930 --> 05:27.460
+So now I just need to duplicate this I over to the other side and mirror it over so that the U.V. map
+
+05:27.490 --> 05:35.920
+of this eye is the same as that I saw tab and edit mode for the character here and press the L key and
+
+05:35.920 --> 05:39.020
+I'll delete all of these faces.
+
+05:40.510 --> 05:47.770
+Now I can go back over to the left eye and I need to make sure that this cursor is in the center of
+
+05:47.770 --> 05:53.440
+the grid so I'll press shift s and cursor to center.
+
+05:53.670 --> 05:56.570
+And now I'll take this out and make sure.
+
+05:56.580 --> 05:59.010
+Oh it looks like the origin is already there.
+
+05:59.010 --> 06:04.820
+Fantastic so I don't need to move it to the 3D cursor it's already there.
+
+06:04.920 --> 06:11.390
+I'm going to press the end key and make sure that the rotation and scale are all all applied I've got
+
+06:11.410 --> 06:14.910
+zeros and ones here in the scale and rotation.
+
+06:14.920 --> 06:21.950
+Now I'll just go to the modifiers panel add a modifier and mirror and there we go.
+
+06:21.950 --> 06:31.110
+So now we've got the two eyes I believe I can go ahead and apply this like so and now to split them
+
+06:31.110 --> 06:31.660
+out.
+
+06:31.770 --> 06:42.120
+I'll tab into edit mode and hover over this one press the L key and I'll press P and separate by selection.
+
+06:43.200 --> 06:44.030
+And we go.
+
+06:44.220 --> 06:49.520
+So now this one is the underscore are.
+
+06:49.620 --> 06:51.670
+So that's the right guy.
+
+06:52.170 --> 06:52.940
+OK.
+
+06:52.950 --> 06:55.500
+So now we've got eyes.
+
+06:55.800 --> 07:01.140
+Well now let's go ahead and maybe try and break out our color map.
+
+07:01.140 --> 07:08.910
+I'm going to switch back to the blender internal render engine and those are going to be black.
+
+07:08.910 --> 07:13.500
+For now since those are cycle's materials but that's fine.
+
+07:13.500 --> 07:20.510
+I want to take a look at those texture slots again so let me just go back to texture paint mode and
+
+07:20.510 --> 07:26.380
+if we go to our slots we see that we're still on that cycle's material.
+
+07:26.380 --> 07:33.440
+I'm just going to switch over to the low poly character here and then back over to texture paint.
+
+07:33.440 --> 07:35.420
+Now we can see our slots here.
+
+07:35.930 --> 07:45.830
+So we've got the base color we've got a normal map we've got our detail's map or straps for the gloves
+
+07:45.950 --> 07:52.250
+and the boots here and our skin texture slot as well.
+
+07:52.250 --> 07:58.730
+So we don't really need the normal map anymore more we don't want that to be a part of our color maps
+
+07:58.730 --> 08:03.940
+so I can actually take this texture slot and get rid of it.
+
+08:05.930 --> 08:12.650
+So now we have only the texture slots we want to combine to create our one color map.
+
+08:13.250 --> 08:18.020
+I'm going to go ahead and get rid of this window here I don't think I need this right now.
+
+08:18.020 --> 08:25.460
+Now I'm going I'd like to do is create a new image that the textures lots are going to be baked down
+
+08:25.460 --> 08:25.910
+onto.
+
+08:25.910 --> 08:29.470
+So I want to create the actual image that will be the color map.
+
+08:29.660 --> 08:38.580
+So I'm gonna come over here and click the plus button to create a new image and I'll call this call
+
+08:38.600 --> 08:43.050
+this character underscore c o l for a color map.
+
+08:43.190 --> 08:46.270
+I'm going to make it 2048 again.
+
+08:48.350 --> 08:49.810
+And let's just click OK.
+
+08:50.660 --> 08:56.650
+So there we have the canvas that all of these texture layers are going to be baked onto.
+
+08:56.660 --> 09:00.700
+Now of course we've got the Asterix here at the image menu.
+
+09:00.710 --> 09:07.550
+I want to click that save as image and I'm going to go ahead and save this in my texture painting folder
+
+09:07.940 --> 09:09.570
+save image.
+
+09:09.620 --> 09:14.870
+So now that's been saved over in the Properties window over here.
+
+09:14.870 --> 09:21.640
+And click the render button and scroll all the way down to the bake section.
+
+09:22.100 --> 09:23.560
+And here we go.
+
+09:23.900 --> 09:32.770
+So for this the kind of texture we want for our Bake is not a full render or normal's or ambient occlusion
+
+09:32.780 --> 09:34.410
+we've already done those too.
+
+09:34.430 --> 09:39.080
+But I'm just going to use textures that's all we want.
+
+09:39.080 --> 09:47.660
+I'm going to go ahead and go back to object mode and I'm going to tab into edit mode so we can see all
+
+09:47.660 --> 09:57.680
+of the U-V islands and I'm going to switch back over to my character color texture there and we go and
+
+09:57.680 --> 09:58.850
+let's give this a try.
+
+09:59.720 --> 10:06.170
+I will click back and we've got the big progress bar appear
+
+10:09.900 --> 10:10.500
+and then we go.
+
+10:10.500 --> 10:17.640
+I'm going to hit the A key to de-select everything here and now if I tab back into object mode you can
+
+10:17.640 --> 10:22.080
+see that there is our single baked texture.
+
+10:22.080 --> 10:29.880
+Now this color map can be used to take into unity along with the normal map adding ambient occlusion.
+
+10:29.910 --> 10:34.050
+So in the next video will open up unity and do that.

@@ -1,0 +1,586 @@
+WEBVTT
+
+00:00.810 --> 00:03.340
+Well I've got the boots pretty much done now.
+
+00:03.510 --> 00:08.410
+Let's go ahead and work on the gloves in kind of a similar way.
+
+00:08.430 --> 00:14.400
+I think I'm going to continue to use this same boot image to sample colors off of.
+
+00:14.640 --> 00:22.020
+I mean we already have a palette here for the boots with the colors but in case I need to sample anything
+
+00:22.020 --> 00:25.500
+directly again I've got this image here.
+
+00:25.620 --> 00:32.670
+So let's take a look at these arm straps these gloves these gauntlets whatever you want to call them
+
+00:33.540 --> 00:37.330
+with the normal map here in its slot.
+
+00:37.530 --> 00:43.110
+We added this normal map quite a few videos ago.
+
+00:43.350 --> 00:48.450
+We can see the normal map on the character here.
+
+00:48.510 --> 00:55.020
+We can turn it off here if we want to just to see what the textures are going to look like without the
+
+00:55.020 --> 00:55.990
+normal map.
+
+00:56.110 --> 01:03.960
+And you can see here on the tunic that the paint and the texture is just there to really highlight and
+
+01:03.960 --> 01:06.450
+emphasize what's in the normal map.
+
+01:06.600 --> 01:08.730
+So then we turn this back on.
+
+01:09.150 --> 01:12.640
+And so let's start working on the gloves here.
+
+01:12.840 --> 01:15.450
+Let me bring that image back.
+
+01:15.470 --> 01:16.670
+There we go.
+
+01:17.010 --> 01:22.190
+And for this let's just begin once again with the darker colors.
+
+01:22.200 --> 01:30.090
+I'm going to turn on the face masking first and just select the glove.
+
+01:30.960 --> 01:38.520
+And we go and it looks like that selected everything.
+
+01:38.530 --> 01:46.260
+So let's come in and well let's begin with this darker color I think that's it right there that we have.
+
+01:46.660 --> 01:48.820
+Let's take a look at our settings.
+
+01:48.820 --> 01:55.570
+We've got the brush loaded up with a texture here a procedural texture.
+
+01:55.570 --> 02:02.500
+We've got the brush mapping on random and we've got our jitter up and our spacing up some so let's see
+
+02:02.500 --> 02:04.340
+how this works.
+
+02:04.480 --> 02:08.730
+I'll also increase the strength of it so we can see what we're doing at the beginning.
+
+02:08.980 --> 02:12.700
+I'll hit the F key and increase the strengths and let's see what happens here.
+
+02:14.920 --> 02:23.320
+So we can just lay down some kind of random darker tones on to the glove here.
+
+02:23.350 --> 02:31.840
+I'm going to press alt f over this to center up my view around the glove and I'll tombola around that
+
+02:31.870 --> 02:34.030
+as well.
+
+02:34.030 --> 02:41.550
+All right so we've laid down kind of splotchy darker color here.
+
+02:41.560 --> 02:47.040
+Now let's come in and do the same thing with this lighter reddish color here.
+
+02:47.310 --> 02:55.360
+Maybe I'll decrease the size of the brush so maybe I'll press shift F and let's reduce the strength
+
+02:55.390 --> 02:58.190
+just to hear something like that.
+
+02:58.420 --> 02:59.970
+Let's see how this works.
+
+03:02.880 --> 03:04.310
+That's a little too much.
+
+03:04.350 --> 03:05.660
+Don't you think.
+
+03:06.300 --> 03:08.220
+Let's undo that.
+
+03:08.220 --> 03:12.590
+Bring the strength back some maybe increase the brush size and then we just try again.
+
+03:12.780 --> 03:15.440
+So much of this is just trial and error.
+
+03:16.900 --> 03:22.650
+At least for me maybe for someone else it would be easy and would happen to the right way.
+
+03:22.870 --> 03:25.520
+The first time every time.
+
+03:25.520 --> 03:32.960
+But for me I kind of have to go through some trial and error right.
+
+03:33.050 --> 03:34.150
+I'm OK with this.
+
+03:34.150 --> 03:36.830
+I think this is going to work out pretty well.
+
+03:36.850 --> 03:41.630
+A lot of what's happening here along the straps we're going to be painting over.
+
+03:41.740 --> 03:46.930
+So they're going to look more like the straps down here.
+
+03:46.930 --> 03:49.930
+Now let's see where this is happening on the U.V. map.
+
+03:49.930 --> 03:52.860
+I think it's happening over here.
+
+03:52.930 --> 03:53.370
+Yeah.
+
+03:53.380 --> 03:57.540
+So here's that glove U-V Island.
+
+03:57.880 --> 04:00.940
+And if we spin around here to the other side
+
+04:03.670 --> 04:05.850
+you can see it's happening over here too.
+
+04:06.040 --> 04:12.670
+And that's because those two U-V islands are one on top of the other here in the map.
+
+04:12.710 --> 04:13.150
+All right.
+
+04:13.150 --> 04:15.830
+So we've got those two colors down.
+
+04:16.270 --> 04:22.920
+Let's work on the lighter color here which I think is this right here.
+
+04:23.110 --> 04:27.170
+We've also got this one too and maybe we'll mix and match.
+
+04:27.790 --> 04:28.960
+Well let's try this one.
+
+04:28.960 --> 04:35.320
+I think I'll go with this lighter color for the splotches and maybe this one for the straps.
+
+04:35.320 --> 04:38.020
+Let's see how that works.
+
+04:38.020 --> 04:45.630
+So for this I'm going to increase it quite a bit now and let me just try this and that maybe too much.
+
+04:45.630 --> 04:52.920
+There we bring the strength down a little bit more and let's reduce the press size a hair and let's
+
+04:52.920 --> 04:54.940
+try this.
+
+04:55.510 --> 05:00.340
+And actually what I should do is maybe be a little more strategic on these.
+
+05:00.340 --> 05:06.950
+So let's think about where this would be scuffed up.
+
+05:07.030 --> 05:12.820
+So probably I would say it would be scuffed up down here along the palm of the hand right.
+
+05:12.820 --> 05:19.730
+So maybe we should be a little bit more precise about where we're putting this.
+
+05:19.810 --> 05:29.210
+So maybe along the fingers here we'd have scuff marks maybe down here where he puts his arm on a table
+
+05:29.210 --> 05:30.870
+or something.
+
+05:30.920 --> 05:32.460
+Do goblin's have tables.
+
+05:32.480 --> 05:33.710
+I guess they do right.
+
+05:33.710 --> 05:34.820
+I don't know.
+
+05:35.730 --> 05:39.560
+Maybe up here where he pulls the glove on.
+
+05:39.630 --> 05:46.290
+So maybe trying to be a little bit more thoughtful as to where these go.
+
+05:46.300 --> 05:47.460
+All right.
+
+05:47.560 --> 05:49.660
+I think that works pretty well.
+
+05:49.660 --> 05:55.030
+The next thing I'd like to do is work on the straps now and to do that I'm going to go in and save this
+
+05:55.570 --> 05:56.550
+scene.
+
+05:56.550 --> 06:04.240
+I'll come over here and save this image with old ass and then I'm going to come over to the slots tab
+
+06:04.270 --> 06:09.210
+and I'm going to go ahead and go to this straps texture paint slot.
+
+06:09.250 --> 06:13.030
+This is the one that I painted the boot straps on.
+
+06:13.030 --> 06:14.690
+So here they are.
+
+06:14.950 --> 06:21.730
+And as an aside and what I'll try and do here is Notice what I did here I tried to give one side kind
+
+06:21.730 --> 06:27.710
+of a highlight and the other side a shadow just to try and get them to pop out a bit.
+
+06:27.790 --> 06:32.120
+So that's kind of what I'll try to do over here as well.
+
+06:32.140 --> 06:39.880
+So for the color on the straps I think this is what I'm going to use for the straps.
+
+06:40.270 --> 06:46.470
+I will come down and take a look at the jitter and the spacing and I think that's OK.
+
+06:46.630 --> 06:50.980
+We'll try that then let's see how this works.
+
+06:50.970 --> 06:57.340
+So I'm going to come in here to this top strap and maybe reduce the brush size a bit and let's just
+
+06:57.370 --> 06:58.450
+test this out.
+
+07:04.680 --> 07:12.910
+Yeah I think that's kind of what I'm looking for and I like the fact that we've still got a texture
+
+07:12.910 --> 07:13.980
+on here.
+
+07:13.990 --> 07:20.290
+We're laying it down randomly and we've still got jitter on it it gives it a little bit of texture to
+
+07:20.290 --> 07:25.280
+it so it isn't just a flat solid color.
+
+07:25.340 --> 07:27.020
+So let's go with this.
+
+07:27.020 --> 07:27.790
+I like this.
+
+07:27.790 --> 07:33.160
+I'm going to go ahead and lay this down on the other straps as well.
+
+07:33.980 --> 07:34.990
+Yeah.
+
+07:35.030 --> 07:38.270
+All right so let's move down to the next one here.
+
+07:41.890 --> 07:48.910
+And the good thing about doing this on its own layer is if I accidentally come outside the lines here
+
+07:48.910 --> 07:51.460
+I can just flip the pin over and
+
+07:54.570 --> 07:57.140
+erase just a little bit there.
+
+07:58.050 --> 08:06.160
+Without destroying the other texture underneath and I'll keep going down here on the top of the hand.
+
+08:06.160 --> 08:08.440
+I've got two more down here on the top.
+
+08:10.090 --> 08:17.220
+And also I'm going to need to go through and do the seams on the glove too.
+
+08:17.230 --> 08:26.900
+I think if I recall I put some seams on the gloves so right in here I want to highlight these as well.
+
+08:29.300 --> 08:32.910
+Here's that one and then I'll get this down here.
+
+08:33.570 --> 08:39.930
+You know we go and sometimes you get these little glitches here and sometimes what you can do is come
+
+08:39.930 --> 08:43.170
+straight into the U-V map here.
+
+08:43.170 --> 08:52.760
+And if I've got it set up for paint sometimes you can come straight in here and paint right over that
+
+08:54.320 --> 09:01.610
+like that just to kind of fix those tiny glitches that you can get when you're painting directly on
+
+09:01.610 --> 09:03.320
+the model there.
+
+09:03.440 --> 09:04.580
+Those are the straps.
+
+09:04.580 --> 09:07.850
+Now let's take a look at the seams here.
+
+09:07.880 --> 09:13.820
+I'm going to reduce the brush size and for this seems I'm just going to come through and just add a
+
+09:13.820 --> 09:15.650
+little bit to this.
+
+09:15.650 --> 09:24.380
+I think then what I'll do is come in and with a darker color or highlight the edges or the shadows in
+
+09:24.420 --> 09:26.070
+between the seams here.
+
+09:26.210 --> 09:27.740
+Let's see how it works.
+
+09:31.490 --> 09:34.420
+Atlas come over here to the other side work on these
+
+09:40.280 --> 09:48.740
+and there's also some seams around the thumb and fingers so I'll just try and catch these while we're
+
+09:48.740 --> 09:49.520
+here.
+
+09:51.590 --> 09:52.500
+OK.
+
+09:52.620 --> 09:57.000
+So we have our seams and our straps down now.
+
+09:57.630 --> 09:59.730
+At least that initial color.
+
+09:59.910 --> 10:06.840
+Let's now go through and and some highlight and shadow on each of them just to help them pop a little
+
+10:06.840 --> 10:11.670
+bit more for the light up here on the top.
+
+10:11.670 --> 10:15.390
+Let's let's take this and just move it.
+
+10:15.780 --> 10:18.440
+And that may be a little bit too much.
+
+10:18.840 --> 10:21.670
+Maybe if we take this one now.
+
+10:21.690 --> 10:27.130
+Let me go in and actually find a new color for this.
+
+10:27.170 --> 10:29.700
+I kind of like this color right in here.
+
+10:29.700 --> 10:34.430
+I want to press the ESC key and come in here and grab this it's very similar to the one I already have.
+
+10:34.440 --> 10:36.740
+But I grab this one.
+
+10:36.750 --> 10:38.110
+I kind of like this.
+
+10:38.280 --> 10:41.450
+Let's use that all right.
+
+10:41.710 --> 10:45.960
+So now I take the strength down even more.
+
+10:46.190 --> 10:48.300
+And let's see if we can do with this.
+
+10:48.380 --> 10:53.150
+I just want a little highlight along the top of these straps here.
+
+10:57.930 --> 11:00.750
+Something like that yeah.
+
+11:03.060 --> 11:06.110
+So it's pretty subtle but I think it'll help
+
+11:08.850 --> 11:12.970
+gives some definition to the straps.
+
+11:14.440 --> 11:17.420
+And once again I've got that little glitch there.
+
+11:17.470 --> 11:19.280
+I'm going to come straight in here.
+
+11:22.350 --> 11:33.590
+And reduce the breast size and try and catch this here so we go OK.
+
+11:33.600 --> 11:35.970
+So now we've got those highlights.
+
+11:36.240 --> 11:41.770
+Maybe we should go through and do that similar thing on the seams.
+
+11:41.790 --> 11:45.070
+I'm not sure if we've got enough room to do it though.
+
+11:45.270 --> 11:49.530
+Let's go through and do the shadows first and then I'll go back and I think maybe all we need on the
+
+11:49.530 --> 11:52.140
+seams are shadows.
+
+11:52.170 --> 12:00.570
+Let's see if we can maybe use this or is this a little bit darker or let's see if we can sample a new
+
+12:00.570 --> 12:01.250
+one.
+
+12:02.610 --> 12:05.490
+What's this in here that looks pretty dark.
+
+12:05.490 --> 12:09.680
+That may be too much although it's not bad.
+
+12:09.680 --> 12:11.550
+Let's try this.
+
+12:11.660 --> 12:13.320
+That's interesting.
+
+12:13.340 --> 12:15.920
+It's kind of a deep red.
+
+12:15.920 --> 12:17.010
+Let's try that.
+
+12:18.600 --> 12:25.620
+For this I'll just go along the bottom here and try and add some shadow here.
+
+12:27.350 --> 12:27.820
+Yes
+
+12:31.720 --> 12:35.410
+going to in the shadow down onto the glove itself to
+
+12:38.860 --> 12:41.460
+try that.
+
+12:41.780 --> 12:43.820
+Let's go with that.
+
+12:43.820 --> 12:51.370
+All right now going to go in with this color and try and work on the creases of the seams.
+
+12:51.370 --> 12:58.280
+This may be a little too I don't know if this will be too much or not but let's give it a try.
+
+12:59.680 --> 13:09.440
+And just going to try and give it a little bit of extra shading here along the seams just so that when
+
+13:09.440 --> 13:20.210
+we turn off the normal map you can still see that there's some highlight some light and shade going
+
+13:20.210 --> 13:21.220
+on in here.
+
+13:22.540 --> 13:23.110
+All right.
+
+13:23.120 --> 13:28.640
+And I guess I will go ahead and try and put a highlight on this it may be a futile effort but I'll I'll
+
+13:28.670 --> 13:30.110
+try it.
+
+13:30.110 --> 13:31.770
+Let me go back to here.
+
+13:32.630 --> 13:37.180
+And this may just be too small of a detail to try and put in here.
+
+13:37.190 --> 13:49.170
+But let me try.
+
+13:49.180 --> 13:49.960
+All right.
+
+13:49.960 --> 13:55.080
+There may be more we can do here but I think that's pretty good for now.
+
+13:55.090 --> 14:01.440
+Let me get rid of the face masking and just take a look at what we've done so far.
+
+14:01.850 --> 14:08.830
+Yeah so we've got the straps and the seams and we've got them very similar to the way we've done the
+
+14:08.830 --> 14:10.390
+boots.
+
+14:10.430 --> 14:13.110
+I think that works pretty well.
+
+14:13.270 --> 14:20.440
+It looks like we've got all the clothes and accessories done which means I've I've put off doing the
+
+14:20.440 --> 14:22.820
+skin as long as I can.
+
+14:22.870 --> 14:28.900
+The skin is going to be more difficult and will probably take it one piece at a time.
+
+14:29.050 --> 14:37.300
+Trying to begin with the easiest and maybe least prominent parts of the skin maybe on the legs or something.
+
+14:37.300 --> 14:46.190
+But I'll go out and try and find some reference images of green skin that may be difficult.
+
+14:46.210 --> 14:52.170
+What comes to mind is Gomorrha from Guardians of the galaxy but I don't think I'll use that.
+
+14:52.180 --> 14:59.770
+I'll actually try and find some sort of real life animal with the green skin that we can use to sample
+
+14:59.770 --> 15:01.660
+our colors as we go.
+
+15:01.660 --> 15:10.090
+Now before we do anything let's be sure and go over to the slots tab and click save all images and make
+
+15:10.090 --> 15:16.780
+sure we've got everything saved and we don't have any asterisks is here.
+
+15:16.780 --> 15:19.450
+I'm going to go here to the details.
+
+15:19.460 --> 15:20.640
+Yep there we go.
+
+15:20.830 --> 15:26.390
+So I just want to make sure that everything is saved before I close out anything.
+
+15:26.560 --> 15:31.460
+And I'll also hit control the command s and save the scene there as well.
