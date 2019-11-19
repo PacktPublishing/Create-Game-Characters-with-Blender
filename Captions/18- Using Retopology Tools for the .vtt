@@ -1,0 +1,403 @@
+WEBVTT
+
+00:00.610 --> 00:03.090
+Well today I'd like to work on these straps here.
+
+00:03.090 --> 00:07.970
+The straps going over the torso around the side.
+
+00:08.140 --> 00:10.640
+Maybe even the belt here.
+
+00:10.810 --> 00:16.860
+And what I'd like to do is use Blender's read typology tools to do this.
+
+00:17.020 --> 00:26.370
+We can use the B surfaces plug in and we can also use the snapping tools to do this as well.
+
+00:26.380 --> 00:33.490
+Now I'm going to be going over all of these tools again once we get to read apologizing the character
+
+00:33.490 --> 00:37.860
+as a whole wants the sculpting and modeling is all done.
+
+00:38.380 --> 00:45.690
+But I thought I'd kind of do a little preview here and frankly refresh my memory on the tools it's been
+
+00:45.690 --> 00:47.510
+a while since I've used them.
+
+00:47.650 --> 00:55.110
+So let's take a look at how we might create this strap over the character's shoulder here.
+
+00:55.270 --> 01:03.280
+We could of course take a polygon and extrude it around or try and make a cylinder and rotate it and
+
+01:03.430 --> 01:06.490
+adjust it until we get it to fit.
+
+01:06.610 --> 01:14.180
+But I think the B surfaces plug in is a lot easier to work with for something like this.
+
+01:14.200 --> 01:17.290
+So when I say that these services plug in what do I mean.
+
+01:17.290 --> 01:26.350
+Well let's if we go to file and user preferences and if we come over here to add ons the BE services
+
+01:26.350 --> 01:31.790
+plug in should be part of the blender install now.
+
+01:32.080 --> 01:40.760
+So if I type in the surf in the search field here you can see it brings up the services GPL EDITION.
+
+01:40.870 --> 01:42.900
+This is the plug in I'm talking about.
+
+01:42.910 --> 01:50.140
+And if you don't have it checked all ready all you need to do is put a checkmark here and then click
+
+01:50.140 --> 01:58.530
+save user settings and it's going to tell you here that it's going to be found in the view 3D edit mode.
+
+01:58.820 --> 02:00.910
+And on the tool shelf.
+
+02:01.090 --> 02:10.570
+So what that tells us is that in this 3-D view on the tool shelf over here this will be available in
+
+02:10.690 --> 02:18.530
+edit mode Well we don't really want it if we go into edit mode here we collapse our character.
+
+02:18.720 --> 02:22.740
+Granted I can now see the beast services plug in here.
+
+02:23.070 --> 02:28.170
+So we don't want to do it like this we don't want to have the character in edit mode.
+
+02:28.170 --> 02:35.760
+What we need is a piece of Blant geometry a piece of empty geometry to begin working with.
+
+02:35.760 --> 02:39.610
+So to do that I'm just going to go to the Create tab and create a cube.
+
+02:40.350 --> 02:47.880
+And what I'm going to do is call this cube I'll just call this for now I'll call it Toppo because we're
+
+02:48.210 --> 02:51.140
+we're using the real topology tools.
+
+02:51.360 --> 02:59.580
+But then what I'll do is come over to the cube selected press the tab key to go into Edit Mode make
+
+02:59.580 --> 03:05.050
+sure that everything is selected here by pressing a key.
+
+03:05.160 --> 03:11.660
+And then I'm just going to press X for delete and delete all vertices.
+
+03:11.960 --> 03:16.820
+And now it's still there as an object but it's completely empty.
+
+03:16.820 --> 03:19.450
+There is nothing there anymore.
+
+03:19.640 --> 03:19.930
+Right.
+
+03:19.940 --> 03:22.630
+So it's just an empty object.
+
+03:22.640 --> 03:28.060
+So now what we can do is turn on our grease pencil tools.
+
+03:28.070 --> 03:35.030
+I'm going to press the end key to open up the properties panel here and on and zoom into my character
+
+03:35.030 --> 03:35.650
+here.
+
+03:36.860 --> 03:42.060
+And I'll come over to my grease pencil tab right over here.
+
+03:42.080 --> 03:49.400
+So now I've got this grease pencil area over here and I've got this grease pencil there over here and
+
+03:49.400 --> 03:52.820
+they somewhat overlap but they're also a little different.
+
+03:52.820 --> 04:00.260
+So this honestly can be a bit confusing so what I want to be able to do is draw on the character with
+
+04:00.260 --> 04:09.350
+my grease pencil and have the be services create geometry create polygons based on my grease pencil
+
+04:09.440 --> 04:11.370
+lines.
+
+04:11.450 --> 04:20.030
+So with the grease pencil I want to be able to draw on the object I want to be able to draw continuously
+
+04:20.030 --> 04:21.680
+on the object.
+
+04:22.000 --> 04:24.910
+So enable that.
+
+04:25.050 --> 04:28.640
+I want to be able to draw so I'm going to enable draw.
+
+04:29.550 --> 04:37.420
+And what that does it creates a new Greece pencil data block and it creates a new Greece.
+
+04:37.420 --> 04:39.760
+Pencil layer slot here.
+
+04:39.900 --> 04:45.630
+But now that I have that I've been I've chosen object I and drawn the object I want to continuously
+
+04:45.630 --> 04:49.470
+draw on the object and I want to draw it on the surface of the object.
+
+04:49.470 --> 04:56.550
+So I click this right here and when I click surface it turned off my draw some and I have to click draw
+
+04:56.550 --> 04:57.210
+again.
+
+04:57.210 --> 04:59.430
+So I'll do that.
+
+04:59.430 --> 05:03.070
+Now I've got objects selected surface selected.
+
+05:03.150 --> 05:08.320
+I've got a new Greece pencil data block and a grease pencil layer.
+
+05:08.790 --> 05:15.720
+I should be able to now while my read Toppo is in edit mode.
+
+05:15.720 --> 05:18.200
+Begin drawing on my character here.
+
+05:18.210 --> 05:24.300
+So I'm going to come over here on the top and I'm going to draw a line right here.
+
+05:25.860 --> 05:35.060
+And right up here and draw kind of a crosshatch here over his shoulder.
+
+05:36.130 --> 05:47.290
+Like so now if I tumble around you can see that grease pencil was actually conformed to the model itself.
+
+05:47.550 --> 05:51.510
+Now I don't want to see through the character to the grease pencil.
+
+05:51.510 --> 05:55.800
+I can always just turn off the x ray here like that.
+
+05:55.890 --> 05:57.960
+Now it went ahead and applied it.
+
+05:57.980 --> 06:02.190
+I'm out of draw mode now because I clicked over here.
+
+06:02.190 --> 06:09.510
+I could have also pressed the enter key but now that I've done that I can come over to the Tools panel
+
+06:10.020 --> 06:19.470
+right here scroll down to my be services area and as I said with my read Toppo invisible object still
+
+06:19.470 --> 06:20.300
+in edit mode.
+
+06:20.310 --> 06:29.340
+If I click add surface it creates geometry based on the grease pencil lines that I drew Mamluks kind
+
+06:29.340 --> 06:30.700
+of hard to see.
+
+06:30.720 --> 06:37.160
+So what I can do is come over here to the object panel of the properties window here let me scroll this
+
+06:37.170 --> 06:40.700
+down here and choose x ray.
+
+06:41.220 --> 06:45.260
+And now I can see my geometry.
+
+06:45.260 --> 06:49.460
+It looks to me like the normals are flipped.
+
+06:49.460 --> 06:53.900
+Here you can see how this is kind of a darker gray than these.
+
+06:53.900 --> 06:58.110
+This polygon should be flipped around so they're all gray.
+
+06:58.430 --> 07:05.070
+I'm just going to select them all with a key and then press control in to recalculate the normals.
+
+07:05.240 --> 07:11.120
+And now I should have them all gray so I'll hit the A key and you can see they're all gray now.
+
+07:11.120 --> 07:17.090
+All right so now that I've gotten that piece drawn out what I want to do is extend this on down to where
+
+07:17.720 --> 07:19.230
+the belt is right down here.
+
+07:19.230 --> 07:21.010
+So I've created this piece.
+
+07:21.010 --> 07:23.750
+I want to go ahead and create this all the way down here.
+
+07:24.050 --> 07:27.400
+So what I can do is go back to the grease pencil.
+
+07:27.410 --> 07:34.510
+I'll come over here to the grease pencil tab I will click on draw once again.
+
+07:34.530 --> 07:38.040
+Let me get my character in place here.
+
+07:39.000 --> 07:41.420
+Now click on draw once again.
+
+07:42.020 --> 07:53.090
+And now I'm just going to draw lines like this down the character toward the waste kind of in an angle
+
+07:53.090 --> 07:57.560
+here like this on down here
+
+08:01.960 --> 08:03.080
+say like
+
+08:07.680 --> 08:10.190
+this.
+
+08:10.250 --> 08:10.610
+All right.
+
+08:10.610 --> 08:14.990
+So what I want to do is extend this edge on down through here.
+
+08:15.570 --> 08:25.600
+So now that I've drawn those I'll hit enter again and I'll go to edge mode and select this edge of my
+
+08:25.600 --> 08:37.370
+object and back in the tools tab I will come over here back to the B services area and click add surface
+
+08:37.370 --> 08:39.380
+and watch what happens.
+
+08:39.380 --> 08:42.950
+It extends that on down through those edges.
+
+08:42.950 --> 08:44.800
+Now that's too many edges.
+
+08:44.990 --> 08:52.250
+So I can come over here to this tool setting this be services settings panel and reduce the number of
+
+08:52.250 --> 08:53.980
+polygons here down to 1.
+
+08:53.980 --> 08:58.130
+So I'm just getting one polygon for each stroke.
+
+08:58.260 --> 08:58.630
+Right.
+
+08:58.640 --> 09:02.350
+And you can see how it's conforming to the character here.
+
+09:02.600 --> 09:04.590
+Let's do that again on the back now.
+
+09:05.010 --> 09:10.370
+So I'm come around here and I think I'm a turn off x ray for now because I don't want to see through
+
+09:10.370 --> 09:12.630
+it so I'll just uncheck this here.
+
+09:13.810 --> 09:18.230
+So now I'm going to go back to my grease pencil tab
+
+09:21.080 --> 09:23.100
+go here like this
+
+09:26.830 --> 09:36.030
+and click on draw and then draw new lines bringing it down like this down the back
+
+09:43.250 --> 09:44.040
+down here.
+
+09:44.080 --> 09:46.610
+I could see I go down to here.
+
+09:47.030 --> 09:48.250
+OK.
+
+09:48.260 --> 09:50.360
+So once again I'll press enter.
+
+09:51.460 --> 09:55.660
+Go into edge mode select this edge
+
+09:58.580 --> 10:01.580
+then I'll go back to my tools tab.
+
+10:01.770 --> 10:07.600
+Scroll down to be services and click add surface and there we go.
+
+10:07.600 --> 10:16.180
+Once again it's got too many edges so I'll reduce the follow setting here down to 1 and let's turn on
+
+10:16.210 --> 10:18.470
+x ray and take a look at it.
+
+10:18.520 --> 10:25.250
+So there it is so I can go through the same process for this side piece over here.
+
+10:25.290 --> 10:27.320
+Not exactly sure how that's going to work.
+
+10:27.330 --> 10:36.720
+I could maybe would say I come off of this edge right and go down and around and come back up to this
+
+10:36.720 --> 10:37.620
+edge.
+
+10:37.770 --> 10:39.170
+Let's give that a try.
+
+10:39.360 --> 10:44.670
+So back to grease pencil I'll turn off x ray here for a moment.
+
+10:46.090 --> 10:52.660
+And I'm going to want to come off of this edge here so I could draw and I want to come off this edge
+
+10:52.660 --> 10:57.090
+so I'll draw this and this
+
+11:01.430 --> 11:09.510
+and just try and bring it around as best I can so that it comes around and connects maybe with this
+
+11:09.510 --> 11:10.990
+one.
+
+11:11.000 --> 11:13.080
+All right so I'll press enter.
+
+11:14.730 --> 11:23.730
+Select this edge go to my services area and click add surface.
+
+11:23.890 --> 11:32.230
+Now that I've got to this point over here I could select these four points and hit the F key and it'll
+
+11:32.260 --> 11:35.850
+fill that face.
+
+11:35.860 --> 11:41.530
+So now when we come back to x ray and there we have the beginnings of our belt.

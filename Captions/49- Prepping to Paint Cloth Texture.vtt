@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.910 --> 00:07.360
+We'll since the last video I've done a little work on the shoulder armor here you can see what I've
+
+00:07.360 --> 00:14.860
+done over here in the editor Ed. I'm going to press control up arrow and maximize that screen a bit
+
+00:15.670 --> 00:22.450
+so you can see I've just done some painting to try and emphasize the scope to detail on the shoulder
+
+00:22.450 --> 00:23.370
+piece there.
+
+00:23.440 --> 00:32.140
+Just try and give the normal map sculpted detail a little bit of extra pop kind of creating highlights
+
+00:32.230 --> 00:35.530
+and shadows for the designs.
+
+00:35.530 --> 00:39.310
+So what I've been doing is just coming in here.
+
+00:39.310 --> 00:40.020
+Let's see.
+
+00:40.020 --> 00:42.040
+I don't think I've done this one yet.
+
+00:42.040 --> 00:46.580
+Let me see yeah I haven't worked on this one yet.
+
+00:46.580 --> 00:53.200
+So what I've been doing is just coming in here going to my details slot here.
+
+00:53.200 --> 00:54.920
+Going back to the Tools tab.
+
+00:55.360 --> 00:59.950
+And I've got a light color here that I'll choose.
+
+01:00.670 --> 01:04.450
+And let me shrink the brush down a bit.
+
+01:04.990 --> 01:11.620
+So I'm just going to go over some of this detail here and you can see it kind of coming in as I paint
+
+01:11.620 --> 01:21.220
+on it and just lightly trying to emphasize the highlight and shadow of this piece or have the details
+
+01:21.220 --> 01:21.770
+on it.
+
+01:22.570 --> 01:24.710
+Just lightly going over it here.
+
+01:26.090 --> 01:32.480
+And then once I do that then I'll come back with a darker color.
+
+01:33.550 --> 01:36.590
+And emphasize the indentations or the shadows.
+
+01:36.680 --> 01:40.670
+Let me go back down here and reduce the spacing just a bit.
+
+01:40.720 --> 01:43.020
+See if that helps me some.
+
+01:43.930 --> 01:45.420
+Yeah I think that'll work.
+
+01:45.430 --> 01:52.660
+So I'm just going to come in here and try and catch these highlights and then I'll switch back to a
+
+01:52.660 --> 01:54.600
+darker color let's say.
+
+01:54.850 --> 01:57.040
+Let's try this.
+
+01:57.040 --> 02:04.780
+Or maybe even darker here I think and then I'll come in here and try and increase the shadows just a
+
+02:04.780 --> 02:05.410
+bit.
+
+02:05.660 --> 02:07.960
+I'll bring the strength back just a hair.
+
+02:09.350 --> 02:09.890
+There we go.
+
+02:09.900 --> 02:12.170
+So you can see that coming in over here.
+
+02:13.680 --> 02:17.870
+Now I've got another one over here I don't think I've worked on that one yet.
+
+02:17.910 --> 02:20.020
+Let me do this real quick.
+
+02:22.130 --> 02:25.860
+And once again I'll take the strength back just a hair again.
+
+02:27.690 --> 02:34.420
+And maybe reduce the jitter slightly and let me work on this here.
+
+02:34.440 --> 02:42.080
+I better change the color and we go and I think this will be coming in right over here
+
+02:48.410 --> 02:50.960
+yeah you can see it coming in right in here.
+
+02:50.960 --> 02:51.250
+Now
+
+02:55.260 --> 03:01.920
+now as I'm doing this you may notice that it's kind of hard to see actually on the model.
+
+03:01.920 --> 03:10.200
+What I'm doing here on the model itself and a lot of that is because of the specular highlights that
+
+03:10.260 --> 03:17.970
+the Hemi lights are imparting to the model and we can actually turn those off to get a sense of how
+
+03:17.970 --> 03:23.500
+we're doing while we're painting or after we paint just to see how we've done.
+
+03:23.850 --> 03:24.230
+All right.
+
+03:24.240 --> 03:28.610
+So I've got these laid down here.
+
+03:29.220 --> 03:32.850
+Let's take a look at the texturing without the specular highlights.
+
+03:32.920 --> 03:39.120
+So if I come over here to one of the Hemmy lights if I select that you can see I've got the option to
+
+03:39.120 --> 03:47.700
+have it emit both diffuse which is the color or the specular which is the shiny a..
+
+03:47.730 --> 03:53.770
+So if I turn that off you can see that some of that shining is goes away here.
+
+03:53.880 --> 03:56.450
+Let me turn that on and turn it off.
+
+03:56.700 --> 04:03.030
+And that's because I've got two Hemi lights in the scene here so I've got one here one here one kind
+
+04:03.030 --> 04:07.450
+of shining at an angle on the front and one on the back.
+
+04:07.450 --> 04:11.500
+And so currently I'm selecting this front one for the Hemmy up front.
+
+04:11.700 --> 04:20.310
+If we select the one in the back here and turn off the specular highlights you can really see what the
+
+04:20.310 --> 04:22.870
+texturing looks like now.
+
+04:23.100 --> 04:30.900
+So you can see what I've done with just this kind of splatter of color as well as going in and tracing
+
+04:30.900 --> 04:35.530
+the highlights and the shadows of the scope to detail.
+
+04:35.970 --> 04:42.060
+So any time you can always come over here and turn off the specular highlights for your hemi lights
+
+04:42.450 --> 04:44.110
+just to see how you're doing.
+
+04:44.160 --> 04:50.270
+Or sometimes I like to just have one on so maybe have this one on or turn this off.
+
+04:51.250 --> 04:57.490
+And this went on so you can get a different look on your model as you're painting.
+
+04:57.490 --> 04:57.910
+All right.
+
+04:57.940 --> 05:01.740
+Well I think that's pretty good for the armor.
+
+05:01.900 --> 05:09.270
+I'm going to turn the specular on in the back here like this just to take a look at that.
+
+05:09.300 --> 05:11.450
+I think that's looking pretty good for now.
+
+05:11.640 --> 05:15.060
+Let's go ahead and move on to another part of the model.
+
+05:15.660 --> 05:22.020
+I'm thinking that I kind of want to work on the little Toga here.
+
+05:22.080 --> 05:25.410
+We can always come back and work on the gloves and the boots.
+
+05:25.410 --> 05:30.570
+They're a similar kind of color as the leather straps that we've done.
+
+05:31.020 --> 05:36.650
+And if we're going to come back to that at some point we better save those colors or save that pallet.
+
+05:36.810 --> 05:40.030
+So I'm going to come back here and choose my low poly character.
+
+05:40.440 --> 05:44.330
+And now we're back into texture paint mode over here.
+
+05:44.400 --> 05:53.050
+So these colors here have really been used to work with the straps and the metal.
+
+05:53.070 --> 06:01.410
+And when I come back to the leather texture for the boots and the gloves I'm going to want to have access
+
+06:01.410 --> 06:02.810
+to these colors again.
+
+06:03.000 --> 06:09.390
+Yes I could sample them again off of the U-V map here but I think it'd be better if I could maintain
+
+06:09.420 --> 06:11.060
+this color palette.
+
+06:11.130 --> 06:18.180
+So what I want to do is come over here and I'm going to rename this pallet or call this like call it
+
+06:18.180 --> 06:22.850
+straps and metal and go.
+
+06:22.960 --> 06:30.820
+And now if I go to the next palette I have I'm going to click here and choose the next one.
+
+06:30.820 --> 06:37.450
+Now maybe this one I could call or call this one cloth.
+
+06:37.510 --> 06:42.920
+And this is the one that's going to have the color swatches for his clothes here.
+
+06:43.090 --> 06:45.030
+So I don't need these right now.
+
+06:45.030 --> 06:46.240
+These were just temporary.
+
+06:46.240 --> 06:48.640
+I want to delete these.
+
+06:48.640 --> 06:49.530
+There we go.
+
+06:50.520 --> 06:56.860
+So now I can work on building up color swatches for this palette so I can work on the cloth.
+
+06:57.420 --> 07:01.320
+But to do that I'm going to need reference images as you can tell.
+
+07:01.320 --> 07:09.940
+I do a lot of sampling off of photographs and real world images to help me get the colors more accurate.
+
+07:10.200 --> 07:13.620
+So what I need to go find a few reference images.
+
+07:13.620 --> 07:19.740
+But quickly before I do that I'm just going to go to the slots tab and be sure and click save all images
+
+07:20.640 --> 07:23.420
+so that I don't lose what I just did.
+
+07:23.580 --> 07:31.560
+If I exit out of Blender I'll also of course press control or command s to save the scene as well.
+
+07:31.560 --> 07:34.360
+All right I'm going to go take a look for some textures.
+
+07:34.920 --> 07:42.480
+So here in Google Images I'm searching for Lin and drape fold cloth texture and I've found a couple
+
+07:42.480 --> 07:46.640
+I like I kind of like this down here.
+
+07:46.740 --> 07:48.610
+I may grab this fact.
+
+07:48.660 --> 07:50.180
+I think I will.
+
+07:50.370 --> 07:56.000
+And there are some others down here that are kind of nice I like this as well so I'll grab that.
+
+07:56.280 --> 07:58.890
+And there were some others here let me go back.
+
+07:58.920 --> 08:00.090
+There were some.
+
+08:00.090 --> 08:06.360
+This is kind of nice because it shows the highlight and shadow of drapes.
+
+08:06.360 --> 08:08.640
+This kind of helps I think.
+
+08:08.640 --> 08:12.160
+Let me grab this one here.
+
+08:12.180 --> 08:12.420
+All right.
+
+08:12.420 --> 08:13.410
+I think that should do it.
+
+08:13.410 --> 08:16.590
+For now let's go back to blender and bring these in.
+
+08:18.070 --> 08:22.280
+All right to bring our cloth animal just once again come over here.
+
+08:22.280 --> 08:26.780
+Go to the open image browse to my cloth.
+
+08:27.170 --> 08:28.630
+I'll bring this one in.
+
+08:30.370 --> 08:31.200
+That looks good.
+
+08:31.190 --> 08:34.240
+That's got some nice color variation there.
+
+08:34.240 --> 08:35.880
+That's what I'm looking for.
+
+08:36.100 --> 08:38.990
+And then I'll also bring that third one in.
+
+08:39.220 --> 08:46.960
+So I get some sense of the drape and the light and dark shadows of that cloth Yeah I think these will
+
+08:46.960 --> 08:49.240
+help a lot.
+
+08:49.240 --> 08:49.560
+All right.
+
+08:49.570 --> 08:54.810
+I think we're set up to start working on the cloth here we'll begin that in the next video.

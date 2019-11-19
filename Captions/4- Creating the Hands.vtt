@@ -1,0 +1,433 @@
+WEBVTT
+
+00:00.720 --> 00:07.160
+One of the things we need to think about when sculpting is to try and get our base mesh to the party
+
+00:07.170 --> 00:09.890
+lines are relatively the same size.
+
+00:10.030 --> 00:14.880
+Now the words I'm going to have to insert a few editors because if you look at the arms here we have
+
+00:14.880 --> 00:20.150
+these huge polygons here and then over here they're pretty small.
+
+00:20.430 --> 00:24.840
+So we need to begin thinking about getting them a little bit more the same size they're never gonna
+
+00:24.870 --> 00:27.450
+be all exactly the same.
+
+00:27.450 --> 00:34.260
+But I think we need to get them a little bit more uniform so to do that.
+
+00:34.260 --> 00:40.920
+One thing I've noticed here is I'm going to need a new edge loop right around the shoulders to kind
+
+00:40.920 --> 00:42.630
+of hold the shoulders.
+
+00:42.630 --> 00:48.180
+And the problem is is if I insert an edge loop them I'm just going to press control are here I can insert
+
+00:48.180 --> 00:58.070
+an edge loop here or I can insert and actually appear but I can't get one to wrap around like a necklace
+
+00:58.070 --> 01:01.040
+here all the way around the shoulders.
+
+01:01.160 --> 01:04.020
+So how to get that edge in there.
+
+01:04.070 --> 01:11.270
+What I'm to do is press control r and insert an edge loop up here at the neckline and then I want to
+
+01:11.270 --> 01:19.030
+press Alt click and I want to select this loop all the way around here like this
+
+01:21.570 --> 01:25.180
+nominee hit the one key to go back to the front view.
+
+01:25.460 --> 01:31.340
+And then what I can do is I can slide this edge down to be the edge that I want to create.
+
+01:31.340 --> 01:34.850
+So what we need is that slide edge tool again I'm going to press control.
+
+01:34.850 --> 01:45.790
+We go to Ed slide and I'll just drag the mouse out and it'll pull that edge down like that and I'll
+
+01:45.790 --> 01:47.800
+just pull that back up.
+
+01:47.800 --> 01:52.960
+Now we may need to do a little point pulling here and that's certainly fine.
+
+01:52.960 --> 01:56.940
+I can pull these up a bit and ultimately will need to pull these out.
+
+01:57.070 --> 02:01.580
+So they're more uniformly distributed along the front here.
+
+02:01.990 --> 02:05.510
+But that's what I wanted to get for now at least.
+
+02:05.740 --> 02:13.330
+I'll also do the same thing with this edge of press control i.e. an edge slide and drag that down a
+
+02:13.480 --> 02:14.340
+hair.
+
+02:14.800 --> 02:22.040
+And then I want to insert one more in here like so maybe scale that in a bit.
+
+02:23.110 --> 02:29.180
+All right so that makes those polygons a little bit more uniform as they're coming off of the neck and
+
+02:29.200 --> 02:31.940
+down into the shoulder.
+
+02:32.110 --> 02:34.270
+But let's look at the arms here.
+
+02:34.420 --> 02:39.940
+I think I could use an edge loop right around here in the middle.
+
+02:39.940 --> 02:49.150
+And another one right around here on the forearm that splits that up into more uniform polygons and
+
+02:49.150 --> 03:00.560
+then down here I think I'll do the same thing just mid shin here and maybe mid thigh here.
+
+03:01.940 --> 03:05.420
+That would go for the torso area.
+
+03:05.420 --> 03:08.320
+I feel like I need just at least one more here.
+
+03:08.330 --> 03:18.190
+I think I'm going to select this edge around the bottom of the rib cage just move that up a hair.
+
+03:18.290 --> 03:27.500
+I think I want to take these at the hips and move these down slightly like that.
+
+03:27.940 --> 03:30.680
+I want to insert an edge loop right around in here.
+
+03:30.730 --> 03:35.650
+I just want three edge loops coming off of the bottom of the arm.
+
+03:35.650 --> 03:43.120
+So if I have this edge here at the bottom of the arms I'm going to want one here two three and then
+
+03:43.120 --> 03:44.280
+the legs begin here.
+
+03:44.290 --> 03:47.510
+I think that will give me enough to work with.
+
+03:47.510 --> 03:54.720
+So at this stage it's really all about preparing for the sculped part of the process.
+
+03:54.760 --> 04:02.770
+I'm just trying to give myself enough resolution so that the sculp tool can subdivided evenly without
+
+04:02.770 --> 04:08.280
+overloading the geometry with more polygons and we actually need.
+
+04:08.290 --> 04:08.580
+All right.
+
+04:08.590 --> 04:11.270
+Let's take a look at the hands.
+
+04:11.410 --> 04:21.420
+I'm going to come in here and I'd like to just select these vertices here and what I want to do is I
+
+04:21.420 --> 04:29.400
+think I'd like to create the hands here so there's slightly facing down thumbs forward.
+
+04:29.490 --> 04:34.530
+I think that'll be an easier pose to rig ultimately.
+
+04:34.830 --> 04:39.190
+So let's think about how we want to do the hands here.
+
+04:39.360 --> 04:44.790
+I think I'm going to need extra edge loops at the back of the arm and at the front to the arm and that'll
+
+04:44.790 --> 04:49.000
+give me enough resolution to build out the fingers.
+
+04:49.050 --> 04:56.800
+So if I control r and insert an edge loop right here and do the same.
+
+04:56.830 --> 04:58.390
+Oh it went all the way around here.
+
+04:58.390 --> 05:00.420
+Good.
+
+05:00.550 --> 05:04.680
+I think I'd like to get this edge a little higher.
+
+05:04.680 --> 05:08.220
+So I'm just going to move some edges around here.
+
+05:09.000 --> 05:18.210
+Real quick with the slide to all I just think these pages are a little bit too close together right
+
+05:18.210 --> 05:18.720
+now.
+
+05:22.820 --> 05:23.980
+There we go.
+
+05:24.590 --> 05:25.430
+Yeah.
+
+05:25.850 --> 05:30.020
+So now we have a little bit more resolution down here.
+
+05:30.020 --> 05:33.530
+Not a lot but I think enough to work with.
+
+05:33.530 --> 05:37.200
+All right so I'm going to grab these faces.
+
+05:40.120 --> 05:43.510
+So I think I want to change this to normal real quick.
+
+05:43.510 --> 05:52.090
+The transformation orientation currently the orientation of the manipulators here is based on the world
+
+05:52.090 --> 05:53.100
+coordinates.
+
+05:53.140 --> 06:01.510
+I think I want them to be based on the normal coordinates of the faces that I've got selected here so
+
+06:01.510 --> 06:03.530
+I'll just change that to normal.
+
+06:03.640 --> 06:13.490
+I'll zoom in here and I'll scale these so they're a little bit flatter select those faces hit extrude
+
+06:13.970 --> 06:15.710
+and I'm going to pull straight out.
+
+06:19.440 --> 06:25.470
+Now what I want to do is take these points here right here and scale these in
+
+06:28.730 --> 06:41.790
+and bring these back like so toward the palm of the hand like so and now it's this area that we're going
+
+06:41.790 --> 06:44.170
+to extrude the thumb out of.
+
+06:44.550 --> 06:49.600
+So I'll go back to face mode and hit each for extrude.
+
+06:49.620 --> 06:58.020
+I'm going to click and go straight to the move tool and scale and rotate etc. and then I'm going to
+
+06:58.020 --> 07:04.740
+bring the thumb out a little more and hit extrude again go straight to the move to press the key scale
+
+07:04.770 --> 07:07.130
+in a hair more.
+
+07:07.200 --> 07:09.340
+And lastly one more time.
+
+07:10.240 --> 07:13.760
+For the tip of the thumb like this
+
+07:16.820 --> 07:22.200
+right so now let's see if I can get this edge back.
+
+07:22.220 --> 07:28.070
+So I'm going to select this edge with the Alt key and move it back a bit scaled up some.
+
+07:28.310 --> 07:33.820
+So that's going to be our thumb or at least the basis of our thumb.
+
+07:34.070 --> 07:42.200
+Keep in mind I'm keeping everything pretty small pretty skinny because as I said we're going to need
+
+07:42.200 --> 07:45.440
+room to build the sculped out.
+
+07:45.440 --> 07:45.710
+All right.
+
+07:45.710 --> 07:51.370
+So let's call that our thumb for now we'll see if we need to adjust that here.
+
+07:51.920 --> 08:00.040
+I can move this little point this way and maybe move this point a little this way like that.
+
+08:00.380 --> 08:00.900
+OK.
+
+08:00.920 --> 08:06.740
+So now what I'm going to do is move these up into here like this.
+
+08:06.740 --> 08:16.340
+And the interesting thing about this is that we're going to get rid of this whole area here at the bottom.
+
+08:16.630 --> 08:20.980
+So notice now I've got four edges here.
+
+08:21.480 --> 08:24.630
+One two three four.
+
+08:24.660 --> 08:29.330
+Those are the edges that are going to be the basis of the fingers.
+
+08:29.340 --> 08:38.160
+Now I don't have four edges here I just have to sort of what let's do is let's go back to the face mode
+
+08:38.190 --> 08:40.370
+and select these faces.
+
+08:40.470 --> 08:47.640
+And what I want to do is just delete a moment hit the x key and go to faces what I need to do is make
+
+08:47.640 --> 08:50.100
+it so these.
+
+08:50.340 --> 08:57.910
+So the top of the hand has four faces on it just like the palm of the hand.
+
+08:57.930 --> 09:05.610
+So what I'm going to do is just select these two faces and instead of just hitting the key which is
+
+09:05.610 --> 09:14.880
+the extrude button over here I'm going to choose extrude individual faces and then just move the mouse
+
+09:14.880 --> 09:21.870
+a bit and you can see they're kind of coming out individually right there to two different faces as
+
+09:21.870 --> 09:25.020
+opposed to all one Samana right click.
+
+09:25.080 --> 09:30.860
+And now I want to go back to that individual origins and scale these in if I hit the ESC key and scale
+
+09:30.860 --> 09:32.300
+I'm in.
+
+09:32.370 --> 09:34.720
+Now we get that.
+
+09:35.020 --> 09:41.890
+And at this point I can use that knife tool again to create a few edges here so I'm going to press the
+
+09:41.890 --> 09:51.910
+K key and hover over here so I get this edge and draw it straight out to here and press enter.
+
+09:52.750 --> 09:57.050
+So like this one draw straight out to here and hit enter.
+
+09:57.550 --> 10:03.500
+And then one more I'm going to go here to here and enter.
+
+10:03.580 --> 10:13.560
+And now I can go back to edges and select this edge and this edge and press X and dissolve edges.
+
+10:13.570 --> 10:24.350
+Now I've got one two three four edges that I can work with here to build out the fingers.
+
+10:24.490 --> 10:31.310
+So I'm going to start moving these around spacing them with the edge slide tool.
+
+10:31.870 --> 10:38.350
+So now that we have our edges matching up what let's do is go ahead and fill this hole with a face and
+
+10:38.350 --> 10:44.130
+then we can cut edges into it to prepare for extruding out the fingers.
+
+10:44.290 --> 10:50.590
+So I'll select this entire edge with all to select and then I'll just press the F key and that will
+
+10:50.620 --> 10:53.700
+fill that whole thing with a face.
+
+10:53.710 --> 11:01.780
+Now I can come back with the knife tool again I'll go to Virtex mode and press the K key and I'll just
+
+11:02.560 --> 11:12.710
+select these points right here and hit enter K and create these edges.
+
+11:13.170 --> 11:14.090
+And there we go.
+
+11:14.370 --> 11:21.270
+So now we have the faces that we can extrude the fingers out of and begin down here with the pinky like
+
+11:21.270 --> 11:23.890
+that face.
+
+11:23.970 --> 11:26.620
+And let's just begin extruding this out.
+
+11:27.000 --> 11:31.490
+So I'll hit the extrude scale down a bit.
+
+11:33.700 --> 11:46.270
+And again and move this and scale and rotated hair and once again easy and move and rotate and scale.
+
+11:46.270 --> 11:49.550
+So that's what we need to do for all of these.
+
+11:49.730 --> 11:50.030
+Right.
+
+11:50.030 --> 11:52.120
+I'll go ahead and do it for the next one here.
+
+11:59.390 --> 12:09.230
+Now you may or may not have notice that my character the character drawing that I've provided the goblin
+
+12:09.830 --> 12:12.500
+actually only has four fingers.
+
+12:12.500 --> 12:17.150
+He's only got or he's got three fingers and a thumb.
+
+12:17.300 --> 12:26.170
+But I thought that would be more beneficial to show how to create a normal hand with all five fingers.
+
+12:26.360 --> 12:32.070
+So my goblin may be a little bit different then my reference image.
+
+12:32.120 --> 12:38.840
+I just thought this would be a little more useful to people creating their own characters.
+
+12:38.840 --> 12:41.040
+All right so there we have our hands.
+
+12:41.060 --> 12:47.420
+We're getting there we're getting closer to the point where we can actually begin sculpting our polygons
+
+12:47.420 --> 12:51.710
+are getting a little bit more proportional and a little bit more evenly sized.
+
+12:51.710 --> 12:53.590
+We've got our hands set up.
+
+12:53.600 --> 13:01.100
+There may be more adjusting we need to do but in the next video I think we'll deal with the face creating
+
+13:01.220 --> 13:04.570
+basic edge loop patterns for the eyes and the mouth.
+
+13:04.610 --> 13:07.010
+And also we're going to need to extrude the ears out.
+
+13:07.010 --> 13:10.160
+I keep forgetting that this guy's got pretty big ears.
+
+13:10.790 --> 13:13.450
+And we go so we need to do the ears as well.

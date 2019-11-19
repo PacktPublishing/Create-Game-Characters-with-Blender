@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00.540 --> 00:03.960
+Let's keep moving forward with our character here.
+
+00:04.170 --> 00:08.810
+I think the next thing we should do is maybe work on the arms.
+
+00:09.050 --> 00:14.640
+All we really need to do here is select a couple of faces and extrude these out.
+
+00:14.640 --> 00:22.140
+Now if I extruded this out the way it is now and hit the e key and extruded out we only get it on one
+
+00:22.140 --> 00:27.900
+side so we kind of went the other side to come along for the ride as we model.
+
+00:28.060 --> 00:35.910
+So I'm going to undo out of this with control over command Z and what I'd like to do is just delete
+
+00:35.910 --> 00:42.600
+one half and then set up the mirror modifier So the model will stay symmetrical as we model.
+
+00:42.690 --> 00:49.500
+So to do that I'm just going to maximize this screen here the front for you by pressing control up arrow
+
+00:49.830 --> 00:52.400
+and that'll maximize that view.
+
+00:52.670 --> 00:59.070
+I'll hit the Z key for wireframe and I'll hit the big key for border select and I'll just click and
+
+00:59.070 --> 01:08.730
+drag and let's get these selected here then press X to delete and choose faces.
+
+01:08.860 --> 01:09.910
+And there we go.
+
+01:09.910 --> 01:13.600
+So now we've got half of the character deleted.
+
+01:13.600 --> 01:18.340
+I'm going to press control up arrow again to come back to my two window view.
+
+01:18.820 --> 01:20.640
+I'm going to tab out of edit mode.
+
+01:20.640 --> 01:23.800
+Hit the Z to go into solid shading.
+
+01:24.010 --> 01:28.600
+And now I'm going to come over here to the Properties window and I'm going to choose this little wrench
+
+01:28.600 --> 01:37.120
+here and this is the modifiers panel I'll click add modifier and the LIT's choose mirror.
+
+01:37.340 --> 01:38.550
+And there we go.
+
+01:38.550 --> 01:47.050
+Now I usually also choose clipping here that will ensure that any points along the center line of the
+
+01:47.050 --> 01:52.210
+model will get snapped to each other and merge together.
+
+01:52.210 --> 01:55.830
+All right so I'll hit the tab key to go back into edit mode.
+
+01:56.230 --> 02:04.240
+I can turn this little guy on this adjust edit cage and see the faces on the other side as well.
+
+02:04.240 --> 02:04.510
+All right.
+
+02:04.510 --> 02:06.430
+So let's go ahead and work on the arms.
+
+02:06.430 --> 02:13.510
+I'm going to select these two faces and hit the e key and I'm going to immediately click and then just
+
+02:13.510 --> 02:18.020
+press g for move and just move these out.
+
+02:18.430 --> 02:28.410
+I'm going to use the scale tool to flatten these up the press the s key and scale that down a bit.
+
+02:28.440 --> 02:34.320
+Now I'll come in here and kind of work on these I'll select these two points and just scale them in
+
+02:34.330 --> 02:35.850
+a bit.
+
+02:35.930 --> 02:43.550
+No I won't because I've still got individual origins selected I'm going to change this to median point
+
+02:43.550 --> 02:46.240
+again and then I should be able to scale these.
+
+02:46.590 --> 02:55.040
+And again I'll just move these out to kind of shape the arm a bit
+
+02:57.830 --> 03:04.440
+Go to face mode and hit each for extrude and I'll just come straight out.
+
+03:05.860 --> 03:07.380
+Something like this.
+
+03:07.540 --> 03:13.300
+I think I will have these more relaxed and down.
+
+03:16.490 --> 03:19.150
+Let me move these down as well.
+
+03:19.550 --> 03:22.940
+Rotate them a bit.
+
+03:23.220 --> 03:27.270
+So I'm just trying to shape the arms a bit.
+
+03:27.270 --> 03:31.300
+So they're in more of a relaxed pose.
+
+03:31.450 --> 03:38.080
+I'm just using both the front and the side view to see how I'm doing here.
+
+03:39.770 --> 03:45.030
+Now I think we need to insert some edge loops up here around the shoulder so let's go ahead and do that
+
+03:46.630 --> 03:50.520
+while press control r and insert and then loop up here.
+
+03:54.380 --> 03:56.850
+And I'll scale them to kind of fit their
+
+04:00.680 --> 04:02.250
+Let's take a look at the head here.
+
+04:02.270 --> 04:06.350
+I'm going to select these points and just begin moving them out a bit.
+
+04:06.650 --> 04:09.350
+So they're not quite so blocky
+
+04:12.720 --> 04:22.320
+something like this.
+
+04:22.930 --> 04:26.050
+In addition I think I'd like to work on this piece right down here.
+
+04:26.050 --> 04:32.950
+Now there's an edge loop that's going to flow down around the front here around the crotch and also
+
+04:32.950 --> 04:34.950
+back here along the back.
+
+04:35.290 --> 04:40.720
+And I'd like to go ahead and get those set up before I move any farther.
+
+04:40.810 --> 04:46.920
+So the way to do that is I'm going to insert an edge loop right along here and that will of course inserted
+
+04:46.920 --> 04:49.290
+in its loop on the other side as well.
+
+04:49.810 --> 04:54.550
+And I want to insert an edge loop across here and bring it down.
+
+04:57.110 --> 04:58.790
+Something like that.
+
+05:01.160 --> 05:06.970
+And the whole purpose of this is to get this edge to flow down around like this.
+
+05:07.010 --> 05:13.730
+What I want to do first is actually cut an edge from here to here and then delete these two.
+
+05:13.730 --> 05:22.820
+So I just going to hit the cakey for the knife tool and click here and then click here and hit enter
+
+05:22.940 --> 05:24.200
+or return.
+
+05:24.530 --> 05:32.340
+Then I'm going to take this edge and dissolve it and then I'm going to take this edge and dissolve it
+
+05:32.490 --> 05:36.700
+by pressing the x key and then going to dissolve edges.
+
+05:37.170 --> 05:43.790
+And now you can see I've got this flow coming around here and that edge flow will help us as we sculpt
+
+05:43.800 --> 05:47.240
+the transition between the hips and the legs.
+
+05:47.250 --> 05:47.730
+All right.
+
+05:47.730 --> 05:51.300
+Well now that I've got that let's spin around on the back side and get that.
+
+05:51.300 --> 05:57.890
+Now this is the front view and I pressed the one key to get here I can also press control one key and
+
+05:57.890 --> 06:00.260
+I'll spin around to get the other side.
+
+06:00.510 --> 06:07.460
+So now I can press the KCI and knife this side but I'm not getting a little highlighted points here
+
+06:07.470 --> 06:09.260
+that tells me I can cut.
+
+06:09.270 --> 06:14.070
+The problem is this is the mirrored side if I come over here there.
+
+06:14.100 --> 06:17.220
+That looks a little better so I'll cut here.
+
+06:17.250 --> 06:19.110
+And then here.
+
+06:19.290 --> 06:21.090
+And hit enter.
+
+06:21.090 --> 06:30.090
+And now I go back to edge mode and dissolve this edge with the x key and press X here as well and dissolve
+
+06:30.120 --> 06:31.110
+edges.
+
+06:31.110 --> 06:34.260
+So there we've got that edge flow going around.
+
+06:34.350 --> 06:40.770
+Now I need to dissolve these edges along the side and these edges down beneath.
+
+06:40.770 --> 06:47.830
+So I'll just press on it and click this edge and then choose X and dissolve.
+
+06:48.300 --> 06:56.100
+Now we go and now down here on the bottom I'll go back to the default view and let's tumble down here
+
+06:56.600 --> 07:04.080
+and I need to get rid of these as well so I'll press alt and click those X and dissolve edges.
+
+07:04.080 --> 07:12.080
+Now we go now I have to give credit to Scott Spencer for this particular method of doing things.
+
+07:12.090 --> 07:18.180
+He is a digital sculptor extraordinaire and his book digital sculpting is great.
+
+07:18.180 --> 07:25.020
+So you got to take a look at that if you are interested in really going into detail into sculpting human
+
+07:25.020 --> 07:25.780
+forms.
+
+07:26.780 --> 07:31.810
+All right so with that let me spin around here again and hit the one key.
+
+07:31.980 --> 07:33.170
+Know we go.
+
+07:33.170 --> 07:34.320
+We're getting there now.
+
+07:34.340 --> 07:39.920
+This line of edges is really tight and close together here.
+
+07:39.920 --> 07:43.980
+In addition we need an extra edge loop down the center of the legs.
+
+07:44.030 --> 07:49.610
+So what I'm to do is I'll go ahead and press control are in insert and loop here because we're going
+
+07:49.610 --> 07:50.730
+to need that.
+
+07:50.900 --> 07:58.820
+But also I need to come through and begin moving these out a bit so I'm going to take this and just
+
+07:59.120 --> 08:05.590
+begin pulling these out to kind of spaced these out a little better.
+
+08:09.660 --> 08:14.200
+For these up here I'll use the slide edge tool if you press control.
+
+08:14.250 --> 08:23.450
+You get a menu for edges if you press control f you get a menu for faces and if you press control V
+
+08:23.470 --> 08:25.780
+you get a menu for vertices.
+
+08:26.020 --> 08:34.510
+So for edges or press control E and go to Ed slide down here and now I can just drag the mouse and it'll
+
+08:34.510 --> 08:40.480
+slide that edge along that existing plane will do the same thing over here.
+
+08:44.250 --> 08:45.910
+All right we're coming along.
+
+08:45.960 --> 08:51.090
+We've still got work to do on the arms and of course the hands and we're going to begin inserting some
+
+08:51.090 --> 08:57.750
+edge loops and doing things like pulling these points around the side of the character to get them a
+
+08:57.750 --> 09:02.190
+little bit more rounded out like that.
+
+09:02.790 --> 09:05.100
+But ultimately it's looking pretty good.
+
+09:05.100 --> 09:12.060
+I do need to be sure and keep the base mesh a little smaller than the reference drawing.
+
+09:12.060 --> 09:20.160
+To give myself a little room to sculpt because when I sculpt I'm going to want to add forms and pull
+
+09:20.160 --> 09:26.010
+things out to create the shape of the body rather than cutting in.
+
+09:26.010 --> 09:34.230
+So this base mesh really needs to be smaller or skinnier than the actual character so that we can add
+
+09:34.230 --> 09:37.120
+forms instead of taking away.
+
+09:37.200 --> 09:43.410
+So in the next video we'll keep going and we'll try and finish off the base mesh so we can finally start
+
+09:43.410 --> 09:44.040
+sculpting.

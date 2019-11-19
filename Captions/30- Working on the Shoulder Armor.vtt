@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00.680 --> 00:08.000
+Let's continue with our read typology by working on this shoulder piece I think what I want to do is
+
+00:08.000 --> 00:13.170
+have this mirrored part of the head be all one piece.
+
+00:13.370 --> 00:21.020
+So go back to object mode and come over here to the modifiers panel and I'll just click apply and that
+
+00:21.020 --> 00:23.400
+will now make this all one piece.
+
+00:23.450 --> 00:32.030
+So now over here what I need to do is draw out the geometry of the shoulder armor so to do that I will
+
+00:32.030 --> 00:37.240
+just click draw and let's just start drawing out the geometry we want.
+
+00:38.140 --> 00:39.190
+On this piece.
+
+00:39.190 --> 00:41.130
+So maybe something like this.
+
+00:43.310 --> 00:44.410
+And this
+
+00:49.190 --> 00:51.390
+and a couple more down here.
+
+00:53.880 --> 00:58.840
+Let's go with that and then I'll draw some cross lines here.
+
+01:02.410 --> 01:03.820
+I didn't mean to do that.
+
+01:03.820 --> 01:05.730
+Let me try that one again.
+
+01:05.770 --> 01:07.920
+I just did that with command Z
+
+01:14.770 --> 01:15.130
+right.
+
+01:15.130 --> 01:17.580
+Let's see how that works.
+
+01:17.590 --> 01:26.810
+So with that done I'll hit enter and then I'll go over to the Tools panel and click add surface and
+
+01:26.810 --> 01:34.220
+there we go now it looks like a few of these are turned the wrong way so I'll just hit the A key and
+
+01:34.220 --> 01:39.840
+press control in and see if that will get all the normals pointing the same way.
+
+01:41.450 --> 01:48.230
+I think I'm going to need another extrusion down to here as well as maybe another one down to here.
+
+01:48.410 --> 01:55.130
+But what I want to do is if I selected this edge and extrude it I want it to snap to this object.
+
+01:55.340 --> 02:03.080
+But the problem is with the multi resolution modifiers for each of these objects set to such a high
+
+02:03.080 --> 02:07.890
+resolution My computer is going to lag quite a bit.
+
+02:07.910 --> 02:16.370
+So what I need to do is come in here let me go back to object mode and for all of these multi resolution
+
+02:16.430 --> 02:23.340
+modifiers I need to really reduce that down to maybe one or two.
+
+02:23.460 --> 02:26.870
+I'll see if I can get away with two.
+
+02:26.910 --> 02:34.590
+Let me just reduce everything I'm going to take the character down to maybe maybe three for the character
+
+02:34.590 --> 02:39.050
+so I can see a little bit of that definition.
+
+02:39.180 --> 02:40.580
+Let me take this down.
+
+02:41.660 --> 02:50.280
+Two and I don't need the higher resolution while I'm doing this while I'm read apologizing.
+
+02:50.350 --> 02:53.500
+I don't need to see all that higher detail.
+
+02:53.720 --> 02:58.970
+So this will just help things move a little quicker in the viewport.
+
+02:59.030 --> 03:07.430
+So we've come down quite a bit from millions of tries to 170 thousand and that should help the viewport
+
+03:07.460 --> 03:09.670
+move a little bit better.
+
+03:09.680 --> 03:19.070
+So if I wanted to select this object and extrude these edges down I can select this edge and control
+
+03:19.070 --> 03:20.830
+select this edge.
+
+03:20.840 --> 03:30.920
+Now I can come down here and turn on snapping and I've got it set to face and closest and I want to
+
+03:30.920 --> 03:33.450
+turn on this little guy.
+
+03:33.470 --> 03:39.450
+No this little guy excuse me this project individual elements on the surface of other objects.
+
+03:39.560 --> 03:51.100
+I want to turn him on now if I extrude this and pull it down it'll kind of snap to that area like that
+
+03:52.700 --> 03:59.310
+if I come over here to the x ray you can see that it's kind of snapped to that surface and that's good
+
+03:59.320 --> 04:00.580
+that's what we want.
+
+04:00.610 --> 04:07.380
+So I like this and control like that and then I'll hit it easy and pull down to here.
+
+04:08.400 --> 04:10.100
+I be right about there.
+
+04:12.450 --> 04:15.370
+And I'll just snap these to the surface.
+
+04:15.370 --> 04:15.560
+Now
+
+04:20.290 --> 04:22.820
+I'd like this to be the point.
+
+04:22.870 --> 04:25.740
+These to move around here like that
+
+04:35.450 --> 04:38.540
+like that.
+
+04:38.910 --> 04:45.270
+I think what I'll also do is take this piece and extrude it down a bit.
+
+04:45.750 --> 04:51.680
+So maybe for extrude and pull it down to about here let's say
+
+05:03.450 --> 05:04.220
+like so.
+
+05:04.320 --> 05:06.720
+And maybe these one more time
+
+05:11.310 --> 05:17.730
+all right so I think we could probably extrude this edge up.
+
+05:17.820 --> 05:26.280
+We get hit and pull this up to the edge of this piece right here and do a little point pulling to get
+
+05:27.060 --> 05:29.960
+that basic shape again.
+
+05:32.170 --> 05:38.320
+Like this and then what I'd like to do is take this whole edge here.
+
+05:39.770 --> 05:46.380
+And maybe extrude this over to the side toward the head.
+
+05:46.410 --> 05:52.640
+So I'll hit me and move it over to this edge right here.
+
+05:54.380 --> 05:57.670
+Let's also do the same thing around the edge here.
+
+05:58.040 --> 06:05.970
+I'll just hold control and click at subsequent points around the edge here like that.
+
+06:07.390 --> 06:14.910
+And then I'm going to turn off the x ray and just hit me and let that snap down to this area.
+
+06:16.570 --> 06:17.260
+So
+
+06:20.330 --> 06:21.950
+here we go.
+
+06:21.950 --> 06:26.690
+Now I'd like to select this edge I'm just going to press alt and click that edge and then de-select
+
+06:26.720 --> 06:36.610
+this one and de-select this one and I just want to extrude this down a bit so I'll just hit E and pull
+
+06:36.610 --> 06:37.840
+that down some
+
+06:41.240 --> 06:50.520
+like that and you can press shift tab to turn you're snapping off pretty quickly and then shift tab
+
+06:50.520 --> 06:52.900
+to turn it back on if you want.
+
+06:53.200 --> 06:56.540
+I just want to merge these points here.
+
+06:57.620 --> 06:59.810
+With him and at last
+
+07:05.080 --> 07:05.610
+all right.
+
+07:05.620 --> 07:08.830
+So now let's think about connecting this up.
+
+07:08.890 --> 07:12.470
+I think we could probably connect this up here.
+
+07:12.610 --> 07:17.430
+We may need an extra edge loop here and maybe an extra edge loop here.
+
+07:17.530 --> 07:25.020
+Let's just test that and see if I insert an initially appear and I insert an edge loop here.
+
+07:25.330 --> 07:26.470
+Let's just test this.
+
+07:26.470 --> 07:34.870
+We can always undo it but I think what I'd like to do is extend this down one more row and then connect
+
+07:34.930 --> 07:35.750
+those up.
+
+07:35.920 --> 07:37.890
+Let's see what we can do here.
+
+07:37.930 --> 07:46.580
+So I'm going to turn x ray off and with snapping on I'm going to go ahead and scale this down a bit.
+
+07:47.820 --> 07:49.370
+Maybe move it into place
+
+07:52.210 --> 07:55.240
+like so.
+
+07:55.380 --> 08:01.590
+And also I might come over here to options and let me turn on X mirror and typology mirror.
+
+08:01.710 --> 08:03.200
+And what that might do for us.
+
+08:03.210 --> 08:07.580
+Let's just see if this works I'm going to select a point and hit G.
+
+08:07.860 --> 08:17.980
+And sure enough I can get mirrored movement on this with both x mirror and typology mirror on.
+
+08:18.120 --> 08:21.730
+I may not need it but I'm going to go ahead and try it for now.
+
+08:21.880 --> 08:29.320
+I'm going to slice this whole ring around the neck and hit extrude and bring this down a bit and maybe
+
+08:29.320 --> 08:34.670
+scale it out some see if I can get it to snap.
+
+08:34.980 --> 08:44.610
+So now I'll come back down under here turn on x ray and let's see if I can get these things to match
+
+08:44.610 --> 08:45.670
+up.
+
+08:45.750 --> 08:56.100
+I think maybe I could do these four vertices here and create a face and maybe these four here and create
+
+08:56.190 --> 08:57.720
+a face.
+
+08:57.720 --> 08:59.080
+See how that looks.
+
+08:59.090 --> 09:01.180
+Yeah it's not bad.
+
+09:01.640 --> 09:14.340
+And maybe these four here so now we've got the geometry of the shoulder armor and we've got it hooked
+
+09:14.340 --> 09:16.320
+up to the neck here.
+
+09:16.320 --> 09:22.200
+I think this is probably what we're going to do is connect everything up all into one piece.
+
+09:22.200 --> 09:29.490
+I may need another extrusion here and another extrusion along the neck but generally speaking I think
+
+09:29.490 --> 09:30.930
+that's going to work.
+
+09:31.110 --> 09:39.060
+I'm going to go ahead and come out of it mode here and maybe I'll just move this to layer 3 just so
+
+09:39.060 --> 09:43.010
+I can see it individually.
+
+09:43.020 --> 09:50.630
+So now we've used both the grease pencil tool with the beast surfaces add on and we've also used our
+
+09:50.640 --> 09:52.500
+snapping tools.
+
+09:52.560 --> 09:57.890
+So in the next video we'll take a look at other tools that we can use as we read to apologize.

@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.240 --> 00:03.670
+Well we've got our character and our textures in the scene here.
+
+00:03.780 --> 00:07.260
+We've put up the idli animation in the animator.
+
+00:07.260 --> 00:11.730
+I think our next task is to go ahead and bring in the other animation clips.
+
+00:11.730 --> 00:17.620
+So I'm going to open up the object the character object here and go down to the bottom and here are
+
+00:17.620 --> 00:18.630
+our animation clips.
+
+00:18.630 --> 00:20.840
+Here's the idol that we've already put in.
+
+00:21.120 --> 00:23.950
+We can now let's now bring in the run.
+
+00:23.970 --> 00:26.810
+So let's just grab this and drag it in.
+
+00:26.910 --> 00:27.810
+And there it is.
+
+00:28.110 --> 00:33.800
+Now what we need to do is figure out how to transition from the idol to the run.
+
+00:33.810 --> 00:41.160
+We can make our transitions here in the animator by right clicking on a clip and choosing make transition
+
+00:41.190 --> 00:48.480
+and then dragging over and then clicking on another clip and I'll do the same with the run make transition
+
+00:48.510 --> 00:54.660
+and drag down here so now we have transitions going from the idol to the run and from the run to the
+
+00:54.660 --> 00:55.480
+idol.
+
+00:55.500 --> 01:00.120
+Now we can trigger these in a lot of different ways but the way I'm going to do it is I'm going to create
+
+01:00.120 --> 01:02.900
+a parameter and I'm going to use an integer.
+
+01:02.910 --> 01:07.150
+So over here you've got layers and you've got parameters.
+
+01:07.170 --> 01:13.530
+So if you go to parameter and click on the little plus right here that will give you the menu where
+
+01:13.530 --> 01:14.970
+you can choose an integer.
+
+01:14.970 --> 01:15.900
+So I click that.
+
+01:15.930 --> 01:16.770
+And here we go.
+
+01:16.770 --> 01:18.780
+Now I'm going to call this.
+
+01:19.530 --> 01:23.040
+Well since it's an animation parameter let's call it animation.
+
+01:23.040 --> 01:24.940
+P A R parameter.
+
+01:25.070 --> 01:26.090
+And here we go.
+
+01:26.490 --> 01:33.080
+So this particular integer parameter we're going to refer to in our script in our character controller
+
+01:33.090 --> 01:41.370
+script and we just need to now define what happens at 0 or 1 or 2 or whatever.
+
+01:41.370 --> 01:48.910
+So at integer zero we can say that you'll transfer back to the idle.
+
+01:48.960 --> 01:56.190
+So here let me scroll down here and under conditions let me open this up a bit.
+
+01:56.450 --> 02:07.230
+So under conditions we can say that when the animation parameter equals zero the character will transition
+
+02:07.230 --> 02:08.620
+back to the idle.
+
+02:08.640 --> 02:15.180
+All right so we can now choose the other transition here and we can click on the plus to create another
+
+02:15.180 --> 02:15.900
+transition.
+
+02:15.900 --> 02:23.820
+Another condition I should say and say that when the animation parameter is equal to one
+
+02:26.870 --> 02:29.740
+then it will transition to the run.
+
+02:29.750 --> 02:37.400
+OK so in this script we're going to be telling unity what animation clip to transition to by changing
+
+02:37.400 --> 02:39.930
+this parameter from 0 to 1.
+
+02:40.160 --> 02:45.880
+All right so now let's bring in our jump script here our jump clip.
+
+02:45.920 --> 02:48.950
+Move over here and bring this in.
+
+02:48.950 --> 02:51.690
+So here's our jump.
+
+02:51.810 --> 02:58.390
+So now let's think about this if we want to transition from the run to the jump.
+
+02:58.780 --> 03:02.250
+That transition should be a new parameter right.
+
+03:02.260 --> 03:07.100
+We've already used 0 and 1 here to go to the jump.
+
+03:07.180 --> 03:18.400
+We could create a condition where animation parameter equals to right and then to go back from the jump
+
+03:18.400 --> 03:27.080
+to the run that we've already established that the run is one right to where the animation parameter
+
+03:27.080 --> 03:28.000
+is one.
+
+03:28.310 --> 03:36.480
+So let's say that condition going from the jump to the run is one.
+
+03:36.820 --> 03:43.840
+All right so here we have going from the idle to the run we have one and go in from the jump to the
+
+03:43.840 --> 03:44.830
+run.
+
+03:45.040 --> 03:45.980
+We have one.
+
+03:46.420 --> 03:51.440
+So to go to the idle is zero to go to the run is one and go to go to the jump is two.
+
+03:51.580 --> 03:59.080
+Now we can of course as I said have many animation clips and this animator window can look like a spider
+
+03:59.080 --> 03:59.570
+web.
+
+03:59.620 --> 04:03.070
+If you have a whole lot of animation clips to work with.
+
+04:03.070 --> 04:08.020
+All right so now we have transitions from the idle to the run from the run to the jump.
+
+04:08.080 --> 04:11.670
+We need to be able to jump directly from the idle as well.
+
+04:11.710 --> 04:15.130
+If we're just standing there we want to be able to jump up.
+
+04:15.220 --> 04:21.870
+So from the idle to the jump we've established that the jump is too.
+
+04:21.880 --> 04:29.250
+So I'll create a condition where the animation parameter equals to here.
+
+04:29.600 --> 04:37.240
+And we've established that the idle is zero so we go back to the idle and that transition we create
+
+04:37.240 --> 04:41.010
+a condition where the animation parameter equals zero.
+
+04:41.140 --> 04:42.160
+And we go.
+
+04:42.520 --> 04:49.600
+All right so now we have transitions going to and from all of our clips but there's not much we can
+
+04:49.600 --> 04:54.670
+do with it at this point in time because we have no way to trigger them to be able to trigger them we're
+
+04:54.670 --> 04:56.130
+going to need a script.
+
+04:56.230 --> 05:04.150
+So let's go back here and I'm going to go collapse this back down and to create a script.
+
+05:04.150 --> 05:11.380
+We just need to right click in the assets window go to create and create a C-sharp script.
+
+05:11.620 --> 05:16.660
+And for this we just we could call it just player and there we go.
+
+05:16.780 --> 05:25.390
+Now if I double click this unity will search for Monto develop and open that up so that we can edit
+
+05:25.420 --> 05:26.430
+our script.
+
+05:26.800 --> 05:27.780
+And here it is.
+
+05:27.850 --> 05:36.020
+OK so this is the default code that we get whenever we create a new script.
+
+05:36.100 --> 05:41.490
+This up here is referring to particular libraries that this script is going to be using.
+
+05:41.830 --> 05:51.260
+This is our public class this name right here needs to be the exact same as the name of the script here.
+
+05:51.640 --> 06:00.550
+So you can get errors if you accidentally change those somehow the start function happens one time at
+
+06:00.550 --> 06:05.220
+the beginning of the game and the update function happens on every frame.
+
+06:05.230 --> 06:10.530
+So it's cycling through this function on every frame of the game.
+
+06:11.080 --> 06:17.650
+So the first thing we need to do is figure out how to connect this script with both our character controller
+
+06:18.310 --> 06:23.850
+and our animator controller because these are where we're going to control the character.
+
+06:23.860 --> 06:28.720
+We're going to control the movement of the character around our scene with the character controller
+
+06:29.080 --> 06:32.940
+and we're going to trigger the animations with the animation controller.
+
+06:32.950 --> 06:36.270
+So these are important things to be able to connect to.
+
+06:36.730 --> 06:40.900
+So first of all what we need to do is create a couple of new variables.
+
+06:41.080 --> 06:45.870
+One is going to be the character controller.
+
+06:46.090 --> 06:52.240
+It's going to be a private variable because it only needs to be seen within the script and will call
+
+06:52.240 --> 06:56.250
+the name of this variable controller.
+
+06:56.320 --> 07:02.920
+The next thing we need is a variable for our animator controller and we also want a private variable
+
+07:02.920 --> 07:11.140
+for that and we'll have this variable be of type animator and we'll call it an.
+
+07:11.350 --> 07:16.810
+So these two variables will allow us to connect to the carriage controller and the animator controller
+
+07:17.410 --> 07:22.240
+but we need to initialize them when the game first begins.
+
+07:22.240 --> 07:31.030
+So if we come down here and do the start function we can say we want to use the controller variable
+
+07:32.380 --> 07:33.720
+to get to the component
+
+07:36.530 --> 07:38.290
+of the character controller here.
+
+07:43.660 --> 07:50.380
+And we want to do the same thing for the animator controller so we'll use that variable to get the game
+
+07:50.380 --> 07:55.090
+object that is the component that we want here.
+
+07:55.900 --> 07:58.840
+And we want to get the animator
+
+08:01.740 --> 08:02.800
+when we go.
+
+08:03.260 --> 08:11.780
+So these two lines will go and find and connect with our character controller and our animator controller.
+
+08:11.780 --> 08:17.870
+So now that we have our controllers set up lets go ahead and test out our animation parameters and see
+
+08:17.870 --> 08:23.550
+if they work for us to do that to come down to the update function down here.
+
+08:23.720 --> 08:32.110
+And I want to say that if I press the up arrow the run animation should trigger should turn on.
+
+08:32.120 --> 08:35.720
+So what I'm going to say is if the input
+
+08:38.680 --> 08:48.070
+for a key happens to be the up arrow then what I want to do
+
+08:52.040 --> 09:05.940
+is use that animator control or variable and I want to set the integer of that animation parameter to
+
+09:05.940 --> 09:07.450
+1.
+
+09:07.730 --> 09:10.190
+And there we go and save that.
+
+09:10.200 --> 09:17.160
+So once again if we get an input from the up arrow then change the animation parameter in the animator
+
+09:17.160 --> 09:18.910
+controller to one.
+
+09:18.930 --> 09:24.190
+And we've already defined that one will trigger the run.
+
+09:24.300 --> 09:29.760
+So let's see if this works I'm going to go back to unity and I'm going to need to take this player script
+
+09:29.760 --> 09:35.970
+and drag it over here onto my character and then if we take a look at it if we click on it we can see
+
+09:35.970 --> 09:41.100
+that that player script is now a component down here in our inspector.
+
+09:41.100 --> 09:43.630
+All right we've got a warning here.
+
+09:43.740 --> 09:47.460
+It says that the character controller here isn't being used.
+
+09:47.460 --> 09:51.340
+And that's true we're not using it yet and that's fine.
+
+09:51.390 --> 09:53.840
+So let's just hit play and see what happens.
+
+09:53.850 --> 09:59.220
+So we have our idol going and if we hit the up arrow you can see he runs.
+
+09:59.220 --> 10:05.980
+Now if I take my finger off the up arrow he continues to run because there is no way for him to get
+
+10:05.980 --> 10:10.900
+back to the idle using the animation parameter of zero.
+
+10:10.900 --> 10:18.820
+So let's turn off the game here and let's go back to our script and now what we need to do is just tell
+
+10:18.820 --> 10:22.570
+unity that when the up arrow isn't being pushed.
+
+10:22.570 --> 10:25.510
+We want to go back to the idle pose.
+
+10:25.540 --> 10:29.880
+So if our input key is up.
+
+10:29.980 --> 10:40.300
+Otherwise else we can say that the and him set integer should be
+
+10:43.760 --> 10:49.740
+animation parameter of zero.
+
+10:50.020 --> 10:51.100
+And there we go.
+
+10:51.100 --> 10:59.380
+So now what we're saying is if the input key is pushed and it's the up key then transition to the run
+
+10:59.860 --> 11:03.400
+else if nothing is happening then go back to the idle.
+
+11:03.640 --> 11:07.150
+So let's save that go back to unity.
+
+11:07.330 --> 11:09.500
+What's hit play.
+
+11:09.660 --> 11:16.790
+And so we push the up arrow and he runs and we lift up off the up arrow and he stops.
+
+11:17.160 --> 11:21.870
+All right so we have our run and our idle cycles working out.
+
+11:21.960 --> 11:23.150
+That's good.
+
+11:23.370 --> 11:28.230
+In the next video we'll work on connecting the jump animation and moving the character around.
+
+11:28.530 --> 11:29.130
+See it then.

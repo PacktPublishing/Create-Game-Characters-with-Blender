@@ -1,0 +1,424 @@
+WEBVTT
+
+00:00.780 --> 00:03.080
+Well today I feel like working on the boots.
+
+00:03.120 --> 00:05.560
+I don't know why do we really need a reason.
+
+00:05.580 --> 00:11.430
+I think I'm going to just start working on one of these boots here.
+
+00:11.490 --> 00:14.440
+I don't exactly know what they look like.
+
+00:14.490 --> 00:22.920
+This drawing doesn't give me a whole lot of information but I've got some reference images of boots
+
+00:22.980 --> 00:27.590
+up on my screen around Blendr here to take a look at.
+
+00:27.800 --> 00:30.290
+And I thought I just began working on this.
+
+00:30.570 --> 00:38.240
+So first of all let's get some base geometry for the boot that we can use to sculpt on.
+
+00:38.280 --> 00:42.390
+I'm not going to sculpt directly on the character here.
+
+00:42.390 --> 00:46.920
+I want to duplicate some faces and create some new geometry.
+
+00:47.220 --> 00:53.940
+So what I'll do is I'll come back to object mode and I'll turn off the multi rez modifier for now by
+
+00:53.940 --> 00:56.030
+clicking here on the eyeball.
+
+00:56.550 --> 01:03.230
+And if we select this we can see that here is the base geometry we created at the beginning.
+
+01:03.310 --> 01:12.270
+I'm going to go to my character images view here and go to wireframe press Schiff's see to frame up
+
+01:12.270 --> 01:14.100
+the whole thing.
+
+01:14.140 --> 01:18.270
+Let's take a look at the boots down here.
+
+01:18.270 --> 01:25.820
+So it looks like if I duplicated I'm going to press the key for border select.
+
+01:26.010 --> 01:33.760
+If I duplicated all of this I could use this as the base geometry of the boot.
+
+01:33.850 --> 01:38.270
+I'm going to come back here to my default view.
+
+01:38.340 --> 01:45.390
+Now I don't need both sides of this so I'm going to go back into wireframe and just de-select everything
+
+01:45.390 --> 01:49.970
+with a hit B again and just select this one side.
+
+01:50.010 --> 01:54.410
+All right so now I'm going to duplicate this with chiff D.
+
+01:54.540 --> 02:01.410
+And now I've got duplicate faces there going to press the P key and separate those duplicate faces out
+
+02:01.410 --> 02:02.820
+into their own object.
+
+02:02.820 --> 02:06.810
+So I'll press the P key and hit selection.
+
+02:06.960 --> 02:12.150
+And now I should be able to see a new object over here.
+
+02:12.150 --> 02:14.560
+Here it is character 0 0 0 0 1.
+
+02:14.760 --> 02:16.460
+I can call this boot.
+
+02:17.040 --> 02:20.310
+And that will be what we'll use to create our boots.
+
+02:20.310 --> 02:31.420
+Now I'm going to isolate it with shift H for now and zoom in a bit and I would like to close off the
+
+02:31.420 --> 02:31.900
+top.
+
+02:31.900 --> 02:39.160
+I think it might help in the sculpting to have it all one piece so I'm going to go to edge mode press
+
+02:39.250 --> 02:46.060
+Alt click that edge to select that entire edge loop and I'm going to just hit the for extrude and click
+
+02:46.120 --> 02:54.650
+and then scale this in a bit and maybe just do easy and click and then I'll merge those together with
+
+02:54.650 --> 02:58.550
+Allt M and click at center.
+
+02:58.560 --> 03:03.000
+So now we've got that piece ready to go.
+
+03:03.000 --> 03:06.980
+All right I'll go back to object mode with Tab key press.
+
+03:06.990 --> 03:16.860
+All it takes to bring back the character and what I'd like to do is let's take this character let's
+
+03:16.860 --> 03:27.630
+reapply the multi rez modifier to him Nalut select the boot and I'm going to apply a multi rez modifier
+
+03:27.630 --> 03:28.480
+to that one.
+
+03:28.590 --> 03:34.240
+I already have it here but I don't want that sculped information on that.
+
+03:34.410 --> 03:38.730
+I just don't want that I want to begin with a new multi rez modifier.
+
+03:38.730 --> 03:43.940
+I mean if I click this and turn it on it'll be exactly the same shape as the foot.
+
+03:43.950 --> 03:45.480
+And I don't really want that.
+
+03:45.780 --> 03:50.660
+So I'm going to get rid of this modifier and I'll add a new one.
+
+03:53.130 --> 04:01.380
+And let's subdivide this oh let's first do it once here maybe twice.
+
+04:02.210 --> 04:07.760
+And we go and I'll hit smooth over here just to make sure.
+
+04:08.000 --> 04:11.550
+And so there is the beginning of our boot.
+
+04:11.600 --> 04:17.590
+Now what I need to do is just sculpt this out to match our foot.
+
+04:17.770 --> 04:23.830
+So when they come over here to the sculped mode and let's take a look at how we want to do this.
+
+04:23.990 --> 04:25.400
+Now you know what.
+
+04:25.400 --> 04:31.700
+Now that I think about it I might want to come back and adjust these points here.
+
+04:31.820 --> 04:34.780
+I think they were a little bit too high.
+
+04:34.790 --> 04:35.870
+Let me see.
+
+04:37.170 --> 04:38.160
+What we can do here.
+
+04:38.170 --> 04:41.220
+I'm going to Borders select these.
+
+04:41.650 --> 04:46.100
+And if we go back into our character images screen lay out.
+
+04:46.390 --> 04:49.050
+Yeah I want to move that down just a bit.
+
+04:50.020 --> 04:51.470
+Not like that.
+
+04:52.110 --> 04:53.860
+So back in sculped mode.
+
+04:53.860 --> 04:58.740
+Now let me take a look at these images.
+
+04:59.120 --> 05:08.000
+So what we need to do is pull this out and get it arranged so it's fitting around the foot a little
+
+05:08.000 --> 05:09.040
+bit better.
+
+05:09.200 --> 05:11.610
+Maybe I'll use my grab brush.
+
+05:11.690 --> 05:12.860
+Let's try this.
+
+05:12.860 --> 05:19.970
+We could use any number of brushes here but for now I think I'll try this.
+
+05:20.020 --> 05:25.680
+So I just want to begin pulling these out just a little bit.
+
+05:26.350 --> 05:32.930
+Actually maybe I'll begin with the scope draw so I can see it a little bit better.
+
+05:32.940 --> 05:40.340
+And just began bringing this out just a little bit like this
+
+05:43.830 --> 05:49.640
+continue a little bit more with the grab brush here just trying to pull it out and getting it ready
+
+05:49.650 --> 05:52.770
+getting at the proper shape here.
+
+05:54.630 --> 05:59.180
+Now one thing I could do is turn on x ray for the boot here.
+
+05:59.430 --> 06:00.450
+Let's try that.
+
+06:00.450 --> 06:10.120
+I'm going to come over here and go to this object panel and if I scroll down and choose x ray you can
+
+06:10.120 --> 06:14.910
+see I can kind of see it through the object here.
+
+06:15.470 --> 06:22.560
+So I can kind of play with it a little bit in here and sculpt it a bit and let me go back to the grab
+
+06:22.560 --> 06:28.860
+brush now that I've got x ray on and just pull this out a bit something like that.
+
+06:34.090 --> 06:34.780
+All right.
+
+06:34.970 --> 06:43.350
+Let's actually try and turn on x ray for the for the for the body here.
+
+06:46.190 --> 06:50.530
+Let's try that turn that on.
+
+06:50.690 --> 06:55.690
+You can kind of see it works a little bit like that.
+
+06:55.750 --> 06:56.750
+It's not bad.
+
+07:00.870 --> 07:03.830
+If we know if we need it we can use that.
+
+07:04.090 --> 07:06.540
+But I'm going to go with this for now.
+
+07:11.230 --> 07:11.740
+All right
+
+07:14.750 --> 07:19.800
+and for right now I think I'll go ahead and hide the body.
+
+07:20.030 --> 07:28.700
+So I'm going to select just the boot and move it to a new layer maybe layer 3 here like that and just
+
+07:28.700 --> 07:31.090
+go to layer 3.
+
+07:31.160 --> 07:38.350
+So a couple of things I want to do I want to make the instep here punch this in just a little bit
+
+07:45.000 --> 07:47.080
+and bring this side in some two
+
+07:49.870 --> 07:53.710
+and I'll try and flatten the soul a little bit.
+
+07:56.140 --> 07:57.630
+Move out the toes.
+
+07:59.360 --> 08:08.080
+And try and get a general shape like a foot here from the bottom now that I've got a very basic rough
+
+08:08.170 --> 08:08.770
+shape.
+
+08:08.770 --> 08:12.690
+I think what I'll do is go ahead and add another subdivision here.
+
+08:12.910 --> 08:23.100
+So if I go back to the multi rez modifier I'm going to add a subdivision here maybe up to three and
+
+08:23.100 --> 08:29.550
+with that I can start maybe working on some of the wrinkles and creases in the boot because I think
+
+08:29.550 --> 08:32.490
+it's kind of leathery.
+
+08:32.490 --> 08:39.670
+I'm not exactly sure I should be I should probably be a little bit more sure of these kinds of things.
+
+08:39.810 --> 08:49.230
+But I think it's somewhat leathery so I'm going to begin just laying down what could be wrinkles along
+
+08:49.230 --> 08:50.950
+these areas here.
+
+08:51.030 --> 08:55.170
+Still not enough subdivision let me give it one more.
+
+08:55.520 --> 09:03.450
+And then we can begin getting a little bit of wrinkles here so I'm going to start by just going over
+
+09:03.450 --> 09:11.790
+the top here and I'll sculpt one normal struck by that pulls out and then I'll hold control and cut
+
+09:11.790 --> 09:12.470
+in.
+
+09:12.690 --> 09:17.600
+And then another one that comes out and then control to cut it in.
+
+09:17.640 --> 09:24.560
+So just kind of using that method to try and get something that looks like wrinkles here.
+
+09:31.280 --> 09:39.600
+And as I said I do have several images of boots up on my screen to try and keep track of what I'm doing.
+
+09:39.620 --> 09:47.540
+I'm not using any particular one just using them as kind of a guideline.
+
+09:47.540 --> 09:54.620
+Now as you work on something like this you can actually change the way the stroke lays down on the object.
+
+09:54.620 --> 10:02.900
+So if I come over here to curve and I'm in this sculped draw brush now I can change the way the curve
+
+10:03.230 --> 10:09.470
+happens so this is like the top of the stroke and this is the side and down at the bottom of the stroke
+
+10:09.470 --> 10:16.010
+so we can change how this happened so I can just show you what I mean if I stroke here you can see that
+
+10:16.010 --> 10:20.160
+we're getting that kind of bell curve to the stroke.
+
+10:20.210 --> 10:26.570
+If I do that and I come back over here to say just this and make it flat you can see we're getting more
+
+10:26.570 --> 10:27.680
+of a flat stroke.
+
+10:27.680 --> 10:30.890
+Now it's hard to see without more subdivisions on it.
+
+10:30.890 --> 10:33.410
+Let me just add one here.
+
+10:33.410 --> 10:35.380
+There you can see that's more flat.
+
+10:35.580 --> 10:37.090
+Right.
+
+10:37.190 --> 10:41.520
+If we do this one say it'll be more curved.
+
+10:41.750 --> 10:48.920
+So you can really get a different kind of stroke from playing with these different curves.
+
+10:48.920 --> 10:54.510
+You can also just take one and drag it around and make one of your own too.
+
+10:54.950 --> 10:58.410
+And I'm going to think about I'm thinking about these straps now.
+
+10:58.550 --> 11:04.760
+I'm not exactly sure what I'm going to do with these if I'm going to build these external geometry around
+
+11:04.880 --> 11:13.520
+the boot or if I can use something like this sculpt draw a brush with this flat curve and maybe just
+
+11:13.520 --> 11:15.050
+hint at it like this.
+
+11:15.050 --> 11:18.660
+I'm not sure if that's going to be possible.
+
+11:18.680 --> 11:25.920
+I mean I could just come around like this and build it up like that.
+
+11:26.960 --> 11:36.980
+So it gets the hint of a strap but it's not really giving me those sharp edges that I'd want if I increase
+
+11:36.980 --> 11:41.630
+the subdivision even more up here like this and tried this.
+
+11:41.660 --> 11:46.610
+I might get a little bit more edge to it but it's kind of rough.
+
+11:46.610 --> 11:54.900
+I'm not sure that I want to do that and I could flatten it I guess and I could also use the pinch tool
+
+11:55.620 --> 12:01.090
+to pinch the edges like this.
+
+12:01.300 --> 12:08.710
+So that's something to think about I could maybe build up all of the straps in this way and maybe I'll
+
+12:08.710 --> 12:09.340
+work on that.
+
+12:09.340 --> 12:12.550
+I think I'll do a few more tests to see.
+
+12:12.550 --> 12:18.670
+And this is sometimes what you have to do just kind of test one way or another to see what's going to
+
+12:18.670 --> 12:25.640
+be more efficient or more interesting realistic whatever you're looking for.
+
+12:25.900 --> 12:27.820
+So I hope that's been helpful.
+
+12:27.820 --> 12:33.700
+I'm sure having fun creating this character will keep moving forward in the next videos.

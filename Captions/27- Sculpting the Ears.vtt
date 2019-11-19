@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00.750 --> 00:02.810
+Well today I'd like to work on the ear.
+
+00:02.830 --> 00:10.860
+It's I think the shape is pretty good but I'd like to get a little more detail around the edges of the
+
+00:10.860 --> 00:12.710
+ear and on the insides.
+
+00:12.930 --> 00:20.610
+So I've gone out and found a couple of images on Google Images one of a bat ear and one of obviously
+
+00:20.820 --> 00:25.620
+a human ear for reference just to have up to look at.
+
+00:25.620 --> 00:32.520
+While I do this I'm going to switch to sculpt mode here and I'm going to hover over the ear and press
+
+00:32.610 --> 00:36.650
+alt f just to center the ear up in my view.
+
+00:36.690 --> 00:44.220
+And now when I tumble around it's going to tumble around that part of the model and also going to press
+
+00:44.220 --> 00:49.140
+the End key to bring up the properties panel and turn on the mat cap again.
+
+00:49.140 --> 00:55.500
+I kind of like this particular shading when I'm sculpting so I'll then hit the End key to close that
+
+00:55.500 --> 01:04.580
+up and I just want to cut in here a little bit more and to define the edges a little bit better.
+
+01:05.010 --> 01:14.130
+So I'm going to hit the F key to reduce the brush size and I'll press shift F to reduce the strength
+
+01:14.130 --> 01:14.760
+a bit.
+
+01:15.750 --> 01:17.090
+And let's give this a try.
+
+01:17.090 --> 01:23.330
+So I'm going to press the control key and I'm just going to sculpt and push in just a bit to kind of
+
+01:23.330 --> 01:28.100
+make that indentation a little bit more defined.
+
+01:28.370 --> 01:31.280
+And appear a bit something like this.
+
+01:31.430 --> 01:39.530
+And then I'm also going to come in here and cut in just a bit in here like there's an indentation in
+
+01:39.530 --> 01:41.940
+there.
+
+01:42.250 --> 01:49.000
+Now I'd like to have a little kind of a notch coming out here kind of like this piece on our ear or
+
+01:49.000 --> 01:52.510
+maybe this piece on the bat ear.
+
+01:52.690 --> 02:01.190
+So I don't increase the strength just a bit here and let me try it right in here.
+
+02:06.730 --> 02:14.160
+You know just to get that out there like that or maybe use the grab brush to take that and move it back
+
+02:14.160 --> 02:14.810
+a bit.
+
+02:17.230 --> 02:17.640
+It's
+
+02:24.070 --> 02:27.970
+something like that and maybe drag it out just a bit more like that.
+
+02:28.360 --> 02:34.650
+So it just takes a little bit of time a little bit of patience to build something like this up.
+
+02:34.900 --> 02:42.910
+And the reference images are absolutely essential for something like this even though it's a fantasy
+
+02:42.910 --> 02:48.160
+character you still need to be able to ground it in reality and that's what the reference images can
+
+02:48.160 --> 02:49.500
+do for you.
+
+02:49.760 --> 02:55.560
+And I'm going to try and bring a ridge like this down into the ear see if that'll work.
+
+02:55.570 --> 03:00.850
+I'm not sure if that will work with this particular kind of character but why not give it a try.
+
+03:09.650 --> 03:11.060
+And I like what's going on here.
+
+03:11.060 --> 03:18.170
+But I think it needs to be a little bit thicker so I'll work on bringing this out a little bit more.
+
+03:19.870 --> 03:27.250
+And then maybe smoothing that back I think maybe I'll try and get a little bit more of an ear lobe right
+
+03:27.250 --> 03:29.620
+here like this.
+
+03:29.620 --> 03:36.470
+Maybe I'll take that grab tool and see if I can just pull this down just a little bit.
+
+03:38.630 --> 03:40.880
+Kind of hint at an ear lobe here.
+
+03:43.190 --> 03:46.230
+Maybe pull this part down just a hair as well.
+
+03:49.290 --> 03:58.080
+And I've got a problem with the math here and I'm not going to work too hard at fixing that because
+
+03:58.140 --> 04:03.780
+ultimately this will be baked into a normal map.
+
+04:03.810 --> 04:11.490
+All this sculped detail will be baked into a normal map which will be applied to the low poly model.
+
+04:11.910 --> 04:19.940
+So for a glitch or a problem like this I can always just paint that out in the normal map.
+
+04:19.980 --> 04:25.140
+So I'm not going to get too upset about this and try and smooth that out.
+
+04:25.200 --> 04:31.590
+That sometimes happens and since we're going to be using a normal map anyway I can just fix it then.
+
+04:33.210 --> 04:36.200
+All right so let me do just a couple more things here.
+
+04:36.210 --> 04:41.590
+But I think this is generally the kind of look I want here.
+
+04:41.610 --> 04:47.020
+I'd like to get these bulging out just a little bit better here.
+
+04:47.250 --> 04:56.120
+This area like so and then smooth it back a bit.
+
+04:56.640 --> 05:00.490
+So it kind of is in line with the side of the head there.
+
+05:02.450 --> 05:08.840
+And then what I'd like to do too is come in and tighten up some of these edges.
+
+05:08.840 --> 05:12.720
+So I've got the basic shape down.
+
+05:13.010 --> 05:17.570
+I think what I'll do is come in and tighten some of the edges around here.
+
+05:17.570 --> 05:28.330
+So if I come over to the pinched tool I can let's see what happens if I come in here and just sculped
+
+05:28.380 --> 05:36.490
+along this edge here see if I can tighten that up just a bit and maybe down here as well.
+
+05:37.200 --> 05:38.100
+Something like that.
+
+05:38.100 --> 05:47.910
+Now I come over here to the crease tool and I can maybe increase the amount of definition in this crease
+
+05:47.910 --> 05:50.450
+here and maybe also here
+
+05:55.370 --> 05:56.680
+see how that looks.
+
+05:57.700 --> 05:58.120
+Yeah.
+
+05:58.130 --> 05:59.200
+So something like that.
+
+05:59.210 --> 06:07.510
+So it just helps it define that area a little bit better maybe even come in here with the crease tool
+
+06:07.510 --> 06:08.150
+like that
+
+06:12.620 --> 06:13.150
+yeah.
+
+06:14.090 --> 06:14.540
+All right.
+
+06:14.540 --> 06:17.740
+So I think we're getting there I think there's more that I can do.
+
+06:17.750 --> 06:22.300
+I'm not real pleased with this area right in here maybe I'll work more on that.
+
+06:22.340 --> 06:30.020
+But generally speaking you get the idea you can go in and begin sculpting and getting more detail in
+
+06:30.020 --> 06:31.680
+the ears like that.
+
+06:32.180 --> 06:37.320
+Well believe it or not we're getting close to the end in fact I think what I'm going to do.
+
+06:37.460 --> 06:41.420
+Let me go back here and bring everything back.
+
+06:41.480 --> 06:47.730
+So I think what I'm going to do from here is do some cleanup work try and finalize it.
+
+06:47.750 --> 06:53.990
+But then I think in the next videos what I'd like to do is begin on a tweet apologizing the character
+
+06:55.020 --> 07:01.920
+you can see here that up at the top that we were over six and a half million tries.
+
+07:01.920 --> 07:06.330
+That's just far too much for a game engine for any game engine.
+
+07:06.390 --> 07:13.080
+So we'll need to read to apologize this to create a low polygon version of it that we can then take
+
+07:13.080 --> 07:14.580
+into unity.
+
+07:14.580 --> 07:18.910
+So we'll see how many tries we can get it down to as we read apologize.
+
+07:19.260 --> 07:22.070
+So stay tuned for that coming up soon.
+
+07:22.080 --> 07:27.230
+A series of videos on Reid apologizing to create a low poly mesh.

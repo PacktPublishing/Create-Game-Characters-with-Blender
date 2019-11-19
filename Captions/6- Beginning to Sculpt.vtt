@@ -1,0 +1,451 @@
+WEBVTT
+
+00:00.740 --> 00:04.080
+Well we're finally ready to begin sculpting.
+
+00:04.100 --> 00:09.340
+It's always good to spend the time to build up a solid base mass before you begin sculpting.
+
+00:09.340 --> 00:12.450
+And I think we're there I think this is pretty good.
+
+00:12.620 --> 00:18.330
+We've got the polygons of our mesh generally the same size.
+
+00:18.350 --> 00:24.200
+There are of course always going to be spotted ones up around the head but other than that generally
+
+00:24.200 --> 00:28.590
+speaking we've got them relatively proportional.
+
+00:28.610 --> 00:34.760
+We've established the proportions and scale of our character and we've provided edge loops in places
+
+00:34.760 --> 00:40.110
+that we are going to need them like around the hips and the face.
+
+00:40.130 --> 00:43.560
+So let's go ahead and prepare for sculpting now.
+
+00:43.820 --> 00:50.780
+What I want to do is hit the tab key and go into object mode and in Object mode here I can come over
+
+00:50.780 --> 00:56.810
+to the modifiers panel and I want to apply my mirror modifier.
+
+00:56.810 --> 01:04.130
+Now I've got clipping turned on to ensure that the center line of the character is merged together.
+
+01:04.160 --> 01:07.380
+So with that I'm going to hit apply.
+
+01:07.410 --> 01:15.710
+Now one thing I want to mention here is you may have noticed that I've been saving in versions as I
+
+01:15.710 --> 01:24.190
+go through this I'm going to file save as and I'm saving these in multiple versions.
+
+01:24.200 --> 01:31.580
+That's a good idea because as you get to certain points in the process you do these kind of big things
+
+01:31.580 --> 01:36.380
+like applying the mirror modifier or changing something drastically.
+
+01:36.830 --> 01:44.810
+And those big changes can sometimes cause a problem in the computer so I always think not about if the
+
+01:44.810 --> 01:46.090
+computer crashes.
+
+01:46.100 --> 01:47.100
+What will I do.
+
+01:47.270 --> 01:50.940
+But when the computer crashes what will I do.
+
+01:51.170 --> 01:57.040
+So I always save versions of a project as I go.
+
+01:57.050 --> 02:02.320
+All right we've applied our mirror modify our So now he is all one piece.
+
+02:02.390 --> 02:10.970
+If I went in and selected say a vertex here and moved it around you can see it would not be mirrored
+
+02:10.970 --> 02:12.280
+over on the other side.
+
+02:12.560 --> 02:17.180
+So he is all one piece and is not being kept symmetrical now.
+
+02:17.510 --> 02:23.230
+So our sculp tools are down here where object mode in edit mode are right here.
+
+02:23.420 --> 02:25.270
+Here's our sculped mode.
+
+02:25.460 --> 02:30.820
+And if I click that you can see I get tools over here.
+
+02:30.830 --> 02:35.090
+Now look at what this set up here when I switched to scoped mode.
+
+02:35.090 --> 02:38.840
+That's a great reminder for me.
+
+02:38.870 --> 02:44.220
+Let me switch back to object mode and back to sculpt mode and see if it pops up again.
+
+02:44.270 --> 02:49.490
+Object has uniform scale sculpting may be unpredictable.
+
+02:49.550 --> 02:52.780
+That is a wonderful little reminder for me.
+
+02:52.780 --> 02:55.210
+Let's go take care of that.
+
+02:55.220 --> 03:01.220
+I'm going to go go back to object mode and select my character here and I'm going to press the end key
+
+03:01.910 --> 03:06.080
+and notice that the scale is nonuniform.
+
+03:06.080 --> 03:10.940
+In other words it isn't all the same it isn't all ones we really want this.
+
+03:11.120 --> 03:20.780
+And the rotation to be zeros and ones a lot of Blender's tool sets like the U-V mapping tool set and
+
+03:20.780 --> 03:30.740
+the sculpting tools that rely on global scale and rotation to do their jobs and we can make their job
+
+03:30.770 --> 03:35.300
+easier I guess if we apply the scale and rotation here.
+
+03:35.300 --> 03:40.670
+So what I'm going to do with the character in Object mode I'm going to press control a.
+
+03:41.150 --> 03:44.480
+And here we can apply transformations.
+
+03:44.480 --> 03:49.750
+So I'm going to apply the rotation and scale like that.
+
+03:50.240 --> 03:56.900
+The pivot point or object origin of the character is still here at the hips where we created that first
+
+03:56.900 --> 03:57.610
+cube.
+
+03:57.770 --> 04:04.130
+That's fine but we can also move and move that point down to the center of the grid which I think ultimately
+
+04:04.130 --> 04:10.300
+will be more useful when we rig the character and animated et cetera et cetera.
+
+04:10.320 --> 04:15.860
+So I'm going to ensure that the cursor is at the center of the grid by pressing shift s and clicking
+
+04:15.860 --> 04:23.390
+cursor to center and then I'm going to come over here to the Tools tab and click on set origin and move
+
+04:23.390 --> 04:25.760
+the origin to the 3D cursor.
+
+04:26.900 --> 04:32.360
+So now we have our scale and rotation applied.
+
+04:32.360 --> 04:36.280
+We have our pivot point down into the center of the grid.
+
+04:36.920 --> 04:43.830
+Let's try now to go back to the sculped tools and see if we get any issues.
+
+04:43.880 --> 04:51.290
+I'm going to press the End key to close that panel and I'm going to switch from object to scopes mode
+
+04:51.920 --> 04:57.030
+and we don't get a little warning up here anymore which is good.
+
+04:57.080 --> 05:04.910
+Now over on the left hand side are all the sculp tools we can click on this icon and see all the different
+
+05:05.180 --> 05:12.910
+brushes we have access to the normal one is the sculpt draw we'll be using the clay strips quite a bit
+
+05:12.920 --> 05:19.730
+here at the beginning to rough out the basic forms and we'll also be using the GRABBE as well as the
+
+05:19.730 --> 05:25.480
+smooth and the Flaten and the pinch will be using other brushes as well.
+
+05:25.490 --> 05:31.990
+But those are probably the ones we're going to use right up front now that we've turned off or applied
+
+05:32.000 --> 05:39.460
+the mirror modifier we need to ensure that our strokes at least at the beginning are going to be symmetrical.
+
+05:39.650 --> 05:48.420
+So I'm going to scroll down here and under Sematary I want to make sure that the X mirror is on.
+
+05:48.530 --> 05:55.520
+Now what I'd like to do is go ahead and begin adding resolution or subdivisions to the model so that
+
+05:55.520 --> 05:58.670
+we can begin building up our forms to do that.
+
+05:58.670 --> 06:06.410
+I'm going to come over here to the modifiers panel and click add modifier and this time instead of a
+
+06:06.410 --> 06:17.140
+mere modifier I'm going to add a multi resolution modifier and what it does is it allows us to add subdivisions
+
+06:17.230 --> 06:24.880
+by clicking the subdivide button here and then with those subdivisions added we can move up and down
+
+06:25.300 --> 06:28.320
+the subdivision layers as we sculpt.
+
+06:28.570 --> 06:36.790
+So if I click this subdivide button one time you can see it adds resolution it adds polygons to the
+
+06:36.790 --> 06:37.720
+mesh.
+
+06:37.840 --> 06:42.700
+If I hit the Z key you can kind of see them here in in the wireframe.
+
+06:42.760 --> 06:51.490
+Now if I hit it again you can see it adds even more and this is how we'll be adding resolution to our
+
+06:51.490 --> 06:52.520
+model.
+
+06:52.600 --> 06:57.500
+You can see up here that we're up to fourteen thousand faces.
+
+06:57.730 --> 07:05.710
+If I turn off the display of the modifier here you can see we go down to eight hundred or almost 900
+
+07:05.720 --> 07:07.220
+faces.
+
+07:07.330 --> 07:11.070
+So we're actually adding polygons to the model here.
+
+07:11.080 --> 07:17.850
+I'm going to click so divide one more time and now you can see it's getting smoother and the polygons
+
+07:17.850 --> 07:19.670
+are getting much smaller.
+
+07:19.740 --> 07:25.900
+So if I hit the Z key you can see that it's pretty dense.
+
+07:25.920 --> 07:35.820
+Now I can come up and down the subdivisions stack or Lares here by clicking on the arrow by the sculped.
+
+07:36.150 --> 07:41.200
+So this is what we'll see in the sculped window here.
+
+07:41.380 --> 07:47.350
+And this is what we'll see in the actual render if we rendered out the model that I'm going to move
+
+07:47.350 --> 07:48.780
+this back up to three here.
+
+07:48.790 --> 07:55.180
+Now I can't go any higher until I click on the subdivide button again to create a new subdivision level
+
+07:56.080 --> 07:57.130
+to sculpt on this.
+
+07:57.130 --> 08:02.360
+I'm going to be using a way come into this pen and tablet.
+
+08:02.800 --> 08:12.010
+You don't need to spend a lot on a tablet but it is a necessity when sculpting like this doing this
+
+08:12.010 --> 08:16.030
+kind of work with a mouse is next to impossible.
+
+08:16.030 --> 08:23.530
+I think you really do need something that you can draw with and has pressure sensitivity to it.
+
+08:23.950 --> 08:30.940
+So I'm going to get out my pen here and I'm going to go to the clay strips brush first.
+
+08:30.970 --> 08:37.450
+And the reason why I'm going to do this is I want to keep it very rough and not get into too much detail
+
+08:37.450 --> 08:43.140
+at the beginning and I want to work on this chest area.
+
+08:43.210 --> 08:49.750
+Now we can begin testing this and see how this works so you can see as I stroke on the character we
+
+08:49.750 --> 08:54.800
+can lay down these kind of rough strips of clay.
+
+08:54.990 --> 09:00.290
+I think I'd like the strength of mind to be a little bit more a little bit stronger.
+
+09:00.330 --> 09:08.880
+You've got strength and radius over here and with these Sliders but you've also got the keyboard shortcut
+
+09:08.880 --> 09:18.650
+keys of F which allows you to increase or decrease the size of your brush and also shift f allows you
+
+09:18.650 --> 09:22.570
+to increase or decrease the strength of your brush.
+
+09:22.620 --> 09:32.600
+So I'll put my strength right around here and click and I'll begin laying down some clay strips here.
+
+09:32.600 --> 09:38.060
+So what I want to do is just kind of block out the rib cage of the character
+
+09:41.470 --> 09:45.530
+think I'll go over to the character images view here.
+
+09:46.020 --> 09:48.230
+I'll just begin blocking this out.
+
+09:49.170 --> 09:58.320
+Now I can hide the arms here so they don't get in the way I want to just tumble around and I'm going
+
+09:58.320 --> 10:06.060
+to press the H key on the keyboard and click and drag and hide the arm and then I'm going to press the
+
+10:06.060 --> 10:12.990
+three key to come back to the side view here and I'll just begin blocking out where I think the rib
+
+10:12.990 --> 10:14.120
+cage would be.
+
+10:14.130 --> 10:18.010
+And I think it would probably be right around in here.
+
+10:19.090 --> 10:31.730
+This spin around to the back side with control one on the front view here spin around to the back and
+
+10:31.730 --> 10:33.910
+lay some down here as well.
+
+10:36.130 --> 10:37.940
+Let's go back to the front view here.
+
+10:40.060 --> 10:44.430
+And just build that out a little more so that's probably good enough for now.
+
+10:44.430 --> 10:49.490
+Now this is all going to be very rough so bear with me here.
+
+10:49.620 --> 10:54.210
+I'm going to press the shift key and smooth this back a little bit.
+
+10:54.210 --> 10:57.180
+You can always press shift and smooth.
+
+10:57.180 --> 10:59.400
+Anything you do.
+
+10:59.720 --> 11:03.720
+The next thing I'm going to do is just block out the torso as well.
+
+11:03.790 --> 11:07.370
+I'll go back to my default view.
+
+11:07.370 --> 11:09.960
+Press Allt aches to bring the arm back.
+
+11:10.610 --> 11:19.330
+And let's just block out the torso or the hips I mean and for this is just going to be a block
+
+11:25.240 --> 11:26.460
+something like this
+
+11:31.260 --> 11:33.760
+not going to work on the legs a bit.
+
+11:33.760 --> 11:38.920
+What I want to do is create that teardrop shape for the thighs.
+
+11:39.970 --> 11:43.360
+And I'll just begin sculpting this area in here.
+
+11:44.750 --> 11:46.430
+Right in here.
+
+11:46.580 --> 11:48.370
+So I'm going to try and build this up
+
+11:51.990 --> 11:53.220
+for the thighs.
+
+11:59.980 --> 12:05.120
+I want to block out the box of the knees.
+
+12:05.190 --> 12:16.830
+So just maybe a box like this for the needs and I want to build up kind of an oval shape for the calves
+
+12:16.830 --> 12:18.810
+as well back here.
+
+12:18.930 --> 12:25.030
+So I'll come back here and begin somewhere around in here.
+
+12:25.260 --> 12:29.160
+Building up an oval shaped for the Cavs.
+
+12:37.960 --> 12:38.960
+There we go.
+
+12:40.230 --> 12:47.010
+And I'll also do a little bit of work to build up the hamstrings as well.
+
+12:47.010 --> 12:56.010
+So as you can see I'm just building up the major forms of of the character and I'm doing it in a very
+
+12:56.400 --> 13:01.700
+rough kind of way at this point in time just worrying about the forms.
+
+13:01.710 --> 13:09.420
+Not so much about the details we'll get to the details one of the biggest temptations is to begin working
+
+13:09.450 --> 13:11.600
+on the details right up front.
+
+13:11.940 --> 13:21.060
+And I would really suggest that you try and build up the rough forms first and then only after they're
+
+13:21.060 --> 13:25.100
+all in place begin dealing with the details.
+
+13:25.200 --> 13:27.590
+Also when it come over here and work on
+
+13:30.180 --> 13:36.320
+but a bit just going to build this up a little bit more.
+
+13:36.660 --> 13:43.980
+Now you can also cut in to speak in reverse or invert a tool by pressing the control key.
+
+13:43.980 --> 13:51.250
+So instead of sculpting out or pulling out I can cut in to an area by holding the control key down.
+
+13:51.950 --> 13:59.630
+So I want to build this up and kind of separate it from the hamstrings.
+
+13:59.850 --> 14:00.380
+All right.
+
+14:00.390 --> 14:07.730
+Well we're beginning to make some progress here we're blocking in the major forms of the character.
+
+14:07.770 --> 14:14.700
+I know it doesn't look like much right now but this is really an important part of the process is to
+
+14:14.700 --> 14:21.010
+build up the fundamental forms first before we jump into the details.

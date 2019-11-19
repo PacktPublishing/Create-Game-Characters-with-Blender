@@ -1,0 +1,376 @@
+WEBVTT
+
+00:00.630 --> 00:07.710
+Let's continue on the U-V mapping for our character maybe we can work on the glove or Gauntlett.
+
+00:08.130 --> 00:14.070
+So now I'm going to come over here and I think I will break this apart again.
+
+00:14.070 --> 00:23.650
+I'll select this edge press control me and edge split and then I will hover over this press l and press
+
+00:23.710 --> 00:24.120
+shift.
+
+00:24.130 --> 00:25.020
+H.
+
+00:25.510 --> 00:29.150
+And now I can isolate this piece and work with it on its own.
+
+00:29.900 --> 00:38.280
+So I think what I will do is split this piece underneath here I'll just alt select this edge and let's
+
+00:38.280 --> 00:41.880
+see how this works before I try anything else I want to press control.
+
+00:41.890 --> 00:50.690
+Me and Mark seem and I'm going to select everything press you and unwrap not bad.
+
+00:50.730 --> 00:55.840
+I'm going to press control up arrow to expand this particular window.
+
+00:57.640 --> 01:00.090
+This isn't bad but we've got some polling here.
+
+01:00.100 --> 01:08.230
+I'd like to try and get rid of a pest control up there again to minimize that.
+
+01:08.340 --> 01:13.550
+I'm going to switch back to the texture view here and let me take a look at that.
+
+01:13.560 --> 01:21.730
+And you can see how the squares of the test pattern are a little bigger up here than they are down here.
+
+01:21.780 --> 01:29.220
+That may not be a problem but I think I'd like to see if I can get it a little bit closer in proportion
+
+01:29.220 --> 01:30.050
+here.
+
+01:30.510 --> 01:32.820
+So what I can do is maybe try this.
+
+01:32.820 --> 01:43.310
+I'm going to select this edge and see if I can split that thumb apart like that control the mark seam.
+
+01:43.320 --> 01:47.170
+Now if I select all and hit you and unwrap Let's see what happens.
+
+01:48.810 --> 01:52.290
+It's a little better we're not seeing as much stretching over here.
+
+01:52.290 --> 01:57.300
+Let me press control plus Yeah that's not bad.
+
+01:57.330 --> 02:00.010
+I think that might just work.
+
+02:00.040 --> 02:01.770
+Let's go back here.
+
+02:01.840 --> 02:08.350
+The difference in the squares between up here and down here is a little bit less.
+
+02:08.350 --> 02:11.160
+Still some different but not bad.
+
+02:12.690 --> 02:18.080
+And I think the seams that I've chosen here this seam underneath here and this seem right here.
+
+02:18.180 --> 02:19.890
+I think those will be fairly well hidden.
+
+02:21.270 --> 02:21.660
+All right.
+
+02:21.660 --> 02:23.060
+So let's go with that.
+
+02:24.250 --> 02:25.750
+Press alt H.
+
+02:27.200 --> 02:29.750
+Why don't we work on the eyes next.
+
+02:29.960 --> 02:36.130
+The eyes I've made is just very simple half spheres.
+
+02:36.440 --> 02:39.570
+So let me just select one here.
+
+02:40.380 --> 02:50.600
+When I go into edit mode and hover over one of these and press the L key and then I'll press shift h
+
+02:50.600 --> 02:51.810
+to isolate it.
+
+02:52.160 --> 03:01.320
+And as you can see it's just a half cylinder with an extrusion for the pupil and that's about it.
+
+03:01.370 --> 03:09.470
+Let's go into our U-V editing view and I'll frame that up with the period key on the numpad.
+
+03:09.470 --> 03:17.780
+If I come over here to the texture shading we can see that we can't see the checker pattern on it and
+
+03:17.780 --> 03:21.220
+that's because there are no U-V maps for this object.
+
+03:21.530 --> 03:23.840
+So let's just try this and see what happens.
+
+03:23.840 --> 03:27.000
+I'm going to press with everything selected here.
+
+03:27.080 --> 03:30.550
+I'm just going to press you and unwrap and let's just see what happens.
+
+03:31.290 --> 03:36.950
+All right kind of stretched not too bad I'll switch over to conform.
+
+03:36.950 --> 03:39.080
+Let's see if that helps at all.
+
+03:39.080 --> 03:40.120
+Not really.
+
+03:42.740 --> 03:52.670
+So we could try and alleviate some of this stretching by creating seems to edge mode maybe every edge
+
+03:52.670 --> 04:02.560
+here we could select and create a seam kind of a star pattern of seems here.
+
+04:02.570 --> 04:03.450
+Let's try this
+
+04:06.720 --> 04:15.090
+also like that in press control E. and Mark seen and now it's like everything and press you and unwrap
+
+04:16.660 --> 04:20.830
+and that looks pretty good that there isn't a whole lot of stretching there.
+
+04:20.830 --> 04:29.200
+There's some right there in the center for the pupil but I'm not sure we care too much about them because
+
+04:29.230 --> 04:34.340
+that's just going to be black that's just going to be a solid black color.
+
+04:34.360 --> 04:37.480
+Let's go with this and see how that works.
+
+04:37.480 --> 04:47.230
+All right so I'll go back to my default view and press alt h to bring everything back tab out of edit
+
+04:47.230 --> 04:51.820
+mode and I can press shift see to frame everything up.
+
+04:52.030 --> 05:00.950
+I'll switch over to my texture view and now we can see we've got a U-V map on the arm.
+
+05:00.950 --> 05:03.880
+The belt buckle and the thigh.
+
+05:03.960 --> 05:08.190
+Let's see what we can do with one of the legs here.
+
+05:08.200 --> 05:18.860
+So once again I'll go back to my solid view and to my U-V editing lay out here press Schiff's see and
+
+05:18.880 --> 05:27.010
+I'll tab into edit mode and just select this leg with the L key and then press shift h to isolate it
+
+05:27.550 --> 05:33.990
+and frame it up with the period key let me go back to solid view.
+
+05:34.090 --> 05:37.190
+And now let's think about this.
+
+05:37.360 --> 05:44.380
+I think what I'll need to do is break the boot apart from the legs so I'm like this edge and I will
+
+05:44.380 --> 05:49.920
+go ahead and go to control me and edge split.
+
+05:49.930 --> 05:57.430
+So now these should be two pieces if I hover over here and hit the L key you can see that these are
+
+05:57.430 --> 05:59.940
+two pieces now.
+
+06:00.050 --> 06:06.480
+I mean just think about the leg here I think we could just select this edge right here on the inside.
+
+06:09.100 --> 06:18.650
+Mark a seam control the more extreme and let's select this piece hover over it and press the key and
+
+06:18.650 --> 06:21.050
+press you and unwrap it.
+
+06:21.050 --> 06:22.530
+Not too bad.
+
+06:22.640 --> 06:29.750
+And what I've done is just select that seam on the inside of the leg where it will be seen the least.
+
+06:29.750 --> 06:32.410
+Let me switch over to texture view here.
+
+06:33.550 --> 06:41.260
+And there is our texture and it's looking pretty good of course there's going to be that seam down the
+
+06:41.260 --> 06:46.660
+middle but that's OK that's not going to be seen too much.
+
+06:46.660 --> 06:53.380
+All right let's turn back in the edit mode switch back to solid and let's take a look at this.
+
+06:53.410 --> 06:53.970
+The boot
+
+06:56.920 --> 07:03.280
+for this I know we're going to need an edge or a seam here.
+
+07:03.300 --> 07:07.300
+I want to break it out there so I'll go ahead and add a seam there.
+
+07:07.300 --> 07:10.640
+I know we want that Mark seam.
+
+07:11.050 --> 07:13.600
+But how do we want to split up the rest of it.
+
+07:14.830 --> 07:22.830
+We could say that there's a natural seam in the boot from the back and you could select this.
+
+07:23.340 --> 07:30.640
+We could also say maybe we want the edge to be similar to this edge over here and be on the inside.
+
+07:31.070 --> 07:34.920
+So no real wrong answer here it's really the way you want to do it.
+
+07:35.040 --> 07:42.470
+And what's going to work for your particular character and your particular boot or accessory or whatever.
+
+07:42.660 --> 07:44.490
+I think I'll first try it like this.
+
+07:44.490 --> 07:48.540
+I will try using this image right back here.
+
+07:48.540 --> 07:53.790
+I'm going to select this edge and then control click this edge and it will select everything in between
+
+07:53.790 --> 07:54.660
+there.
+
+07:54.930 --> 08:05.080
+Press Control and Mark scene I'll select an edge here to break that apart because this is really going
+
+08:05.080 --> 08:12.110
+to be a different type of texture I think from a lot of the other part of the boot.
+
+08:12.160 --> 08:18.790
+So I think having a seam there is only natural so I'll press control and Mark seem.
+
+08:18.920 --> 08:26.210
+And lastly I'm not sure if we're gonna need a seam across the top of the foot or even around the top
+
+08:26.210 --> 08:27.440
+of the ankle.
+
+08:27.680 --> 08:29.750
+Not sure how that's going to work.
+
+08:30.110 --> 08:36.830
+So what I'll do is all hover over here and press l and let's just go ahead and test this.
+
+08:36.830 --> 08:45.830
+I'll press l and click there and you notice that when I do that and hit the L key it only selects it
+
+08:45.830 --> 08:46.970
+by seam.
+
+08:46.970 --> 08:52.730
+In other words it hasn't selected these other parts that have seams around them.
+
+08:52.730 --> 08:59.660
+So what I can do is I can change from selecting it by seam and I can choose a material and that will
+
+08:59.660 --> 09:01.610
+select this whole thing.
+
+09:01.610 --> 09:06.750
+Now I can press you and unwrap and there we are.
+
+09:06.750 --> 09:09.800
+There is surprisingly little stretching here at the toe.
+
+09:09.810 --> 09:12.100
+I'm actually kind of surprised.
+
+09:12.270 --> 09:16.250
+I'm going to go and switch over to textured view and let's take a look at it.
+
+09:17.450 --> 09:18.850
+Well that's not too bad actually.
+
+09:18.950 --> 09:22.310
+The squares here are a little bit larger than over here.
+
+09:23.890 --> 09:31.450
+I might be able to add an edge here to alleviate some of that difference but I think I'm going to go
+
+09:31.450 --> 09:35.600
+with it I think right now let's go with that and see how it works.
+
+09:35.610 --> 09:40.810
+Now it's up here that's causing a problem I think this part is stretching a little too much.
+
+09:41.020 --> 09:53.350
+So I think what I'll do is select this edge and this edge or go ahead and add seems here and now let's
+
+09:53.650 --> 09:59.290
+select this again with the L key and hit you and unwrap.
+
+09:59.380 --> 10:02.430
+I still think this is having a problem.
+
+10:02.470 --> 10:09.790
+You can see it here and maybe the problem is is we need to split it out along this edge back here since
+
+10:09.790 --> 10:14.750
+it's a horizontal edge we probably need to do that press control.
+
+10:14.800 --> 10:22.140
+And Mark the seam here hover over press l and then you and unwrap.
+
+10:22.630 --> 10:25.710
+Yeah that's it right there.
+
+10:25.870 --> 10:28.630
+And that's looking a little better a mess.
+
+10:28.630 --> 10:35.840
+Change from angle based to conformal see if that helps any that kind of helped.
+
+10:35.870 --> 10:41.520
+The difference in size from the toe to the rest of the boot.
+
+10:41.870 --> 10:43.680
+I think that'll work just fine.
+
+10:44.490 --> 10:46.230
+Yeah.
+
+10:46.310 --> 10:49.740
+So let's press Allt age to bring everything else back.
+
+10:50.000 --> 10:52.860
+And I'll go back to the default view.
+
+10:53.210 --> 10:57.950
+Chris Schiff's see and switch over to the texture view.
+
+10:58.230 --> 11:05.800
+And so we can see now we've got the character's leg the glove the buckle and the eye.

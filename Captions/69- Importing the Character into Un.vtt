@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.450 --> 00:06.060
+Well we've come a long way we're now to the point where we can bring our blender game character into
+
+00:06.060 --> 00:15.430
+unity to do that all we really need is just that blender scene filed right here that blend file.
+
+00:15.870 --> 00:23.940
+I can take this file and just click and drag it right into the assets window of unity and it'll think
+
+00:23.940 --> 00:27.140
+a bit and there it is.
+
+00:27.140 --> 00:34.730
+So what it's done is actually opened up a blender in the background used Blender's own FDX converter
+
+00:34.730 --> 00:43.880
+to convert the file to SBX and copied it here into the assets folder in our unity project folder.
+
+00:43.880 --> 00:46.860
+So now we need to work on the import settings.
+
+00:46.940 --> 00:53.540
+So I'm going to click on this file right here and you can see over here in the inspector we get a lot
+
+00:53.540 --> 00:58.610
+of information that we can adjust for importing our character.
+
+00:58.610 --> 01:07.760
+Now we've got information over here for the model for the rig and for animations I think for the model
+
+01:07.790 --> 01:08.500
+and the rig.
+
+01:08.510 --> 01:11.670
+I'm going to go ahead and leave it at the defaults.
+
+01:11.960 --> 01:20.240
+If this character were more standard in other words if it were in a t pose I might try and change to
+
+01:20.240 --> 01:29.300
+the humanoid setting here instead of generic and try and set it up so that the mechanism animation system
+
+01:29.330 --> 01:33.340
+in unity could control it better and we'd have more options.
+
+01:33.500 --> 01:36.850
+But frankly I don't think it's going to work.
+
+01:37.100 --> 01:40.980
+So I'm not going to use that.
+
+01:41.240 --> 01:44.980
+So let's go over here to the animations part and the inspector.
+
+01:45.110 --> 01:52.010
+And here's where we're going to define the individual clips that we created we created an Idol a run
+
+01:52.190 --> 01:53.820
+and a jump pose.
+
+01:53.930 --> 01:56.440
+And we're going to define those here.
+
+01:56.450 --> 02:05.810
+Now you can see Blender's already got some generic or default clips from 0 to 1 0 9 because that's the
+
+02:05.810 --> 02:06.310
+range.
+
+02:06.320 --> 02:08.180
+It found keyframes in.
+
+02:08.360 --> 02:12.000
+So it's already kind of created though is going to change or delete these.
+
+02:12.020 --> 02:19.400
+But I wanted to show you down here if you click on this little arrow you get kind of what's inside this
+
+02:19.460 --> 02:19.970
+object.
+
+02:19.970 --> 02:25.390
+And if you scroll down here like this you've got action and default take.
+
+02:25.610 --> 02:30.590
+And over here you've got action and default take this right here.
+
+02:30.590 --> 02:37.300
+These are the animation clips that we'll be using when we want to trigger the animations on and off.
+
+02:37.370 --> 02:47.900
+So we need to modify or create new animation clips that match our character and have them appear down
+
+02:47.900 --> 02:48.700
+here.
+
+02:48.710 --> 02:52.550
+So let's take a look at this first default take.
+
+02:52.550 --> 03:00.320
+Let's make this idle I'm just going to click here and change the name and call this idle and the frame
+
+03:00.320 --> 03:09.170
+range that we found back in Blendr was frame 2 to 13.
+
+03:09.670 --> 03:14.850
+And oh no that's the runs used me when you want because you can see he's changed to the run.
+
+03:14.850 --> 03:16.050
+Let's do the idle for us.
+
+03:16.070 --> 03:19.710
+Let's go 23 to 81.
+
+03:20.030 --> 03:21.340
+Let's do that there.
+
+03:21.340 --> 03:30.230
+Now he's in that idle pose and this is a looping animation so I'll go ahead and say loop time and turn
+
+03:30.230 --> 03:37.740
+on Lupo's here and then I'm going to scroll down and I'm going to click Apply Oh it looks like I put
+
+03:37.740 --> 03:39.440
+13 instead of 23.
+
+03:39.440 --> 03:40.600
+I'm sorry.
+
+03:40.710 --> 03:43.980
+Let me do that 23 and hit apply.
+
+03:44.670 --> 03:54.160
+And now we can hit play here and we can see him going through his idle animation here he goes OK so
+
+03:54.160 --> 03:56.400
+we know that that's going to work.
+
+03:56.410 --> 03:57.230
+That's good.
+
+03:57.400 --> 04:03.700
+And you can see over here that this animation clip has been changed from default take to idle.
+
+04:03.740 --> 04:04.150
+All right.
+
+04:04.190 --> 04:04.960
+That's good.
+
+04:05.150 --> 04:10.130
+So let's go back up here and let's define a new clip.
+
+04:10.130 --> 04:13.760
+I'm going to go ahead and select the action clip and just delete it.
+
+04:13.760 --> 04:17.460
+I'll hit the minus key here we don't need that.
+
+04:17.480 --> 04:21.210
+So now we can create a new one with the plus right here.
+
+04:21.560 --> 04:30.780
+And let's call this one run and for this one now it's going to be two to 13.
+
+04:31.420 --> 04:38.470
+And we go and it as well is a looping animation so I'll turn these on.
+
+04:38.560 --> 04:43.200
+We can always hit play here just to test it out and he looks pretty good there.
+
+04:43.630 --> 04:47.420
+And then I'll go ahead and click apply.
+
+04:47.500 --> 04:47.960
+All right.
+
+04:47.970 --> 04:48.280
+Good.
+
+04:48.280 --> 04:53.150
+Now we've got the run animation clip over here as well as the idle.
+
+04:53.530 --> 04:59.250
+Let's do the last one which is the jump all create a new clip.
+
+04:59.380 --> 05:01.530
+Change the name to jump.
+
+05:02.350 --> 05:10.550
+And this one I have from 1 0 1 right here 2 1 0 5.
+
+05:10.770 --> 05:17.470
+I think that now this I'm going to go ahead and leave as a single clip instead of loop time I'm going
+
+05:17.470 --> 05:19.110
+to just call this a single clip.
+
+05:19.110 --> 05:22.080
+I don't want it to loop while he's in the air.
+
+05:22.090 --> 05:30.280
+I want it to kind of transition into this single four frame clip and then transition out as he comes
+
+05:30.280 --> 05:30.730
+down.
+
+05:30.730 --> 05:38.390
+So I'm going to go ahead and leave the loop time off and I'll come over here and click Apply all right.
+
+05:38.390 --> 05:42.880
+So now we have our run jump and idle animations here.
+
+05:42.950 --> 05:43.900
+Good.
+
+05:43.910 --> 05:48.890
+So that is all inside this character object here.
+
+05:49.190 --> 05:53.560
+Now to continue setting up our character let's go ahead and just drag him out into the scene.
+
+05:53.560 --> 06:00.350
+I'll just click here and drag him into the scene and there he is now going to zero out his transformation
+
+06:00.350 --> 06:06.920
+over here and the inspector just type 0 into the X Y and Z position fields.
+
+06:06.950 --> 06:10.690
+So now he's in the center of the grid and we go.
+
+06:10.910 --> 06:17.360
+I think I could also rotate the light here so it's shining on the front of him instead of just on the
+
+06:17.360 --> 06:18.300
+back.
+
+06:18.710 --> 06:28.190
+At least for now so I'll click the light go to the rotate tool and just rotate that light around like
+
+06:28.250 --> 06:29.350
+that.
+
+06:29.470 --> 06:31.920
+You can see him a little better.
+
+06:31.940 --> 06:35.070
+All right so now let's get the textures on him.
+
+06:35.180 --> 06:43.010
+When we dragged him in from Blender we got all of these materials coming in from blender as well we
+
+06:43.010 --> 06:49.880
+got the character material we got the eyes we got the hammer and this here says checker But you know
+
+06:49.880 --> 06:53.750
+what I bet this is I bet that's the shield.
+
+06:53.750 --> 07:01.610
+All right so now what we can do is we can bring our textures in and assign them to the various slots
+
+07:01.700 --> 07:02.390
+in our material.
+
+07:02.390 --> 07:09.230
+So if I select this character material you can see we've got a slot here for Al-Bayda or the color.
+
+07:09.230 --> 07:14.360
+We've got a slot for the normal map and we've got a slot for the ambient occlusion So we're going to
+
+07:14.360 --> 07:17.120
+use these to put our textures in.
+
+07:17.220 --> 07:26.690
+I go ahead and come back to the assets window and create a new folder and call this textures and I'll
+
+07:26.690 --> 07:30.570
+open that up and let's go find our textures here.
+
+07:33.200 --> 07:37.460
+So there was our scene here is our textures.
+
+07:37.550 --> 07:43.300
+So we've got the ambient occlusion color and normal of our character.
+
+07:43.370 --> 07:44.880
+I'll go ahead and bring those in.
+
+07:46.310 --> 07:50.300
+And we've got the eyes for the character.
+
+07:50.300 --> 07:54.330
+We've got the ambient occlusion and the color of the hammer.
+
+07:54.500 --> 08:03.640
+Oh and the normal bring those in and we've got the color and the normal for the shield I'll bring those
+
+08:03.640 --> 08:08.240
+in right so we have all of our textures in there.
+
+08:08.440 --> 08:13.240
+Now we can do is we can choose our character we can come over here to the hierarchy and spin the little
+
+08:13.660 --> 08:21.040
+triangle down and we can choose the various objects within this character objects so maybe the low poly
+
+08:21.040 --> 08:26.800
+character first here is that Shater or material right here.
+
+08:27.100 --> 08:35.120
+So I'll scroll down and we can take the color for the character into the bedo we can take the normal
+
+08:35.120 --> 08:39.440
+map into the normal map slot and we always have to click fix.
+
+08:39.440 --> 08:49.810
+Now to mark it as a normal map and we take the ambient occlusion of the occlusions slot and we go areas
+
+08:50.560 --> 08:51.700
+don't look too bad.
+
+08:52.990 --> 08:59.410
+Let's bring the eyes in them and select one of the eyes open up the material and let's drag the color
+
+08:59.440 --> 09:00.520
+into the albedo
+
+09:03.320 --> 09:10.570
+select the hammer and do the same thing for this color.
+
+09:12.990 --> 09:20.340
+Normal and occlusion all it's fixed the normal map here.
+
+09:21.280 --> 09:23.620
+And then the shield looks like the shield
+
+09:27.030 --> 09:33.480
+and take these and so here it is a shield color and normal.
+
+09:33.570 --> 09:34.650
+There we go.
+
+09:34.650 --> 09:35.530
+All right.
+
+09:35.640 --> 09:37.070
+He's good to go now.
+
+09:37.970 --> 09:38.390
+All right.
+
+09:38.390 --> 09:43.490
+So the purpose of bringing this character in here in the first place was to be able to control them.
+
+09:43.760 --> 09:47.340
+So we're going to need a character controller.
+
+09:47.660 --> 09:54.830
+So I'm going to select this character here and come over here to add component and the component we
+
+09:54.830 --> 10:01.570
+want is a character control or something to go to physics and select character controller.
+
+10:01.630 --> 10:03.030
+There it is.
+
+10:03.050 --> 10:11.360
+Now we need to adjust this character controller this capsule here so it fits around our character and
+
+10:11.360 --> 10:17.690
+to do that I'm going to go to an orthographic view I'm going to click the z axis right here and then
+
+10:17.690 --> 10:24.680
+I'm going to click this instead of front perspective and switch this to an ISO or orthographic.
+
+10:24.680 --> 10:32.540
+And now let's just take this capsule and with the y axis for the center of the capsule I'm just going
+
+10:32.540 --> 10:36.550
+to click and drag on the y axis and move this up.
+
+10:36.750 --> 10:38.200
+Maybe something like that.
+
+10:38.200 --> 10:39.720
+Make sure it's on the ground there.
+
+10:39.730 --> 10:40.330
+Yeah.
+
+10:41.130 --> 10:44.070
+And I don't need it quite this wide.
+
+10:44.930 --> 10:51.390
+Let me try and bring the radius down some like so yeah.
+
+10:51.430 --> 10:59.930
+So it may be encompasses his ears and let's tumble around and make sure he's OK here.
+
+11:00.270 --> 11:02.340
+Yeah that looks like it's pretty good.
+
+11:03.550 --> 11:09.010
+So now that we have our character controller on our character we also need an animation controller or
+
+11:09.010 --> 11:12.780
+an animator controller and that's going to go right into this slot.
+
+11:12.790 --> 11:18.730
+Here you can see I've got the character selected in the hierarchy and this slot right here needs an
+
+11:18.730 --> 11:20.290
+animator controller.
+
+11:20.290 --> 11:25.370
+That's how we're going to define what animations are playing at any particular time.
+
+11:25.390 --> 11:31.930
+So to create that I just want to come down here into the assets window right click choose create and
+
+11:31.930 --> 11:35.290
+come down here and choose animator controller.
+
+11:35.450 --> 11:36.410
+And there we go.
+
+11:36.650 --> 11:42.590
+So what I can do is I can call this I can call this really anything I'll call this player control or
+
+11:44.090 --> 11:50.270
+I'll select that character and then I'll click and drag this guy right over here into that slot and
+
+11:50.270 --> 11:51.920
+then we go.
+
+11:51.920 --> 11:58.370
+Now what that does for us is if we go over here to the animator tab now if you do not have this animator
+
+11:58.370 --> 12:06.380
+tab what you can do is come up here to a window and click on animator and that will open up that window
+
+12:06.380 --> 12:12.640
+for you and then you can drag it and dock it here in this view if you want.
+
+12:12.650 --> 12:18.830
+Now you can move around in the animator by pressing alt middle mouse button here if you need to move
+
+12:18.830 --> 12:20.360
+the view around.
+
+12:20.360 --> 12:28.460
+Now what I can do is open up this character again and scroll down to my animation clips and let's just
+
+12:28.460 --> 12:37.760
+drag this idle clip right into the animator and it automatically senses the first one we dragged in
+
+12:37.760 --> 12:44.990
+it automatically hooks up to the entry and therefore if we go back here and if we turn on our game just
+
+12:44.990 --> 12:52.010
+by clicking the play button up here we're going to switch back to the scene now you can see that he
+
+12:52.010 --> 12:55.540
+is going through his idle animation.
+
+12:55.590 --> 13:02.600
+So just without doing any coding so far we've been able to get the idle animation looping and running
+
+13:02.610 --> 13:03.970
+when we turn on our game.
+
+13:05.150 --> 13:05.860
+All right.
+
+13:06.020 --> 13:13.160
+So in the next video what we'll do is we'll add the other clips to the animator and we'll define a parameter
+
+13:13.160 --> 13:17.820
+that will allow us to switch from one animation cycle to the other.
+
+13:17.870 --> 13:18.970
+So I'll see you then.

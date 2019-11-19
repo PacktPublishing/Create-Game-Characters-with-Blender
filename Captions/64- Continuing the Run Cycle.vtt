@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.990 --> 00:05.850
+So in the last video we were able to set up the contact poses.
+
+00:05.850 --> 00:12.930
+We've got a contact pose when the heel actually contacts the ground here on frame 1 and we've also got
+
+00:13.110 --> 00:17.200
+another contact pose here on frame 7.
+
+00:17.280 --> 00:24.430
+The next thing I like to do is to work on the passing pose and that usually happens right around frame
+
+00:24.460 --> 00:30.570
+for let's say and the passing pose is just when well the feet pass each other.
+
+00:30.570 --> 00:36.940
+So we begin here on frame one with the left foot closest to us.
+
+00:37.020 --> 00:42.530
+So we need to keep an eye on that foot as we move from frame one to frame.
+
+00:42.530 --> 00:44.790
+For here it is.
+
+00:44.820 --> 00:50.550
+Now we need to bring this foot down to be pushing off of the ground so it's just the toe on the ground
+
+00:50.910 --> 00:58.140
+pushing off and the other leg passing by on its way to the other contact post.
+
+00:58.270 --> 01:00.870
+So OK so let's take this foot here.
+
+01:00.870 --> 01:08.400
+The foot iCade left and I'll just move it down a bit and I think what I'll do is clear the rotation
+
+01:08.400 --> 01:15.840
+here so I'll press Allt are and that will clear the rotation and put it back parallel to the ground.
+
+01:15.840 --> 01:20.170
+Let's also take it down to the ground so we know it's flat on the ground.
+
+01:20.190 --> 01:22.280
+On a press all day G.
+
+01:22.320 --> 01:24.690
+And that will clear the location.
+
+01:24.960 --> 01:35.210
+And now I can rotate it back up onto the toe and move it straight back like that and the y axis and
+
+01:35.210 --> 01:40.120
+something like maybe get them push in off like that.
+
+01:40.460 --> 01:42.320
+Yeah something like that.
+
+01:42.410 --> 01:44.680
+And now this foot doesn't look too bad actually.
+
+01:44.690 --> 01:51.030
+I might rotate it down just a hair like that maybe even push it forward just a bit.
+
+01:51.080 --> 01:52.370
+There we go.
+
+01:52.370 --> 01:54.690
+All right so let's see how this works.
+
+01:54.710 --> 01:58.150
+We've got our contact pose.
+
+01:58.480 --> 02:01.640
+And then we've got our passing pose.
+
+02:01.900 --> 02:04.890
+And then back to our contact pose here again.
+
+02:05.050 --> 02:09.500
+We now need our passing pose at frame 10.
+
+02:09.520 --> 02:15.850
+So what I'll do is I'll hit the A key and select all of the controls here on the character on frame
+
+02:15.850 --> 02:16.640
+four.
+
+02:17.170 --> 02:24.880
+And let me just scroll over here and I'm going to go ahead and copy this post so I'll hit this button
+
+02:24.880 --> 02:26.330
+right here.
+
+02:26.500 --> 02:30.280
+Move the frame up to frame 10.
+
+02:30.430 --> 02:37.470
+And now let's paste this and flip it with this button here let's see if it works click that and then
+
+02:37.470 --> 02:37.880
+we go.
+
+02:37.880 --> 02:50.330
+So now we've got our passing poses at frame for and frame 10 and we've got our contact at 1 and 7.
+
+02:50.330 --> 02:52.510
+So let's hit play and see what happens.
+
+02:53.380 --> 02:54.250
+Get in there.
+
+02:55.520 --> 03:02.190
+Now so far all we've dealt with is just the legs we really haven't moved that center of gravity control.
+
+03:02.220 --> 03:06.530
+This one here that torso control up or down.
+
+03:06.570 --> 03:11.780
+But now let's start working on well the down position and the up position.
+
+03:11.910 --> 03:21.660
+So now that I have this selected it looks like I've got keyframes at 7 10.
+
+03:21.700 --> 03:24.470
+I don't have one for four here.
+
+03:24.490 --> 03:28.200
+I'm going to go ahead and insert a keyframe for four just so it's there.
+
+03:28.210 --> 03:29.280
+I'm going to hit.
+
+03:29.680 --> 03:33.340
+And I'll insert a keyframe for location.
+
+03:33.720 --> 03:41.710
+And we go just so I have one at each of those main poses so far and now the down position we can think
+
+03:41.710 --> 03:49.500
+of that as being around frame 2 and the down position is when the foot falls flat to the ground.
+
+03:49.510 --> 03:57.160
+So you've got it here with the contact and now it's going to fall flat to the ground like the toe slaps
+
+03:57.160 --> 03:58.210
+the ground.
+
+03:58.600 --> 04:04.120
+The weight of the character is going to come down on that leg which means the head is going to come
+
+04:04.120 --> 04:05.600
+down a bit as well.
+
+04:05.980 --> 04:14.410
+So so far now we've had on the contact and the passing poses the head and the hips or the torso have
+
+04:14.410 --> 04:19.830
+been in the exact same place for the down position they're going to go down.
+
+04:20.170 --> 04:22.570
+And for the up position they'll of course go up.
+
+04:22.810 --> 04:31.540
+So let's take this foot first of all and let's press alt are to clear the rotation clear the rotation
+
+04:31.540 --> 04:33.710
+here as well auld are.
+
+04:33.730 --> 04:36.000
+So now he is right down on the ground.
+
+04:36.050 --> 04:42.660
+Go ahead and press all G just to make sure and I'll slide this back forward some like this.
+
+04:42.670 --> 04:48.940
+So now his foot is right planted flat on the ground and I'm going to take this torso control and just
+
+04:48.940 --> 04:51.160
+move it straight down.
+
+04:51.160 --> 04:56.550
+Now the arms are going to kind of stay where they are because of the controls and that's OK for now.
+
+04:56.590 --> 05:01.480
+We'll deal with the arms a little bit later I kind of like to deal with one thing at a time.
+
+05:01.810 --> 05:03.770
+And this guy right here.
+
+05:04.580 --> 05:07.560
+Let me make sure we've got this cleared with all our.
+
+05:07.580 --> 05:08.840
+That's good.
+
+05:08.840 --> 05:17.390
+And this guy I'm going to rotate back a bit like this maybe swing it back a little bit more like that.
+
+05:17.390 --> 05:18.580
+There we go.
+
+05:18.580 --> 05:23.730
+So now it should come down and back up a bit.
+
+05:25.740 --> 05:29.680
+So he should come down and hit that ground like that now.
+
+05:29.700 --> 05:33.060
+This foot has come out too much.
+
+05:33.090 --> 05:38.310
+I'm just going to raise that back up just a bit like this and go.
+
+05:38.530 --> 05:47.260
+So now you can see his foot goes from the heel and slaps the ground as the weight of the character comes
+
+05:47.470 --> 05:49.190
+down onto that leg.
+
+05:50.020 --> 05:54.340
+I may even want to bring him down just a hair more like that.
+
+05:54.340 --> 06:05.280
+All right so he goes into the down position back up to the passing to the contact again.
+
+06:05.450 --> 06:14.200
+We've got the passing and the contact so now we could do is do the opposite of the down on frame 8 here.
+
+06:14.240 --> 06:15.610
+Why don't we do that.
+
+06:15.680 --> 06:18.710
+So let's go ahead and select everything.
+
+06:18.710 --> 06:29.980
+Copy it with this button here moved to frame 8 and paste it like so let's see how that works.
+
+06:31.740 --> 06:32.280
+All right.
+
+06:32.380 --> 06:35.670
+De-select everything with the achene now going to go forward.
+
+06:35.670 --> 06:43.640
+There's that down position passing contact.
+
+06:43.700 --> 06:45.950
+There's the new down position
+
+06:48.320 --> 06:51.680
+passing and contact.
+
+06:51.940 --> 06:52.280
+OK.
+
+06:52.290 --> 06:55.830
+So you can see the key frames here.
+
+06:57.250 --> 07:01.450
+So what's cool is so far we really only have three poses.
+
+07:01.450 --> 07:09.730
+We've got the contact pose the passing pose and the down and we've been able to copy and paste the opposite
+
+07:09.730 --> 07:13.570
+of each one of those to make our lives a little easier.
+
+07:13.570 --> 07:19.800
+The next thing we should do is the up position which is going to be just past the passing pose.
+
+07:19.810 --> 07:27.850
+So here we are frame 5 and the up position is going to find this front leg kind of almost straight and
+
+07:27.850 --> 07:32.360
+the toe just barely touching the ground and the torso up.
+
+07:32.380 --> 07:35.230
+So we we need to push that torso up a bit.
+
+07:35.380 --> 07:42.250
+But first of all what I would do is take this and hit Allt R and get rid of the rotations for these
+
+07:42.250 --> 07:44.290
+things called are here.
+
+07:44.560 --> 07:49.620
+And I think I'm going to go ahead and press alt G just to put it right back to the center.
+
+07:49.840 --> 08:00.000
+And then I'm going to drag this back and raise this up like that and I'm going to move that torso straight
+
+08:00.000 --> 08:09.350
+up I better grab those hands as well so we don't break the elbows as we drag him up.
+
+08:09.350 --> 08:18.540
+So I'll now drag that up and now I'll take this back just all the way I don't want to break the leg
+
+08:18.540 --> 08:19.290
+like that.
+
+08:19.290 --> 08:20.130
+I just want to get it.
+
+08:20.130 --> 08:22.280
+So it's really close to being straight.
+
+08:22.280 --> 08:24.850
+You don't want to bend anything backwards like that.
+
+08:25.530 --> 08:32.400
+So just so it's almost straight and this guy I mean make sure the rotation is clear on that.
+
+08:32.400 --> 08:35.380
+And I'm going to move him up.
+
+08:36.670 --> 08:44.710
+Pretty far out like this and maybe rotate it up just a bit like that let me see if I can move this back
+
+08:44.710 --> 08:46.160
+just a little bit.
+
+08:47.040 --> 08:52.580
+Maybe I'll bring him down a hair just so we don't break that leg.
+
+08:54.300 --> 08:55.320
+And here we go.
+
+08:55.620 --> 08:55.940
+All right.
+
+08:55.950 --> 08:58.250
+So that is our position.
+
+08:58.320 --> 09:00.740
+Let's see how that looks.
+
+09:00.750 --> 09:03.460
+So he goes down.
+
+09:03.480 --> 09:03.750
+All right.
+
+09:03.750 --> 09:06.060
+So here is the contact.
+
+09:06.140 --> 09:13.210
+The down position the passing PPOs the up position.
+
+09:13.430 --> 09:14.850
+I don't like this foot.
+
+09:14.870 --> 09:17.940
+What did I do here.
+
+09:18.110 --> 09:21.240
+Let me rotate this back then.
+
+09:21.320 --> 09:25.490
+I don't like that being up so far turned up like that.
+
+09:25.850 --> 09:28.860
+All right so now there's your contact.
+
+09:28.880 --> 09:30.230
+You're down.
+
+09:30.320 --> 09:33.200
+You're passing and your contact.
+
+09:33.210 --> 09:33.660
+OK.
+
+09:33.660 --> 09:43.500
+So let's now take this frame five and let's copy it and paste the opposite of it over at frame 11.
+
+09:43.500 --> 09:46.550
+All right so I'll select everything with the key.
+
+09:46.620 --> 09:47.850
+Copy everything.
+
+09:48.790 --> 09:55.540
+Move this over to frame 11 and paste and we go.
+
+09:55.920 --> 09:56.490
+All right.
+
+09:56.580 --> 09:58.610
+So let's see how this works.
+
+09:58.770 --> 10:06.000
+I'm going to go ahead and save go back to the beginning and hit play.
+
+10:06.080 --> 10:07.500
+We're getting there.
+
+10:07.770 --> 10:14.850
+There's some flopping us here at the end with the feet we'll need to work on that.
+
+10:15.080 --> 10:17.300
+But that's a good beginning.
+
+10:17.300 --> 10:24.740
+We've got the sense that he's going up and down that there's weight to the character Yeah I think that's
+
+10:24.740 --> 10:25.510
+going to work.
+
+10:26.590 --> 10:27.460
+All right.
+
+10:27.760 --> 10:33.600
+So in the next video what we'll do is we'll begin cleaning this up a bit.
+
+10:33.700 --> 10:39.020
+We'll begin working on the arms and see if we can finish up our run cycle.
+
+10:39.070 --> 10:40.160
+So see you then.

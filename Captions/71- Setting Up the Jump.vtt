@@ -1,0 +1,379 @@
+WEBVTT
+
+00:00.260 --> 00:05.610
+In this video we'll add the jump animation to our script and we'll want to be able to move the character
+
+00:05.610 --> 00:06.990
+around our game level.
+
+00:07.080 --> 00:11.130
+But to do that we're going to need a couple of things we're going to need gravity.
+
+00:11.220 --> 00:17.270
+We're going to need to know when he's on the ground and we're going to need Well a ground.
+
+00:17.370 --> 00:19.400
+So let's begin with the ground.
+
+00:19.770 --> 00:26.790
+I'm going to come over here to the hierarchy and right click and choose 3-D object and plane and I'm
+
+00:26.790 --> 00:33.300
+going to set the plane to the zero position for X Y and Z.
+
+00:33.800 --> 00:36.700
+So now we know that he is on the ground.
+
+00:36.770 --> 00:42.130
+Now what we need is the ability to push down on the ground to push down.
+
+00:42.260 --> 00:46.910
+So he has gravity what we need to do is go back into the script and create that.
+
+00:46.910 --> 00:51.440
+So what let's do is let's go back into the script and to create gravity.
+
+00:51.440 --> 00:58.610
+Let's go down here into the update function below our if else statements and let's say we want to move
+
+00:58.610 --> 01:02.090
+that character controller.
+
+01:02.520 --> 01:04.350
+We want to create.
+
+01:04.350 --> 01:12.570
+We're going to need to create a variable or call it move direction and we'll multiply that by what's
+
+01:12.570 --> 01:20.370
+called time delta time which if we wanted to we could highlight time Dot delta time and we can press
+
+01:20.370 --> 01:28.580
+control or command apostrophe on the keyboard and we can bring up the scripting documentation for unity.
+
+01:28.590 --> 01:32.310
+Now here is time delta time.
+
+01:32.340 --> 01:37.890
+So what we're doing is we're using this function to make our game frame rate independent.
+
+01:37.890 --> 01:44.930
+In other words we're basing the movement on time rather than on the frame rate.
+
+01:45.180 --> 01:52.050
+And that's good for things like gravity because the frame rate can fluctuate depending on what's going
+
+01:52.050 --> 01:58.560
+on in the game and how good the processor is on the computer or console or whatever.
+
+01:58.560 --> 02:03.900
+So we don't want to base things like gravity on something that could fluctuate.
+
+02:03.900 --> 02:07.960
+So that's why we use time delta time.
+
+02:08.040 --> 02:12.530
+So let's go back here and bring up our script again.
+
+02:12.630 --> 02:20.280
+I need to close off the parentheses at a semi-colon and also let's take that variable that we're going
+
+02:20.280 --> 02:28.070
+to create called Move direction and let's say that it should push down in the Y.
+
+02:28.470 --> 02:34.300
+Negative equals which is the same as minus something equals.
+
+02:34.380 --> 02:45.690
+And I'll take I'll use gravity times time delta time as we go semi-colon at the end.
+
+02:45.690 --> 02:50.790
+Now of course you can see that we've got a few variables that we need to deal with here.
+
+02:50.790 --> 02:56.830
+I've created a gravity variable and I've created a moved direction and we need to put those up here.
+
+02:56.910 --> 02:59.400
+So unity knows what we're doing.
+
+02:59.400 --> 03:05.910
+So let's come up here and let's first create that move direction I'm going to create a private variable
+
+03:06.480 --> 03:13.590
+and I'm going to make it be of type vector 3 and of course we'll call it move direction like we did
+
+03:13.590 --> 03:14.440
+down there.
+
+03:15.310 --> 03:20.670
+And we'll set this to vector's 3 0
+
+03:24.010 --> 03:32.810
+and gravity we need to deal with that too we'll create a public float variable called gravity and creating
+
+03:32.810 --> 03:39.410
+it as a public variable will allow us to modify it in the inspector on the fly.
+
+03:39.500 --> 03:48.720
+We'll go ahead and call this 20 point zero and we'll put an F there because it's a float and I'll save.
+
+03:48.720 --> 03:51.350
+So now you can see these aren't read anymore.
+
+03:51.350 --> 03:52.820
+That's good.
+
+03:52.820 --> 03:55.820
+All right so let's go back to our game now.
+
+03:55.850 --> 03:58.110
+Make sure there's no errors happening here.
+
+03:58.130 --> 03:59.680
+If I hit play.
+
+04:00.110 --> 04:01.000
+Not much happens.
+
+04:01.000 --> 04:03.140
+You can't see any difference really.
+
+04:03.230 --> 04:09.780
+But if I took this plane and moved it up and hit play now he'd drop.
+
+04:09.800 --> 04:13.780
+So you can see that he's being pushed on by that gravity.
+
+04:13.850 --> 04:20.030
+And if I select the character over here you can see that because we created the gravity as a public
+
+04:20.030 --> 04:23.540
+variable we now have access to it over here in the inspector.
+
+04:23.540 --> 04:26.810
+All right so let me bring that plane back down here.
+
+04:26.810 --> 04:30.390
+Let me select that and type zero in the y.
+
+04:30.860 --> 04:38.600
+Ok so now we know he's being pushed down onto the ground and when he's touching the ground he's going
+
+04:38.600 --> 04:42.740
+to be grounded and we need to know whether he's grounded or not.
+
+04:42.740 --> 04:49.010
+When he jumps I don't want to have the player be able to have him jump in while he's in the air hit
+
+04:49.010 --> 04:52.670
+and jump again and have him continue going up indefinitely.
+
+04:52.670 --> 04:57.410
+I just want him to be able to jump once and while he's in the air you can't jump again until he hits
+
+04:57.410 --> 04:58.790
+the ground again.
+
+04:58.790 --> 05:03.300
+So what we need to know are what unity needs to know is when he's grounded.
+
+05:03.410 --> 05:10.420
+So let's go back over to the script and let's just create that bit of code.
+
+05:10.730 --> 05:19.250
+So I'm going to come in here to the update and in front of input that key I'm going to type controller.
+
+05:19.850 --> 05:25.650
+That's our character controller is grounded.
+
+05:25.880 --> 05:32.810
+And so what this says is if the character controller is grounded is on the ground and you're pushing
+
+05:32.810 --> 05:38.300
+the up key then transition to the run animation clip.
+
+05:38.570 --> 05:51.290
+Otherwise else if the controller is grounded and you are not pushing on the up then switch back to the
+
+05:51.320 --> 05:54.040
+idle which is zero.
+
+05:54.040 --> 05:55.270
+All right.
+
+05:55.730 --> 05:58.970
+So the next thing we should work on is the jump.
+
+05:58.970 --> 06:02.100
+And what we're going to need is a couple lines here.
+
+06:02.150 --> 06:09.260
+That's similar to our IF statement that basically says if the space bar is pushed down then change the
+
+06:09.260 --> 06:11.680
+animation parameter too.
+
+06:11.960 --> 06:17.550
+But in addition we're also going to need to give it force upward a jump force.
+
+06:17.630 --> 06:18.710
+So let's begin on that.
+
+06:18.710 --> 06:26.960
+I'm going to go ahead and just right here below this if statement I'm going to begin by saying if we've
+
+06:26.960 --> 06:40.740
+got input coming in from a button that unity calls jump which is the spacebar.
+
+06:40.970 --> 06:52.570
+And if the controller is grounded once again then what we need to do is set that animator control or
+
+06:52.580 --> 06:53.300
+variable
+
+06:56.970 --> 07:00.630
+which is the integer that we called animation parameter.
+
+07:00.630 --> 07:07.670
+I'm just going to copy this and put this down here and change the zero to where we go.
+
+07:07.660 --> 07:15.690
+So now what we've got is if we push down the spacebar and the controller is on the ground then change
+
+07:15.690 --> 07:20.170
+the animation parameter in the animator controller to two.
+
+07:20.220 --> 07:27.860
+Now we've got a variable up here called moved direction and you can see we're using that to create a
+
+07:27.860 --> 07:35.390
+bit of gravity what we can do for just a moment when the space bar is pushed as we can say that that
+
+07:35.400 --> 07:45.690
+move direction in the y axis is going to be equal to a variable that we'll call jump force and it's
+
+07:45.740 --> 07:48.220
+read here because we haven't defined it.
+
+07:48.380 --> 07:55.070
+So we'll come back up to the variables area and we'll create a public float.
+
+07:55.920 --> 08:01.870
+Call it junk force and give it some sort of value.
+
+08:02.060 --> 08:04.780
+Let's give it 10 for now and see how that works.
+
+08:04.910 --> 08:10.220
+We'll be able to adjust this in the inspector on the fly.
+
+08:10.220 --> 08:15.700
+So now we've got our variable force defined in our script.
+
+08:16.280 --> 08:17.510
+Well let's test it out.
+
+08:17.510 --> 08:23.120
+Let's see if it works I'm going to save this script I'm going to go back to unity and let's just hit
+
+08:23.120 --> 08:25.770
+play.
+
+08:25.770 --> 08:26.010
+All right.
+
+08:26.010 --> 08:27.520
+So I hit the up arrow.
+
+08:27.960 --> 08:30.370
+He runs I let up off of it.
+
+08:30.390 --> 08:31.900
+He goes back to idle.
+
+08:31.910 --> 08:39.790
+I hit the jump or the spacebar and he goes up but he doesn't change to his jump.
+
+08:39.810 --> 08:41.220
+Animation up there it is.
+
+08:41.220 --> 08:43.590
+He didn't he didn't get high enough.
+
+08:43.590 --> 08:49.470
+So here let me turn the game off for just a minute let me move the camera back so we can kind of see
+
+08:50.040 --> 08:50.630
+what's going on.
+
+08:50.640 --> 08:56.640
+Or better yet you know what let's do instead of moving the camera back let's parent the camera to the
+
+08:56.640 --> 08:59.850
+character so it goes up when he goes out.
+
+08:59.970 --> 09:01.820
+So I'll just take the camera here.
+
+09:01.830 --> 09:06.920
+In the hierarchy and just click and drag it and drag it right on the character and drop it there.
+
+09:06.930 --> 09:09.510
+Now it's a part of these child objects.
+
+09:09.540 --> 09:12.620
+Underneath that main character object.
+
+09:12.720 --> 09:18.720
+So if we hit play and now we hit the spacebar it will go up.
+
+09:18.820 --> 09:25.460
+You can see he's just he's not quite there he is kind of.
+
+09:25.460 --> 09:33.740
+So let's take a look at this what I'm going to do is go back to the animator and here's our transitions
+
+09:33.740 --> 09:36.530
+for the jump just to make things easy.
+
+09:36.530 --> 09:41.640
+I'm going to take this transition from the idle to the jump and I'm going to turn off exit time.
+
+09:41.690 --> 09:47.810
+So there really is no time between the idle and the jump and I'm going to do that.
+
+09:47.810 --> 09:55.040
+Back to the idle as well I'll just turn off exit time here and I'll save and let's give that another
+
+09:55.040 --> 09:55.420
+try.
+
+09:55.420 --> 09:59.860
+I'll hit play where he goes.
+
+09:59.880 --> 10:03.080
+So now he transitions to that jump.
+
+10:03.080 --> 10:05.560
+Animation a little quicker.
+
+10:05.580 --> 10:06.910
+All right.
+
+10:07.200 --> 10:15.870
+So now we've got our idol our jump and our run animations set up so we can trigger them through keyboard
+
+10:15.870 --> 10:17.040
+events.
+
+10:17.070 --> 10:26.160
+So in the next video what we'll do is we'll set up a speed variable and a turn variable and we'll get
+
+10:26.160 --> 10:29.470
+him moving around the scene as well.
+
+10:29.520 --> 10:30.930
+So stay tuned for that.
+
+10:30.930 --> 10:31.860
+I'll see you then.

@@ -1,0 +1,310 @@
+WEBVTT
+
+00:00.920 --> 00:06.590
+Well let's work on continuing the read typology of the character's head today.
+
+00:06.890 --> 00:12.800
+I'm going to go ahead and come over here to the grease pencil area over on the tool shelf and click
+
+00:12.800 --> 00:22.150
+on draw and I'd like to just extend this edge on up over the head so I'll draw one edge here.
+
+00:24.110 --> 00:36.330
+One here let's say another here and maybe a couple of more going up over to the ear
+
+00:40.910 --> 00:49.700
+maybe like so now that I've got that I'll press enter and then I'll go into edit mode and I'll select
+
+00:49.760 --> 00:54.880
+these points here these edges like that point and control click.
+
+00:54.880 --> 01:01.790
+This one just like that whole row of edges and then I'll just click add surface and there we go.
+
+01:01.790 --> 01:09.470
+Now I'm going to take the follow down to one and I'll also turn off x rays so we don't see through it.
+
+01:10.130 --> 01:13.040
+So I'll just drag these into the center real quick.
+
+01:17.230 --> 01:24.690
+And remember with clipping on over here in the mirror modifier those will snap into the center.
+
+01:24.700 --> 01:32.320
+Now one thing I'd like to do is as I extend this area back to the back of the head I would like me turn
+
+01:32.320 --> 01:33.460
+off x.
+
+01:33.640 --> 01:41.590
+I would like for these to come back and be evenly spaced so that when they come back to the back of
+
+01:41.590 --> 01:50.110
+the head we don't have some polygons wider than the others but to do them I kind of need to gently expand
+
+01:50.110 --> 01:54.340
+these here as they move toward the back.
+
+01:54.340 --> 02:02.700
+So I think what I can do is just select these points and press shift V to slide a vertex So a press
+
+02:02.710 --> 02:11.660
+shift and the V key and this slide the vertex over just a bit just to make things a little more even
+
+02:16.200 --> 02:17.840
+all right that's looking pretty good.
+
+02:18.120 --> 02:25.140
+Let's come back here to the back side again and I'll turn off the x ray and I'll begin drawing out the
+
+02:25.140 --> 02:29.530
+edges that are going to extend down to the back of the neck.
+
+02:29.700 --> 02:46.040
+I'm going to click the draw button again and this time I'll come down like this.
+
+02:46.130 --> 02:55.560
+OK so I'm going to press enter it add surface take the cross down to one take the follow down to one
+
+02:56.190 --> 03:02.980
+as well then I'll hit x ray and see how that looks like I missed one huh.
+
+03:03.940 --> 03:09.520
+What happened here is that I didn't select this edge to extend on down.
+
+03:09.640 --> 03:10.680
+But what I can do.
+
+03:10.720 --> 03:13.910
+Let me just count this one two three four five.
+
+03:14.080 --> 03:20.440
+Here's an interesting way to fix that I'm going to just going to press control r for the loop cut and
+
+03:20.590 --> 03:24.490
+I'll do one two three four five.
+
+03:24.490 --> 03:29.340
+I'll just do this and that should match up with that.
+
+03:29.680 --> 03:35.800
+Yeah I know that's cheating right but I just forgot to select that edge.
+
+03:35.890 --> 03:39.070
+So let me select these then.
+
+03:39.980 --> 03:42.570
+And these.
+
+03:43.380 --> 03:47.610
+And once we have these edges selected I'll press control.
+
+03:48.140 --> 03:51.030
+And let's come down here to bridge edge loops.
+
+03:51.180 --> 03:57.070
+So I like that and that should bridge those back together.
+
+03:57.110 --> 04:03.740
+So the problem was is I drew out the grease pencil lines but I didn't then select what Edge was going
+
+04:03.740 --> 04:04.550
+to be extruded.
+
+04:04.550 --> 04:07.690
+So it just created geometry out on its own.
+
+04:08.730 --> 04:13.170
+So now let's take a look at connecting these up around the ear.
+
+04:13.200 --> 04:21.590
+I think what I'll do is begin with this edge and kind of come down like this and try and keep in mind
+
+04:21.620 --> 04:27.790
+my edge is on the front so I'm willing to just go say here
+
+04:31.940 --> 04:33.360
+and here.
+
+04:35.030 --> 04:39.160
+And here and this one
+
+04:42.160 --> 04:44.990
+and maybe come around like that.
+
+04:46.450 --> 04:47.730
+Here we go.
+
+04:47.950 --> 04:49.550
+Well enter.
+
+04:50.210 --> 04:55.240
+Select this edge and let's see what happens at the surface.
+
+04:55.250 --> 04:57.440
+Let's take the follow down to one.
+
+04:57.920 --> 04:59.050
+And there we go.
+
+04:59.450 --> 05:04.510
+Let me connect this one up here I'll move this.
+
+05:05.030 --> 05:13.970
+And at this point in time it just begins to be a puzzle kind of how you can most efficiently arrange
+
+05:13.970 --> 05:22.130
+these polygons So they're relatively low resolution you have relatively few of them while still maintaining
+
+05:22.130 --> 05:24.050
+the basic shape of the character.
+
+05:24.930 --> 05:28.120
+Let me select these four and hit the F key.
+
+05:28.230 --> 05:34.290
+Now for this I think I'm just going to use very basic extruding just extrude these edges and move them
+
+05:34.710 --> 05:40.970
+out around this ear see how close I can get to the actual shape of the ear.
+
+05:40.980 --> 05:45.110
+So with that whole edge like that I'll just hit E and extrude.
+
+05:45.390 --> 05:47.940
+Let's see what I can do.
+
+05:48.060 --> 05:51.320
+I'm just going to move it out like this.
+
+05:51.330 --> 06:01.600
+If you scale it a bit I'll try that again and extrude bring this up scale it ends.
+
+06:02.770 --> 06:09.840
+And let's keep on going so I'll hit E and extrude scale this and some more
+
+06:12.510 --> 06:17.360
+and extrude again on up to here let's say
+
+06:23.020 --> 06:27.270
+scale this and a bit.
+
+06:27.370 --> 06:28.950
+And one last time up here
+
+06:33.480 --> 06:34.160
+all right.
+
+06:36.900 --> 06:43.770
+So what I think I'll do is I'll work on this a little bit off camera and I want to pull these in.
+
+06:43.890 --> 06:52.420
+So it matches the inside of the ear just a little bit almost like this edge and just extrude this out
+
+06:52.420 --> 06:54.420
+to get this piece right here.
+
+07:00.700 --> 07:08.680
+And I'll just merge these two points together with Allt em and maybe at center I think I'd also like
+
+07:08.680 --> 07:13.030
+to extend this edge out right here.
+
+07:16.080 --> 07:25.300
+It's like these three and extend that to their And then I'll connect these up with him and at last
+
+07:29.440 --> 07:34.140
+I'm going to draw one more line over here like this.
+
+07:34.130 --> 07:37.680
+Maybe lound and hear press enter.
+
+07:39.960 --> 07:44.250
+To edge mode and maybe I'll try these edges.
+
+07:46.120 --> 07:47.480
+Right here.
+
+07:47.980 --> 07:52.650
+And extend those follow down to one.
+
+07:52.960 --> 07:57.710
+I'd like to maybe take this edge and extend it down along the jaw bone.
+
+07:57.850 --> 08:02.790
+So if I draw this along here maybe I can extend this down
+
+08:06.050 --> 08:08.630
+to here and connect those up
+
+08:12.770 --> 08:18.710
+like this.
+
+08:18.710 --> 08:19.860
+Take a look at that.
+
+08:21.600 --> 08:27.870
+So now maybe I can connect these four up like this.
+
+08:29.830 --> 08:41.820
+So I'm going to extend this one more time so I'll go to extend this like that quick add surface follow
+
+08:41.820 --> 08:43.810
+down to 1.
+
+08:44.220 --> 08:48.550
+Let's see how that works so maybe we can connect this up.
+
+08:48.660 --> 08:54.770
+I think what I will do is extend this road down one more to connect up with this.
+
+08:55.130 --> 08:56.640
+I will do that.
+
+08:57.090 --> 09:06.820
+So draw here and enter and let's go to edge mode.
+
+09:08.370 --> 09:12.770
+Select that edge and extend it on down.
+
+09:13.830 --> 09:17.550
+And then I just want to connect these up here.
+
+09:20.050 --> 09:27.370
+I think I'm going to extend this edge under the chin one more time before I extrude the neck down.
+
+09:27.490 --> 09:40.680
+So just draw that there and then select these points and extrude that around and connect these up.
+
+09:40.730 --> 09:51.140
+And at last and I better bring these back into this center so they clear up.
+
+09:51.210 --> 10:00.280
+So now what I'd like to do is begin extruding this down the neck down so I'm going to select all of
+
+10:00.280 --> 10:05.100
+this edge here and let's just begin extruding this down.
+
+10:05.200 --> 10:11.280
+I'm going to first of all do one quick extrusion here and bring this down.
+
+10:13.020 --> 10:16.550
+This and maybe extrude that in or pull it in a bit
+
+10:20.210 --> 10:31.020
+like so scale then a hair rotated a bit and will extrude down again.
+
+10:33.400 --> 10:38.600
+That well I think we've got a pretty good start on the head here.
+
+10:38.830 --> 10:43.060
+Right now we've got 239 faces in the object.
+
+10:43.120 --> 10:46.650
+Once we mirror it over we'll have around 500.
+
+10:46.720 --> 10:48.210
+That's pretty good.
+
+10:48.670 --> 10:52.720
+We're on course here to have a good number of polygons for our character.

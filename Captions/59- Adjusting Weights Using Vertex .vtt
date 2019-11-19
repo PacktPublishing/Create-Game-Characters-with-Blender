@@ -1,0 +1,538 @@
+WEBVTT
+
+00:01.040 --> 00:07.900
+In the last video we saw that we were having some problems with the binder around the chin also around
+
+00:07.910 --> 00:09.630
+the belt buckle.
+
+00:09.950 --> 00:13.540
+Let's take a look at seeing if we can fix those.
+
+00:13.550 --> 00:21.590
+I'm going to come up here to the head control and we just hit our twice and as we move it around it
+
+00:21.590 --> 00:22.820
+doesn't look too bad.
+
+00:22.820 --> 00:25.290
+Here you can kind of see some stretching.
+
+00:25.550 --> 00:33.410
+But if we choose the neck you can see we've got quite a bit of stretching there and that's not going
+
+00:33.410 --> 00:34.090
+to work.
+
+00:34.100 --> 00:37.290
+So let's see if we can work on that.
+
+00:37.340 --> 00:42.860
+The first thing I'll do is go ahead and select the character and I'm going to come over here to the
+
+00:42.860 --> 00:46.370
+object mode menu and choose wait paint.
+
+00:46.370 --> 00:53.570
+And that should allow us to see the weights on the character and you can see this one down here is currently
+
+00:53.570 --> 00:54.560
+selected.
+
+00:54.590 --> 00:58.900
+We've got thigh one on the right.
+
+00:58.970 --> 01:03.510
+If I scroll up and see if we can find Here's the head right here.
+
+01:03.530 --> 01:09.380
+So this is what the influence of the head looks like.
+
+01:09.380 --> 01:12.510
+Let me see if I can make this menu a little bit bigger.
+
+01:13.720 --> 01:15.220
+Scroll that up.
+
+01:15.220 --> 01:17.670
+I mean it's going to grab this and drag it down.
+
+01:19.210 --> 01:22.520
+Just so we have a better list of our vertex groups.
+
+01:22.610 --> 01:30.620
+So for each vertex group here we have a certain amount of weight or influence on the vertices of the
+
+01:30.620 --> 01:31.480
+character.
+
+01:31.670 --> 01:37.730
+The red color means that it's really influenced or almost all influenced by that bone.
+
+01:37.790 --> 01:42.090
+And then as you move to green and blue it gets less and less.
+
+01:42.200 --> 01:45.920
+So if we tap into edit mode here I'm going to hit the tab key.
+
+01:45.920 --> 01:55.760
+Go into edit mode and I'm going to de-select everything here and with this this up with this head Virtex
+
+01:55.800 --> 02:02.530
+a group selected I can click select to see what vertices are a part of that group.
+
+02:02.660 --> 02:06.110
+So I'll hit select and there they are.
+
+02:06.260 --> 02:12.710
+So we can see that there's quite a few vertices being influenced by the head bone that are actually
+
+02:12.950 --> 02:16.350
+down here into the back and onto this piece of armor.
+
+02:16.490 --> 02:19.240
+And I don't know that we want that.
+
+02:19.280 --> 02:25.430
+In addition if we take a look at the at the neck Let me scroll all the way down here I think the neck
+
+02:25.460 --> 02:28.880
+is right here.
+
+02:28.930 --> 02:36.820
+I'll hit the aikido de-select select the neck vertex group and choose select and you can see that the
+
+02:36.820 --> 02:44.940
+neck is influence way down here into the back and more onto the armor and way up here into the head.
+
+02:44.950 --> 02:52.530
+And that's why it's influencing that chin because we have so much influence up into the head.
+
+02:52.960 --> 03:00.880
+So what let's do is I'm going to go to the side view and the orthographic view here and I'll go ahead
+
+03:00.880 --> 03:08.230
+and hit the Z key for wireframe and what we need to do is remove the influence of all these extras and
+
+03:08.230 --> 03:11.650
+just select what we want for the head and the neck.
+
+03:11.650 --> 03:17.860
+So let me begin with the head first I'll go up here to the head and I'll hit the aikido de-select I'll
+
+03:17.860 --> 03:26.020
+hit Selecta over here to see that vertex group I'll come down here and click Remove to remove all those
+
+03:26.020 --> 03:29.770
+vertices out of that vertex group.
+
+03:29.780 --> 03:36.200
+Now I'm going to select just what I want to be in there so I'll hit the C key to enable the circle select
+
+03:36.200 --> 03:36.830
+tool.
+
+03:37.040 --> 03:41.740
+And I'm just going to click and drag all of these words CS in here.
+
+03:41.960 --> 03:44.930
+So we only have the head vertices selected.
+
+03:44.930 --> 03:51.600
+And now with the head vertex group still selected I'll click assign OK.
+
+03:51.600 --> 04:00.240
+So now if we tab back out of edit mode and look at the White paint you can see that that influence is
+
+04:00.240 --> 04:04.220
+completely and totally 100 percent on the head.
+
+04:04.290 --> 04:06.120
+That's what we want.
+
+04:06.120 --> 04:15.920
+So let's do that again for the neck we're when I come down here to the neck vertex group and I'll click
+
+04:15.920 --> 04:22.090
+select and I'll remove all of these move.
+
+04:22.800 --> 04:28.110
+Now I'm just going to select the vertices that we want so I'll press alt and click one of these edges
+
+04:28.140 --> 04:33.630
+and then I want to press control and the plus key and expand this selection.
+
+04:33.630 --> 04:36.410
+So it's just the neck.
+
+04:36.720 --> 04:37.560
+And here we go.
+
+04:37.560 --> 04:44.250
+Umunna tab back into here and I'll choose face mode.
+
+04:44.560 --> 04:52.090
+And I just want to de-selected these faces I don't want it to influence the armer at all here.
+
+04:52.090 --> 04:58.720
+All right there we go if I go back to Virtex mode you can see the vertices that are affected and then
+
+04:58.720 --> 05:01.620
+I'll click assign.
+
+05:01.710 --> 05:02.050
+All right.
+
+05:02.050 --> 05:08.840
+And now if we go back to white paint mode you can see it's influencing only on the neck.
+
+05:08.860 --> 05:14.750
+There's a little bit of overlap over here on the armor Let's see if that's going to be a problem.
+
+05:15.640 --> 05:17.850
+So I'll go back to object mode.
+
+05:17.860 --> 05:30.130
+I'll select this control and let's test it out that it's pulling a bit on that arm or I'd like it to
+
+05:30.360 --> 05:32.880
+to not do that.
+
+05:32.880 --> 05:36.090
+So let me go back to wait paint mode.
+
+05:37.630 --> 05:41.490
+And let's go ahead and remove the vertices along there.
+
+05:41.490 --> 05:49.080
+Hit the aikido de-select those and I'm just going to select these points right along here and let's
+
+05:49.080 --> 05:50.540
+see how this works.
+
+05:50.760 --> 05:52.020
+Something like that.
+
+05:52.200 --> 05:55.330
+And then I'll hit remove.
+
+05:55.420 --> 05:55.930
+All right.
+
+05:55.950 --> 06:02.730
+Now let's go back to object mode like that control and let's move it around a bit.
+
+06:02.880 --> 06:10.140
+Yes so now we get not much movement out of that arm or looks like there's still a little bit going on
+
+06:10.140 --> 06:11.420
+but not too bad.
+
+06:13.170 --> 06:15.310
+Yeah I think we're OK there.
+
+06:15.630 --> 06:21.250
+And let's test the head the head as well seems to move OK.
+
+06:21.420 --> 06:23.390
+And the jaw seems to be OK.
+
+06:23.400 --> 06:25.540
+But take a look at the eyes.
+
+06:25.560 --> 06:28.240
+Wow.
+
+06:29.370 --> 06:31.200
+Let's work on the eyes now.
+
+06:32.610 --> 06:41.580
+So I'm going to go ahead and go back to object mode and and select that I right here select one of those
+
+06:41.580 --> 06:49.950
+eyes and I want to come up to the head bone and I want to make sure that it's 100 percent being influenced
+
+06:49.950 --> 06:51.300
+by the head bone.
+
+06:51.300 --> 06:53.450
+So I'll tab and edit mode.
+
+06:53.610 --> 06:59.560
+The key select the head vertex group and click assign.
+
+06:59.570 --> 07:09.310
+Now I want to come back down to the neck vertex group and hit remove to make sure it isn't influenced
+
+07:09.310 --> 07:10.260
+by that.
+
+07:10.600 --> 07:18.850
+So let's see now what happens when we go to pose mode and move the neck around.
+
+07:19.190 --> 07:19.480
+Right.
+
+07:19.520 --> 07:23.050
+That one eye's pretty well locked in place.
+
+07:23.060 --> 07:26.100
+But now we need to do that for the right eye.
+
+07:26.600 --> 07:32.990
+So select that I tab into edit mode select all the vertices.
+
+07:32.990 --> 07:40.280
+Remove it from the neck and assign it to the head.
+
+07:40.290 --> 07:41.930
+Now as we've been doing this.
+
+07:42.000 --> 07:46.980
+Notice that the weight here has been at one has been at 100 percent.
+
+07:46.980 --> 07:54.510
+Now we can adjust the weight to whatever value we want but for right now I think 100 percent is what
+
+07:54.510 --> 07:57.800
+we need for these particular pieces.
+
+07:57.800 --> 07:58.490
+All right.
+
+07:58.800 --> 08:08.520
+So if I select that neck hit the Arki looking pretty good about the head yeah.
+
+08:08.760 --> 08:09.600
+OK.
+
+08:10.490 --> 08:11.910
+I think we got it.
+
+08:11.910 --> 08:16.110
+So the weight once again on these items looks like
+
+08:19.070 --> 08:20.330
+there's the neck
+
+08:24.060 --> 08:26.810
+and there's the head.
+
+08:27.090 --> 08:33.490
+So let's take a look at these other parts of the body like this belt buckle and the torso.
+
+08:33.510 --> 08:40.230
+So what let's do is let's see what is influencing this particular buckle.
+
+08:40.320 --> 08:43.320
+So to do that I'll go back and select the character.
+
+08:43.320 --> 08:49.980
+Hit the tab key and I'm going to go ahead and go into wireframe and front view and orthographic view
+
+08:49.980 --> 08:50.780
+here.
+
+08:50.850 --> 08:57.010
+Now what we want to do is try and find the vertex groups that are affecting this particular belt buckles.
+
+08:57.010 --> 09:04.050
+So I'm going to scroll all the way down here and let's first look at the hips right here and I'll click
+
+09:04.050 --> 09:05.610
+select.
+
+09:05.720 --> 09:08.750
+And here is what's being influenced by the hips.
+
+09:08.750 --> 09:16.110
+Now if we tumble around we see that that particular buckle really isn't being affected by that at all.
+
+09:16.190 --> 09:21.700
+But I'm thinking it needs to be I'm thinking this really should be held in place by the hips.
+
+09:21.890 --> 09:28.470
+So what let's do is let's go ahead and select this object I'm going to hover over it.
+
+09:28.550 --> 09:35.000
+Press the key hover over here and press the L key as well and select all of that and I'm going to go
+
+09:35.000 --> 09:43.980
+ahead and assign these vertices to the hips vertex group so I'll just click a assign and we go.
+
+09:43.980 --> 09:47.190
+So now we know it's assigned to where we needed to be.
+
+09:47.310 --> 09:53.550
+But is it still being influenced by other vertex groups that we don't want it to be influenced by.
+
+09:53.550 --> 09:57.540
+So let's take a look at the spine here.
+
+09:58.700 --> 10:05.750
+I'll hit the select button and that's being influenced that's not being influenced by that.
+
+10:05.960 --> 10:06.770
+OK.
+
+10:07.810 --> 10:11.890
+So that's and in fact the spine bone that's a little too much.
+
+10:11.890 --> 10:17.920
+We're going to need to take out some of this and maybe even take out some of that up here.
+
+10:18.370 --> 10:22.060
+So OK we've taken a look at the hips and the spine.
+
+10:22.060 --> 10:24.390
+Let's look at the chest here.
+
+10:24.450 --> 10:26.570
+Click select.
+
+10:27.130 --> 10:28.040
+There it is.
+
+10:28.270 --> 10:36.970
+So you can see that even though the chest bone is way up here it's influencing these vertices here.
+
+10:36.970 --> 10:46.390
+So what let's do is let's go ahead and select that again hit L and L and let's remove it from this vertex
+
+10:46.390 --> 10:49.070
+groups or click Remove.
+
+10:49.180 --> 10:52.460
+And now let's give this a try.
+
+10:52.510 --> 10:57.830
+I go back to object mode click on this guy here and now let's see what happens.
+
+10:58.880 --> 11:03.830
+Better now it's not being influenced by any of those.
+
+11:03.890 --> 11:06.770
+It should be however influenced by this.
+
+11:06.770 --> 11:08.210
+That's right.
+
+11:08.210 --> 11:09.870
+So that's correct.
+
+11:09.890 --> 11:14.330
+However we've got more influence happening on the belt.
+
+11:14.330 --> 11:17.120
+So just quickly let's go ahead and take care of that.
+
+11:18.020 --> 11:20.840
+Let's test the chest vertex group here.
+
+11:20.840 --> 11:22.050
+I'll select that.
+
+11:22.370 --> 11:22.760
+OK.
+
+11:22.760 --> 11:24.740
+That looks pretty good.
+
+11:24.760 --> 11:32.690
+Let's select the spine hit the achy to de-select and select that that I think is our problem.
+
+11:32.810 --> 11:40.940
+We need to de-select all of these down here I don't think we want all of this area being affected by
+
+11:40.940 --> 11:42.270
+the spine.
+
+11:42.320 --> 11:48.890
+So what let's do is just once again hover over the belt hit the L key to select that and now want to
+
+11:48.890 --> 11:53.420
+remove that from this vertex groups or click Remove.
+
+11:53.750 --> 12:00.620
+And now if we go back to object mode hit that spine bone and rotate it.
+
+12:00.620 --> 12:04.240
+Now we're getting better deformation there now.
+
+12:04.250 --> 12:09.620
+We've still got more to do of course because we've got to remove all of this off of that as well.
+
+12:09.620 --> 12:12.650
+But you can see the basic process.
+
+12:12.650 --> 12:17.810
+So what I will do is go through and find specific parts of the character that I think are deforming
+
+12:17.840 --> 12:25.520
+a little oddly and I'll go through the process of removing the problem areas from Virtex grooves that
+
+12:25.520 --> 12:33.230
+should not be influencing it and making sure that it's being fully influenced by the bones that do need
+
+12:33.230 --> 12:35.040
+to influence it.
+
+12:35.060 --> 12:40.760
+There's one more thing I'd like to do before we're done with the rigging process and that's to turn
+
+12:40.760 --> 12:42.630
+off the stretchy.
+
+12:42.680 --> 12:48.570
+Right now if I choose one of the I.K. handles and move it and you can stretch the arms and the legs.
+
+12:48.830 --> 12:53.330
+And that's really cool and everything but I don't think it's going to work with the way I want to animate
+
+12:53.330 --> 12:54.670
+it.
+
+12:54.740 --> 13:01.100
+I don't want to be accidentally stretching the arms and legs as I animate the character so I'm going
+
+13:01.100 --> 13:07.730
+to press the end key and with that I.K. handle selected I'm going to scroll all the way down here and
+
+13:07.730 --> 13:12.530
+this auto stretch I.K. I can take this all the way down to zero.
+
+13:12.710 --> 13:19.310
+And now if I hit G and move around you can see the arm won't stretch beyond where it's supposed to the
+
+13:19.310 --> 13:24.490
+I.K. handle will move out but the arm won't stretch.
+
+13:24.590 --> 13:32.150
+So I just want to go through and do that for all of the I.K. handles on both the arms and the legs.
+
+13:33.670 --> 13:35.570
+And that should take care of that.
+
+13:39.330 --> 13:40.180
+There we go.
+
+13:40.290 --> 13:46.950
+All right well I think we're about ready to begin animating I'm going to go through and do a little
+
+13:46.950 --> 13:52.630
+more tweaks and make sure that all of the weights are the way we need them.
+
+13:52.770 --> 13:58.380
+But after that I think we're pretty much ready to begin animating and I think we're just going to do
+
+13:58.390 --> 14:03.550
+the basic animation cycles for a video game character.
+
+14:03.660 --> 14:14.100
+The idle the run the jump and I have a war hammer and I might make a shield for this guy we'll see.
+
+14:14.130 --> 14:18.960
+I'd like to have him look like the original drawing that we began with.
+
+14:19.110 --> 14:23.270
+So maybe I'll bring those into and we'll parent those to his hands.

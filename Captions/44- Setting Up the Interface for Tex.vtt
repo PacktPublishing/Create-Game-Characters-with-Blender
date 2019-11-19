@@ -1,0 +1,340 @@
+WEBVTT
+
+00:00.720 --> 00:04.170
+Well it's negative one degree here this morning.
+
+00:04.170 --> 00:08.910
+And I figured it's a good time to stay inside and record a video.
+
+00:09.180 --> 00:11.870
+So I hope it's warmer wherever you are.
+
+00:12.120 --> 00:18.140
+But let's start working on the texture painting for our game character.
+
+00:18.140 --> 00:23.100
+What I'd like to do is paint on the low poly character.
+
+00:23.100 --> 00:29.120
+I think it'll just be easier in terms of the speed at which my computer can handle things.
+
+00:29.130 --> 00:37.620
+I think if I were to try and paint this high poly character at eleven point five million tries it just
+
+00:37.620 --> 00:39.560
+wouldn't work out well.
+
+00:39.750 --> 00:42.680
+And also trying to U-V map this is going to be a pain.
+
+00:42.700 --> 00:49.830
+And we've already got our U-V map ready for us here with the low poly character.
+
+00:49.920 --> 00:56.220
+So going to work on texture painting this version of the model however that brings up some interesting
+
+00:56.220 --> 01:02.990
+issues like the sculpted pieces on the arm band here.
+
+01:04.260 --> 01:10.170
+You can see them plainly here in the high poly sculped But if you go over to the low poly you don't
+
+01:10.170 --> 01:11.310
+see them.
+
+01:11.310 --> 01:18.030
+So how am I going to know where to paint if I want those pieces to be a different color than the rest
+
+01:18.030 --> 01:19.930
+of the of the glove here.
+
+01:20.160 --> 01:26.400
+What we'll do is we'll use the normal map and the ambient occlusion map to give us a sense of where
+
+01:26.400 --> 01:29.360
+those details are while we're texture painting.
+
+01:29.700 --> 01:33.350
+But we've got some work to do to get to that point.
+
+01:33.350 --> 01:35.310
+So let's get started.
+
+01:35.310 --> 01:42.790
+First of all what I'm going to do is change from the cycle's render engine to the Blendr internal.
+
+01:42.810 --> 01:48.900
+The reason why I'm doing this is because I still feel that the texture painting tools in the blender
+
+01:48.900 --> 01:52.070
+internal are still more intuitive.
+
+01:52.080 --> 01:58.590
+Maybe it's just because I've used them longer I don't know but I still feel there are more features
+
+01:58.620 --> 02:00.850
+and it's just a little more intuitive.
+
+02:00.900 --> 02:03.390
+So I'm going to go with the blender internal here.
+
+02:03.420 --> 02:08.430
+The next thing I need to do is open up the properties panel with the end key and I'm going to scroll
+
+02:08.430 --> 02:21.040
+down here and go to the shading area right here and change from multi textural to Geo SL and they'll
+
+02:21.050 --> 02:25.260
+allow me to see what's going on in the viewport a lot better as I text your pain.
+
+02:25.490 --> 02:31.140
+But in doing that I need to create a light as well just to be able to see the texture painting.
+
+02:31.310 --> 02:38.370
+So I'm going to go over to the Create tab and scroll down and I'm going to just create a Hemmy light
+
+02:39.240 --> 02:41.470
+and I'll just drag that up a bit.
+
+02:42.410 --> 02:49.880
+And move it over to the side and maybe move it out in front like this and I'll just hit the key and
+
+02:49.880 --> 03:01.140
+rotate it around so it points more at the character like so and I might even while I'm here duplicate
+
+03:01.170 --> 03:07.050
+this with shift D and just move it toward the back of the character and then rotate it.
+
+03:07.050 --> 03:12.390
+So it's pointing at the back as well just so I can see both sides equally as well.
+
+03:13.380 --> 03:20.120
+I'm going to press the end key to close that propertys panel and now I think I'll select the character
+
+03:20.150 --> 03:26.800
+go over to the materials panel and if you have a material over here go ahead and delete it.
+
+03:26.840 --> 03:31.910
+I don't have one but I'm just going to click the new button here and create a new material.
+
+03:31.940 --> 03:37.570
+I'd like to change my viewport shading here from solid to texture.
+
+03:38.830 --> 03:47.200
+And then I can change from object mode now to texture paint.
+
+03:47.240 --> 03:54.200
+Now once I do that you can see over here it's telling me that I'm missing texture slot and the slots
+
+03:54.200 --> 04:02.390
+tab is here and you usually add texture slots here but since we don't have a texture slot we can't see
+
+04:02.390 --> 04:05.000
+the texture painting tools yet.
+
+04:05.420 --> 04:13.160
+So what I'll do is go ahead and add a texture paint slot and we can choose any number of types here.
+
+04:13.160 --> 04:19.680
+I'm going to choose diffuse color just because I want to begin with a base color for the character.
+
+04:19.700 --> 04:25.160
+So I click this and let's call this base color
+
+04:29.440 --> 04:36.940
+and let's go ahead and make the texture size 2048.
+
+04:37.230 --> 04:41.060
+That'll give us a little more resolution than 10:24 I think.
+
+04:41.060 --> 04:47.360
+When I break down the normal map and the ambient occlusion map I think I take those out at 10:24.
+
+04:47.360 --> 04:56.090
+I'm not sure but if I did it will still work when we bring them in as a reference so we can take a look
+
+04:56.090 --> 04:57.500
+at that too.
+
+04:57.500 --> 04:59.200
+All right I'll go ahead and click OK.
+
+05:00.710 --> 05:01.910
+And there we go.
+
+05:01.940 --> 05:06.830
+Now we have the character with a texture slot on it.
+
+05:06.830 --> 05:08.930
+It's black which is fine.
+
+05:09.170 --> 05:10.790
+We're going to be painting over that.
+
+05:10.970 --> 05:17.980
+And now you can see I've got over here in the slots tab that base color texture slot.
+
+05:17.990 --> 05:26.150
+Now we're over here next to the materials panel is the texture panel and you can see here we have a
+
+05:26.150 --> 05:28.070
+texture layer called diffuse color.
+
+05:28.070 --> 05:31.880
+Now this is really the same thing as this.
+
+05:31.880 --> 05:35.290
+I wish you would update the name but it doesn't.
+
+05:35.300 --> 05:37.670
+But I'm going to go ahead and do it my self.
+
+05:37.670 --> 05:40.900
+So going to call this base color.
+
+05:40.970 --> 05:46.940
+Now one last thing I want to do in just setting up blender for texture painting is just to create a
+
+05:46.940 --> 05:48.800
+new screen lay out.
+
+05:48.800 --> 05:57.290
+So I'll come up here to the default screen lay out click the plus and I'll call this texture painting.
+
+05:58.760 --> 06:02.690
+And I'm doing that because I want to create one more window here.
+
+06:02.690 --> 06:11.570
+I want to just drag this over from that little corner tab drag it over and I'll change this window now
+
+06:11.930 --> 06:13.870
+to use the image editor.
+
+06:14.970 --> 06:18.420
+And we should be able to see our U-V map now.
+
+06:18.900 --> 06:21.390
+OK we've got one more thing that we need to do here.
+
+06:21.390 --> 06:24.160
+If I tried to paint on this now.
+
+06:24.780 --> 06:34.020
+This over here is the settings for my brush and my strength is at Point 7 the radius here you can see
+
+06:34.020 --> 06:40.550
+if I drag the radius up the brush gets bigger if I drag it down it gets smaller.
+
+06:40.710 --> 06:47.630
+You can also press the F key to increase the size of the brush here and then click.
+
+06:47.760 --> 06:57.380
+Or you can also press shift F and change the strength so make it stronger or weaker in the strength.
+
+06:57.870 --> 07:00.550
+But what you want to do is just test the paint here.
+
+07:00.570 --> 07:08.670
+If I set up my brush for this kind of size and just click and drag on here you can see I get a paint
+
+07:08.670 --> 07:13.400
+stroke but the problem is I'm not getting anything in here.
+
+07:13.410 --> 07:14.940
+Over in the U-V map.
+
+07:15.090 --> 07:23.100
+Ultimately what we're doing here in drawing or painting on the 3-D character is we want that information
+
+07:23.100 --> 07:30.060
+to be transferred to a U-V map so that we can take it into a game engine like unity just like we did
+
+07:30.060 --> 07:32.850
+with the normal map and the ambient occlusion map.
+
+07:33.210 --> 07:41.100
+So what we need is some sort of a canvas for the paint to transfer onto to just press command Z to undo
+
+07:41.100 --> 07:41.770
+that.
+
+07:42.090 --> 07:47.730
+So what we can do is just come down here to this pull out menu and we should see that image that comes
+
+07:47.730 --> 07:51.150
+along or that goes along with that texture paint slot.
+
+07:51.360 --> 07:57.810
+So I'm just going to click on that base color image and now that we have that image there if we come
+
+07:57.810 --> 08:05.460
+back over here to the character and paint on it we should see that paint show up here on the U-V map
+
+08:06.120 --> 08:08.360
+so you can see as we paint the character.
+
+08:08.370 --> 08:12.380
+All we're really doing is painting directly onto that U-V canvas.
+
+08:12.390 --> 08:18.150
+It's just kind of a trick to allow us to feel like we're painting on the character.
+
+08:18.150 --> 08:25.200
+Now one thing about it this image is a separate file from the Blendr seen file.
+
+08:25.200 --> 08:27.770
+Here let me do this real quick.
+
+08:27.810 --> 08:32.210
+You can tell that by this little asterisks right down here by the image menu.
+
+08:32.310 --> 08:37.830
+What that's telling us is that this particular image has not yet been saved or the hard drive.
+
+08:37.830 --> 08:41.010
+So we need to save this to the hard drive.
+
+08:41.040 --> 08:48.300
+In addition to saving our scene to do that we can come down here to image and the first time we save
+
+08:48.300 --> 08:56.550
+it we need to choose Save As image and we can just keep that base color name and that's fine and save
+
+08:56.550 --> 08:57.620
+image.
+
+08:57.660 --> 09:03.670
+Now you can see the Asterix is gone and if paint on the character and change it somehow.
+
+09:03.690 --> 09:05.850
+Now you can see the Asterix is back.
+
+09:05.940 --> 09:07.240
+If I click on the image.
+
+09:07.260 --> 09:15.210
+Now we have this save image menu item which is alt S. so I can just press alt s and it will save the
+
+09:15.210 --> 09:21.900
+image but that's different than pressing control or command s to save the scene.
+
+09:21.900 --> 09:30.450
+So when you are texture painting you need to be sure and press both controller command s and Altez to
+
+09:30.450 --> 09:33.630
+be sure and save the scene and the image.
+
+09:33.690 --> 09:34.320
+All right.
+
+09:34.440 --> 09:37.900
+Let me hit command Z to undo that.
+
+09:37.920 --> 09:42.490
+So now we have our blender interface set up to begin texture painting.
+
+09:42.510 --> 09:47.210
+We've got our image canvas set up over here in the U-V Ed..
+
+09:47.280 --> 09:54.490
+So in the next video we'll use the face selection mask to begin laying down the base colors of our character.

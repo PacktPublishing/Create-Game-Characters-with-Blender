@@ -1,0 +1,505 @@
+WEBVTT
+
+00:00.620 --> 00:03.410
+Let's see if we can get our character moving around now.
+
+00:03.770 --> 00:10.340
+So if we hit play we can see what we've done so far is we've got an idle animation running as soon as
+
+00:10.340 --> 00:11.690
+we turn on the game.
+
+00:11.900 --> 00:19.410
+We can push the up arrow and he can run and we can hit the spacebar and he can jump.
+
+00:19.610 --> 00:20.130
+All right.
+
+00:20.150 --> 00:24.560
+So if we come back here and let's open up that script again.
+
+00:25.330 --> 00:30.010
+And what we want is for our character to move forward when we push that up key.
+
+00:30.010 --> 00:37.290
+So it's going to be in here in this if statement when we say if we get an input from the up key.
+
+00:37.330 --> 00:45.430
+So I'm just going to put a line right here and we're using that move direction variable to push him
+
+00:45.490 --> 00:49.480
+up for the jump and for gravity pushing down.
+
+00:49.480 --> 00:53.030
+Let's go ahead and use that again for moving him forward.
+
+00:53.290 --> 01:01.900
+So we'll use that move direction right here and we'll say that that's going to be equal to him moving
+
+01:01.900 --> 01:03.130
+forward.
+
+01:03.460 --> 01:11.980
+So here's transformed dart forward and we're going to multiply that that vertical axis here let's input
+
+01:12.040 --> 01:13.360
+get access
+
+01:16.560 --> 01:20.520
+and we're going to put vertical in here.
+
+01:20.760 --> 01:30.600
+And then what we want to do is multiply this times some speed and we can create a variable called speed
+
+01:30.630 --> 01:31.580
+that we can put in there.
+
+01:31.590 --> 01:39.760
+And then in the inspector we can adjust the speed on the fly after testing to see how fast our character
+
+01:39.760 --> 01:41.160
+should move.
+
+01:41.160 --> 01:50.590
+So let's come up here and let's put a public float once again so we can adjust it in the inspector we'll
+
+01:50.660 --> 01:57.310
+call it speed and we'll set it to I don't know how about 25.
+
+01:57.320 --> 02:00.650
+Let's just try 25 and see how fast that's going to be.
+
+02:00.650 --> 02:07.100
+There's really no way to know at this point in time we'll just put a number in there and see now just
+
+02:07.100 --> 02:09.920
+like the run animation.
+
+02:10.010 --> 02:15.190
+We're going to want him to be able to come to a stop when we pull our finger up off the up arrow.
+
+02:15.410 --> 02:22.730
+So we need something down here in the else statement that will do that for us.
+
+02:22.730 --> 02:26.910
+So what we can do is just take this whole thing and take this whole line.
+
+02:27.110 --> 02:35.310
+Copy it paste it and instead of speed let's just put zero that'll stop him right.
+
+02:35.730 --> 02:37.370
+Let's try that.
+
+02:37.380 --> 02:41.080
+All right so let's save our script and let's go back to unity.
+
+02:41.220 --> 02:43.690
+Make sure there are no errors down here.
+
+02:44.190 --> 02:48.220
+Let's hit play and let's see what happens.
+
+02:48.220 --> 02:54.250
+So I'll hit the up arrow and he goes it keeps going.
+
+02:54.330 --> 02:56.440
+All right let's stop that.
+
+02:56.640 --> 02:57.870
+Let's see what happens here.
+
+02:57.870 --> 03:00.790
+Now the reason why he kept going.
+
+03:00.930 --> 03:04.610
+It looked as if our else statement didn't work.
+
+03:04.770 --> 03:08.790
+But the reason why he kept going is because he wasn't grounded.
+
+03:08.790 --> 03:10.790
+He went off at the ground.
+
+03:10.800 --> 03:14.950
+So what we need is to increase the size of our ground there.
+
+03:15.270 --> 03:19.470
+And also it's going to be hard to see if he's moving if it's just plain white.
+
+03:19.560 --> 03:29.980
+So let's do this let's select this plane and let's increase the scale about 10 in the X and 10 and the
+
+03:30.010 --> 03:30.740
+Z.
+
+03:30.740 --> 03:36.860
+Let's try that and then we really ought to have some sort of texture on here so we can tell if we're
+
+03:36.860 --> 03:37.850
+moving.
+
+03:38.120 --> 03:42.230
+Let's bring in an important new asset.
+
+03:42.240 --> 03:45.450
+And I've got a checker pattern somewhere on my drive.
+
+03:45.450 --> 03:47.170
+I'm going to bring that in.
+
+03:47.370 --> 03:52.700
+I'm just going to search for checker and here it is.
+
+03:52.700 --> 03:55.220
+I'll just take this and drag it in.
+
+03:56.470 --> 03:57.220
+And there we go.
+
+03:57.220 --> 04:02.710
+So now we've got this checkered pattern in our assets window here and I'm just going to drag that right
+
+04:02.710 --> 04:05.140
+onto the plane and there we go.
+
+04:05.560 --> 04:05.880
+All right.
+
+04:05.890 --> 04:11.140
+If I select the plane and take a look at it's material here.
+
+04:11.620 --> 04:19.560
+We could increase the tiling this x and y of tiling maybe increase that to three for each.
+
+04:19.570 --> 04:20.730
+Here we go.
+
+04:21.030 --> 04:27.150
+Yes so now I'm going to select my character and zoom in with the key is.
+
+04:27.280 --> 04:33.900
+So now we can see him moving around on this ground plane and he won't fall off so easily.
+
+04:33.900 --> 04:39.900
+So if I hit play again now if I hit the up arrow there we go.
+
+04:39.970 --> 04:43.040
+He can run but he can't turn.
+
+04:43.150 --> 04:46.180
+Just close in one direction and that's it.
+
+04:46.210 --> 04:46.600
+All right.
+
+04:46.600 --> 04:48.580
+So now we need him to turn.
+
+04:48.580 --> 04:50.530
+How do we get him to turn.
+
+04:50.530 --> 04:55.060
+Well I think we're going to need a couple of new variables and one of the variables we can actually
+
+04:55.060 --> 04:58.850
+create right down here within our if else statements.
+
+04:58.850 --> 05:03.830
+So let me go right here create a new line here and what let's do.
+
+05:03.850 --> 05:08.940
+Let's create a new float variable and we'll just call it turn.
+
+05:09.090 --> 05:12.240
+And what this is doing is looking for input
+
+05:16.190 --> 05:25.450
+on the horizontal axis or those arrow keys the left and right arrow keys and where we go and we can
+
+05:25.450 --> 05:33.160
+do that down here as well I believe we're going to need this down here and we go just copy and paste
+
+05:33.160 --> 05:35.680
+that down to the else statement.
+
+05:35.680 --> 05:39.910
+And now what we want to do is we want to transform instead of forward.
+
+05:40.030 --> 05:53.270
+We want to transform rotate the rotate and we can say that for the x y and z axis we only want to rotate
+
+05:53.360 --> 05:55.200
+around the y axis.
+
+05:55.220 --> 05:59.210
+So for this particular command the X is going to be zero.
+
+05:59.600 --> 06:07.710
+Right the Y will use that turn variable because that's what's getting the input.
+
+06:07.780 --> 06:09.340
+We'll multiply that times.
+
+06:09.340 --> 06:16.900
+Yet another new variable called Turn speed will have to create that up with the other variables.
+
+06:16.900 --> 06:23.260
+You can see how it's red now and we'll multiply that instead of by the frame rate.
+
+06:23.260 --> 06:28.510
+We don't want to use the possibly fluctuating frame rate for this.
+
+06:28.510 --> 06:34.930
+We want to use time so we'll use time delta time and for these Z.
+
+06:34.960 --> 06:39.790
+We just want to rotate 0 degrees like that.
+
+06:39.790 --> 06:46.960
+So you've got the X Y and Z and we're just rotating around the Y.
+
+06:47.410 --> 06:50.500
+So yes this turn speed we need to deal with don't we.
+
+06:50.500 --> 06:58.630
+So let's copy this let's bring it up here and let's once again create a public float we'll call it turn
+
+06:58.630 --> 07:01.900
+speed and we'll set it equal to.
+
+07:02.380 --> 07:04.790
+No idea.
+
+07:05.110 --> 07:07.540
+I'm going to set it to 60 and see how we do.
+
+07:07.690 --> 07:09.320
+Here we go.
+
+07:09.610 --> 07:10.500
+All right.
+
+07:10.750 --> 07:15.670
+So now that we have this line of code we should just be able to take this and move it down here.
+
+07:15.670 --> 07:21.970
+Now what that's going to mean is he's just going to slide on the ground and turn when he's in the idle
+
+07:22.000 --> 07:23.290
+position.
+
+07:23.290 --> 07:31.040
+A lot of character controllers like this are player scripts will have the camera move around the character.
+
+07:31.180 --> 07:37.420
+When you move say the arrow keys or or something and then when you hit forward it'll push the character
+
+07:37.420 --> 07:41.050
+or move the character forward opposite the camera.
+
+07:41.050 --> 07:46.840
+All we're doing here is just having him slide around turn as the camera turns.
+
+07:47.030 --> 07:50.620
+Or I guess the camera is actually following him as he turns.
+
+07:50.620 --> 07:57.160
+So this is pretty stripped down but I just wanted to get us through setting up a very basic player script
+
+07:57.160 --> 07:58.330
+here.
+
+07:58.330 --> 08:01.070
+All right so let's save this and let's just test this out.
+
+08:01.330 --> 08:05.950
+So we'll go back to unity makes sure we don't have any errors.
+
+08:06.400 --> 08:16.380
+And if I hit play there he is we can go forward and if I hit the up arrow and one to the left or right
+
+08:16.410 --> 08:20.580
+arrows I can turn him up but not fast enough.
+
+08:20.670 --> 08:21.570
+Let me try that again.
+
+08:21.570 --> 08:23.600
+Let me see how quickly I can turn him.
+
+08:24.030 --> 08:26.100
+Oh he's moving pretty good he turns.
+
+08:26.190 --> 08:27.590
+I want him to.
+
+08:27.780 --> 08:29.380
+He keeps running off.
+
+08:29.400 --> 08:32.140
+I want him to turn a little bit faster than that.
+
+08:32.310 --> 08:39.000
+So what I can do is select the character and let's come down to turn speed I'm going to take this up
+
+08:39.000 --> 08:40.060
+to 100.
+
+08:40.440 --> 08:41.950
+Let's try that.
+
+08:42.090 --> 08:42.370
+All right.
+
+08:42.390 --> 08:49.810
+Oh and I wanted to take the speed down to 10 and let me try that.
+
+08:49.850 --> 08:50.170
+All right.
+
+08:50.180 --> 08:51.040
+So here he goes.
+
+08:51.040 --> 08:52.560
+He's moving a little bit slower now.
+
+08:52.580 --> 08:53.740
+There we go.
+
+08:54.200 --> 08:56.160
+That's a little better.
+
+08:56.180 --> 08:56.810
+All right.
+
+08:56.810 --> 09:07.380
+So he's moving around and turning good now you can jump and see you can jump.
+
+09:07.440 --> 09:10.680
+He's kind of still running after I hit jump.
+
+09:10.700 --> 09:12.940
+Let's take a look at why that's happening.
+
+09:12.960 --> 09:18.330
+I think that's because if we go back over here to the animator I think that's because we haven't turned
+
+09:18.330 --> 09:21.420
+off exit time for all of these transitions.
+
+09:21.480 --> 09:23.730
+We turned them off.
+
+09:24.100 --> 09:25.690
+Let's move this down.
+
+09:26.110 --> 09:31.020
+We turned off exit time here for these two transitions right.
+
+09:31.150 --> 09:32.690
+But we didn't do it for these.
+
+09:32.690 --> 09:39.310
+And we turned these off and the reason why I'm turning this off is I just want each of these clips to
+
+09:39.310 --> 09:45.520
+be triggered immediately and looks like I've got exit time turned off there so I just didn't have them
+
+09:45.520 --> 09:46.580
+turned off here.
+
+09:46.780 --> 09:47.410
+OK.
+
+09:47.650 --> 09:53.110
+So let's hit our play button again and let's start running.
+
+09:53.400 --> 09:56.800
+And let's jump Yeah that's a little bit better.
+
+09:56.800 --> 09:59.230
+I get a better reaction.
+
+10:00.900 --> 10:01.590
+With that.
+
+10:01.590 --> 10:02.140
+Yeah.
+
+10:02.160 --> 10:02.440
+Good.
+
+10:02.460 --> 10:03.380
+OK.
+
+10:03.870 --> 10:09.900
+So the last thing I'd like to do is just add a few objects in here to the scene so he can run in and
+
+10:09.900 --> 10:11.050
+jump on them.
+
+10:11.070 --> 10:16.170
+So I just right clicked in the hierarchy and I'm going to go to a 3D object and I'll just create a cube
+
+10:16.170 --> 10:19.860
+here and you going to scale it up.
+
+10:19.920 --> 10:21.230
+There it is.
+
+10:21.420 --> 10:26.680
+And I'm just going to move it around and he can run around and jump on these things a bit.
+
+10:27.810 --> 10:30.960
+Well I just added a few obstacles here and that's all.
+
+10:30.960 --> 10:38.070
+If I select my character and I hit the F key I can zoom back in to him and let's hit the play button
+
+10:38.070 --> 10:40.530
+and just see how he looks.
+
+10:41.430 --> 10:42.070
+There he is.
+
+10:42.070 --> 10:46.280
+So now I can move maybe jump.
+
+10:46.630 --> 10:47.490
+Yeah.
+
+10:47.830 --> 10:52.020
+And let's turn around here and see what else we can find.
+
+10:54.060 --> 11:02.450
+So we can just run around and jump on things and just test and play around.
+
+11:02.970 --> 11:03.900
+Why not.
+
+11:05.100 --> 11:07.200
+Well I hope this has been helpful for you.
+
+11:07.200 --> 11:09.600
+I've had a lot of fun doing this.
+
+11:09.600 --> 11:17.270
+This is my favorite part of the whole process seeing your character run around and jump on things.
+
+11:17.550 --> 11:24.100
+So thank you for watching this game character creation series we've done a lot of work in Blender.
+
+11:24.450 --> 11:33.690
+We've gone through the whole process of modeling sculpting read typology U.V. mapping texturing rigging
+
+11:33.900 --> 11:37.650
+animation and finally importing into a game engine.
+
+11:37.650 --> 11:38.640
+It's been a lot of fun.
+
+11:38.640 --> 11:41.590
+I love doing this and I hope it was useful for you.
+
+11:41.940 --> 11:44.700
+Well thanks for watching and see you next time.

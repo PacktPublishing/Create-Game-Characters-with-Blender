@@ -1,0 +1,385 @@
+WEBVTT
+
+00:00.710 --> 00:05.360
+Well I've got the joints set up here to match the character.
+
+00:05.870 --> 00:12.920
+And now what we need to do is generate the actual rig with the control objects so I'll go ahead and
+
+00:12.920 --> 00:23.120
+select the rig and I'll come over here to the armature panel and I'll scroll all the way down and right
+
+00:23.120 --> 00:25.760
+here let's click on generate
+
+00:28.410 --> 00:29.680
+and there we go.
+
+00:29.700 --> 00:37.080
+Now we've got a rig with all its hierarchy's and parenting as well as all the control objects based
+
+00:37.080 --> 00:40.860
+on the rig that we modified to the character.
+
+00:40.890 --> 00:45.180
+Now the rig we modified is called Mehta rig.
+
+00:45.180 --> 00:48.980
+So I can go ahead and hide that by clicking on the eyeball.
+
+00:49.050 --> 00:54.450
+And here is the actual rig now I'll press Z and you can kind of tell.
+
+00:54.450 --> 01:02.670
+You can kind of see what's going on in here these ball controls here are the stretchy controls so those
+
+01:02.760 --> 01:08.770
+allow you to stretch the limbs and you've got f k and I.K. controls in here as well.
+
+01:08.780 --> 01:16.790
+But here let's go ahead and bind the character to the rig so we can see how it moves around.
+
+01:16.800 --> 01:20.110
+So what I'll do is I'll go ahead and select the character.
+
+01:20.250 --> 01:27.780
+And in addition I'm going to select the eyes because I want to bind the eyes to the rig as well since
+
+01:27.780 --> 01:30.360
+those are separate objects.
+
+01:30.360 --> 01:38.430
+So I'll select all of those and then I'll press shift and click one of the controls of the rig now to
+
+01:38.520 --> 01:42.360
+bind the character to the rig we just need to parent it.
+
+01:42.360 --> 01:44.210
+So when you press control p.
+
+01:44.460 --> 01:53.850
+And now we've got the set parent menu and I want to set parent to the armature form with automatic weights.
+
+01:53.880 --> 02:01.080
+So if I click this it doesn't really appear that anything's happened however if we select one of the
+
+02:01.080 --> 02:06.660
+controls and switch it from object mode to pose mode.
+
+02:06.770 --> 02:16.450
+Now I'm going to press our twice to rotate and now you can see we've got the head down to the rig and
+
+02:16.540 --> 02:19.050
+it's really a pretty good bind.
+
+02:19.090 --> 02:21.440
+It even got all of the ears.
+
+02:21.580 --> 02:23.740
+So I mean that's pretty good.
+
+02:23.800 --> 02:28.630
+I'm going to press the N key to bring up the properties panel over here and if I scroll all the way
+
+02:28.630 --> 02:33.610
+down we can see we've got these rig Lehre buttons.
+
+02:33.610 --> 02:41.190
+And what I want for this character is I want both the legs and the arms to be inverse kinematics.
+
+02:41.350 --> 02:49.170
+In the last series I did we set up I.K. for the legs but we used forward kinematics for the arms.
+
+02:49.180 --> 02:53.150
+So what do I mean by I.K. and FKO just real quick.
+
+02:53.560 --> 02:58.790
+Let me turn the metric back on just to talk about this for a minute forward.
+
+02:58.830 --> 03:06.550
+Kinematics means that the rotations are happening on a chain forward down the hierarchy.
+
+03:06.580 --> 03:14.140
+So if I wanted to move this leg let me turn this off for once once again and I'm going to take this
+
+03:14.620 --> 03:21.850
+and go to the rotate tool so forward kinematics would be I would rotate the leg like this.
+
+03:21.910 --> 03:27.130
+And then I'd maybe like this part of the leg and rotate the leg like this.
+
+03:27.130 --> 03:33.150
+So I'm moving the leg by going forward down the chain.
+
+03:33.150 --> 03:38.350
+All right let me undo these now for inverse kinematics.
+
+03:38.350 --> 03:44.450
+What that allows you to do is select a control down here at the base of the chain.
+
+03:44.560 --> 03:50.860
+And as you move it the rotations or the control happens inversely up the limb.
+
+03:50.860 --> 03:59.980
+So if I selected this this foot I.K. I should be able to hit the key and move the leg around.
+
+04:00.010 --> 04:01.650
+But I can't.
+
+04:01.660 --> 04:05.100
+Let me show you what I mean if I hit the G key.
+
+04:05.110 --> 04:06.850
+It doesn't do anything.
+
+04:06.850 --> 04:13.190
+So what we need to do since I don't want to use f k for the arms or the legs.
+
+04:13.390 --> 04:23.680
+I'm going to turn off f k over here the arm L and the arm are and I'm a turn off f k for leg and leg
+
+04:23.710 --> 04:24.470
+are.
+
+04:24.760 --> 04:32.680
+Now that I've done that and I've got this foot I.K. selected I'm going to drag this slider the influence
+
+04:32.680 --> 04:35.640
+here from f k over to I.K..
+
+04:35.860 --> 04:42.460
+Now if I hit the G key and move it around you can see I can move the leg and even stretch it way out
+
+04:42.460 --> 04:44.260
+like that.
+
+04:44.270 --> 04:51.450
+All right so let me do that for this other leg over here like that slide that over I'm going to select
+
+04:51.450 --> 04:59.730
+the hand I k now while I'm here actually I can't see this control through the character.
+
+04:59.730 --> 05:06.900
+So what I can do is come over to the object panel and choose x ray and now I can see all of the control
+
+05:06.900 --> 05:08.590
+objects through the character.
+
+05:08.730 --> 05:14.640
+So I'll take the f k like a slider and drag it over and I'll do the same over here.
+
+05:15.310 --> 05:22.370
+So now we should be able to grab that control and hit G and move the arm around.
+
+05:22.400 --> 05:24.380
+And that looks pretty good.
+
+05:24.380 --> 05:25.970
+Same thing over here.
+
+05:26.030 --> 05:28.320
+Grab that control and move it around.
+
+05:28.430 --> 05:28.980
+Yeah.
+
+05:29.280 --> 05:32.590
+And we can even rotate it here as well.
+
+05:35.570 --> 05:40.990
+And in addition we've got our I.K. controls for the legs.
+
+05:41.030 --> 05:48.900
+Now I can grab this torso control and now I can move it down and he can kind of do the squats.
+
+05:49.080 --> 05:54.740
+So that's how we can set up the iCade chains for the character's arms and legs.
+
+05:54.750 --> 06:02.760
+Now all of these pieces here you can see if you select one these are kind of stretchy controls and I
+
+06:02.760 --> 06:06.520
+don't think I'm going to be using those much if at all.
+
+06:06.570 --> 06:12.630
+And in fact I think I'd like to hide them so I can come back over here and go to the armature panel
+
+06:13.050 --> 06:14.630
+and scroll up a bit.
+
+06:14.820 --> 06:22.140
+And these controls are on these different layers here so if I select this one I can see that it's on
+
+06:22.140 --> 06:22.920
+this layer.
+
+06:22.920 --> 06:26.620
+So all shift select that one to hide those.
+
+06:26.700 --> 06:31.640
+Maybe I'll select this one and I can see that that's that layer shift click that one.
+
+06:31.720 --> 06:33.100
+So like this one.
+
+06:33.200 --> 06:34.960
+And that's the layer here.
+
+06:36.040 --> 06:43.090
+And I'll select this one and it looks like that's the layer over here so I can hide those controls so
+
+06:43.090 --> 06:48.520
+they won't be in my way because I don't think I'm going to be using any of the stretchy functionality
+
+06:48.550 --> 06:50.100
+for the rig.
+
+06:50.470 --> 06:53.010
+So quickly the way these controls work.
+
+06:53.020 --> 06:54.790
+We already tested the head.
+
+06:54.790 --> 07:02.470
+I can press the our key twice and it kind of gives you a free rotate which is kind of nice for the head
+
+07:03.250 --> 07:08.980
+and for the neck here you can rotate it back and forth like this.
+
+07:08.980 --> 07:18.120
+Now you can see that the jaw is kind of coming along with the rotation of the neck here.
+
+07:18.370 --> 07:23.980
+So we're going to need to work on the weights for that.
+
+07:23.980 --> 07:25.820
+So keep that in mind.
+
+07:26.020 --> 07:27.950
+Let's test this one here.
+
+07:27.970 --> 07:33.850
+I'm going to hit R and rotate that so you can see that the shoulder and that looks pretty good.
+
+07:33.850 --> 07:41.530
+We can rotate it forward and back this control here is your torso or they call it the chest here.
+
+07:41.540 --> 07:44.210
+I'm going to hit our twice and rotate that around.
+
+07:44.220 --> 07:46.180
+You can see what that does.
+
+07:46.270 --> 07:48.630
+And this one here is the pelvis.
+
+07:48.760 --> 07:56.530
+And if I take this and move this box down a bit so he can squat you can see that he kind of does the
+
+07:56.590 --> 07:57.860
+hula dance there.
+
+07:57.880 --> 07:59.830
+Nice moves there guy.
+
+07:59.830 --> 08:06.530
+These controls back here are for the elbows and these here are for pointing the knees.
+
+08:06.550 --> 08:16.870
+So if you're using I.K. and you move say the arm around like this you may want to point this elbow in
+
+08:16.960 --> 08:22.180
+another direction say you want it to move down here or out like that.
+
+08:22.180 --> 08:25.640
+In terms of the hands these are pretty slick here.
+
+08:25.750 --> 08:31.070
+You can just select this control and hit s first scale.
+
+08:31.240 --> 08:41.860
+And as you scale it in the two joints at the end of the finger curl in this control right here controls
+
+08:41.890 --> 08:47.800
+the roll of that first joint and this control over here on this side.
+
+08:47.800 --> 08:52.420
+Let me just like that and I'll zoom in here.
+
+08:52.420 --> 08:59.340
+This control allows you to rotate and kind of splay the hand out a bit.
+
+08:59.490 --> 09:04.740
+Use adjust that Pinky as I mentioned.
+
+09:04.750 --> 09:12.310
+These are for the knee control or knee direction you can use those to point the knee where you need
+
+09:12.310 --> 09:13.000
+them to be.
+
+09:13.000 --> 09:22.950
+So if I moved this leg up like this let's say and I wanted the need to point out more this way I could
+
+09:22.950 --> 09:26.410
+do that for the feet.
+
+09:26.420 --> 09:35.600
+You've got the toe control right here that allows you to bend the toe up and down but you also have
+
+09:35.600 --> 09:38.380
+the foot roll control at the back.
+
+09:38.510 --> 09:45.050
+And this allows you to roll the foot up on the ball of the toes there and roll the foot back onto the
+
+09:45.050 --> 09:51.330
+heel so that's a nice foot roll rig that they've added for us here.
+
+09:51.440 --> 09:58.310
+And then finally the master control allows you to move the entire character and place it within the
+
+09:58.310 --> 09:59.200
+scene.
+
+09:59.210 --> 10:07.690
+Now I would not recommend if you have a character walking or moving or jumping through the scene.
+
+10:07.700 --> 10:12.360
+I would not recommend animating this control.
+
+10:12.560 --> 10:19.610
+This to me is really used to place the character in the scene at the beginning and then use the rest
+
+10:19.610 --> 10:22.260
+of the controls to move it around.
+
+10:22.280 --> 10:28.070
+Now as a game character will be doing just about all of our animation right here in the center of the
+
+10:28.070 --> 10:29.030
+grid.
+
+10:29.060 --> 10:35.830
+He'll be idling and running and jumping all here in place in the center of the grid.
+
+10:35.990 --> 10:40.030
+Will I have to admit I'm very impressed with the bind of the character here.
+
+10:40.340 --> 10:48.680
+I really liked the results but we still are going to have to do some work to tweak how certain parts
+
+10:48.680 --> 10:51.550
+of the character form like.
+
+10:51.710 --> 10:59.710
+I think this control here pulls the belt buckle out and in through the belt.
+
+10:59.930 --> 11:02.200
+So we're going to have to work on that.
+
+11:02.450 --> 11:07.260
+So there's some tweaking we're going to need to do to the weight to get it to look correct.
+
+11:07.550 --> 11:10.310
+So that's what we'll be working on in the next video.

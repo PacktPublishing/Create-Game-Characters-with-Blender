@@ -1,0 +1,505 @@
+WEBVTT
+
+00:00.930 --> 00:05.750
+Today let's take a look at texture painting the face of the character.
+
+00:05.760 --> 00:08.450
+Now here's a funny story.
+
+00:08.760 --> 00:13.580
+After I stopped recording yesterday the phone rang and I got pulled away.
+
+00:13.590 --> 00:20.180
+And then when I finally came back to the computer I just saved Blendr and closed it.
+
+00:20.250 --> 00:21.760
+And what do you think happened.
+
+00:22.320 --> 00:25.900
+I lost all of that paint information I did on the torso.
+
+00:26.280 --> 00:28.410
+You'd think I'd know by now.
+
+00:28.410 --> 00:38.950
+So what I did is I went back and read did that for the torso and also did the legs and the fingers.
+
+00:39.720 --> 00:43.850
+So just learn from my mistake.
+
+00:44.050 --> 00:52.700
+Save BUSCHER and save your image with alt s when you are doing texture painting and in Blender.
+
+00:52.710 --> 00:58.690
+Now I had mentioned Gomorrha from Guardians Of The Galaxy some time ago and here she is.
+
+00:58.690 --> 01:03.060
+I figured I might as well use some of this skin tone.
+
+01:03.060 --> 01:07.860
+Some of these colors if I can for the face of our character here.
+
+01:08.220 --> 01:12.180
+What's interesting is this is actually not her.
+
+01:12.240 --> 01:22.400
+This is an image of a one sixteenth scale model from hot toys a figurine of her.
+
+01:22.400 --> 01:24.090
+They did an amazing job.
+
+01:24.090 --> 01:32.970
+Now I would prefer to use an image of her from real life but all the images I could find from the movie
+
+01:33.750 --> 01:40.700
+were in very light blue light or red light or very contrast.
+
+01:40.750 --> 01:48.160
+It was really difficult to find just kind of a standard lighting situation in that movie.
+
+01:48.210 --> 01:51.470
+I try and use real world reference when I can.
+
+01:51.750 --> 01:55.240
+But this particular instance I just couldn't find anything.
+
+01:55.290 --> 01:56.520
+So let's give this a try.
+
+01:56.520 --> 02:01.500
+Let's zoom in here to the character's face and let's see if we can do.
+
+02:01.830 --> 02:11.870
+So the face on the U.V. map is over here on mine so we can keep an eye on that as we go here.
+
+02:11.880 --> 02:15.950
+Now this particular image I think has some Browns in here.
+
+02:15.960 --> 02:20.310
+And that's what I've been doing to some Browns around here.
+
+02:20.490 --> 02:23.920
+So we'll try and do that as well.
+
+02:23.940 --> 02:28.890
+I'll make sure I'm on the skin texture paint slot and I'll go back over the Tools tab.
+
+02:29.250 --> 02:32.440
+And this is the palette.
+
+02:32.440 --> 02:33.150
+The color palette.
+
+02:33.150 --> 02:39.000
+I've been using for the skin here and it's got some good greens and browns here that we sampled off
+
+02:39.000 --> 02:41.080
+the image of the Guana.
+
+02:41.160 --> 02:47.280
+So we'll continue to use some of these maybe adding some from this image but really this is more for
+
+02:47.280 --> 02:53.660
+me just to look at and get a sense of what's happening on the face.
+
+02:53.770 --> 03:01.120
+So let's start I'm going to start here with that darker shadow color that I've been using and I'm not
+
+03:01.120 --> 03:03.370
+sure let's just see what it looks like.
+
+03:03.370 --> 03:05.380
+OK I've got that.
+
+03:05.380 --> 03:08.120
+I will also go ahead and turn on symmetry.
+
+03:08.120 --> 03:17.020
+We might as well do that and I'll come in here and start with some of the darker areas like maybe underneath
+
+03:17.050 --> 03:23.260
+the mouth underneath the nose up in the eye sockets here.
+
+03:23.500 --> 03:25.920
+So let's see what we can do with that.
+
+03:26.050 --> 03:33.520
+So I'll bring the strength back down and the jitter and spacing is pretty low so I think I'll leave
+
+03:33.520 --> 03:34.500
+it there.
+
+03:34.900 --> 03:36.150
+And let's just see what we can do.
+
+03:36.160 --> 03:39.290
+Let's do a few tests and see what happens here.
+
+03:44.590 --> 03:51.570
+For this at least right now let me try it with the texture off and see what happens here.
+
+03:59.220 --> 04:05.910
+I will also press alt F on the center of the character's face so we center up around that.
+
+04:05.910 --> 04:10.780
+And now I can tumble around that point that helps.
+
+04:11.030 --> 04:19.430
+And in addition I'm going to go ahead and turn on face masking and with the L key select the head and
+
+04:19.430 --> 04:21.380
+I'll go ahead and select the ears as well.
+
+04:25.340 --> 04:31.760
+Maybe I will go ahead and select the body as well just in case anything moves down into there.
+
+04:33.490 --> 04:36.480
+All right so now let's try this.
+
+04:36.550 --> 04:39.910
+I just didn't want to accidentally pain on the eyeball here
+
+04:42.780 --> 04:51.460
+and I think I'll also use this darker color to try and delineate the lines coming down from the nose.
+
+04:51.680 --> 04:53.250
+See what I can do here.
+
+05:00.160 --> 05:04.020
+And also around that edge of the nose back in here.
+
+05:07.190 --> 05:14.840
+And even some of this shadow underneath the cheekbones I think maybe we could try that.
+
+05:14.840 --> 05:21.200
+If I can get it placed in the right place here let me make sure that the specular is on for both of
+
+05:21.200 --> 05:26.340
+my lights and they are to see if it helps if I turn one off.
+
+05:27.400 --> 05:30.280
+Now doesn't help much.
+
+05:32.970 --> 05:37.360
+Well let me try it like this and see what I can do with this.
+
+05:37.390 --> 05:43.380
+You can see the texture a little better so what's going on here now is I've got the specular turned
+
+05:43.380 --> 05:48.660
+off for the front light but turned on for the back light.
+
+05:48.660 --> 05:54.630
+So let me just try it like this for a few minutes and see if this helps at all so I can just see the
+
+05:55.170 --> 05:57.040
+textures a little better.
+
+06:00.850 --> 06:09.660
+I'm going also put some shadow in the ears up here and maybe some down beneath the ear where it contacts
+
+06:10.800 --> 06:15.970
+connects with the head maybe even down underneath there.
+
+06:20.650 --> 06:30.580
+You can put a little shadow at the base of the skull right back here and maybe even just a touch right
+
+06:30.580 --> 06:31.750
+between the eyes here.
+
+06:31.750 --> 06:34.790
+I'm looking at this right here.
+
+06:35.120 --> 06:37.220
+You see how that works.
+
+06:37.420 --> 06:43.030
+And then I'll come back in with some highlights on the other on either side at the Browns.
+
+06:43.030 --> 06:46.440
+We'll see if that works at all.
+
+06:46.440 --> 06:47.530
+All right.
+
+06:47.530 --> 06:52.870
+So we've got some basic shadows laid down.
+
+06:52.870 --> 06:57.140
+I should also probably do that down here as well underneath the neck.
+
+06:57.400 --> 06:58.760
+Let me try that.
+
+07:01.490 --> 07:02.450
+OK.
+
+07:02.840 --> 07:04.010
+Let's take a look at this.
+
+07:04.020 --> 07:07.710
+Now let's come in and work on some of the highlights.
+
+07:08.210 --> 07:09.400
+Well let me see over here.
+
+07:09.410 --> 07:14.550
+I'm going to select I'm going to press the key and see what kind of colors I can find over here.
+
+07:14.570 --> 07:15.580
+This is kind of nice.
+
+07:15.590 --> 07:21.550
+And we try that this looks a little bit more like what I'm looking for now with this.
+
+07:21.560 --> 07:26.880
+I think I want to go ahead and turn that texture back on me grab that texture.
+
+07:29.040 --> 07:33.350
+And we've got it on random brush mapping.
+
+07:33.350 --> 07:41.870
+Let me just turn up the jet or just a little bit turn up the spacing a hair like that.
+
+07:41.910 --> 07:43.650
+Let's try that.
+
+07:43.650 --> 07:51.130
+So we get a little bit of texture in the highlights and let's just test this and see something like
+
+07:51.130 --> 07:53.350
+that may be a little much.
+
+07:53.600 --> 07:55.450
+Let's back that off a hair.
+
+07:55.870 --> 07:56.650
+Let's try that
+
+08:00.560 --> 08:01.990
+something like that.
+
+08:02.000 --> 08:03.430
+Yeah OK.
+
+08:03.660 --> 08:06.310
+A little bit more on the tip of the nose there.
+
+08:06.470 --> 08:16.050
+We've got some pretty strong highlights here into the I am going to try and replicate that like that.
+
+08:17.270 --> 08:18.890
+And along that cheekbone
+
+08:21.680 --> 08:29.330
+some interesting stuff going on above the eyes so I'll try that and way up here as well.
+
+08:31.110 --> 08:33.260
+I like that.
+
+08:33.270 --> 08:38.500
+Let's take a look at that little part under the nose.
+
+08:38.670 --> 08:42.660
+It looks like I could maybe just do this.
+
+08:43.020 --> 08:44.120
+Try that again.
+
+08:50.320 --> 08:51.980
+Something like that.
+
+08:55.030 --> 09:07.930
+We've got to highlight on the chin try and capture that and some highlights around here like this.
+
+09:07.950 --> 09:10.980
+Let's take a look at the lips.
+
+09:11.190 --> 09:13.380
+This is quite an interesting green.
+
+09:13.380 --> 09:15.810
+Here do I want that green on this.
+
+09:15.810 --> 09:17.290
+Let me try this one.
+
+09:17.310 --> 09:23.800
+I think this is a color that we got off at the eco wanna let me try this one here.
+
+09:24.760 --> 09:29.930
+And once again I will go ahead and keep the texture on here just to test this
+
+09:34.800 --> 09:42.100
+it looks like lipstick on let's try and widen that out.
+
+09:44.190 --> 09:46.720
+That may be too dark.
+
+09:47.600 --> 09:47.930
+Yeah.
+
+09:47.930 --> 09:51.380
+Let's try and let's go back right.
+
+09:51.380 --> 09:55.810
+So let's look for something that isn't quite as dark.
+
+09:55.810 --> 09:57.180
+How about this here.
+
+09:57.320 --> 09:58.480
+Let's try that.
+
+10:03.310 --> 10:08.040
+That may be a little bit better yeah that darker color really screamed.
+
+10:08.440 --> 10:09.290
+Lipstick.
+
+10:11.600 --> 10:12.620
+Let's try that.
+
+10:14.660 --> 10:15.830
+All right.
+
+10:15.830 --> 10:21.830
+Now what let's do is come back here with that lighter color and what I'm going to do is turn off the
+
+10:21.830 --> 10:27.780
+texture map and turn the spacing down looks like it's already there.
+
+10:27.800 --> 10:33.030
+And I'm going to come in here with a really fine brush and get some of that straight.
+
+10:33.140 --> 10:33.800
+There.
+
+10:33.890 --> 10:38.590
+See if that's at all possible and maybe Let's see
+
+10:41.620 --> 10:43.150
+bring the strength up here.
+
+10:48.350 --> 10:49.710
+Something like that.
+
+10:52.140 --> 10:58.810
+Let's turn that specular highlights back on over here for that front light.
+
+11:00.740 --> 11:02.830
+Let's take a look at that.
+
+11:03.080 --> 11:04.100
+Not too bad.
+
+11:04.310 --> 11:10.480
+I think what I need to do is go through and give it a little bit more of that texture that I was doing
+
+11:11.360 --> 11:15.710
+and maybe even some more of these highlights like from here.
+
+11:15.710 --> 11:17.050
+Let's try this.
+
+11:17.090 --> 11:19.920
+I'm going to put that texture back on.
+
+11:20.050 --> 11:25.800
+And when I just test this let me increase the strength.
+
+11:25.810 --> 11:33.310
+And what's pretty striking to see what happens here so I'm going to go through and maybe do a few highlights
+
+11:33.310 --> 11:34.500
+like this.
+
+11:35.770 --> 11:40.370
+I feel like that shadow underneath the cheek is a little strong.
+
+11:40.520 --> 11:51.090
+I'm going to flip the pen over and see if I can erase that back just a hair.
+
+11:51.210 --> 11:52.160
+So we're getting there.
+
+11:52.170 --> 11:54.360
+I think there's more I can do here.
+
+11:54.420 --> 11:59.280
+I may bring in the smear or soften brush.
+
+11:59.280 --> 12:05.320
+Let's just see if this does anything or it just destroys everything I've already done.
+
+12:08.830 --> 12:11.680
+And we go on I also just smeared that a bit.
+
+12:11.750 --> 12:14.730
+So I think there's more I can do.
+
+12:15.200 --> 12:16.820
+But I think that's getting there.
+
+12:16.820 --> 12:20.450
+I think it will blend in fairly well with the rest of the character.
+
+12:20.450 --> 12:23.910
+Let me turn off face masking here.
+
+12:23.990 --> 12:30.500
+There might be an opportunity to come in with more of the highlights that I used in here up on the face.
+
+12:30.500 --> 12:32.130
+But I think that's a good start.
+
+12:32.330 --> 12:38.720
+Oh and also let me come over here and press alt s and I'm going to save this image and I'm also going
+
+12:38.720 --> 12:48.740
+to press control or command ass to save the scene and make sure that all of our images do not have an
+
+12:48.740 --> 12:56.280
+asterix here and that they've all been saved so you can see kind of where we've come from since the
+
+12:56.280 --> 12:57.270
+beginning here.
+
+12:57.570 --> 13:08.710
+The base color of the character and then we worked on our details for the straps and the tunic here.
+
+13:08.730 --> 13:16.960
+We did a little bit more with the straps for the for the boots and the gloves.
+
+13:17.340 --> 13:21.860
+And then we worked on our skin here.
+
+13:21.990 --> 13:30.140
+So I think the next thing we should work on is baking out all of these texture paint slots.
+
+13:30.150 --> 13:33.720
+All of these layers out to a single image.
+
+13:33.730 --> 13:37.270
+Now I do need to work on the eyes.
+
+13:37.320 --> 13:43.800
+I think the eyes are going to need to be their own objects so that we can have a map specifically for
+
+13:43.800 --> 13:51.270
+them because I think the U-V islands for the eyes here on this map are going to be too small and the
+
+13:51.270 --> 13:54.990
+pupils stand a very good chance of being pixilated and blurry.
+
+13:54.990 --> 14:01.230
+So maybe in the next one we'll split the eyes out and bring in a texture for the pupils.
+
+14:01.320 --> 14:08.100
+But then after that I think we'll be ready to bake out our color map and then we can go and test that
+
+14:08.100 --> 14:12.840
+out with our normal map and our ambient occlusion map in unity.
+
+14:12.840 --> 14:15.010
+So those are hopefully coming up next.

@@ -1,0 +1,259 @@
+WEBVTT
+
+00:01.210 --> 00:07.930
+Now the next thing I'd like to do is to get ready for making the run cycle and for this character I'm
+
+00:07.930 --> 00:16.600
+just going to do a standard 13 frame run cycle once again I'm animating at 24 frames a second but my
+
+00:16.690 --> 00:25.570
+run cycle will take place over 13 frames and each of the frames within that run cycle will have a particular
+
+00:25.810 --> 00:34.350
+position like frame 1 will be a contact position frame for will be the passing position.
+
+00:34.450 --> 00:41.850
+Frame five will be the up position so I'll need to know exactly and easily which frame is which.
+
+00:42.010 --> 00:50.030
+Now I currently have all of my key frames happening between zero or between 1 and 60.
+
+00:50.380 --> 00:52.760
+What I need to do is move them.
+
+00:52.810 --> 01:00.850
+I want to be able to use the 1 through 13 frames but my previous animation cycle is in the way so I
+
+01:00.850 --> 01:02.500
+need to move them.
+
+01:02.680 --> 01:05.310
+What I'm going to do is use the dope sheet.
+
+01:05.320 --> 01:08.810
+I think that's usually about the easiest way to do it.
+
+01:08.860 --> 01:15.550
+So if I zoom in up here I can see that appear on the summary row I've got all of my key frames so I
+
+01:15.550 --> 01:17.470
+can select this.
+
+01:17.920 --> 01:24.820
+And these here and that will go ahead and select everything down below here.
+
+01:25.730 --> 01:29.920
+Now I didn't grab my default pose that frames zero.
+
+01:29.930 --> 01:32.030
+I'm going to keep that there for now.
+
+01:32.030 --> 01:37.900
+So I only need 13 frames down here maybe I'll move my idol to frame 20.
+
+01:38.060 --> 01:39.210
+Let's try that.
+
+01:40.180 --> 01:47.770
+So I'll just press the G key and move until I get up to frame 20 and click.
+
+01:47.770 --> 01:48.880
+And there we go.
+
+01:49.270 --> 01:53.760
+So now I've got this space free to do my run cycle.
+
+01:53.830 --> 02:04.060
+But if I zoom in here you can see that between frame 0 and frame 20 I've got a lot happening in the
+
+02:04.060 --> 02:04.630
+curves here.
+
+02:04.630 --> 02:05.880
+I don't want that.
+
+02:05.980 --> 02:07.840
+I don't want all that happening.
+
+02:07.960 --> 02:15.970
+So I can take that default pose at frame zero duplicate that zoom in a bit here.
+
+02:17.280 --> 02:23.090
+Shift the and I'll move that up to frame 19.
+
+02:23.190 --> 02:24.650
+As we go.
+
+02:24.650 --> 02:34.450
+So now I've got a nice clear path in here from 1 to 13 and I've got my default pose holding that until
+
+02:34.610 --> 02:37.870
+just before I need it at frame 20.
+
+02:37.880 --> 02:45.290
+So to test this I can always go down here to the start frame and type in 20 and looks like I probably
+
+02:45.290 --> 02:47.240
+go to 80 one I think.
+
+02:47.690 --> 02:49.750
+Let's try that.
+
+02:49.780 --> 02:50.710
+Here it is.
+
+02:51.010 --> 02:56.320
+And we hit if we go back to the beginning of this and hit play
+
+02:59.430 --> 03:01.220
+we have a bit of a pop.
+
+03:01.230 --> 03:06.120
+Looks like I've got my frames a little off let me type in 22 and see what happens here.
+
+03:09.730 --> 03:10.670
+And there we go.
+
+03:10.880 --> 03:14.390
+So I have I have it from 22 to 81 here.
+
+03:14.420 --> 03:16.840
+All right that'll work.
+
+03:16.850 --> 03:25.880
+So now I need to go back to 1 through 13 so I'll type in one for the start 13 for the end and let's
+
+03:25.880 --> 03:28.830
+go over here and zoom in for that.
+
+03:29.390 --> 03:30.430
+And there it is.
+
+03:30.830 --> 03:34.150
+And I'll go back to frame 1 there.
+
+03:34.220 --> 03:41.280
+Now we have our range in which our run cycle is going to take place.
+
+03:41.300 --> 03:44.600
+All right so let's start working on the legs.
+
+03:44.600 --> 03:51.470
+Well let's try and figure out what our positions are going to be for each frame.
+
+03:51.510 --> 04:00.060
+Now for free and one in frame 7 I'm going to want a contact IPO's and what I mean by that is the place
+
+04:00.060 --> 04:05.990
+where the heel of the character contacts the ground as he comes back down from the up position.
+
+04:06.270 --> 04:16.430
+So to begin with I think I'm going to take these hands and the torso Here let me turn on the manipulators
+
+04:16.430 --> 04:17.170
+again.
+
+04:17.540 --> 04:24.500
+I'm going to go to the movie tool and in local transformation my manipulators are a little bit out of
+
+04:24.560 --> 04:25.750
+alignment with the world.
+
+04:25.760 --> 04:30.510
+I'll go back to Global For now just as I move these things around.
+
+04:30.710 --> 04:36.260
+I'm going to move him down at frame 1 just a bit.
+
+04:36.750 --> 04:43.170
+So that will automatically create a keyframe because I've got autokey turned on down here.
+
+04:43.260 --> 04:45.090
+I think I'll go to my side.
+
+04:45.090 --> 04:52.350
+Orthographic view here and maybe I'll rotate him forward just a bit like that so he's kind of leaning
+
+04:52.350 --> 04:54.450
+into the run.
+
+04:54.510 --> 04:57.930
+I'll take this foot here and move it forward.
+
+04:58.230 --> 05:04.620
+And this is the foot that I think I want him to contact the ground with and I'll rotate that back just
+
+05:04.680 --> 05:13.580
+a little bit for the heel to hit like that I think I need this one to come up like this.
+
+05:14.750 --> 05:23.850
+And maybe like this I'll go ahead and bring this down just to bed I'll grab the hands to just to keep
+
+05:23.850 --> 05:25.590
+him in line for now.
+
+05:26.450 --> 05:32.440
+And this torso bring that down a bit.
+
+05:32.530 --> 05:40.490
+Now I can get that foot contact the ground I think something like that and I'm going to try and stay
+
+05:40.490 --> 05:49.790
+in line with this Z-axis as I as I go try not to bring him forward or back too much and maybe I'll bring
+
+05:49.790 --> 05:51.550
+this leg back just a hair.
+
+05:51.670 --> 05:53.480
+I don't like that.
+
+05:53.480 --> 06:00.180
+So there's frame one that same thing is going to need to happen at frame 13.
+
+06:00.200 --> 06:05.480
+So I'll grab this key frame right up here that will select everything below it.
+
+06:05.480 --> 06:11.010
+Duplicate it with shift D and then move it over to frame 13.
+
+06:11.100 --> 06:12.530
+And there we go.
+
+06:12.530 --> 06:18.040
+So now if I play it it should just hold it throughout that whole cycle.
+
+06:18.070 --> 06:18.980
+All right.
+
+06:19.120 --> 06:27.590
+Now we need to have that same pose at frame 7 but flipped so the feet are reversed.
+
+06:27.910 --> 06:35.350
+Let's come over here to frame seven and I'm going to select everything with the achy all the bones.
+
+06:35.350 --> 06:36.950
+And now I can come down here.
+
+06:37.120 --> 06:43.180
+Middle mouse button drag to this menu bar over here because I don't have much screen real estate to
+
+06:43.180 --> 06:43.650
+work with.
+
+06:43.660 --> 06:51.030
+But if I scroll over here and I select this copy copy the current PPOs I can copy those.
+
+06:51.070 --> 06:54.520
+And now if I paste here it will flip those.
+
+06:54.520 --> 07:01.210
+So everything is reversed so the legs are reversed so if I click this now you can see the legs have
+
+07:01.210 --> 07:09.640
+been reversed so if I hit play we get the beginnings of a run cycle.
+
+07:09.640 --> 07:15.730
+So now we have our two contact positions at frames 1 and 7.
+
+07:15.730 --> 07:19.060
+Let's now work on the passing position at frame for.

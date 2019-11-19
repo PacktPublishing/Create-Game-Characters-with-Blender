@@ -1,0 +1,376 @@
+WEBVTT
+
+00:00.900 --> 00:06.270
+Well let's keep working on the clothes and accessories of the character.
+
+00:06.270 --> 00:16.280
+I think maybe I'll work on the belt and arm band cuff thing and maybe a little tunic toga thing.
+
+00:16.580 --> 00:20.750
+Let's just see what we can get done today for the belt.
+
+00:20.760 --> 00:30.440
+I think what I'll do is just create a new cylinder and put that on here so I'll just go to create cylinder.
+
+00:30.480 --> 00:40.710
+I'll go ahead and keep it at 30 two vertices here but I'll change the cap filled to nothing.
+
+00:40.710 --> 00:44.930
+And let me just drag this up and I'll try and put it in place here.
+
+00:44.930 --> 00:51.750
+I'm going to switch to the character images screen lay out and I'll just take that cylinder and move
+
+00:51.750 --> 00:54.920
+it up it kind of into place here.
+
+00:55.860 --> 01:04.020
+And let's just use the scale tool to kind of get it to size so I'll go to the scale tool and just move
+
+01:04.020 --> 01:12.270
+this out a bit and scale this out some here and I just want to try and get this in place as the upper
+
+01:12.270 --> 01:21.060
+part of the little Toga thing here and I'll switch into vertex mode and just hit the B key for border
+
+01:21.060 --> 01:30.540
+select and grab that bottom edge and now just move it up a bit and let's try and just extrude down to
+
+01:30.540 --> 01:35.580
+get this piece of clothing shaped up a bit.
+
+01:35.820 --> 01:40.090
+So here we all do that pull these in.
+
+01:40.180 --> 01:49.540
+Now I'll just extrude and shape that as we go so I hit the key and move down.
+
+01:51.400 --> 01:58.650
+Scale out just a hair here and here and then me and keep on going down here.
+
+01:58.890 --> 02:04.160
+Well just two maybe two more extrusions.
+
+02:04.220 --> 02:08.450
+So there you go there's the beginning of that little tunic piece.
+
+02:08.450 --> 02:15.200
+So to create those panels on the front and back I think what I'll try is selecting faces here.
+
+02:15.200 --> 02:26.600
+I want to hit the C for the circle select tool and maybe select something like this from this.
+
+02:26.600 --> 02:30.920
+Why don't I duplicate this press shift D and click.
+
+02:31.190 --> 02:36.310
+And then I'll press the P key to separate the selection out.
+
+02:36.350 --> 02:38.110
+Now it's its own object.
+
+02:39.080 --> 02:47.090
+And then when I can do is just going to bring this forward just a hair here and now what I need to do
+
+02:47.090 --> 02:49.270
+is get that shaped.
+
+02:49.370 --> 02:52.530
+So it has that kind of look to it here.
+
+02:52.640 --> 03:01.250
+So I'm going to go into edge mode and I'll just select these edges down here and I just want to extrude
+
+03:01.250 --> 03:02.220
+this out.
+
+03:04.060 --> 03:15.010
+Once it comes down a little bit farther than that original piece or maybe easy and just pull this down
+
+03:15.010 --> 03:17.410
+like this.
+
+03:17.590 --> 03:18.030
+All right.
+
+03:18.030 --> 03:23.580
+So there's that piece and it looks like it will need to be shaped a bit.
+
+03:23.680 --> 03:27.750
+I don't know how much I should do right now but I could pull these in a bit.
+
+03:32.950 --> 03:40.540
+Like so expand those out and I want to do the same thing on the back as well here.
+
+03:44.950 --> 03:53.200
+So I'll duplicate with shifty and then I'll press the key to separate that selection out for its own
+
+03:53.200 --> 04:01.400
+object and then select it and we pull it out of hair and we go.
+
+04:01.450 --> 04:07.950
+And as I did before I'm just going to select these edges and extrude them down.
+
+04:13.110 --> 04:16.900
+All right so we have the little Toga piece What about the belt.
+
+04:16.920 --> 04:19.000
+Now we ought to work on that.
+
+04:19.440 --> 04:27.370
+I'll come over to the Create tab once again and I'll just create another cylinder and we can use the
+
+04:27.370 --> 04:34.800
+same settings we used before I believe 32 vertices and no capful And let's just do the same thing here.
+
+04:34.990 --> 04:40.240
+Bring this up and I'll get the Z to go to wireframe here.
+
+04:40.630 --> 04:47.600
+And let's just try and fit this around the character again.
+
+04:50.250 --> 04:54.780
+I'll go to my character images again and let's try and place this
+
+05:00.880 --> 05:06.890
+how about the arm bands Let's take a look at those all go into edit mode.
+
+05:06.970 --> 05:17.380
+It looks like we can select faces along here so I'm going to press the C key and just drag select these
+
+05:17.380 --> 05:18.730
+faces.
+
+05:19.370 --> 05:21.660
+Maybe even come up here for now.
+
+05:22.500 --> 05:30.200
+Also select these here and those and these faces as well.
+
+05:31.970 --> 05:39.560
+All right so that looks pretty good as kind of the base geometry of that arm band.
+
+05:39.560 --> 05:42.450
+It may be too high up will have to bring it down.
+
+05:42.860 --> 05:47.600
+There's some extra geometry here that we don't need but for the most part I think we can just duplicate
+
+05:47.630 --> 05:50.110
+this and be and be good with it.
+
+05:50.150 --> 05:51.980
+Let me select this here.
+
+05:52.040 --> 05:58.850
+All right let's give this a try I'm going press shift D and then I'm going to press the P key to separate
+
+05:58.850 --> 06:00.600
+that selection.
+
+06:00.650 --> 06:07.730
+Now that it still has that multi resolution modifier on it so we don't want that.
+
+06:07.770 --> 06:13.670
+Go ahead and go into the modifiers tab and remove that modifier.
+
+06:13.700 --> 06:15.120
+So that's what we get.
+
+06:15.500 --> 06:19.810
+And I think I'll maybe come over here and choose x ray so I can see it.
+
+06:20.090 --> 06:25.360
+And now it's just a matter of adjusting and shaping this.
+
+06:25.430 --> 06:32.510
+I think I'll also add an edge loop here and I'll probably need to do this quite a bit and just expand
+
+06:32.510 --> 06:37.760
+this out a bit maybe even just scale the whole thing out.
+
+06:38.350 --> 06:40.810
+So it fits around the hand a little bit better
+
+06:43.710 --> 06:46.490
+and it doesn't need to be perfect at this point in time.
+
+06:46.500 --> 06:53.170
+But I just want to fiddle around the hand some.
+
+06:53.180 --> 06:58.180
+All right so there's the basic geometry of our arm band.
+
+06:58.190 --> 07:00.410
+I think that'll work out pretty well.
+
+07:00.980 --> 07:03.980
+And now let's take a look at.
+
+07:04.250 --> 07:08.140
+Well let's take a look at these little belt buckle pieces here.
+
+07:08.180 --> 07:09.910
+They're just cylinders.
+
+07:09.950 --> 07:11.960
+So that should be fairly easy.
+
+07:11.960 --> 07:18.860
+Let's take a look what I'll do is select this belt buckle and I'll press shift ass and move the cursor
+
+07:18.860 --> 07:21.170
+to that selected object.
+
+07:21.260 --> 07:26.260
+Then when I create a cylinder that should pop in the center there.
+
+07:26.630 --> 07:37.970
+And for this one maybe make it only 12 vertices and I'll give it a triangle fan for its top I will rotate
+
+07:37.970 --> 07:39.090
+it here.
+
+07:41.310 --> 07:46.050
+Looks like 90 degrees around the X right here.
+
+07:50.610 --> 07:52.470
+And I'll try and put it into place here.
+
+07:52.480 --> 07:56.340
+Now I don't need the triangle fan on the back.
+
+07:56.340 --> 07:57.940
+Just on the front.
+
+07:57.940 --> 08:03.900
+So try and get rid of that with the C key.
+
+08:05.340 --> 08:08.580
+And hit X and choose face's
+
+08:11.630 --> 08:15.320
+and I'll select that Ed and kind of move it forward here.
+
+08:16.160 --> 08:21.800
+All right so now let me turn off the x ray of that strap.
+
+08:21.800 --> 08:23.430
+We don't need that.
+
+08:23.720 --> 08:25.580
+Let's just work on this here.
+
+08:25.640 --> 08:36.320
+If I go to face mode and select these guys here I think what I can do is just hit me and then hit s
+
+08:36.350 --> 08:41.430
+to scale them and maybe hit me again and push in a bit.
+
+08:44.240 --> 08:54.710
+And maybe hit the ass I kind of want it maybe like a curved dome surface so what I'll do is call it
+
+08:54.800 --> 09:04.220
+easy and extrude out and then scale in just a hair the extrude out scale in just a hair like so.
+
+09:06.720 --> 09:15.830
+And maybe one more time and scale in and pull out just a bit like so.
+
+09:17.740 --> 09:18.870
+Yeah something like that.
+
+09:18.880 --> 09:21.790
+And then I think I want a little inset here.
+
+09:21.790 --> 09:28.930
+I don't know what it is but I'm going to scale that in and then inset it like that.
+
+09:29.110 --> 09:30.850
+So it's kind of like that.
+
+09:31.480 --> 09:32.790
+Yeah why not.
+
+09:33.310 --> 09:37.270
+And I will scale that down and put it in place here.
+
+09:40.430 --> 09:41.340
+Maybe a little bigger
+
+09:44.560 --> 09:46.660
+just as the base geometry of that.
+
+09:46.660 --> 09:48.490
+I think that will work fine.
+
+09:48.490 --> 09:52.970
+Now I'm going to probably smooth it and add edge loops to it.
+
+09:53.050 --> 09:54.610
+But I think that'll work.
+
+09:54.910 --> 10:04.430
+And I can also then have this here and take this and just duplicate it and move it up with shifty
+
+10:07.080 --> 10:11.380
+move that up to here and pull it out some.
+
+10:11.390 --> 10:17.890
+So now I'm going to be dealing with these in different ways for the little Toga thing here.
+
+10:17.900 --> 10:25.850
+I'm going to just sculpt on it and try and get some of that folds and flowing wrinkles of cloth there
+
+10:25.880 --> 10:30.170
+through sculpting for the strap here.
+
+10:30.170 --> 10:39.230
+I think what we need to do is probably use the solidify modifier to give it some thickness so we can
+
+10:39.230 --> 10:40.000
+try that.
+
+10:40.000 --> 10:49.730
+Now I'll go over to the modifiers tab here and just choose add modifier and solidify and if I do that
+
+10:50.480 --> 11:02.520
+I get this panel here and I can use the thickness setting I'm just going to click and drag to have this
+
+11:02.520 --> 11:08.520
+kind of thick and other bit you can see it can get really thick there but maybe I can pull it out to
+
+11:08.520 --> 11:09.980
+about like this.
+
+11:10.230 --> 11:13.680
+And there's going to be more adjusting that needs to be done.
+
+11:14.850 --> 11:20.770
+But you can see how you can build up the thickness of an object with that modifier.
+
+11:21.030 --> 11:23.900
+Now when I get it to the way I want it I'll just hit apply.
+
+11:23.910 --> 11:26.880
+But for now I think I'll just leave it there.
+
+11:26.970 --> 11:33.300
+So it looks like what we have left to do is this armband and the shoulder armor here and then we'll
+
+11:33.300 --> 11:35.750
+be able to work on sculpting those a bit.
+
+11:35.760 --> 11:42.020
+Once again I'm trying to get everything to the same basic detail level.
+
+11:42.240 --> 11:45.720
+Like I know the body isn't completely done yet.
+
+11:45.720 --> 11:53.610
+I really want to do more smoothing and tweaking on the body and on the ears and things like that.
+
+11:53.760 --> 12:00.330
+But I'd like to get these other pieces to about the same detail level and then refine the entire character
+
+12:00.690 --> 12:02.110
+kind of all in one go.

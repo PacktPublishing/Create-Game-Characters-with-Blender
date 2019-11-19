@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.870 --> 00:08.000
+Let's now work on some of these belts and straps we've got the glove pretty much done.
+
+00:08.070 --> 00:11.520
+We've got a little tunic pretty well taken care of.
+
+00:11.520 --> 00:14.820
+Let's take a look at the belt here.
+
+00:14.850 --> 00:17.880
+I've got a reference image for this.
+
+00:17.880 --> 00:21.140
+I want to bring that in here.
+
+00:21.150 --> 00:28.280
+So I've got this belt image right here and it isn't much but it's kind of.
+
+00:28.440 --> 00:35.850
+I like it because it's got these edges with the seams here and it's got a bit of texture to it so I'm
+
+00:35.850 --> 00:39.890
+going to just keep this up so I have a visual on this.
+
+00:39.960 --> 00:47.460
+I'm going to go ahead and right click on this and choose join the area and then drag down here and join
+
+00:47.460 --> 00:50.010
+those two windows together.
+
+00:50.040 --> 00:53.270
+I think I should go ahead and add a little thickness to this.
+
+00:53.280 --> 00:59.850
+The way I did the glove so I'll tab into edit mode and I'll Allt click one of these edges to select
+
+00:59.850 --> 01:05.860
+that entire edge loop and I'll press e to extrude and click and then I'll hit s.
+
+01:06.060 --> 01:10.970
+I'm just going to scale in quite a bit here maybe something like that.
+
+01:11.880 --> 01:20.460
+And down here as well I'll press alt and click if Rick Strood asked to scale in and move that in.
+
+01:20.490 --> 01:26.970
+So now that we have that I'm going to add a few edge loops to hold these edges because like we did before
+
+01:26.970 --> 01:32.190
+if I added the subdivision surface modifier it's kind of kind of collapse on us.
+
+01:32.190 --> 01:39.020
+So to keep it from doing that let's go ahead and add a couple of edge loops so press control are.
+
+01:39.300 --> 01:47.190
+And for this I'll just scroll the mouse wheel and maybe add three edge loops here and click and then
+
+01:47.190 --> 01:55.170
+click again and then what I'll do is just go to the scale tool and just expand that up to kind of tighten
+
+01:55.170 --> 01:56.650
+those edges here.
+
+01:57.450 --> 02:06.050
+Let's get one up in here like that and maybe one down here as well.
+
+02:07.260 --> 02:08.030
+Might as well
+
+02:12.440 --> 02:13.620
+go.
+
+02:13.800 --> 02:19.820
+So we've got now the belt holding its shape a little better.
+
+02:20.040 --> 02:23.000
+We can also click the smooth shading over here.
+
+02:24.430 --> 02:33.250
+So I'm going to go ahead and remove this subdivision surfaces modifier and then I'll come back and add
+
+02:33.250 --> 02:40.310
+a multi resolution and let's add some subdivisions subdivided.
+
+02:40.540 --> 02:45.080
+I don't know three or four times it's true four and try that.
+
+02:45.490 --> 02:54.540
+So now what I'd like to do is just add some of this kind of seam work along the edges of that belt.
+
+02:54.670 --> 02:59.380
+So I think I'll just press shift h to hide it to hide everything else.
+
+02:59.380 --> 03:03.320
+I should say and let's start working on this.
+
+03:03.340 --> 03:08.080
+So in the same way we did the seams for the glove.
+
+03:08.080 --> 03:12.100
+Let's go to the sculped tool here are sculped mode.
+
+03:12.370 --> 03:16.630
+And let's switch to the mask tool.
+
+03:17.050 --> 03:25.000
+Let's come over here and choose smooth stroke and let's see if we can draw out a mask that will be our
+
+03:25.000 --> 03:26.320
+seams.
+
+03:26.380 --> 03:31.940
+I'm going to press the three key and the five key to go into orthographic view.
+
+03:31.960 --> 03:38.440
+All right so let's test out the mask here if I just draw it like this and draw down you can see it's
+
+03:38.440 --> 03:45.830
+kind of how it's thin going horizontally and thick going down.
+
+03:45.850 --> 03:47.610
+That's not what I want here.
+
+03:47.950 --> 03:54.280
+And I think I know the reason we've seen this before so if I go back to object mode and if I go back
+
+03:54.280 --> 04:01.240
+to sculpt mode you can see up here yet object has non uniform scale sculpting may be unpredictable.
+
+04:01.240 --> 04:09.550
+All right well that's an understatement there so let's select this again in Object mode and let's press
+
+04:09.550 --> 04:17.830
+control a and let's apply the rotation and scale to this object to that.
+
+04:17.830 --> 04:19.890
+Now let's go back to sculpt mode.
+
+04:20.640 --> 04:23.700
+We don't get that error any any more.
+
+04:23.730 --> 04:29.340
+And now the mask lays down on the object a little better.
+
+04:29.340 --> 04:35.070
+All right so I'll undo that and get these seams on the top and bottom.
+
+04:35.070 --> 04:44.750
+I'm going to try another method of drawing here and I'm going to try this line and I'm going to turn
+
+04:44.750 --> 04:48.410
+off the pressure sensitivity for the strength.
+
+04:48.410 --> 04:53.830
+So it's always the same width and I'm just going to begin over here.
+
+04:53.870 --> 04:56.330
+Let's try this begin over here I'm going to click and drag.
+
+04:56.330 --> 05:03.440
+You can see I've got this line and I'm going to drag all the way over here and then a lead up and now
+
+05:03.440 --> 05:07.220
+I get a nice clean line over here.
+
+05:07.220 --> 05:13.190
+So is that what I want here is that it looks like it could be a little bit higher up so let me try that
+
+05:13.190 --> 05:13.860
+again.
+
+05:14.680 --> 05:16.400
+I'm going to start right up here.
+
+05:17.450 --> 05:21.530
+And drag right over to here and we go.
+
+05:21.890 --> 05:30.530
+So now I'm going to press the one key and go to the front view and let's do this again click up here.
+
+05:31.920 --> 05:36.820
+Draw a line and let up and we go.
+
+05:37.440 --> 05:43.980
+And once again I'll press instead of the three key press control three and that'll jump back here to
+
+05:43.980 --> 05:49.620
+the back or Scuse me the left I should say and I'll try this again.
+
+05:52.610 --> 05:59.840
+So and now control one and now that's the back and I'll try drawing.
+
+05:59.860 --> 06:04.050
+Try drawing this again like this.
+
+06:04.090 --> 06:09.850
+We've got some pretty good lines there so I'm going to tumble out of this and hit the five key to go
+
+06:09.850 --> 06:17.530
+to perspective view again and I'll just come through and do a little bit of touch up here along the
+
+06:17.530 --> 06:23.710
+edges.
+
+06:23.760 --> 06:25.500
+I think that's looking pretty good.
+
+06:25.740 --> 06:33.680
+Let's go ahead and test it once again like we did before so we make sure it's OK before we do any more.
+
+06:33.930 --> 06:37.710
+So I'll press control I need to invert the selection.
+
+06:37.710 --> 06:40.140
+Go back to the sculped tool.
+
+06:40.320 --> 06:45.840
+Increase the size a bit and just come through here and lightly.
+
+06:46.080 --> 06:49.950
+Well let me turn off smooth stroke.
+
+06:50.080 --> 06:58.520
+I'm just going to come through and lightly sculpt out a bit to get kind of a seam or an edge to the
+
+06:58.760 --> 07:00.470
+belt.
+
+07:00.480 --> 07:00.850
+Right.
+
+07:00.860 --> 07:03.820
+I'm going to press Allt M see what we have.
+
+07:04.130 --> 07:08.060
+Oh there's some places I missed here aren't there.
+
+07:08.170 --> 07:14.240
+So let me try almoner undo and sculpt again here.
+
+07:14.680 --> 07:21.200
+But I think I'm going to run through it with the flattened tool as well saw press command Z and I'm
+
+07:21.200 --> 07:28.010
+going to puff this out just a little bit more and then I'll run through it with the Flaten wraps too
+
+07:28.010 --> 07:33.340
+much with the flattened tool.
+
+07:33.580 --> 07:42.850
+So now when I come up here to the flattened brush and let's try this it's going to run over this a bit.
+
+07:43.150 --> 07:51.990
+And now press alt M see how that looks Yeah so if I bring everything else back let me go back to object
+
+07:51.990 --> 07:54.740
+mode press alt H.
+
+07:54.870 --> 07:56.600
+See how that looks.
+
+07:57.030 --> 08:00.410
+Yeah I think that's what I'm looking for.
+
+08:00.510 --> 08:05.270
+So I'll go ahead and do that to the bottom part of the belt as well.
+
+08:08.780 --> 08:11.540
+And then we go hit the one key
+
+08:17.070 --> 08:23.760
+and control I to invert the selection back to the sculped tool.
+
+08:24.300 --> 08:27.630
+Increase the size a bit and let's try this
+
+08:31.960 --> 08:45.150
+and I'll go to the flattened tool again and let's try and flatten this out just a bit.
+
+08:45.160 --> 08:46.150
+Let's take a look at it.
+
+08:46.150 --> 08:53.650
+Now with everything else go back to object mode press alt H and let's take a look at it with everything
+
+08:53.650 --> 08:54.310
+else.
+
+08:56.970 --> 09:05.250
+So there's that part of the belt we should probably do a similar thing for the straps.
+
+09:05.610 --> 09:14.820
+But before I do that I'd like to use the stencil tool to get some really fine detail bump going on the
+
+09:14.820 --> 09:15.300
+belt.
+
+09:15.300 --> 09:22.980
+I like some of this texture here and be nice to have some of that on the belt and the straps.
+
+09:23.040 --> 09:30.330
+So what I want to do is come back to this sculpt draw brush and I'd like to come over here to the texture
+
+09:30.330 --> 09:36.600
+area and I want to add a new texture now instead of clicking right here on NEW thing I want them to
+
+09:36.600 --> 09:43.170
+do is come over here to the texture panel over here and click on new there.
+
+09:43.290 --> 09:49.530
+Now I've got this texture here assigned over here so that's good.
+
+09:50.930 --> 09:56.990
+What I want to do now is come over here and click on open and well there are a couple of ways I could
+
+09:56.990 --> 09:57.340
+do this.
+
+09:57.340 --> 10:06.320
+I could open a new image one that I have on my hard drive or I could also generate one procedurally
+
+10:06.710 --> 10:08.820
+out of Blender.
+
+10:09.080 --> 10:16.400
+So if I wanted to generate one out of Blender I could come over here to the type and choose something
+
+10:16.400 --> 10:25.540
+like noise or clouds or Stucky or Verona or something like that.
+
+10:25.610 --> 10:29.310
+I'm going to try this one try that.
+
+10:29.310 --> 10:30.830
+So here's that texture.
+
+10:30.830 --> 10:33.610
+Now I have in my brush.
+
+10:33.810 --> 10:39.490
+So what I can do is come down here to view plane and change it from view plane to.
+
+10:39.540 --> 10:48.990
+I could try random here and now if I painted on this you can see that I get this kind of random bumpy
+
+10:49.200 --> 10:53.940
+texture that is from this procedural texture.
+
+10:53.940 --> 10:59.510
+I can also come over here to the stencil mode and click that.
+
+10:59.520 --> 11:05.950
+And now you can see when I hover over here I've got this black stencil in my 3-D view.
+
+11:06.330 --> 11:13.140
+Now just like you can move around in a 3-D viewport with the middle mouse button.
+
+11:13.140 --> 11:19.920
+If you use the right mouse button over the stencil here you can move it around and then you can use
+
+11:20.010 --> 11:24.600
+shift right mouse button to scale it down or scale it up.
+
+11:24.600 --> 11:32.440
+So let's say I wanted to do something like this and then I can use the middle mouse button to zoom in
+
+11:32.440 --> 11:36.590
+and out and move around blysse I want to do something like this.
+
+11:36.730 --> 11:44.230
+I can go ahead and paint on this and you can see how it's coming through the stencil like this.
+
+11:44.230 --> 11:45.290
+So there you go.
+
+11:45.540 --> 11:54.430
+So you can do it two ways if you really want the detail precisely on the model as it is in the texture
+
+11:54.430 --> 11:56.650
+you'd use stencil here.
+
+11:56.680 --> 12:02.390
+However I think mine will be best with this random.
+
+12:02.580 --> 12:04.890
+So I'll try this.
+
+12:04.990 --> 12:14.290
+I'm going to zoom in a bit and adjust my brush and if I come in here and lightly go like that.
+
+12:14.300 --> 12:21.710
+Now I think I want it a little bit smaller and go like this and you lightly get this in here.
+
+12:21.710 --> 12:22.000
+Yeah.
+
+12:22.010 --> 12:31.590
+If I come in here and just lightly sculpt in here you can see I can get this kind of bumpy texture to
+
+12:31.590 --> 12:32.340
+it.
+
+12:32.430 --> 12:39.280
+And so if we zoom out and you can see we're getting this kind of more realistic texture on it.
+
+12:39.280 --> 12:47.070
+So I'm going to go around and kind of paint this texture on it in kind of a random way here
+
+12:51.340 --> 12:57.780
+and also come through and just paint or sculpt that same texture on the edges.
+
+12:58.760 --> 13:03.400
+Of the belt just with a slightly smaller brush.
+
+13:07.190 --> 13:10.070
+All right so there we have our belt.
+
+13:10.160 --> 13:20.180
+It's got a nice kind of edge or seam along the top and the bottom and it's got some good worn leather
+
+13:20.180 --> 13:21.880
+type of texture on it.
+
+13:21.880 --> 13:30.740
+Now to end this kind of thing I'll probably come through and do the same thing for the glove here.
+
+13:30.860 --> 13:40.040
+Maybe put that kind of textured pattern on this part around the little raised straps maybe even another
+
+13:40.040 --> 13:47.480
+type on on the raised straps so you can get all kinds of interesting detail by adding texture to your
+
+13:47.480 --> 13:47.910
+brush.

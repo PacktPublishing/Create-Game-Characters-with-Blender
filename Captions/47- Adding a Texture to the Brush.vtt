@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.860 --> 00:08.240
+Well in the last video we took a look at using the jitter and spacing tools to give some randomness
+
+00:08.240 --> 00:10.050
+to our brushstrokes.
+
+00:10.100 --> 00:19.520
+What I'd like to do is this time add a texture to the brush that will help give it some detail or randomness.
+
+00:19.520 --> 00:21.070
+Let's give that a try.
+
+00:21.080 --> 00:29.240
+So I'm going to come down here to the texture area right here and I'm going to click new and create
+
+00:29.300 --> 00:31.960
+a new texture for the brush.
+
+00:32.120 --> 00:35.940
+So I click new and I get this black texture.
+
+00:35.960 --> 00:45.140
+I'll give it a name instead of texture 001 let's call it let's call it noise about noise brush.
+
+00:45.260 --> 00:50.300
+And now if we go over here on the right side let's do this.
+
+00:50.910 --> 00:58.880
+In the materials here is the material that we've been working on right next to that is the texture layers.
+
+00:59.160 --> 01:04.230
+And here's the texture layers that correspond to our texture slots.
+
+01:04.230 --> 01:10.590
+So if we go over to our slots we can see we've got a base color the the normal map and that details
+
+01:11.310 --> 01:15.470
+texture slot and that's what we've got here we've got the base color the normal map.
+
+01:15.480 --> 01:20.760
+And this is actually the details one that we could call that.
+
+01:20.970 --> 01:27.900
+So those are our texture layers and that's for our material but we can come right over here to the brush.
+
+01:28.200 --> 01:31.620
+And now we can create a texture for our brush.
+
+01:31.620 --> 01:39.960
+So for this instead of an image or a movie for our noise brush Let's choose.
+
+01:40.170 --> 01:41.780
+We could choose all kinds of things.
+
+01:41.790 --> 01:45.030
+These are procedurally generated textures.
+
+01:45.150 --> 01:50.280
+We've got noise clouds marble.
+
+01:50.610 --> 01:52.380
+Let's take a look at clouds here.
+
+01:53.130 --> 01:55.890
+That looks kind of interesting.
+
+01:56.130 --> 01:58.320
+Let me look at Stucky here.
+
+01:59.600 --> 02:03.120
+Yeah it's not bad or we could go with noise too.
+
+02:04.460 --> 02:06.690
+Noise to me looks a little too dense.
+
+02:06.690 --> 02:09.710
+Let me let me go with.
+
+02:09.760 --> 02:14.350
+Let's try this Stucky Yeah let's try that.
+
+02:14.640 --> 02:21.460
+So now we've selected that if we go back to the Tools tab we can see that that is in our brush texture.
+
+02:21.780 --> 02:25.900
+Now what I'm going to do is brush mapping here.
+
+02:25.910 --> 02:29.030
+The default is often view plane.
+
+02:29.040 --> 02:31.680
+I'm going to change it to random.
+
+02:31.680 --> 02:40.260
+So it lays down this texture in kind of a random way and I'll come back up and I'll choose a lighter
+
+02:40.260 --> 02:43.350
+color maybe something like this.
+
+02:43.350 --> 02:46.170
+Now these are palettes I don't know if I've mentioned this.
+
+02:46.170 --> 02:52.500
+You can sample colors and create a new palette by just clicking on the plus icon.
+
+02:52.500 --> 02:54.220
+Here are the plus button.
+
+02:54.360 --> 03:02.060
+So if I created a new color something like this I could just hit plus create a new palette.
+
+03:02.070 --> 03:10.270
+And now that color would be there for me to sample any time you can create multiple palettes down here.
+
+03:10.560 --> 03:17.670
+Let me move this out here so I've got one palette here I've got another palette here doesn't really
+
+03:17.670 --> 03:19.300
+have anything in it.
+
+03:19.620 --> 03:27.010
+I could create a new palette or a new sampled color for this palette as well.
+
+03:27.360 --> 03:33.670
+And you can give the different palettes names things like that so I'll just go back to my original and
+
+03:33.760 --> 03:37.780
+we go and I'll select that color here.
+
+03:38.730 --> 03:39.090
+All right.
+
+03:39.100 --> 03:44.120
+So now I'm going to zoom in to that belt.
+
+03:44.120 --> 03:47.480
+I want to do this I want to work on this belt here.
+
+03:47.480 --> 03:54.400
+If I hit the F key and zoom out a bit I'm going to increase the size of my breast just a bit.
+
+03:55.460 --> 03:57.850
+And let's take a look at how the stroke is.
+
+03:57.870 --> 04:05.940
+If I drag you can see that it lays down this texture in kind of a random way as I stroke.
+
+04:06.030 --> 04:09.020
+And that's kind of what I'm looking for here.
+
+04:09.060 --> 04:11.800
+Let me take the strength down a bit.
+
+04:12.420 --> 04:18.500
+Let's also take a look at the spacing see if this does anything for us.
+
+04:18.810 --> 04:22.230
+And it does it really space's it out quite a bit.
+
+04:22.230 --> 04:25.290
+So let's let's try around 100
+
+04:27.810 --> 04:34.200
+and maybe a little bit lower and Riego something like that.
+
+04:34.220 --> 04:43.210
+So now what I want to do is lay down this texture on the belt strap in kind of a sloppy way I'm going
+
+04:43.210 --> 04:47.210
+I just want to just scatter it around all over the belt.
+
+04:47.240 --> 04:50.980
+So what I'm to do is use this face mask selection again.
+
+04:50.990 --> 04:57.560
+I'm going to hit the A key to de-select everything and then I'm going to hover over the belt and press
+
+04:57.590 --> 05:05.300
+l and that will select that whole thing based on our seems that we created when U-V mapping.
+
+05:05.330 --> 05:15.750
+Now I can come in and just begin in a relatively sloppy way I just began laying down that texture.
+
+05:15.770 --> 05:20.710
+So since it's masked off I don't accidentally get it on the rest of the model.
+
+05:20.720 --> 05:22.490
+Now that may be a little bit too much.
+
+05:22.490 --> 05:24.640
+Let me back off there.
+
+05:24.860 --> 05:27.010
+Turned down the strength.
+
+05:27.080 --> 05:28.910
+Reduce the size a bit.
+
+05:29.210 --> 05:30.300
+And now let's try it.
+
+05:33.570 --> 05:35.250
+Yeah something like that.
+
+05:35.670 --> 05:38.400
+So it's going to go over this whole area like this.
+
+05:38.400 --> 05:42.210
+Just to give it a little bit of extra interest
+
+05:49.600 --> 05:55.090
+All right I've got that done I think I'm going to go through with yet another color and see if I can
+
+05:55.450 --> 05:58.320
+add just a little bit more to it.
+
+05:58.330 --> 06:06.160
+I like the fact that this leather texture has multiple colors in it that kind of multiple splotches.
+
+06:06.160 --> 06:11.480
+So if I hold the key down let me see what kind of color I can sample here.
+
+06:12.040 --> 06:16.030
+Maybe something a little darker this time.
+
+06:16.030 --> 06:18.830
+Kind of like that.
+
+06:19.030 --> 06:20.960
+Let me try this one.
+
+06:21.040 --> 06:27.630
+So in a similar way I'm going to go through and just scatter some texture down on the belt.
+
+06:27.640 --> 06:31.120
+But this time I think I want to make the brush stroke pretty small.
+
+06:31.120 --> 06:33.040
+Let me see how this works.
+
+06:33.160 --> 06:41.390
+And also I'll take the spacing and increase it even more and maybe even the jitter a little more as
+
+06:41.410 --> 06:43.190
+well and let's see what happens.
+
+06:45.690 --> 06:48.180
+Yeah I can see it going down a little bit there.
+
+06:48.180 --> 06:53.730
+Yeah I kind of like that it kind of works it kind of blends in very very lightly.
+
+06:53.730 --> 06:58.960
+I don't know if you can see that but I kind of like what it's doing.
+
+06:59.000 --> 07:04.980
+Let me give it a little more strength here a little less spacing a little less jitter.
+
+07:08.190 --> 07:09.720
+And something like that.
+
+07:09.750 --> 07:17.820
+I just wanted to give it something a little bit more I'm not a big fan of just solid blocky colors so
+
+07:18.040 --> 07:25.480
+I'd like to have some sort of multiple layers and colors in the textures.
+
+07:25.480 --> 07:26.090
+All right.
+
+07:26.100 --> 07:26.730
+That's good.
+
+07:26.730 --> 07:32.330
+And I think one the last one I want to really like color in there.
+
+07:32.850 --> 07:34.930
+Let me try this one here.
+
+07:36.900 --> 07:39.150
+And actually take it up a little bit lighter
+
+07:42.380 --> 07:43.310
+something like that.
+
+07:43.310 --> 07:46.310
+So it's very very light.
+
+07:46.330 --> 07:47.190
+Let me try this
+
+07:51.670 --> 07:54.140
+well that's too much too much.
+
+07:54.220 --> 07:55.130
+Back it off.
+
+07:56.630 --> 07:58.560
+Back it off.
+
+07:58.610 --> 08:09.510
+Make it a little bigger try this.
+
+08:09.630 --> 08:10.770
+Something like that.
+
+08:10.880 --> 08:12.670
+Just so it's a little worn as well.
+
+08:15.060 --> 08:23.880
+Now as I'm looking at this I was just noticing that these metal buttons have some really nice colors
+
+08:23.880 --> 08:31.710
+to them that I think I could maybe use for the buckles and maybe even the shoulder armor.
+
+08:31.950 --> 08:37.910
+Well I'll go out and look for some other ones as well but these colors are kind of nice.
+
+08:37.950 --> 08:46.380
+So maybe in the next video we'll take a look at using these colors and working on the metal armor pieces.
+
+08:46.380 --> 08:52.480
+Now one thing I should mention before we go is that I haven't yet saved this text slot.
+
+08:52.500 --> 08:58.980
+You can see the asterisks here so if I saved the scene and close the scene I would lose that information
+
+08:58.980 --> 09:01.090
+that I just painted.
+
+09:01.410 --> 09:02.840
+I would lose all of this.
+
+09:02.940 --> 09:05.610
+So be sure and save your image.
+
+09:05.610 --> 09:09.230
+It's a real pain when that happens.
+
+09:09.300 --> 09:16.470
+But since I've already saved this image once I can come over to the slots tab and click on Save all
+
+09:16.470 --> 09:21.310
+images and that will save any changes to any of the slots I have here.
+
+09:21.450 --> 09:29.220
+So I'll save all images and that should take away the Asterix for all of these paint slots.

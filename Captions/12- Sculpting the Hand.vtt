@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.570 --> 00:02.920
+Today I'd like to work on the hands.
+
+00:03.030 --> 00:11.010
+We could go into edit mode and pull points around like we did with the hips but I think what I'd like
+
+00:11.010 --> 00:19.020
+to do instead for these is come down in the subdivision level over here just click and the sculped value
+
+00:19.020 --> 00:24.300
+and bring that down maybe to one so we can kind of see the polygons and what I'd like to do is just
+
+00:24.300 --> 00:31.450
+pull some points around pull some polygons around to reshape this thumb a bit.
+
+00:31.480 --> 00:33.100
+So zoom in here.
+
+00:33.300 --> 00:40.470
+I think what I'll also do is hover over the hand right here and press alt F and that will allow me now
+
+00:40.470 --> 00:44.990
+to tumble around the hand.
+
+00:45.030 --> 00:55.470
+All right so now if I zoom in here and increase the brush just a bit and start with the grab brush start
+
+00:56.250 --> 01:04.410
+pulling these back and kind of rearranging these to get more of a shape on the thumb that I want here.
+
+01:04.730 --> 01:13.060
+So I'm just going to move these around here and we go a little bit better.
+
+01:15.810 --> 01:18.620
+I'll come around to this side and work on over here.
+
+01:33.310 --> 01:34.270
+All right.
+
+01:34.690 --> 01:39.040
+So I've got the thumb kind of the way I want it to of course.
+
+01:39.040 --> 01:40.950
+There's more to do here.
+
+01:44.240 --> 01:46.760
+Let's work on the fingers here.
+
+01:46.760 --> 01:52.830
+I think maybe I'll take all of this and move it up just a bit in here.
+
+01:57.860 --> 02:04.750
+All right so let's come back up in the subdivision levels here or come back up to three and with three
+
+02:04.760 --> 02:12.310
+I'm just going to start roughing in a little bit more of the padding of the hand a little bit more of
+
+02:12.310 --> 02:15.020
+the meat of the hand.
+
+02:15.020 --> 02:24.380
+So if I come back over here to the clay strips brush and maybe add just a little bit right up here kind
+
+02:24.380 --> 02:29.040
+of curving that area where the knuckles are.
+
+02:29.360 --> 02:41.870
+And then back here maybe begin to rough in the pads of the hands maybe something like this here and
+
+02:41.870 --> 02:49.070
+this other one over here at the thumb and the great thing about hands is you've got built in reference
+
+02:49.070 --> 02:54.930
+images right on your other hand so I can just hold my hand up and take a look.
+
+02:56.190 --> 03:06.010
+And I'm also going to put some pads right along here at the base of the fingers.
+
+03:06.480 --> 03:14.130
+And at this point I'll maybe hint at the tendons along the top of the hand here so maybe I'll reduce
+
+03:14.130 --> 03:16.220
+the brush size a bit.
+
+03:16.260 --> 03:25.370
+Let me just test here and see what the strength is like and maybe I could suggest the tendons here at
+
+03:25.370 --> 03:32.780
+the back of the hand and I should probably begin using the inflate brush and try and inflate the fingers
+
+03:32.780 --> 03:34.070
+and thumb out a bit.
+
+03:34.070 --> 03:37.650
+So there are more cylindrical and not so pointed.
+
+03:37.700 --> 03:43.130
+I'll come over here to the inflate brush right here and let's work on that
+
+03:55.170 --> 04:01.450
+and I'll use the smooth brush to try and smooth down that point at the tip of the finger.
+
+04:01.470 --> 04:09.650
+It doesn't need to be quite that pointed you can use the inflate again.
+
+04:14.970 --> 04:22.590
+And also at the top of the fingers we could use the flattened brush a bit just to kind of flatten the
+
+04:22.590 --> 04:24.270
+tops here.
+
+04:25.110 --> 04:36.090
+Now it might make our lives a little easier if I masked off certain fingers and we could certainly do
+
+04:36.090 --> 04:36.360
+that.
+
+04:36.360 --> 04:40.350
+I do want to mention one caveat with that.
+
+04:40.350 --> 04:47.280
+One problem that you can run into so right now all the work I'm doing is being mirrored over to the
+
+04:47.280 --> 04:54.810
+other side here because I've got symmetry on right here along the x axis.
+
+04:54.810 --> 05:03.090
+However if I were to say wanted to hide the body and work on the hand if I press the H key here and
+
+05:03.150 --> 05:07.230
+dragged and selected all of this to hide it.
+
+05:07.410 --> 05:13.980
+Now if I came in when a press alt to zoom in on that and zoom in here.
+
+05:14.100 --> 05:22.230
+Now let's say I came in and did something like I'll just do something kind of drastic here to make a
+
+05:22.230 --> 05:26.530
+point say I did this.
+
+05:26.550 --> 05:35.040
+Now if I come back and press alt H and come back over here to the other side you can see that it didn't
+
+05:35.040 --> 05:36.120
+come through.
+
+05:36.570 --> 05:44.100
+So be careful of the trap of thinking that you can hide off the other side of the body and it will mirror
+
+05:44.100 --> 05:44.810
+over.
+
+05:45.030 --> 05:47.390
+In this particular sculpt mode.
+
+05:47.400 --> 05:50.180
+And with these particular tools it won't do that.
+
+05:50.340 --> 05:57.510
+When we get to the point when we were using the Duyne Toppo sculpting tools and that's a newer type
+
+05:57.510 --> 06:03.730
+of sculpting in Blender there is a tool here called symmetry.
+
+06:03.990 --> 06:10.980
+Not sure how you pronounce that where you can force the sculpting information from one side of the body
+
+06:11.010 --> 06:12.490
+over to the other.
+
+06:12.840 --> 06:20.910
+But when you use this method of sculpting you can't use the levels of subdivisions like we're doing
+
+06:20.910 --> 06:21.720
+here.
+
+06:21.720 --> 06:29.200
+So I usually save the Duyn Toppo for more detailed fine work.
+
+06:29.220 --> 06:34.160
+Maybe for clothing or skin wrinkles or something like that.
+
+06:34.290 --> 06:35.910
+It's good for that.
+
+06:35.910 --> 06:40.230
+So just a warning about symmetry and hiding.
+
+06:40.260 --> 06:47.430
+Be careful that you don't do a whole lot of work on one side and realize then when you unhide everything
+
+06:47.820 --> 06:50.030
+that it isn't over here as well.
+
+06:50.100 --> 06:58.590
+So if you want to hide the body while you're sculpting the hand one good way to do it is just to press
+
+06:58.680 --> 07:06.780
+age and maybe hide the center part of the body while retaining the parts that are going to be mirrored
+
+07:06.780 --> 07:08.430
+over.
+
+07:08.490 --> 07:08.930
+All right.
+
+07:08.930 --> 07:22.540
+So I will go back to the in-flight brush here and work a little bit more on this finger.
+
+07:22.820 --> 07:28.810
+And once again I'll use the smooth brush at the top here to try and smooth that tip down a bit.
+
+07:30.970 --> 07:32.820
+And then inflate it back out.
+
+07:36.190 --> 07:43.210
+And then once again I'll hit the back of the finger here with the flattened brush just kind of flatten
+
+07:43.210 --> 07:50.080
+the top up a bit and let's work on the pinky here as well.
+
+07:50.140 --> 07:52.560
+It needs some volume to it.
+
+07:58.960 --> 08:05.840
+And the smooth brush up top here and take the point off a little bit.
+
+08:18.600 --> 08:24.450
+And periodically I'll just smooth it back and try and redo the shape when it gets a little out of hand
+
+08:26.100 --> 08:28.160
+and the flat brush as well here.
+
+08:29.220 --> 08:30.050
+And the back
+
+08:35.120 --> 08:35.890
+I'm going to come back.
+
+08:35.890 --> 08:40.340
+The clay strips brush and just add a little form on the outside here.
+
+08:41.620 --> 08:43.340
+And we try and even add up some
+
+08:46.360 --> 08:48.670
+and we still need to work on that thumb.
+
+08:48.670 --> 08:49.380
+Now don't we.
+
+08:49.390 --> 08:52.390
+So let's work on that of debt inflate that up
+
+08:56.400 --> 09:03.510
+and I'll come back to the clay strips and then begin trying to shape the hand a little bit more.
+
+09:03.570 --> 09:12.390
+I believe I am going to go ahead and add another subdivision level to this to try and get a little more
+
+09:12.390 --> 09:14.010
+detail in here.
+
+09:14.070 --> 09:21.240
+We don't need a whole lot at this point in time but it be nice to have a little bit more detail on the
+
+09:21.240 --> 09:22.610
+hand right now.
+
+09:27.000 --> 09:32.730
+I'm going to pull the wrist in just a hair here and over on this side as well.
+
+09:34.310 --> 09:39.970
+So I will go ahead and come over here to the subdivide button and just press it one more time.
+
+09:40.130 --> 09:43.700
+And that gives us one more subdivision level over here.
+
+09:44.660 --> 09:51.960
+It makes things a little smoother but it also gives us a little bit more freedom to add some detail.
+
+09:51.980 --> 09:57.920
+So at this point in time I think I'll add just a little more meat to the pads of the hands here.
+
+09:57.920 --> 10:06.470
+Continuing with the clay strips and then I'll use this sculpt draw brush right here bring the strength
+
+10:06.480 --> 10:12.720
+then some and use this to kind of give us a wrist bone here something like this
+
+10:16.570 --> 10:21.160
+and just for reference.
+
+10:21.170 --> 10:28.660
+And so we kind of know where things are as we're going to move it up just a bit.
+
+10:30.790 --> 10:38.020
+Like this maybe and I'll smooth it back don't need it quite that heavy something like that.
+
+10:39.150 --> 10:44.130
+That'll just help position things as we go.
+
+10:44.130 --> 10:48.290
+Maybe some pads here along the base of the fingers.
+
+10:50.370 --> 10:58.400
+And I think I'll come back here with a sculpt draw tool and just draw those tendons in one more time.
+
+10:58.400 --> 11:04.850
+All right well that's a pretty good start to our hands in the next video we'll work on detailing them
+
+11:04.850 --> 11:10.130
+a little bit more giving more definition to the pads and the knuckles.
+
+11:10.130 --> 11:11.960
+But for now I think that's pretty good.
+
+11:13.090 --> 11:18.600
+Let's go ahead and bring back the rest of the character here with old age.
+
+11:18.670 --> 11:19.420
+And there we go.
+
+11:19.420 --> 11:25.270
+And we want to make sure that the information did get mirrored over to the other side and it looks like
+
+11:25.270 --> 11:25.870
+it did.
+
+11:25.900 --> 11:26.930
+That's good.
+
+11:27.310 --> 11:34.580
+So our task coming up is to kind of finish up the hands and even the lower legs here.
+
+11:34.750 --> 11:38.790
+And of course we need to rough them the basic forms of the head and face.
+
+11:38.830 --> 11:41.240
+We haven't even touched that yet.
+
+11:41.260 --> 11:43.160
+So all of that is coming up soon.

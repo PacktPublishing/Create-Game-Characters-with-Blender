@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.570 --> 00:04.580
+In the last video I mentioned I thought I'd maybe try and clean up some of these curves.
+
+00:04.590 --> 00:12.870
+And I think these types of little blips in the curve is something that I don't want.
+
+00:13.050 --> 00:21.690
+Oftentimes as I said when you see this kind of abrupt reversal in a curve in the graph editor it can
+
+00:21.690 --> 00:23.760
+signal that there's probably a problem.
+
+00:23.790 --> 00:29.000
+I mean unless the animation is specifically made to do that.
+
+00:29.010 --> 00:30.890
+But this really isn't so.
+
+00:30.900 --> 00:37.860
+And this one I feel like I'm not sure if it's reversing the movement here in the y axis I guess it is
+
+00:37.860 --> 00:39.570
+this is the Y-axis right.
+
+00:39.570 --> 00:47.280
+This is our Y location and it does look like it's reversing it slightly in the y axis and I don't think
+
+00:47.280 --> 00:48.060
+we want to do that.
+
+00:48.060 --> 00:51.070
+I don't think we want to continue that curve on.
+
+00:51.140 --> 00:52.750
+So let's take a look at this.
+
+00:52.770 --> 00:59.580
+Usually what I find is that I can just delete these and it works pretty well.
+
+00:59.640 --> 01:00.790
+So let's try this.
+
+01:00.810 --> 01:07.620
+I'm going to hit the x key and delete the key frame here and that gives me a little bit more of a curve
+
+01:07.650 --> 01:07.890
+there.
+
+01:07.890 --> 01:14.850
+Now let's take a look at what's happening here it's moving back in the y and it continues to move back
+
+01:15.030 --> 01:20.510
+so that the leg breaks here and we don't want that.
+
+01:20.520 --> 01:25.590
+But I also don't want to move this back toward the front of the character to try and fix that because
+
+01:25.590 --> 01:27.600
+that will just add another keyframe.
+
+01:27.660 --> 01:33.630
+So we should probably think about dealing with the torso.
+
+01:33.630 --> 01:38.360
+So let's take a look at what's happening here with the torso in these curves.
+
+01:38.370 --> 01:43.530
+So here we are at frame 5 and this is really this is the up position.
+
+01:43.560 --> 01:48.560
+So we want our character to be up at its highest point at this point in time.
+
+01:48.690 --> 01:56.450
+But does it need to be this high so let's see if we can move this down just a hair g.
+
+01:56.460 --> 02:03.580
+And Z and just move them down just a little bit and then click and that moves this keyframe down a hair.
+
+02:03.930 --> 02:08.620
+Now will we need to do that also at frame 11.
+
+02:09.150 --> 02:10.460
+Let's take a look there.
+
+02:12.670 --> 02:16.350
+Here's our passing poset frame 11.
+
+02:16.450 --> 02:21.270
+Let's take a look at the right foot come up here.
+
+02:21.290 --> 02:24.320
+Here's our problem keyframe.
+
+02:24.500 --> 02:27.120
+Let's delete that that.
+
+02:27.130 --> 02:28.380
+Yes pushes it back.
+
+02:28.380 --> 02:31.430
+So it's a little broken there.
+
+02:31.780 --> 02:37.220
+So we could go back and take a look at that keyframe for the torso again.
+
+02:37.390 --> 02:42.270
+I still need to move this down a hair g and Z and move it down a bit.
+
+02:43.750 --> 02:45.620
+So the leg doesn't break.
+
+02:46.590 --> 02:54.430
+Let's take a look let's go back to the graph for the foot and take a look at what happened here.
+
+02:54.450 --> 02:58.740
+We've also got this key frame here do we need that.
+
+02:58.840 --> 03:03.640
+Can we have this curve go smoothly from one to the other without this keyframe.
+
+03:03.640 --> 03:04.300
+I'm not sure.
+
+03:04.300 --> 03:05.060
+Let's take a look.
+
+03:05.080 --> 03:14.250
+Let's delete it and then we could actually hit V and free that handle and use that handle to give us
+
+03:14.250 --> 03:16.840
+a curve much like we had before.
+
+03:18.790 --> 03:21.310
+Like that that's possible.
+
+03:21.340 --> 03:22.560
+We could try that.
+
+03:22.630 --> 03:28.070
+Let's go back to frame five and I'll choose the left foot.
+
+03:28.210 --> 03:35.560
+And here we are the same type of keyframe I could delete this hit V for this keyframe to free the handle
+
+03:35.890 --> 03:38.060
+and use the handle to create the curve.
+
+03:38.140 --> 03:40.790
+So it's more smooth.
+
+03:40.890 --> 03:42.820
+That's a possibility too.
+
+03:42.840 --> 03:49.170
+So it's one of those things where you need to go through I think and try and smooth out your curves
+
+03:49.590 --> 03:55.490
+usually by deleting key frames when we go through and see what else we have here.
+
+03:55.740 --> 03:56.670
+This one down here.
+
+03:56.670 --> 03:57.720
+Let's take a look at this.
+
+03:57.720 --> 03:59.170
+What is this for.
+
+03:59.660 --> 04:02.890
+And let's delete this keyframe and see what happens.
+
+04:02.950 --> 04:04.230
+Oh this is the rotation.
+
+04:04.230 --> 04:05.430
+This isn't the movement.
+
+04:05.430 --> 04:06.980
+This is the rotation.
+
+04:07.230 --> 04:08.130
+So that's fine.
+
+04:08.130 --> 04:09.960
+We can get rid of that rotation.
+
+04:09.960 --> 04:14.050
+It doesn't need to flop or rotate back and forth there.
+
+04:14.100 --> 04:15.720
+That's fine.
+
+04:15.720 --> 04:17.600
+Let's go ahead and do that.
+
+04:17.640 --> 04:18.960
+What else can we find here.
+
+04:18.960 --> 04:21.160
+This one here what does this do.
+
+04:21.180 --> 04:23.420
+This is also a rotation.
+
+04:23.880 --> 04:28.670
+Let's see what happens when we delete this guy.
+
+04:28.690 --> 04:28.990
+All right.
+
+04:28.990 --> 04:33.540
+Now let's take a look at this OK.
+
+04:33.670 --> 04:38.560
+That was the rotation back and forth of that foot.
+
+04:38.560 --> 04:41.120
+So we really don't need that.
+
+04:41.410 --> 04:45.190
+That's just going to add to the floppy ness there of the feet.
+
+04:45.430 --> 04:50.980
+Let's take a look at this foot and see if there's a problem or anything we can do in terms of rotation
+
+04:50.980 --> 04:51.970
+here as well.
+
+04:55.360 --> 04:56.950
+What do you see here.
+
+04:57.000 --> 04:58.190
+See any problems.
+
+05:02.520 --> 05:08.050
+Not looking too bad here there's little blips here what is this.
+
+05:08.220 --> 05:10.990
+Let's move our cursor to that point.
+
+05:11.080 --> 05:17.820
+Is that that's a rotation we could probably do without these two frames.
+
+05:17.830 --> 05:22.130
+We really don't need the rotation of that.
+
+05:22.520 --> 05:23.000
+Well let's see.
+
+05:23.000 --> 05:25.280
+I'm just going to delete the two and see what happens.
+
+05:29.180 --> 05:31.500
+That's OK I can live without that.
+
+05:32.970 --> 05:36.270
+What else might cause us a little bit of a glitch here.
+
+05:36.780 --> 05:38.620
+It's actually not looking too bad.
+
+05:38.880 --> 05:43.170
+So I think I'm OK with this.
+
+05:43.170 --> 05:49.840
+Let's take a look at the run cycle and just let it play and see and see what we can see here.
+
+05:49.860 --> 05:55.160
+I'm just going to hit play and let's let it run.
+
+05:59.430 --> 06:07.410
+I'm also going to reduce the frame range back down to 12 because as we said our extra key frame at frame
+
+06:07.410 --> 06:11.250
+13 is really there just to allow it to repeat smoothly.
+
+06:11.250 --> 06:14.980
+So we don't need that as part of the actual run cycle.
+
+06:17.170 --> 06:23.170
+I think there's more that we could do with the arms and a little bit of follow through with the hammer
+
+06:23.170 --> 06:24.590
+and the shield.
+
+06:25.000 --> 06:27.820
+But for right now I think I'm pretty good with this.
+
+06:27.820 --> 06:35.290
+I think I'm ready to move on to the next thing and the next thing is the jump animation and I'm not
+
+06:35.290 --> 06:41.860
+really going to do an animation per se I'm just going to do still pose that we can use just have him
+
+06:41.920 --> 06:44.880
+have a pose for when he jumps.
+
+06:45.100 --> 06:48.870
+Just kind of a dynamic pose when he lifts off the ground.
+
+06:48.880 --> 06:53.120
+He's in that pose and when he hits the ground he comes out of that pose and that's it.
+
+06:53.140 --> 06:57.310
+So it'll just be a one pose jump animation I guess.
+
+06:57.370 --> 07:00.250
+So for this we could really put it anywhere.
+
+07:00.550 --> 07:10.120
+Right now we've got our run animation here from 1 to 12 and we've got our idle animation going Clear
+
+07:10.120 --> 07:18.940
+out to frame 81 so we could set up our jump shows out here at frame 100 I guess.
+
+07:18.940 --> 07:20.300
+Let's just do that.
+
+07:20.710 --> 07:25.360
+So I'm going to come out here and select everything with the A key so I can see the key frames down
+
+07:25.360 --> 07:35.930
+here in the timeline and I'll come out here to frame 100 and make my start 95 and I'll make my end.
+
+07:36.250 --> 07:37.850
+105.
+
+07:37.930 --> 07:38.870
+Why not.
+
+07:39.330 --> 07:44.950
+And I'll hit the home key on the keyboard to zoom in to that frame range.
+
+07:44.950 --> 07:52.630
+So here we are also what I want to do I think is bring that default pose back out here.
+
+07:52.630 --> 07:54.970
+So we begin with the default pose.
+
+07:55.030 --> 08:03.340
+I'm going to come in here and go to this frame Oh let's go to frame zero here and select all of those
+
+08:03.340 --> 08:05.790
+key frames all the way down.
+
+08:06.830 --> 08:10.170
+And I'm just going to duplicate those and move those out to frame 100.
+
+08:10.170 --> 08:19.170
+So I'm going to move the cursor out to 100 and then I'll just come back and press shift D and move that
+
+08:19.170 --> 08:21.880
+entire thing out to frame 100.
+
+08:22.140 --> 08:23.750
+Oh I don't need it to be at 100.
+
+08:23.760 --> 08:26.750
+Move it to 95 here.
+
+08:26.750 --> 08:27.650
+Now we go.
+
+08:27.840 --> 08:36.580
+Now let's take a look at how we can arrange him to make him kind of look cool as he jumps.
+
+08:36.960 --> 08:43.560
+Now one thing to realize is that this center torso control shouldn't go up or down even though this
+
+08:43.560 --> 08:44.810
+is a jump pose.
+
+08:44.820 --> 08:48.920
+We're not going to move the character up or down at all.
+
+08:48.960 --> 08:55.800
+We're just going to change the position of the legs the arms and the head will create the lift up off
+
+08:55.800 --> 09:05.840
+the ground in the game engine through coding so we just want to change the pose and not the position.
+
+09:06.050 --> 09:07.520
+So let's see what we can do here.
+
+09:07.520 --> 09:13.370
+I think first of all I'm going to work on the feet and get them in a position that's kind of what I
+
+09:13.370 --> 09:14.460
+want here.
+
+09:14.660 --> 09:23.030
+Let me go to this side view and I think I want one foot up and the other down and kind of a toe pointed.
+
+09:23.030 --> 09:29.870
+So I'm just going to take this foot and move it up a bit maybe like that and maybe roll that down a
+
+09:29.870 --> 09:37.440
+bit like that I think I should probably turn on the manipulators here and go to global for now and I'm
+
+09:37.440 --> 09:41.390
+going to lift that straight up like that maybe.
+
+09:41.800 --> 09:46.770
+And for this I can maybe rotate this down and move this up a bit.
+
+09:47.710 --> 09:54.620
+So it is kind of like that maybe as he jumps he looks down a bit because he's looking down to where
+
+09:54.620 --> 09:59.990
+he's going to land and maybe when he jumps he kind of lifts his arms up.
+
+09:59.990 --> 10:01.700
+Let's see what we can do with that.
+
+10:01.700 --> 10:12.690
+So maybe I'll bring this in maybe rotate this a bit maybe bring it up a bit let's see what we can do
+
+10:12.690 --> 10:13.190
+here.
+
+10:16.590 --> 10:20.350
+Rotate that something like that.
+
+10:20.360 --> 10:25.010
+I think it needs a little more tweaking but you know something like this where the arms go up and they're
+
+10:25.010 --> 10:30.150
+kind of up as he comes down something like this.
+
+10:32.810 --> 10:37.670
+All right so there's that arm let's say let's see what we can do with the other arm.
+
+10:37.790 --> 10:40.480
+I kind of do the same thing and move it up.
+
+10:40.490 --> 10:44.110
+I don't think it will be as much this time.
+
+10:44.200 --> 10:48.860
+I don't think I think maybe something like that doesn't look too bad.
+
+10:50.320 --> 10:53.170
+Have been hanging onto the shield like this
+
+10:57.320 --> 11:00.530
+if we can lift the shoulders up a bit let's try that.
+
+11:04.510 --> 11:08.620
+All right so I think I'm going to go with something like this.
+
+11:08.710 --> 11:17.380
+This will just give us a pose to use as he lifts off the ground and it's nothing special here at all.
+
+11:17.380 --> 11:24.370
+I just want to have something for us that we can use when we take this into unity and begin setting
+
+11:24.370 --> 11:26.010
+up the character controller.
+
+11:26.500 --> 11:28.020
+All right well let's go with that.
+
+11:28.030 --> 11:36.300
+We've now have our poses or our animation cycles for our idol our jump and our run.
+
+11:36.490 --> 11:42.940
+And these are of course the very basic animations for a game character there can be a lot more.
+
+11:43.150 --> 11:47.780
+But to keep things pretty straightforward I think I'm just going to go with these three animations.
+
+11:47.890 --> 11:54.850
+And these are what will then take into unity create the animation clips in unity and then set up our
+
+11:54.850 --> 12:00.790
+character controller so that we can actually control the character in game using keyboard controls.
+
+12:00.970 --> 12:03.830
+So in the next video we'll start working on that.
+
+12:03.910 --> 12:05.940
+So stay tuned and I'll see you then.

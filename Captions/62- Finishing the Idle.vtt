@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.490 --> 00:06.180
+What we've established our frame range for our idol cycle and animated the chest control.
+
+00:06.220 --> 00:12.760
+All right so what let's do is let's go to frame 30 and let's work on where these hands are going to
+
+00:12.760 --> 00:13.370
+be.
+
+00:13.420 --> 00:19.150
+What are they going to do I think as he breathes in maybe that hand will move out just a hair so I'll
+
+00:19.150 --> 00:26.950
+just select that and move it out slightly and maybe move this one out slightly as well.
+
+00:28.240 --> 00:29.760
+I like that.
+
+00:30.170 --> 00:35.150
+And then I'm going to take the keyframes for the hands right here.
+
+00:35.150 --> 00:41.610
+So like these two shift d to duplicate and move them over to frame 60 as well.
+
+00:43.550 --> 00:46.020
+Rigaud Let's try that.
+
+00:51.120 --> 00:52.010
+All right.
+
+00:55.440 --> 01:03.120
+What we've got here is some classic twinning the arms doing exactly the same thing at exactly the same
+
+01:03.120 --> 01:03.570
+time.
+
+01:03.570 --> 01:11.120
+So I'd like to kind of stagger that a bit but the timing once again doesn't look too bad.
+
+01:11.250 --> 01:18.180
+So I'm going to come over here to frame 30 and I think what I want to do is just take one of these and
+
+01:18.180 --> 01:24.270
+move them forward just a bit and take the other one and move it back just a bit and see what happens
+
+01:24.270 --> 01:24.800
+here.
+
+01:25.020 --> 01:27.800
+Let's also take a look at the head now.
+
+01:28.140 --> 01:29.970
+What should the head be doing.
+
+01:30.950 --> 01:37.060
+I feel like as the chest comes out the head should come down just a bit.
+
+01:37.490 --> 01:38.690
+So let's take a look at that.
+
+01:38.690 --> 01:46.100
+I'll bring it back to frame 30 at this point in time and I'll tilt it down just a hair and then I'll
+
+01:46.100 --> 01:49.440
+select that first key frame for the head.
+
+01:49.460 --> 01:52.610
+Duplicate it and move it out to frame 60.
+
+01:52.610 --> 02:01.210
+So now we've got that looping from frame 1 through 30 to frame 60.
+
+02:01.210 --> 02:02.620
+Let's take a look at that
+
+02:07.530 --> 02:12.390
+so it looks to me like it's let me zoom in here.
+
+02:12.390 --> 02:14.610
+Now we've selected the head.
+
+02:14.720 --> 02:24.980
+And let me zoom in to see if we can find here when it hit the period key on the numpad to zoom in.
+
+02:25.140 --> 02:33.180
+And if I open up the head item here and the graph editor I can see the individual location rotation
+
+02:33.180 --> 02:40.400
+and scale here and it looks like I want to take a look at the the rotation in the x.
+
+02:40.440 --> 02:45.830
+It looks like it's got quite a large curve here at the beginning.
+
+02:46.790 --> 02:52.890
+Well let's see what happens if we then duplicate this I'm going to take this one keyframe here and press
+
+02:52.890 --> 03:00.490
+shift D and move it over to here now frame 60.
+
+03:00.510 --> 03:02.480
+Let's take a look at that.
+
+03:02.580 --> 03:05.100
+So it looks like here's the X now.
+
+03:05.400 --> 03:12.510
+And I'm going to press control and middle mouse button and kind of drag up just so I can see the curve
+
+03:12.540 --> 03:14.400
+a little better.
+
+03:14.400 --> 03:20.760
+So you can kind of see what's happening it's kind of curving up a lot here and then it kind of angles
+
+03:20.760 --> 03:24.240
+down a little bit differently at the end.
+
+03:24.240 --> 03:26.760
+Let's see if we can get this to work a little better.
+
+03:26.760 --> 03:31.850
+What we need is for this curve to look a little more like this curve.
+
+03:31.860 --> 03:37.380
+So it so it flows into it a little better from the back.
+
+03:37.380 --> 03:45.670
+So if this is flowing into this and repeating we want this keyframe to look similar to this keyframe.
+
+03:45.720 --> 03:54.450
+So if I select this keyframe I can click this handle here and move it around like this and try and get
+
+03:54.450 --> 03:59.690
+that curve to match up a little better.
+
+03:59.730 --> 04:01.260
+See how that works.
+
+04:01.260 --> 04:01.980
+I'll hit play
+
+04:05.940 --> 04:13.730
+a little bit better if I go back to frame 30 and move this down some more even half.
+
+04:13.930 --> 04:17.090
+And it kind of stretches it up a bit.
+
+04:17.090 --> 04:18.760
+Let's see how this works.
+
+04:24.170 --> 04:28.850
+Little too much but still you can see you can see the effects of it though.
+
+04:28.850 --> 04:34.940
+I'm going to I'm going to select this and hit the G key and the Y key and just move it down in the y
+
+04:34.940 --> 04:37.850
+axis here something like this.
+
+04:40.320 --> 04:42.540
+I'll just this a bit with the G key.
+
+04:43.410 --> 04:45.120
+Just to try and get that curve.
+
+04:45.120 --> 04:55.710
+So it looks about the same on both sides and we go that's all I wanted just a little bit of a tilt down
+
+04:55.710 --> 05:03.000
+with the head as the chest comes back and once again I can move this up a bit g y and move it up a bit
+
+05:03.000 --> 05:06.330
+to make it a little bit more pronounced.
+
+05:09.360 --> 05:15.750
+If we play the animation to me it looks like he begins breathing and then the head comes down.
+
+05:15.750 --> 05:20.790
+And that's because we've got this kind of bow in the graph right here.
+
+05:21.240 --> 05:29.330
+And what I'd like to do is have it come straight or more straight from the first key frame to the middle.
+
+05:29.370 --> 05:35.550
+It's a small thing but I thought it would be a good opportunity to talk about tangents and free tangents
+
+05:35.560 --> 05:38.150
+so let's take a look at this.
+
+05:38.160 --> 05:43.470
+I'm going to come over here and select that first key keyframe for the head.
+
+05:43.650 --> 05:51.240
+And you can see on the x axis here and I can select just this handle and press the G key and then I
+
+05:51.240 --> 05:59.560
+can move that handle So now that curve goes up more straight to the middle keyframe.
+
+05:59.580 --> 06:05.400
+All right so let's do that with this one over here if I take this one over here and I select this handle
+
+06:05.400 --> 06:06.630
+and I press the G key.
+
+06:06.630 --> 06:10.350
+You can see that it turns that other one as well.
+
+06:10.890 --> 06:13.940
+And I don't really want that per say.
+
+06:13.980 --> 06:20.200
+Let's say there's another keyframe over here and I don't want to angle that curve up or down.
+
+06:20.370 --> 06:25.950
+What I can do is I can actually break or free this particular handle from the movement of the other
+
+06:25.950 --> 06:26.740
+one.
+
+06:26.790 --> 06:35.640
+So if I select the keyframe come down here to Key I've got handle type and now I can choose free so
+
+06:35.850 --> 06:39.750
+if I just select that keyframe and hit the the key.
+
+06:39.750 --> 06:41.990
+Now I can choose free.
+
+06:42.150 --> 06:49.350
+And now if I select that one handle I can move it independently of the other handle and that's can be
+
+06:49.350 --> 06:50.640
+pretty handy.
+
+06:50.700 --> 06:52.480
+In fact I use that all the time.
+
+06:52.830 --> 06:57.110
+So let's get this right about here let's say.
+
+06:57.240 --> 07:07.370
+Now if we go back and play that that head is moving at the same time as the chest.
+
+07:07.490 --> 07:09.260
+So that helped.
+
+07:09.260 --> 07:14.360
+And then I could maybe tweak a little bit more here but I think generally that's pretty good.
+
+07:14.360 --> 07:15.300
+All right.
+
+07:15.530 --> 07:22.310
+Well there are of course other things we could do we could have him look around we could have him move
+
+07:22.310 --> 07:25.970
+his feet back and forth then swing the hammer.
+
+07:26.000 --> 07:27.370
+We could do just about anything.
+
+07:27.380 --> 07:31.490
+But this is just a very basic idle sequence.
+
+07:31.520 --> 07:36.820
+So in the next video we'll begin working on the run cycle for the character.
+
+07:36.830 --> 07:37.470
+See you then.

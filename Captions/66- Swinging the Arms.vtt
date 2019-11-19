@@ -1,0 +1,448 @@
+WEBVTT
+
+00:00.770 --> 00:03.860
+Well let's get these arms moving back and forth.
+
+00:04.320 --> 00:08.160
+Generally speaking the arms are going to be doing the opposite of what the legs are.
+
+00:08.160 --> 00:14.860
+So if the left leg is forward then the left arm is going to be back.
+
+00:14.880 --> 00:20.550
+So let's begin with our contact poses here at frames 1 and 7.
+
+00:20.550 --> 00:24.550
+And let's place our arms where we think they should be.
+
+00:24.660 --> 00:34.050
+The thing about inverse kinematics or I.K. arms is that we're going to have to be mindful of making
+
+00:34.050 --> 00:40.220
+sure that our arms and hands are giving us nice arcs or curves.
+
+00:40.520 --> 00:48.990
+They can have a tendency to look like a train piston going back and forth like this rather than giving
+
+00:48.990 --> 00:50.910
+us nice arcs.
+
+00:50.940 --> 00:53.660
+So we need to be mindful of that.
+
+00:54.060 --> 00:54.360
+All right.
+
+00:54.360 --> 00:57.820
+So here is our first contact position.
+
+00:58.170 --> 01:07.180
+Let me go to the side view here the orthographic view and sense our left leg is forward like this here.
+
+01:07.260 --> 01:21.200
+Let's make sure that our left arm is back and I need to move that in a bit and bring that down some.
+
+01:21.270 --> 01:25.380
+So he's kind of maybe going to swing like that.
+
+01:25.380 --> 01:29.530
+Let's bring that hammer down a bit.
+
+01:29.530 --> 01:38.260
+All right so now let's take this arm the right arm and move that forward a bit.
+
+01:38.300 --> 01:39.380
+I'll bring it in.
+
+01:41.060 --> 01:47.480
+Rotate that up a bit so the hand is more in line with the shield for now.
+
+01:47.600 --> 01:48.900
+That looks painful.
+
+01:49.790 --> 01:54.430
+Now I think I will go ahead and use this elbow control because that will help me move the shield to
+
+01:54.430 --> 01:55.810
+where I want it to be.
+
+01:56.940 --> 01:59.140
+Kind of like that.
+
+01:59.170 --> 02:06.670
+Go ahead and move the elbow control over just a bit to line that elbow up.
+
+02:06.670 --> 02:13.270
+Maybe I want to swing that hammer out just a bit so it doesn't hit him as it passes.
+
+02:13.270 --> 02:20.260
+So now that we've got our hands or our arms in place for our first contact position let's go ahead and
+
+02:20.260 --> 02:22.110
+select these hands.
+
+02:22.480 --> 02:24.290
+And also the elbow controls.
+
+02:24.290 --> 02:28.660
+I dealt with those two created key frames for those.
+
+02:28.660 --> 02:36.130
+And let's now come over here to the dope sheet and find those key frames so here we go we've got them
+
+02:36.130 --> 02:37.110
+here.
+
+02:37.210 --> 02:42.820
+The elbow targets down here and we've got to hand I.K. up here.
+
+02:42.850 --> 02:51.140
+So I want to go ahead and select these key frames those two there and these two here.
+
+02:51.480 --> 02:57.040
+Now for testing purposes I've reduced my frame range to 12.
+
+02:57.040 --> 02:59.150
+Let me get that back up to 13 here.
+
+03:00.120 --> 03:00.570
+There we go.
+
+03:00.570 --> 03:03.470
+So that includes that 13th key frame here.
+
+03:03.630 --> 03:10.500
+And what I'll do is just duplicate these and move them over to frame 13 saw press shift D and then just
+
+03:10.500 --> 03:15.540
+move the mouse all the way over to frame 13 and click.
+
+03:15.540 --> 03:25.160
+And now we should have those arms in place in the same way on both 13 and 1 OK.
+
+03:25.200 --> 03:25.940
+Good.
+
+03:25.950 --> 03:33.470
+So now we need to do the same thing on frame 7 except just the opposite of frame 1.
+
+03:33.600 --> 03:39.500
+So let's see if our copy and paste mirror will work for these as well.
+
+03:39.510 --> 03:41.620
+We were able to use it on the legs.
+
+03:41.610 --> 03:44.230
+Let's see if we can use it on the arms too.
+
+03:44.260 --> 03:48.270
+I'm going to scroll over here and find these buttons right here.
+
+03:48.270 --> 03:53.520
+So with these selected Now I've got the hands and the elbows at frame 1.
+
+03:53.580 --> 04:02.480
+I'm going to go ahead and copy this and then I'm going to move up to frame 7 and let's paste here right
+
+04:02.480 --> 04:04.130
+here and see what happens.
+
+04:06.150 --> 04:08.610
+Yeah that's not too bad.
+
+04:08.640 --> 04:13.060
+Now the hammer is in a bit of an awkward position but that's OK.
+
+04:13.110 --> 04:15.310
+Let's just go out and play this and see how it looks
+
+04:18.810 --> 04:21.690
+oh boy there he goes.
+
+04:21.750 --> 04:26.750
+So that's not too bad actually it looks like he's pounding himself in the head with the hammer but that's
+
+04:26.780 --> 04:27.570
+OK.
+
+04:27.740 --> 04:29.320
+We can fix that.
+
+04:29.450 --> 04:29.950
+Right.
+
+04:29.960 --> 04:41.870
+So what we've got is frame one here and then frame seven there and back to frame 13 here.
+
+04:41.990 --> 04:45.520
+So we've got some strangeness happening all through here.
+
+04:45.830 --> 04:50.270
+And that's because we've got all these extra key frames in here.
+
+04:50.690 --> 04:57.110
+Well we can do is really get rid of just about all of these for the hands and the elbows.
+
+04:57.110 --> 05:04.610
+I think what I'll do is just come through in the dope sheet and just get rid of these and they're just
+
+05:04.700 --> 05:08.030
+going to be fighting against us as we go.
+
+05:08.390 --> 05:14.070
+So here's these key frames on frame five.
+
+05:14.330 --> 05:15.850
+These are for the hand.
+
+05:16.040 --> 05:19.690
+I think we can just hit X and delete keyframes.
+
+05:19.700 --> 05:23.520
+Let's come over here to frame 8.
+
+05:23.960 --> 05:34.010
+Here's the hands and elbows down here and it looks like we can go all the way to frame 13 because here's
+
+05:34.100 --> 05:35.840
+the keyframes we just pasted.
+
+05:35.840 --> 05:43.780
+So I think what I'll do is just hit the Beaky and border select all of these and then the B key and
+
+05:43.780 --> 05:46.080
+border select all of these here.
+
+05:46.120 --> 05:47.110
+And I don't need those.
+
+05:47.110 --> 05:50.480
+So I'll just hit X and delete.
+
+05:50.530 --> 05:54.730
+So now we have just hopefully what we need.
+
+05:55.580 --> 06:00.620
+The contact positions at 1 7 and 13.
+
+06:00.770 --> 06:06.280
+Now notice what I mean about that kind of piston movement here.
+
+06:06.290 --> 06:14.220
+Let me go back to the side view as it goes from frame to frame 7.
+
+06:14.240 --> 06:21.830
+Notice that the I.K. handles just go in and exact straight line and that's going to be a problem we
+
+06:21.830 --> 06:27.400
+need to ensure that there's the nice curves there.
+
+06:27.830 --> 06:32.960
+Let's go back to frame for here and let's think about where the arms need to be here.
+
+06:33.200 --> 06:36.980
+We're coming from this position right here.
+
+06:36.980 --> 06:44.700
+And the hands need to Looks like they need to come down a bit and pass each other the way the legs do.
+
+06:45.050 --> 06:47.990
+So the left leg still in front here.
+
+06:47.990 --> 06:52.490
+This is the front leg but it's past and moving toward the back.
+
+06:52.490 --> 06:54.400
+We now want the left hand.
+
+06:54.480 --> 06:58.980
+Let me move back over here and turn off the gizmo real quick.
+
+06:59.420 --> 07:09.890
+We want this left hand to be passing probably right around in here and it will want the right hand over
+
+07:09.890 --> 07:10.830
+here.
+
+07:12.040 --> 07:14.470
+Probably be passing.
+
+07:14.650 --> 07:19.310
+I don't know down in here as well like that.
+
+07:19.310 --> 07:22.420
+Let's come around to the front and see how they look.
+
+07:22.430 --> 07:23.810
+That's not too bad.
+
+07:26.020 --> 07:27.350
+So let's go with that.
+
+07:27.370 --> 07:30.300
+Let's say that's what we want there.
+
+07:30.370 --> 07:34.020
+So we really want the opposite of this at frame 10 right.
+
+07:34.060 --> 07:43.630
+So if we copy this and scroll back over copy these two hand I.K. handles at frame for and then move
+
+07:43.630 --> 07:50.750
+over to frame 10 pace the opposite see how that works.
+
+07:50.750 --> 07:52.840
+All right so many hit play and see how we're doing.
+
+07:54.450 --> 07:57.330
+And there he goes look not too bad.
+
+07:58.850 --> 08:02.310
+All right so let's take a look at a couple of other key frames here.
+
+08:02.330 --> 08:07.730
+How about let's take a look at frame two here.
+
+08:07.730 --> 08:09.080
+These are still too high.
+
+08:09.080 --> 08:11.210
+These should probably come down just a bit.
+
+08:11.660 --> 08:19.830
+So I'm just going to take these and move them down just a hair like this maybe back a bit and move this
+
+08:19.830 --> 08:23.550
+down just a bit as well doesn't need to be quite that high.
+
+08:23.550 --> 08:28.650
+I'm going to deal with the hand rotation on the shield here in just a bit but I'm going to move that
+
+08:28.650 --> 08:30.510
+down some like that.
+
+08:30.510 --> 08:34.920
+And once again let's try and paste this at frame 8.
+
+08:35.100 --> 08:41.310
+So I'll select these copy moved frame 8 paste.
+
+08:41.860 --> 08:44.010
+OK so that moves those down just a bit.
+
+08:44.010 --> 08:44.860
+That's good.
+
+08:45.120 --> 08:48.360
+Let's see how we did yeah.
+
+08:48.380 --> 08:54.010
+So we've got frame 1 and 2 3 4.
+
+08:54.040 --> 08:56.900
+Looks like we could do something on three I think.
+
+08:57.010 --> 09:00.600
+These could be quite a bit farther down.
+
+09:00.680 --> 09:05.190
+I'll just move them kind of straight just move them kind of straight down like this.
+
+09:05.210 --> 09:08.880
+It kind of passes the body a little bit lower.
+
+09:12.060 --> 09:14.640
+Maybe something like that.
+
+09:14.810 --> 09:23.720
+And once again we can copy the cell copy these at frame three moved frame nine paste.
+
+09:23.720 --> 09:25.740
+Let's take a look at frame five.
+
+09:26.280 --> 09:28.050
+That's actually not too bad.
+
+09:28.160 --> 09:32.910
+I don't mind that have a frame 6 yeah.
+
+09:33.230 --> 09:34.520
+I'm OK with that.
+
+09:34.520 --> 09:36.520
+Let's take a look at these over here.
+
+09:36.650 --> 09:40.610
+Frame 11 and frame 12.
+
+09:40.940 --> 09:42.790
+Yeah I can live with that.
+
+09:43.070 --> 09:44.280
+Let's test it out.
+
+09:45.230 --> 09:46.110
+There he goes.
+
+09:47.050 --> 09:47.970
+Look at him go.
+
+09:50.660 --> 09:51.990
+All right.
+
+09:52.210 --> 09:58.450
+So now we've got a basic run cycle even though that's looking pretty good there's still some work to
+
+09:58.450 --> 10:03.510
+be done with the rotation of the hand and the placement of the elbows.
+
+10:03.610 --> 10:09.700
+And in addition I'd like to go back and take a look at some of these curves if we go back and take a
+
+10:09.700 --> 10:12.540
+look at I don't know let's take a look at one of these feet.
+
+10:12.660 --> 10:15.260
+How about the left foot here.
+
+10:15.490 --> 10:25.790
+And if we look at the curves for the left foot we can see that they're not beautiful in that.
+
+10:25.910 --> 10:27.620
+Take a look at this curve right here
+
+10:30.530 --> 10:32.700
+this X rotation right here.
+
+10:33.110 --> 10:38.500
+If we look at this we can see there these blips in the curves like one right here.
+
+10:39.080 --> 10:47.000
+And this is going to be a place where if you look at the foot right here see how it's kind of glitching
+
+10:47.000 --> 10:54.460
+out a little bit right between these keyframes right there and right there how it kind of flips back.
+
+10:54.500 --> 11:02.300
+We want to go in and work on those because those can really affect how we perceive the animation There's
+
+11:02.300 --> 11:04.890
+one over here to take a look at this one.
+
+11:05.330 --> 11:09.150
+So there's one there there's one here.
+
+11:09.270 --> 11:17.630
+Anywhere you see these sharp breaks these sharp reversal of direction on a curve.
+
+11:17.660 --> 11:24.020
+We really want these to be nice smooth arcs nice smooth curves if at all if at all possible.
+
+11:24.020 --> 11:30.020
+So what I'd like to do in the next video is to go through and begin to kind of clean these up and see
+
+11:30.020 --> 11:35.190
+if we can make the animation a little bit smoother and a little more pleasing.
+
+11:35.360 --> 11:37.960
+So we'll work on that in the next video.

@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.610 --> 00:06.560
+Well in the last video we took a look at setting up the scene for texture painting.
+
+00:06.580 --> 00:12.520
+Now what I like to do is just begin establishing the base colors of the textures.
+
+00:12.520 --> 00:16.270
+So to do that I'm going to use this little guy right down here.
+
+00:16.320 --> 00:21.220
+This is the face selection masking for painting.
+
+00:21.220 --> 00:31.160
+So what we can do is turn this on and you can see we've got now the wireframe of the mesh.
+
+00:31.330 --> 00:39.130
+And if I press the A key it will select all of the polygons if I hit the A key again it'll de-select
+
+00:39.140 --> 00:39.810
+them.
+
+00:39.850 --> 00:49.390
+I can also click and select individual polygons I can hold the shift key down and select multiple polygons
+
+00:49.870 --> 00:57.660
+so we can use this to begin selecting the areas I would like to lay down a base color on.
+
+00:57.670 --> 01:03.400
+Now the nice thing about it is it actually masks out areas you do not want to paint on.
+
+01:03.400 --> 01:14.650
+So if I had these faces selected and went to my Tools tab and changed my color lets say I changed my
+
+01:14.650 --> 01:21.010
+color to some sort of white ish here and I came over and I began painting.
+
+01:21.070 --> 01:29.470
+You can see that as I go off those selected polygons it will not paint on those so that will allow us
+
+01:29.470 --> 01:32.090
+to use the fill brush.
+
+01:32.140 --> 01:38.830
+We're going to hit the A key to de-select these will be able to come over here and use the fill brush
+
+01:38.950 --> 01:43.840
+to fill selected areas with a base color.
+
+01:43.840 --> 01:50.170
+Now if you do not have a fill brush in your selection here in your paint brush selection all you really
+
+01:50.170 --> 01:56.740
+need to do is create a new brush with the plus icon here and then all you have to do once you've created
+
+01:56.740 --> 02:04.360
+that brush and have it selected you just come down here to the brush menu go to image paint tools and
+
+02:04.360 --> 02:10.220
+change your brush type from whatever it is to fill.
+
+02:10.270 --> 02:17.170
+So sometimes the fill brush doesn't appear here so you can just create a new one and switch it to the
+
+02:17.170 --> 02:17.860
+fill.
+
+02:17.860 --> 02:25.690
+All right so I'm going to change my brush to the fill brush and I'm going to give myself a nice greenish
+
+02:25.690 --> 02:31.510
+color here because he's a Green Goblin of some sort and the colors don't have to be perfect here but
+
+02:31.510 --> 02:35.740
+I just want to get the general colors laid down.
+
+02:35.740 --> 02:40.640
+So for this now let me begin here on the torso.
+
+02:40.710 --> 02:48.210
+I'm going to hover over this area and press the L key and what that will do is select that area based
+
+02:48.210 --> 02:54.210
+on the seams that you created long ago for U-V mapping.
+
+02:54.270 --> 02:54.570
+Right.
+
+02:54.570 --> 03:01.800
+So if I hover over the head here and press the L key you can see that it's just selecting the areas
+
+03:02.130 --> 03:09.000
+within the seams and I'll hover over the ears and press the key as well.
+
+03:09.000 --> 03:16.110
+And now I can just with Phil brush selected and this color selected I'm going to turn my strength up
+
+03:16.110 --> 03:16.950
+all the way.
+
+03:17.190 --> 03:25.980
+I can just come over here and click and it'll fill that color or fill that area with my selected color
+
+03:26.010 --> 03:31.810
+and you can see that it will fill it over here on the U-V map as well.
+
+03:31.810 --> 03:36.470
+Now I'm going to make that color just a little bit darker about that.
+
+03:36.840 --> 03:37.220
+Yeah.
+
+03:37.230 --> 03:40.300
+Get in there about that.
+
+03:40.470 --> 03:40.790
+Yeah.
+
+03:40.800 --> 03:41.700
+Why not.
+
+03:42.900 --> 03:47.590
+We'll add some more detail and texture to that as we go.
+
+03:47.700 --> 03:50.530
+But that's looking OK.
+
+03:50.550 --> 03:55.860
+All right so when you press the H key to de-select that area and then hover over this part and press
+
+03:55.860 --> 04:04.880
+the L key and then I think just click here and I will go.
+
+04:04.880 --> 04:07.020
+Same thing with the fingers.
+
+04:07.040 --> 04:16.190
+It is a key to de-select and then hit the L key to select all the fingers and click and I'll come over
+
+04:16.190 --> 04:19.290
+here and hit the A key.
+
+04:19.400 --> 04:23.050
+Select the legs and click there as well.
+
+04:23.360 --> 04:29.230
+OK so now we've laid down the base color for the skin.
+
+04:29.240 --> 04:32.990
+Let's do the same thing for the leather items.
+
+04:33.240 --> 04:35.150
+We're going to need a brown for this.
+
+04:35.150 --> 04:43.370
+I'm just going to swing over here to the brownish area and make it a little bit darker maybe something
+
+04:43.370 --> 04:44.420
+like that.
+
+04:44.510 --> 04:50.630
+And once again these are not final colors I'm just laying down a base so I'm not painting directly on
+
+04:50.630 --> 04:59.390
+the black here so I'll hit the A key to de-select everything and then hover over these arm bands and
+
+04:59.390 --> 05:08.760
+press Al probably the boots and the little rim there on the boots I bet I'll need to come down here
+
+05:08.760 --> 05:11.410
+and get the soles of the boots sure enough.
+
+05:11.520 --> 05:12.820
+I'll just click here.
+
+05:14.060 --> 05:19.130
+Let's now work on the little Toga thing.
+
+05:19.220 --> 05:24.010
+This I think I want to be a little bit lighter a little bit.
+
+05:26.090 --> 05:28.440
+Beige maybe something like this.
+
+05:29.860 --> 05:30.830
+Presti.
+
+05:31.570 --> 05:33.130
+For all of these pieces
+
+05:36.270 --> 05:44.370
+and click and then the buckles and the shoulder armor I was thinking silver for these.
+
+05:44.550 --> 05:52.660
+Well let's try that I'll select a black and then I'll bring up the slider to make it kind of a gray
+
+05:52.660 --> 05:55.100
+silver ish thing.
+
+05:55.420 --> 06:00.980
+We go and hover over these and press the L key.
+
+06:00.990 --> 06:02.640
+Now it looks like yeah.
+
+06:02.650 --> 06:10.960
+When I did that there must be a seam there so all hover over that with the L key there as well.
+
+06:12.360 --> 06:16.390
+And the shoulder pad here.
+
+06:16.420 --> 06:20.190
+I'll try and fill all this with the L key.
+
+06:20.220 --> 06:20.770
+All right.
+
+06:20.770 --> 06:25.800
+And I'll click and maybe that should be a little bit darker.
+
+06:26.020 --> 06:27.290
+Let's try that.
+
+06:29.040 --> 06:32.870
+Something like that maybe even a little darker Why not.
+
+06:34.180 --> 06:36.090
+And we go.
+
+06:36.240 --> 06:37.340
+All right.
+
+06:37.650 --> 06:41.730
+So now I can come down here and turn off the face selection.
+
+06:42.730 --> 06:45.820
+And then we have the base colors of our character.
+
+06:45.820 --> 06:49.130
+Now we need to do two things here.
+
+06:49.150 --> 06:54.970
+One is to save our scenes so limited press control or command s to save our scene.
+
+06:55.060 --> 07:03.080
+But also I need to come over here and press alt s to save this scene or to save this image.
+
+07:03.130 --> 07:04.520
+I should say so.
+
+07:04.660 --> 07:05.340
+Yes.
+
+07:05.650 --> 07:13.060
+And that saves the image because remember that is a completely other entity a completely other file
+
+07:13.060 --> 07:17.050
+on our drive from our blender seen file.
+
+07:17.050 --> 07:19.780
+Now looks like I missed something right down here.
+
+07:19.780 --> 07:20.710
+Sure enough.
+
+07:20.740 --> 07:24.630
+Let me just turn this on real quick and grab these.
+
+07:24.910 --> 07:32.210
+Now this is a good time to ask how do I get that the same color how do I sample that color.
+
+07:32.500 --> 07:40.480
+Well if we come over here to the U-V editor part and we make sure that this is change the mode is set
+
+07:40.480 --> 07:41.650
+to paint.
+
+07:41.980 --> 07:47.630
+We can then come in here to any color hold the key down.
+
+07:47.740 --> 07:55.410
+We get an eye dropper and then we click and that will create a little pallet right here for that color.
+
+07:55.420 --> 07:57.690
+So now I can choose that palette.
+
+07:57.940 --> 08:03.480
+And we're back to the same color and now we can fill this with the fill brush.
+
+08:03.650 --> 08:12.940
+And here we go so that's an easy way to sample colors off of your U-V map here we'll also be using that
+
+08:12.940 --> 08:19.600
+technique to sample colors off of images we find on say Google Images or something like that.
+
+08:19.960 --> 08:23.680
+OK so we've got our base colors laid down.
+
+08:23.680 --> 08:25.500
+We haven't done the ice yet.
+
+08:25.540 --> 08:26.110
+That's OK.
+
+08:26.110 --> 08:28.630
+We'll work on that here pretty soon.
+
+08:28.630 --> 08:31.720
+I'm going to turn that face masking off.
+
+08:31.990 --> 08:33.230
+Saved my scene.
+
+08:34.300 --> 08:40.470
+And if I hold the middle mouse button and drag back over here I can see that we still have an asterix
+
+08:40.470 --> 08:44.430
+here so many hit alt s to save that image.
+
+08:44.430 --> 08:50.070
+Now I talked last time about how are we going to be able to see where we're painting where we should
+
+08:50.070 --> 08:58.770
+be painting to get details like if I come back over here to the high poly object and I get out of texture
+
+08:58.800 --> 09:04.950
+viewport shading for a minute here I'll just switch over to solid and maybe a better switch over to
+
+09:04.950 --> 09:08.460
+object mode as well.
+
+09:08.460 --> 09:09.840
+There we go.
+
+09:09.840 --> 09:13.230
+You can see that we've got these straps here.
+
+09:13.260 --> 09:18.230
+How am I going to see where these should be on the model.
+
+09:19.380 --> 09:23.330
+Over here how am I going to know where to paint.
+
+09:23.700 --> 09:30.600
+Well what we can do let me go back to when we select the object and I'm back to texture paint.
+
+09:30.630 --> 09:40.410
+Now what we can do is we can use our paint slots right here to bring in the normal map so we can see
+
+09:40.440 --> 09:44.120
+where the high resolution sculpting was.
+
+09:44.160 --> 09:51.570
+So I'll hit the add texture paint slot right here and I'll come over to normal because we're going to
+
+09:51.570 --> 09:57.780
+bring in a normal map and maybe I'll change the name to normal map.
+
+09:58.020 --> 10:02.490
+And I think we've been working with 2048 haven't we.
+
+10:02.490 --> 10:13.070
+And we go and I click OK now we need to go find the image to put in our normal map.
+
+10:13.170 --> 10:21.720
+So if we come over here now and selected that texture layer we can scroll down here go to the image
+
+10:21.780 --> 10:23.550
+section.
+
+10:23.730 --> 10:28.760
+Click on open and now I just need to find that normal map.
+
+10:28.790 --> 10:34.590
+Here we go I think this is it and click open.
+
+10:34.770 --> 10:39.130
+Now we've added the image to the slot.
+
+10:39.150 --> 10:40.550
+Here it is here.
+
+10:40.830 --> 10:43.840
+And if we switch over to it we can see it here.
+
+10:43.890 --> 10:52.800
+There's our normal map and now we can see those strips on the arm bands but we can't see the color through
+
+10:52.800 --> 10:53.420
+there.
+
+10:53.430 --> 10:59.600
+One of the things I need to do is just switch back to texture view in my viewport and there we go.
+
+10:59.600 --> 11:06.740
+So now we can see both the color and the normal map in our 3D view.
+
+11:07.110 --> 11:14.820
+So as we paint we can see where we're supposed to paint we can see where the wrinkles on the fingers
+
+11:14.820 --> 11:21.570
+are or the strips on the gloves or even a bit of the muscle definition.
+
+11:21.720 --> 11:23.280
+Even the ears a bit.
+
+11:23.280 --> 11:32.070
+Now this isn't perfect This isn't beautiful this is just a a temporary thing as we paint but it allows
+
+11:32.070 --> 11:35.970
+us to get a good sense of where the paint should go down.
+
+11:35.970 --> 11:44.940
+So we'll be using this normal map to help us paint the detail for our high resolution sculpt in the
+
+11:44.940 --> 11:51.960
+next video we'll take a look at adding more texture slots so we can build up layers of paint on the
+
+11:51.960 --> 11:52.780
+character.

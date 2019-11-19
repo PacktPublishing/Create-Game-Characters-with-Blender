@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.760 --> 00:06.520
+Well now that we've got a few animation cycles done let's go ahead and begin preparing the scene to
+
+00:06.520 --> 00:07.830
+take it into unity.
+
+00:08.080 --> 00:12.240
+Now of course we can create more animations for our character here.
+
+00:12.250 --> 00:18.280
+We can create as many as we want but for now I think these three are good examples to take in to unity.
+
+00:18.280 --> 00:20.860
+So let's go back to the default view here.
+
+00:20.860 --> 00:26.520
+I'm going to go to the default scene view and there are a couple of things we need to do.
+
+00:26.590 --> 00:34.120
+First of all I think what I should probably do is let me go to pose mode here and just select everything
+
+00:34.120 --> 00:36.320
+so we can see our keyframes.
+
+00:36.550 --> 00:44.530
+I think what I should probably do is move everything up one frame and that so that this default pose
+
+00:44.530 --> 00:50.660
+right here is seen by unity at frame 1 or at least within the frame range.
+
+00:50.860 --> 00:55.940
+The way I have it now I'm not sure that it's going to see it at frame 0.
+
+00:56.380 --> 01:02.320
+In other words we begin at frame 1 and it would have a difficult time figuring out what the default
+
+01:02.320 --> 01:03.430
+pose is.
+
+01:03.430 --> 01:09.650
+So what I think I should do is take everything up in one frame so I will go back to the animation view
+
+01:10.150 --> 01:13.930
+all go to the dope sheet up here and select everything.
+
+01:13.960 --> 01:19.830
+And in fact what I'm going to do is I'm a press control up arrow and so we can see the whole thing here.
+
+01:20.050 --> 01:23.110
+And this is all the keyframes for our character.
+
+01:23.220 --> 01:27.490
+And I'm just going to move the cursor up to frame one so I can see what I'm doing and I'll just hit
+
+01:27.580 --> 01:30.880
+G and slide it over.
+
+01:31.330 --> 01:37.210
+So I get my default pose on frame 1 I'll press control up here again to go back.
+
+01:37.210 --> 01:45.850
+So now if we take a look here I'm going to zoom out and actually what I'll do is I'll go from frame
+
+01:45.870 --> 01:49.750
+1 To what do I have here one 10 maybe.
+
+01:49.800 --> 01:56.850
+Let's try that and I'll press the home key and on the keyboard to zoom into the entirety of the timeline
+
+01:56.880 --> 01:59.440
+there are the frame range.
+
+01:59.760 --> 02:01.260
+So you can see on frame 1.
+
+02:01.260 --> 02:05.490
+I've gotten my default pose and then it goes straight into the run.
+
+02:05.940 --> 02:08.660
+A I have the idol here.
+
+02:08.670 --> 02:12.040
+But take a look at the idol look at what's happening here.
+
+02:12.360 --> 02:13.800
+Wat happened.
+
+02:14.640 --> 02:20.750
+So if I play this here let me de-select on this if I play this watch what happens.
+
+02:22.930 --> 02:24.100
+That's not good.
+
+02:24.100 --> 02:26.880
+See how he's sliding there.
+
+02:27.370 --> 02:29.470
+OK so I need to work on that.
+
+02:29.470 --> 02:33.160
+Let's take a look at where those frames are.
+
+02:33.160 --> 02:36.330
+It looks like it begins here.
+
+02:37.190 --> 02:44.090
+At frame twenty three now and goes out through frame 82.
+
+02:44.120 --> 02:53.410
+So the reason why I get those strange sliding effects is because I don't have these key frames anchored
+
+02:54.370 --> 02:56.300
+here on this frame.
+
+02:56.320 --> 03:02.590
+It goes slowly from here all the way to the default pose again over here.
+
+03:02.590 --> 03:11.620
+So what I need to do is just copy these and move them over to hold the pose for these particular controls
+
+03:11.620 --> 03:14.890
+so this is the root and the torso.
+
+03:15.040 --> 03:20.720
+So I can take these and shifty and move them on over these as well.
+
+03:20.720 --> 03:25.080
+Here I've got these that don't have an anchor here at the end.
+
+03:25.290 --> 03:33.720
+So just shifty and move these over and then it looks like I've got a large group down here that hasn't
+
+03:33.720 --> 03:38.910
+been anchored at the end as well so I'm just going to hit the B key and border select all of these.
+
+03:39.060 --> 03:42.360
+And now I can press shift D and move them all the way down.
+
+03:43.290 --> 03:44.130
+And there we go.
+
+03:44.130 --> 03:52.230
+So we've anchored these poses for these control or this position I should say for these controls at
+
+03:52.230 --> 03:54.340
+the end of the cycle as well.
+
+03:54.360 --> 03:58.350
+So I'm in press control up arrow and go back.
+
+03:58.350 --> 03:59.360
+Where did I begin.
+
+03:59.370 --> 04:01.190
+23 was that right.
+
+04:02.250 --> 04:03.360
+There he goes.
+
+04:03.400 --> 04:04.570
+Looks a little bit better.
+
+04:04.570 --> 04:10.620
+Now he goes into his jump pose but there's the idle jump and the run.
+
+04:10.690 --> 04:13.660
+OK so that looks a bit better.
+
+04:13.960 --> 04:18.640
+Now that we've got our keyframe set up I need to figure out what the frame ranges are because we're
+
+04:18.640 --> 04:25.270
+going to need that information in unity to be able to break these animations out into their individual
+
+04:25.270 --> 04:27.900
+components into their individual clips.
+
+04:27.910 --> 04:34.020
+We're going to need to know what the frame ranges are here in Blendr and type that into unity.
+
+04:34.060 --> 04:36.900
+So it knows how to split out the animations.
+
+04:36.910 --> 04:48.250
+All right so it looks to me like it looks like it's going to be two two 13 here and then it looks like
+
+04:48.250 --> 04:53.180
+it's going to be 23 to 82.
+
+04:53.430 --> 05:01.590
+And also we've got our POWs out here at 101 and for the jump podium actually didn't need more than one
+
+05:01.590 --> 05:08.470
+frame so I'm going to select all of these frames and duplicate them and I'll move them up to frame one
+
+05:08.470 --> 05:09.650
+to five here.
+
+05:09.660 --> 05:15.760
+So I have 101 to 105 for my jump animation.
+
+05:15.840 --> 05:16.420
+All right.
+
+05:16.420 --> 05:18.820
+When you hit control up there are to go back.
+
+05:18.840 --> 05:22.300
+So now we know what our frame ranges are going to be.
+
+05:22.350 --> 05:23.050
+That's good.
+
+05:23.070 --> 05:25.650
+I'm going to go back to my default view here.
+
+05:26.010 --> 05:30.510
+All right so now what we need to do is bake our animation.
+
+05:30.510 --> 05:37.600
+We've got a lot of constraints and controls that that unity is just not going to understand.
+
+05:37.920 --> 05:44.320
+But what we need to do is bake the animation out so there's a key frame here for every frame.
+
+05:44.490 --> 05:52.770
+So unity doesn't have to rely on Blender's constraints and tweeting between the keyframes it'll be able
+
+05:52.770 --> 05:57.740
+to understand what's going on a lot better if it has a keyframe for every single frame here.
+
+05:57.750 --> 05:59.010
+So how do we do that.
+
+05:59.010 --> 06:06.090
+Well you got to do is go into PPO's mode select everything with a key so that all the controls are selected
+
+06:06.380 --> 06:13.450
+and then come over here to pose go to animation and go to take action.
+
+06:13.450 --> 06:14.050
+There we go.
+
+06:14.050 --> 06:21.340
+So now we've got this little window so we can choose to take the data from pose or object I'm going
+
+06:21.340 --> 06:23.910
+to choose PPO's since we're in PPOs mode here.
+
+06:24.040 --> 06:30.820
+And the frame range from 1 to 110 and we want keyframe on every frame.
+
+06:30.820 --> 06:32.230
+So I'll just click OK.
+
+06:33.900 --> 06:37.520
+And then we go you can see you've got a keyframe now on every single frame.
+
+06:37.590 --> 06:44.300
+And if I scroll through these they're doing all these animations and everything and that's great.
+
+06:45.050 --> 06:52.790
+So now that we've got a keyframe on every frame and you'll notice that there's not one beyond here because
+
+06:52.970 --> 06:55.880
+it doesn't change any and that's fine.
+
+06:55.880 --> 06:59.080
+All right so the next thing we need to do is kind of clear out the scene.
+
+06:59.090 --> 07:05.600
+We've got a lot of junk over here things that we just don't need now that we've baked the animation
+
+07:05.600 --> 07:07.400
+out.
+
+07:07.550 --> 07:10.360
+All of this we can get rid of.
+
+07:10.580 --> 07:19.160
+And there's a lot here if you look through the outliner and these W.G. t widget objects are filling
+
+07:19.160 --> 07:25.980
+the outliner we need to select all of these and just delete them so you can come in here and select
+
+07:25.980 --> 07:29.180
+one and press shift and select another.
+
+07:29.250 --> 07:34.920
+And for most programs if I came down here and press shift and clicked it would select everything in
+
+07:34.920 --> 07:38.670
+between here but blender doesn't do that.
+
+07:38.670 --> 07:40.920
+No indeed it does not do that.
+
+07:41.130 --> 07:46.230
+So what you can do to select everything is just to use the borders select tool.
+
+07:46.290 --> 07:52.710
+So I'll press the key and click and drag and that will select everything there and then I can scroll
+
+07:52.710 --> 07:57.980
+down and hit the and click and drag and that'll select all of those.
+
+07:57.980 --> 08:05.450
+So if your screen is bigger and you can and you can see more of the outliner than I can here you can
+
+08:05.450 --> 08:06.920
+select more all at once.
+
+08:06.930 --> 08:14.390
+So I'm just going to go through and select everything here with the key and the border select and we
+
+08:14.390 --> 08:23.070
+go so I've just selected all of the W.G. objects and I'll just right click and choose delete.
+
+08:23.290 --> 08:24.160
+And there we go.
+
+08:24.370 --> 08:29.050
+Now if we hit play we should see that it didn't affect really anything.
+
+08:29.080 --> 08:30.820
+So that's good.
+
+08:31.010 --> 08:33.170
+Everything's still there.
+
+08:33.170 --> 08:36.710
+The next thing we don't need is this meta rig.
+
+08:36.710 --> 08:43.900
+This is the rig that was originally created that we use to place the joints of our rig.
+
+08:43.910 --> 08:47.300
+We then generated the actual rig from from that.
+
+08:47.300 --> 08:51.450
+So we don't need this either so we can right click and delete that.
+
+08:51.470 --> 08:59.320
+So now all we're left is just the rig and let's just make sure once again it plays Everything's there.
+
+08:59.360 --> 09:00.890
+That's good.
+
+09:00.890 --> 09:03.440
+All of our keyframes are there.
+
+09:03.530 --> 09:04.610
+All right.
+
+09:04.910 --> 09:05.860
+So that's good.
+
+09:06.140 --> 09:08.090
+So let's go ahead and save the scene.
+
+09:09.130 --> 09:13.840
+So we are ready to take our character into unity and into the next video that is exactly what we'll
+
+09:13.840 --> 09:14.720
+do.
+
+09:14.740 --> 09:15.370
+So see them.

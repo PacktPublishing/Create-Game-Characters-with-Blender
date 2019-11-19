@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.430 --> 00:03.110
+Well let's keep going with the read typology.
+
+00:03.110 --> 00:05.290
+I'm really hoping we can get this done today.
+
+00:05.360 --> 00:08.600
+I'm really looking forward to moving on to the next part.
+
+00:09.020 --> 00:11.060
+Let's take a look at these fingers.
+
+00:11.240 --> 00:16.750
+I've got the four fingers here and the thumb here.
+
+00:16.820 --> 00:23.380
+I'll go ahead and select all of those and press control Jay and join them into all one object.
+
+00:23.390 --> 00:27.950
+Now what I'd like to do is mirror them over to the other side.
+
+00:28.040 --> 00:32.310
+So the 3D cursor is still down here in the center of the grid.
+
+00:32.390 --> 00:40.190
+So all I should need to do is just go to the set origin menu and move the origin to the 3D cursor.
+
+00:40.190 --> 00:48.940
+Now let's make sure in the properties panel that the rotation and scale are applied and they're not.
+
+00:49.220 --> 00:52.830
+We've got a lot of values here that we don't want.
+
+00:53.090 --> 00:57.900
+So let's just press control a and I'll choose rotation and scale.
+
+00:58.100 --> 00:59.380
+Then there we go.
+
+00:59.420 --> 01:08.060
+Now we should be able to come over here to the modifiers panel add a modifier and choose mirror.
+
+01:08.200 --> 01:08.690
+There we go.
+
+01:08.690 --> 01:11.360
+So now it's mirrored over to the other side.
+
+01:11.520 --> 01:19.100
+I going to go ahead and apply that and then I will join it with this piece here.
+
+01:19.100 --> 01:26.450
+So I'll just select the hand's shift select the rest of the body and press control J.
+
+01:27.500 --> 01:29.420
+And then we go.
+
+01:29.420 --> 01:38.100
+Now for the rest of this little tunic or loincloths or whatever we're going to call it here.
+
+01:38.510 --> 01:47.080
+I think what I'd like to do is make a solid piece here so we can't see up her skirt.
+
+01:47.090 --> 01:53.330
+Now that might be a little embarrassing and we'd have to do a lot of other modeling that I don't think
+
+01:53.330 --> 01:54.960
+we wanted to do with this.
+
+01:55.040 --> 02:02.060
+So I'm just going to close this off and I'm also going to then use the skirt the edge up here the skirt.
+
+02:02.060 --> 02:03.580
+It's not a skirt is it.
+
+02:03.590 --> 02:07.930
+Don't call it a skirt.
+
+02:07.940 --> 02:14.870
+Use this edge to extrude up to the belt or use that edge to extrude the belt.
+
+02:14.870 --> 02:21.920
+So let's first see if we can close this off a little bit to protect his modesty.
+
+02:21.920 --> 02:30.260
+I'm going to select this edge and I'm just going to extrude and Scantlin just a bit.
+
+02:30.410 --> 02:38.390
+And then what I'd like to do is scale up and close this off at the top of the of the legs.
+
+02:38.390 --> 02:44.280
+So with that edge selected I will press e and I'm going to scale in.
+
+02:44.300 --> 02:54.390
+But I'm also going to pull up a bit like this and then B and then scale in and then pull up a bit like
+
+02:54.390 --> 02:54.900
+this.
+
+02:54.900 --> 03:04.340
+Let me hit the Z key to go to wireframe and we're pretty much to the top there of his legs.
+
+03:04.340 --> 03:12.710
+I can always extend those legs up higher if I need to but we'll just go ahead and hit the scale and
+
+03:12.710 --> 03:22.430
+pull them up just a little bit more like so and then I'm going to hit one more time and press Allt M
+
+03:23.090 --> 03:25.780
+and choose to merge at the center.
+
+03:26.630 --> 03:36.430
+And we go right so Z to go back out of wireframe and see you can see I've just created a dome up in
+
+03:36.430 --> 03:40.230
+there just to make sure we don't see up the skirt.
+
+03:41.210 --> 03:49.320
+Now for the front and back pieces that kind of hang down farther let's go back to the front view I'll
+
+03:49.340 --> 03:53.680
+hit the one key on the numpad and the five key.
+
+03:53.750 --> 04:01.270
+So it looks like I could extrude this piece out and then extrude it down toward the feet.
+
+04:01.520 --> 04:03.690
+So let me try that.
+
+04:03.770 --> 04:10.160
+I think what I'd like to do is just some points here to get the basic shape of that front piece first.
+
+04:10.700 --> 04:17.630
+And I think I want to work in symmetry so I'm going to press control tab and get a face mode and just
+
+04:17.630 --> 04:26.000
+with the Beaky and border select just select half of this piece and then I'm going to delete it with
+
+04:26.090 --> 04:28.300
+X and faces.
+
+04:28.900 --> 04:34.780
+And now what I want to do is apply a mirror modifier again.
+
+04:36.010 --> 04:41.910
+And we go and I'll choose clipping and I'll also adjust it.
+
+04:41.920 --> 04:43.360
+Cage here.
+
+04:44.170 --> 04:51.880
+Now what I want to do is go to something like vertex mode and select this and either press control V
+
+04:52.180 --> 04:55.540
+and go to slide like this.
+
+04:55.570 --> 05:03.090
+Which was also shift to B and just began arranging these.
+
+05:03.090 --> 05:09.420
+So they kind of have that shape of that front panel.
+
+05:09.470 --> 05:15.910
+Now you can also press the G key twice and that will slide that along that edge as well.
+
+05:17.020 --> 05:22.390
+Well now that I have the basic shape of that front flap I think when I want to do is go to face mode
+
+05:22.480 --> 05:25.420
+and select these faces.
+
+05:25.990 --> 05:32.110
+And I like to extrude it out just a little bit just to differentiate it from the main piece.
+
+05:32.140 --> 05:39.530
+So that easy and I'll just drag straight out like that.
+
+05:39.580 --> 05:40.310
+All right.
+
+05:40.760 --> 05:49.070
+Now I'm going to take all of these faces and I want to go back to the front view and take a look at
+
+05:49.130 --> 05:54.070
+the drawing and I'm just going to extrude it straight down like this.
+
+05:55.120 --> 05:58.250
+Talk about where that ends.
+
+05:58.260 --> 06:01.960
+Thinking about how this top piece is going to intersect with the belt.
+
+06:01.980 --> 06:11.340
+I think what I want to do is merge these points right here so I'll press out in time and at last and
+
+06:11.340 --> 06:12.840
+do the same thing here.
+
+06:15.150 --> 06:20.790
+And then I'm going to come back here and do the same thing with this piece back here try and shape it
+
+06:21.270 --> 06:23.990
+to how I want it to look.
+
+06:24.000 --> 06:28.410
+So once again I'll just select these and shift the
+
+06:32.360 --> 06:40.220
+and slide those along that edge and just like with the previous one I selected these faces.
+
+06:40.720 --> 06:45.020
+And let's just extrude straight out like that.
+
+06:46.860 --> 06:47.550
+Go ahead.
+
+06:47.550 --> 06:50.880
+Well I'm up here and collapse these points.
+
+06:52.270 --> 06:53.330
+With Allt am
+
+06:56.820 --> 06:58.810
+and then extrude these down.
+
+06:59.200 --> 07:05.270
+I can always use the other layer right here as a guide.
+
+07:05.290 --> 07:09.370
+This is the high resolution layer.
+
+07:10.180 --> 07:14.660
+I can use this to extrude down like this
+
+07:18.000 --> 07:21.060
+maybe pull it out a bit.
+
+07:21.320 --> 07:25.840
+All right let's think about the belt here and now before I do this.
+
+07:25.840 --> 07:29.780
+I think I'm going to apply that mirror modifier.
+
+07:30.040 --> 07:32.830
+So I'll go ahead and apply that here.
+
+07:33.190 --> 07:38.160
+Then go back and now I can scale this out.
+
+07:38.960 --> 07:41.050
+Without too much difficulty.
+
+07:42.600 --> 07:46.420
+So for this I'll just hit E and then scale out
+
+07:50.080 --> 07:53.870
+and then I'll hit me and let's drag this straight up
+
+07:57.880 --> 07:59.640
+and then extrude this and again
+
+08:02.170 --> 08:09.220
+so now for the lips of the character let's go up and take a look at these.
+
+08:09.610 --> 08:14.870
+I think I'll need to look at the side view of my character.
+
+08:14.890 --> 08:21.910
+All right so it looks like I just need a little bit more of a lip here and I need to extrude this in
+
+08:21.910 --> 08:23.800
+and connect it up.
+
+08:23.800 --> 08:28.010
+So with this I think I want to just pull these out just a bit.
+
+08:30.220 --> 08:31.140
+Like so
+
+08:33.940 --> 08:37.170
+and I also like this whole edge around the mouth.
+
+08:37.180 --> 08:42.740
+And let's just extrude this and then scale it in just a bit.
+
+08:42.760 --> 08:48.880
+I'm going to scale in the z some scaled in the X just a bit.
+
+08:50.860 --> 08:52.140
+And I'll do that again.
+
+08:52.150 --> 08:55.670
+I'll take this edge and I'll extrude it.
+
+08:55.850 --> 08:58.390
+And this time I scaled again and the Z
+
+09:01.520 --> 09:03.710
+will move it all back just a bit.
+
+09:05.330 --> 09:09.590
+I like that now I'm going to go ahead and try and hook these up.
+
+09:09.590 --> 09:12.210
+I don't know if this will work completely but let's give it a shot.
+
+09:12.230 --> 09:23.370
+I'm going to select these two and merge at the center as well as these and these and then I think I
+
+09:23.370 --> 09:30.850
+will take this point and merge it together at the center and this point.
+
+09:31.250 --> 09:35.930
+No this point here and merge it at the center.
+
+09:35.940 --> 09:40.690
+Then I'm left with these trying to figure out what to do with these.
+
+09:40.770 --> 09:42.980
+For now we could try just this.
+
+09:43.020 --> 09:45.510
+Go ahead and connect them up here.
+
+09:45.510 --> 09:48.550
+This may be something that I revisit.
+
+09:49.230 --> 09:51.880
+We'll see how this works.
+
+09:52.050 --> 10:00.500
+Now for the eyes what I'll probably do is go and re create these particular eyes.
+
+10:00.540 --> 10:03.390
+These eyes are pretty high poly If I recall.
+
+10:03.600 --> 10:09.600
+So I'll take these two and I'll go ahead and duplicate them with shifty and then I'm going to move them
+
+10:09.600 --> 10:12.600
+over with the key to the third layer.
+
+10:12.900 --> 10:15.090
+And let's see how that works.
+
+10:15.090 --> 10:22.380
+So now I've got those eyes over here and I've still got to create the little Buckel pieces that go on
+
+10:22.380 --> 10:24.630
+the front of the strap and the belt.
+
+10:24.630 --> 10:34.320
+But generally speaking we have gone from over seven million trials to under ten thousand trials.
+
+10:34.350 --> 10:35.240
+That's not bad.
+
+10:35.250 --> 10:37.740
+That's the kind of thing we want.
+
+10:37.740 --> 10:44.850
+So in the next part of this series we're going to begin working on U-V mapping the low poly character
+
+10:44.850 --> 10:52.790
+here and it's onto those U-V maps that we will then make our normal maps from the high resolution sculped.
+
+10:52.830 --> 10:55.240
+So stay tuned for all of that.

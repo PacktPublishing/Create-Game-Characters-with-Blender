@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.690 --> 00:08.940
+Well we've taken a look at using the grease pencil to draw out the typology of our low poly mesh.
+
+00:08.940 --> 00:12.440
+We've also taken a look at using the snap tools.
+
+00:12.450 --> 00:16.210
+Let's now take a look at one more of Blender's right apology tools.
+
+00:16.350 --> 00:18.830
+And that's the shrink wrap modifier.
+
+00:18.870 --> 00:26.490
+So with this modifier we can create an object and then actually shrink it down to the character so a
+
+00:26.490 --> 00:31.410
+good candidate for that I think would be the legs so let's try that.
+
+00:31.440 --> 00:39.270
+I'm going to come over here to the Create tab and create a new cylinder and for this I don't need 32
+
+00:39.420 --> 00:51.930
+sides maybe 12 and I'll turn the cap fell off by choosing nothing and I'm going to go ahead and use
+
+00:51.930 --> 00:57.580
+this depth field on my click and drag in this to make it a little bit taller.
+
+00:58.760 --> 01:02.720
+And maybe I'll use the radius to make it a little bit wider as well.
+
+01:04.920 --> 01:10.400
+I'm going to bring it up and kind of put it over one of the legs here.
+
+01:10.470 --> 01:19.240
+I'll also go to the four port view by pressing control alt Q And that'll give me this four window view.
+
+01:19.350 --> 01:25.570
+And this'll just make it a little easier I think to put that piece over the leg.
+
+01:26.100 --> 01:29.310
+So something like this.
+
+01:29.310 --> 01:31.670
+I mean rotated a bit.
+
+01:31.780 --> 01:38.960
+I'm just going to try and get it over the leg without any of the pieces of the leg sticking out.
+
+01:38.960 --> 01:46.190
+And we go in also I think I'm going to tap into edit mode and press control r and insert some edge loops
+
+01:46.190 --> 01:50.810
+here maybe let me try 6 edge loops here.
+
+01:51.290 --> 01:52.620
+Click.
+
+01:52.670 --> 01:57.440
+I'm going to press control alt cue to go back to the single view.
+
+01:57.740 --> 02:05.840
+And now what I can do is I can add a modifier here to this object and I'll add the shrinkwrapped modifier
+
+02:07.190 --> 02:13.490
+and this panel now gives me the option to choose what object I want to shrink this to.
+
+02:13.490 --> 02:17.370
+Now I've named all of my objects and one of them here is character.
+
+02:17.630 --> 02:20.540
+So I'll pull this down and choose character.
+
+02:21.320 --> 02:27.890
+And that allows that object to shrink to fit that piece of the character.
+
+02:27.890 --> 02:35.990
+So if I come over here to the object window I can scroll down and choose x ray and you can see how it's
+
+02:36.230 --> 02:40.700
+fit or shrunk to the object.
+
+02:40.700 --> 02:41.840
+That's kind of cool.
+
+02:41.930 --> 02:47.470
+And if I hit the tab key you can still see the original shape of the object.
+
+02:47.990 --> 02:55.160
+So now what I want to do is come back to the modifiers panel and just click apply and that will allow
+
+02:55.160 --> 02:58.090
+that to apply to that object.
+
+02:58.130 --> 03:02.360
+And now there's my low poly mesh for the leg.
+
+03:02.360 --> 03:05.680
+Now I'd like to mirror this over to the other side.
+
+03:05.900 --> 03:12.320
+To do that I need to move the pivot point down to the center of the grid or the 3D cursor here.
+
+03:12.320 --> 03:22.460
+So I'll just come over to the Tools panel here and set the origin of this object down to the 3D cursor.
+
+03:22.460 --> 03:25.830
+Now I can add a new modifier to that.
+
+03:26.120 --> 03:30.980
+The mere modifier and that'll mirror that over to the air.
+
+03:30.980 --> 03:34.810
+So now we have our legs read apologized.
+
+03:34.820 --> 03:37.820
+Let's try that again with the tunic here.
+
+03:37.910 --> 03:45.410
+I'm going to come over to my object panel and turn off x ray for a moment and I could even select this
+
+03:46.220 --> 03:52.940
+and move them over to the third layer where I have my other low poly objects so I'll just press em and
+
+03:52.940 --> 03:55.170
+move it to the third layer.
+
+03:56.240 --> 03:57.010
+We go.
+
+03:57.080 --> 04:01.580
+So now all of the read typology is kind of over here in one layer.
+
+04:01.580 --> 04:05.090
+I've got the clothes and accessories on another.
+
+04:05.360 --> 04:07.130
+And then the character here.
+
+04:07.610 --> 04:19.100
+So let's work on the little tunic here for this once again I'll just create a cylinder and I'll use
+
+04:19.100 --> 04:28.310
+the settings over here to adjust the size so the radius could be bigger and the depth could be a little
+
+04:28.310 --> 04:29.720
+bit smaller there.
+
+04:32.300 --> 04:33.590
+So try this
+
+04:39.030 --> 04:41.670
+and I'll just try and get this to size.
+
+04:42.580 --> 04:49.570
+And we go something like that and I'm going to need some cross sections in this so a press control r
+
+04:49.570 --> 04:52.720
+and scroll the mouse wheel some.
+
+04:52.720 --> 04:59.600
+And let's go with let's go with four here.
+
+04:59.780 --> 05:02.740
+All right so now let's shrink that.
+
+05:02.810 --> 05:07.500
+I'll add the shrinkwrap modifier.
+
+05:07.720 --> 05:16.870
+And this object I have named tunic middles so I'll choose that scroll down here to tunic middle and
+
+05:16.870 --> 05:17.670
+there we go.
+
+05:18.790 --> 05:26.080
+Now if I turn on x ray we can see it there Lastly let me try one of these boots.
+
+05:26.150 --> 05:28.740
+I'll go through the same process here.
+
+05:28.970 --> 05:31.220
+I'll create a new cylinder
+
+05:35.330 --> 05:37.670
+reduce the radius a bit.
+
+05:37.670 --> 05:42.740
+Increase the depth so it will fit around one of these boots.
+
+05:47.590 --> 05:54.980
+I'll increase the resolution some scroll the mouse wheel till I get a good number of Poly's here I think
+
+05:54.980 --> 05:57.510
+probably that should work.
+
+05:58.810 --> 06:00.440
+I'll then select that object.
+
+06:01.250 --> 06:09.100
+Add the shrinkwrap modifier and this particular object is named Well Boots.
+
+06:09.100 --> 06:13.510
+OK so I'll choose that from the list here.
+
+06:14.490 --> 06:16.230
+And that'll shrink that down.
+
+06:17.300 --> 06:21.990
+Let's take a look at that with x ray.
+
+06:22.020 --> 06:23.050
+That's not bad.
+
+06:23.190 --> 06:32.200
+I may need to add an edge loop right in here to give us a little more detail along the rim of the boot.
+
+06:32.220 --> 06:40.560
+I'll go ahead and apply that modifier and then tap into edit mode and right in here.
+
+06:40.560 --> 06:50.890
+I think I would need to add an edge right in here and then shrink that down a bit something like that
+
+06:51.820 --> 06:55.540
+so that it has the hint of that edge to it.
+
+06:55.570 --> 07:05.710
+I think what I can do is select this row of edges here is that there's four here and then four here.
+
+07:05.710 --> 07:17.060
+And let's take those and just extrude down like that one more time maybe right down here like this.
+
+07:17.060 --> 07:25.210
+And then we should be able to select this row of edges now and perhaps begin moving them forward.
+
+07:25.310 --> 07:37.220
+So I'll hit it for extrude and let's move this forward some like that and I'll just begin snapping these
+
+07:37.220 --> 07:49.220
+points to the boot.
+
+07:49.270 --> 07:49.780
+All right.
+
+07:49.780 --> 07:54.900
+With those snapped to the boot I can then take this now.
+
+07:56.610 --> 08:05.910
+And extrude it forward again so I'll hit the and move this forward some maybe shrink it down a bit the
+
+08:05.910 --> 08:12.720
+next one I'm going to go ahead and turn off the snapping tool and select this edge and I'll go ahead
+
+08:12.750 --> 08:15.980
+and extrude it forward.
+
+08:16.030 --> 08:23.160
+Eek he likes to put it forward here and I'll just do a little bit of adjustment without the snapping
+
+08:23.160 --> 08:24.090
+tools for now
+
+08:28.440 --> 08:34.430
+and Alex Strood again move this forward and scale it down a bit.
+
+08:42.610 --> 08:43.790
+And maybe one more
+
+08:53.230 --> 09:01.180
+we can look at this and see how to close up the toe here to do that.
+
+09:01.180 --> 09:09.430
+I think I'm going to take this to that layer 3 so I'll press him and layer 3 and just look at it in
+
+09:09.430 --> 09:10.700
+isolation here.
+
+09:12.330 --> 09:16.140
+Now there's a lot of different ways you can seal this up.
+
+09:16.140 --> 09:23.940
+I think what I'm going to do is take these four faces excuse me these four edges and extrude these down
+
+09:24.750 --> 09:27.350
+to the next row.
+
+09:28.870 --> 09:32.200
+And hook these up like this.
+
+09:32.200 --> 09:36.640
+So all these points and press all to him and at last
+
+09:39.540 --> 09:49.680
+and then I'll select this whole row again and do the same thing again just move these we go.
+
+09:49.990 --> 09:59.540
+All right there is a boot so I'll select this edge here and then all shift select this edge.
+
+09:59.540 --> 10:05.800
+And now I should be able to press control key and then choose bridge loops.
+
+10:05.990 --> 10:07.250
+And there we go.
+
+10:07.250 --> 10:11.090
+Now we've connected up the leg and the boots.
+
+10:11.330 --> 10:19.790
+So of course I could just press l over here and choose X and faces to get rid of that and then just
+
+10:19.790 --> 10:21.260
+mirror this again.
+
+10:23.410 --> 10:26.560
+And I've got the legs and the boots.
+
+10:26.650 --> 10:27.100
+All right.
+
+10:27.100 --> 10:28.760
+So we're moving along.
+
+10:28.840 --> 10:35.350
+We've got the boots the legs the little tunic thing still got a lot more work to do.
+
+10:35.680 --> 10:38.150
+But I think we're progressing nicely.

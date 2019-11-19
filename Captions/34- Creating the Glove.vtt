@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00.720 --> 00:07.280
+Thought I'd work on the gloves today it's really pretty much the same thing as we've done before.
+
+00:07.280 --> 00:14.630
+But I think this will combine the shrink wrap modifier with using the grease pencil to see if we can
+
+00:14.630 --> 00:17.870
+get the edges going around the thumb.
+
+00:17.870 --> 00:25.970
+So I will tab into object mode here and go to the Create tab and create a cylinder.
+
+00:25.980 --> 00:32.950
+Now when we created the cylinder for the arms I believe we used 10 sides so I'm going to do that again.
+
+00:33.670 --> 00:34.840
+Use that 10.
+
+00:34.840 --> 00:41.050
+I want to turn the cap filled to nothing because I don't need that.
+
+00:41.230 --> 00:52.190
+And let's bring this up here and maybe scale it up a bit and I'll try and place it on the arm here.
+
+00:55.540 --> 01:03.400
+And I need to add some edge loops here so I press control r and scroll the mouse wheel and let's give
+
+01:03.400 --> 01:04.180
+it.
+
+01:04.540 --> 01:08.750
+I'll give it four edges here and I'll click.
+
+01:08.850 --> 01:15.150
+And so now we've got the basic geometry of that arm cuff.
+
+01:15.150 --> 01:18.490
+So now I come over here and add a modifier.
+
+01:18.540 --> 01:26.200
+Go to shrink wrap and for this what did I call this let's see gloves.
+
+01:26.210 --> 01:32.190
+I think I called it gloves so let's choose that and there we go.
+
+01:32.380 --> 01:40.330
+I'll come back over to the object window and turn on x ray and let's take a look at it that looks pretty
+
+01:40.330 --> 01:41.220
+good.
+
+01:41.560 --> 01:50.280
+So now the trick is going to be to draw out the edges that are going to come around the thumb.
+
+01:50.800 --> 01:56.080
+But first what I need to do is apply the shrinkwrapped modifier to this.
+
+01:56.080 --> 02:02.470
+So over here in the modifiers tab I'll just click apply.
+
+02:02.520 --> 02:07.250
+Now we go now if we tab into edit mode we can see the mesh here.
+
+02:07.650 --> 02:14.530
+I think what I'll do is select this edge here and just hit E and extrude it out to here.
+
+02:14.700 --> 02:20.670
+I don't have snap on right now I'll press shift tab to turn that on and then I'll select one of these
+
+02:20.670 --> 02:30.910
+points and press the key just to snap it to this object like this.
+
+02:30.940 --> 02:34.360
+Now I mean snap these as well
+
+02:38.300 --> 02:48.340
+and we go now what I want to do is draw out the edges so that this edge can be extruded on around the
+
+02:48.340 --> 02:50.110
+thumb.
+
+02:50.110 --> 02:57.970
+So I think at least for now I'm going to turn off x ray like this.
+
+02:58.000 --> 03:01.990
+So let's go over to the grease pencil tab.
+
+03:02.780 --> 03:09.200
+And let's also come over here and press the End key to bring up the properties panel.
+
+03:09.200 --> 03:17.540
+So with this object selected in edit mode I'll go ahead and press new for a new grease pencil data block.
+
+03:17.690 --> 03:23.630
+I'll make sure and choose surface and I'll click draw.
+
+03:23.780 --> 03:31.730
+All right so now we should be able to draw out our edge loops around this thumb so maybe I'll draw one
+
+03:31.730 --> 03:32.660
+here.
+
+03:34.710 --> 03:36.210
+And here
+
+03:39.160 --> 03:41.020
+I'll draw one here.
+
+03:43.560 --> 03:44.820
+And on around
+
+03:48.130 --> 03:50.950
+maybe like this.
+
+03:51.000 --> 03:53.140
+All right let's give this a try.
+
+03:53.160 --> 04:01.230
+So I'll press ENTER or go to edge mode I'll select this edge I'll come back to Tools tab and I'll click
+
+04:01.440 --> 04:05.370
+add surface and there we go.
+
+04:05.430 --> 04:09.490
+I'm going to turn the follow down to one.
+
+04:09.960 --> 04:10.760
+And there we are.
+
+04:10.760 --> 04:15.150
+There's our edge flow around the thumb.
+
+04:15.160 --> 04:18.240
+I'll come over here and I'll turn x ray on again.
+
+04:18.270 --> 04:20.940
+So what do we need to do here.
+
+04:20.970 --> 04:26.480
+It looks to me like I could move this over here and this over here.
+
+04:27.500 --> 04:36.860
+And then maybe match these two up I'll press alt and click at the center so they merge there and then
+
+04:36.860 --> 04:43.180
+maybe I'll select these four and hit the F key and see how that works.
+
+04:43.220 --> 04:49.960
+These two look like they could merge together all press all at him and at center and match those two
+
+04:49.960 --> 04:51.390
+up.
+
+04:51.400 --> 04:56.290
+The only question I have here is if I should have added an extra edge here.
+
+04:56.830 --> 04:58.350
+It almost seems like I should have.
+
+04:58.350 --> 05:06.740
+Because then I'll have edges quads going around here so maybe I should move this up just a bit.
+
+05:08.680 --> 05:10.250
+Like so.
+
+05:10.650 --> 05:13.870
+And I'll try and insert an edge loop here and see what happens.
+
+05:15.830 --> 05:20.030
+I don't know for a little while if that was the correct thing to do.
+
+05:20.030 --> 05:22.040
+We'll see.
+
+05:22.230 --> 05:25.550
+And then I'll move this around.
+
+05:25.700 --> 05:32.260
+So what I'm trying to do is just get quads flowing out of here and quads flowing out of here.
+
+05:39.060 --> 05:41.620
+So why don't we go ahead and extend that.
+
+05:41.700 --> 05:42.940
+That's a good idea.
+
+05:44.030 --> 05:50.060
+What I'll do is I'll turn off X right here and I'm going to take the grease pencil and draw out edges
+
+05:50.420 --> 06:01.400
+this way on around trying to keep in mind these edges appear so they match.
+
+06:01.450 --> 06:05.550
+So once again I'll come over to the grease pencil and I'll draw.
+
+06:06.040 --> 06:12.840
+And let's take let's draw an edge out here to match this edge one here.
+
+06:14.430 --> 06:15.690
+One here
+
+06:19.290 --> 06:20.720
+an edge here
+
+06:24.280 --> 06:32.350
+here and one there yeah let's try that.
+
+06:33.420 --> 06:46.140
+OK so now I hit Enter I'll select this page and click add surface and take the follow down to one.
+
+06:46.680 --> 06:52.680
+All right so now we click X-ray and we've got that extending on down around the hand.
+
+06:52.740 --> 07:01.590
+So now maybe I can select this point and control select this point and then do the same thing over here.
+
+07:01.710 --> 07:09.540
+Actually I'll just go ahead and click them individually and move and selected these.
+
+07:09.550 --> 07:15.510
+Now I press control the bridge edge loops does that.
+
+07:15.740 --> 07:27.920
+And then I can select these four points hit F to create a face I could also do that here.
+
+07:31.980 --> 07:34.660
+So yeah.
+
+07:34.690 --> 07:43.900
+So now we've got kind of our base geometry for that what we need to do now is Connect them up to the
+
+07:43.900 --> 07:45.060
+arm here.
+
+07:45.550 --> 07:53.440
+So before I connect anything up I'm going to go ahead and measure it over what I'll do is move the origin
+
+07:53.440 --> 07:57.430
+to the 3D cursor because that's here at the center of the grid.
+
+07:57.430 --> 08:03.100
+The next thing I should do is apply the transformations for scale and rotation here.
+
+08:03.090 --> 08:10.650
+We're going to mirror this over some of the press control a and choose to apply the rotation and scale.
+
+08:10.870 --> 08:16.700
+And now the scale is at all ones and the rotation is at all zeroes.
+
+08:16.720 --> 08:22.910
+So now if I take this and go to the modifiers menu I can choose a mirror.
+
+08:23.230 --> 08:26.160
+And now at all Mir over to the other side.
+
+08:26.590 --> 08:34.870
+So now I'm going to go ahead and just come over to this third layer where I only have my low poly version.
+
+08:34.870 --> 08:38.180
+I need to find those arms and bring them back over here.
+
+08:38.240 --> 08:45.890
+You know they are or these arm cuffs I'll press him and bring it over to the third layer and click OK.
+
+08:46.510 --> 08:55.860
+And then what I need to do is take these guys and shift select this and I'm going to press control Jay
+
+08:55.870 --> 08:58.190
+to join them all together.
+
+08:58.210 --> 09:08.160
+So now I should be able to come in here and use the bridge tool to hook these up again so I'll select
+
+09:08.370 --> 09:10.110
+this edge with Allt click.
+
+09:10.140 --> 09:18.840
+And then this edge with Shift click and let's try this as press control E and bridge edge loops and
+
+09:18.840 --> 09:20.030
+there we go.
+
+09:20.520 --> 09:29.290
+And then let's come over to this other side over here and select this edge and shift Allt selected this
+
+09:29.290 --> 09:30.180
+ledge.
+
+09:30.210 --> 09:34.760
+Let's go ahead and press control and bridge edge loops here as well.
+
+09:35.010 --> 09:42.550
+All right so we have our arm cuffs now completed and hooked onto the arms.
+
+09:42.690 --> 09:44.470
+We're getting pretty close.
+
+09:44.520 --> 09:51.840
+I need to work on the belt of the character and the little tunic on the front and back and I need to
+
+09:51.840 --> 09:55.880
+figure out exactly what I'm going to be doing for the fingers of the character.
+
+09:55.950 --> 10:04.830
+I think what I'll do for this is actually create individual pieces or the fingers and thumb I think
+
+10:04.830 --> 10:08.090
+will be different pieces then the arm cuff.
+
+10:08.090 --> 10:14.220
+I don't have enough resolution around the fingers to get enough detail here.
+
+10:14.460 --> 10:19.600
+So I think these will be a different piece but ultimately still the same object.
+
+10:19.620 --> 10:21.170
+So we'll work on that coming up.

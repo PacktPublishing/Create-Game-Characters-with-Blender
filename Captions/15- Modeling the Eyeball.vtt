@@ -1,0 +1,328 @@
+WEBVTT
+
+00:01.030 --> 00:06.880
+Well as I said in the last video I'd like to create an eye ball to put in here so we have something
+
+00:06.880 --> 00:10.210
+to kind of sculpt around when we're working on the face.
+
+00:10.570 --> 00:16.520
+So let's just go to a brand new layer here and let's create an eyeball.
+
+00:16.570 --> 00:21.160
+First thing I guess I should do is create a sphere I'm going to create this sphere here.
+
+00:22.880 --> 00:32.060
+And I'm going to come down here and let's change this from 16 rings and 32 segments Let's change the
+
+00:32.060 --> 00:33.960
+segment to 24.
+
+00:34.630 --> 00:36.930
+See if that helps us any here.
+
+00:37.360 --> 00:43.460
+Let's change the segments instead from 16 here and 24 here to see how that works.
+
+00:45.650 --> 00:46.890
+I think that's what I want.
+
+00:46.910 --> 00:49.210
+Yeah let's go with this.
+
+00:49.220 --> 00:53.910
+So what I want to do now is rotate it so it's facing forward.
+
+00:53.910 --> 01:01.520
+So in the properties panel by pressing the N key I will come up here and rotate it around the X-axis
+
+01:01.760 --> 01:10.720
+90 degrees so it's facing forward there and to create the pupil and the iris let's tab into edit mode
+
+01:11.320 --> 01:20.710
+and I think I'll begin with this edge right here this third edge out and what I'd like to do is just
+
+01:20.740 --> 01:24.860
+insert a couple of edge loops on either side of this.
+
+01:24.880 --> 01:29.880
+So one way to do that is just press control r and insert some edge loops here and I'll just drag this
+
+01:29.890 --> 01:36.430
+so it's pretty tight against there and control are here and move it up so it's pretty tight against
+
+01:36.460 --> 01:38.320
+there as well.
+
+01:38.320 --> 01:45.820
+Now what I need to do is flatten this area right this area here is going to be completely flat.
+
+01:45.820 --> 01:54.640
+So I want to move the cursor so I can scale at this point so I'm going to Allt click this edge and press
+
+01:54.760 --> 02:02.790
+shift s and select cursor to selected and that'll move that cursor right in the center of the ring there.
+
+02:02.800 --> 02:10.600
+Now I want to select all of these points so all press control tab go to vertex mode and I'll select
+
+02:10.600 --> 02:20.650
+that one vertex in the center and then I'll press control plus to expand the selection out to that original
+
+02:20.650 --> 02:21.700
+edge.
+
+02:21.700 --> 02:24.990
+Now let me close the property panel with the key.
+
+02:25.090 --> 02:32.500
+I'll go to the side view with the three key press the five key on that number pad to go to orthographic
+
+02:32.500 --> 02:36.970
+view and the Z key to go to wireframe.
+
+02:36.970 --> 02:45.640
+Now if we zoom in here we can see that we've got our cursor right here aligned with that original edge.
+
+02:45.640 --> 02:52.150
+So what I want to do is scale from that cursor so I'll change that pivot point to the 3D cursor and
+
+02:52.150 --> 02:58.330
+then I'll change my scale tool and I'll just click and drag and move this in until it's pretty much
+
+02:58.330 --> 02:59.010
+flat.
+
+02:59.670 --> 03:01.290
+I like that.
+
+03:01.320 --> 03:10.900
+Now if we come back around here and look at it we can see that we've got this flat pupil area here.
+
+03:10.910 --> 03:12.960
+Now I want to create the iris.
+
+03:13.380 --> 03:19.930
+So the iris is going to be extruded in from here.
+
+03:20.090 --> 03:27.230
+So I'll go to face mode with control tab and then I'll just hit the three key to go to face mode and
+
+03:27.230 --> 03:35.750
+to select these faces here I can just press the C key for circle select scroll the mouse wheel to change
+
+03:35.750 --> 03:43.010
+the size of the brush there and just click and drag those faces and then right click to get out of that
+
+03:43.010 --> 03:43.600
+tool.
+
+03:45.090 --> 03:55.340
+Now I better switch back to median point for my pivot now just hit the key for extrude and click.
+
+03:55.550 --> 04:01.180
+Let me just change to the move tool and I'll just drag back.
+
+04:01.210 --> 04:02.090
+There we go.
+
+04:02.420 --> 04:05.690
+So now we've got the Irace.
+
+04:05.690 --> 04:09.740
+So there's the basis of our eye.
+
+04:10.110 --> 04:14.960
+I should probably add a subdivision surface modifier on here.
+
+04:15.140 --> 04:25.270
+We just pull this guy down a bit and add a subdivision surface and maybe increase the views to also
+
+04:25.270 --> 04:34.320
+I'll come over here to the Tools tab right here and click smooth so we get a nice smooth kind of surface.
+
+04:34.380 --> 04:38.620
+Now the edges here are collapsing I don't want that to happen.
+
+04:38.620 --> 04:46.740
+Some of insert a couple of edge loops to hold this here press control are and bring that in and insert
+
+04:46.770 --> 04:49.010
+another edge loop up in here.
+
+04:49.950 --> 04:53.300
+And maybe another one right down in here.
+
+04:53.340 --> 04:58.030
+It doesn't completely matter because this is really a temporary.
+
+04:58.470 --> 05:03.520
+So we don't have to get too detailed or perfect with it.
+
+05:03.520 --> 05:12.450
+But let me do one other thing in here what I want to do is just go into face mode and select these faces
+
+05:12.450 --> 05:20.910
+here and I'm just going to hit the e key to extrude and then hit the as to scale that in a hair something
+
+05:20.910 --> 05:21.980
+like that.
+
+05:22.650 --> 05:24.600
+So that holds it a little tighter.
+
+05:24.750 --> 05:32.220
+And I'll also come up here and choose this adjust a cage so we can see the modifier happening when we're
+
+05:32.220 --> 05:33.330
+in edit mode.
+
+05:33.600 --> 05:39.360
+So that's our basic eye if we wanted to try and get rid of this polling that's happening here we could
+
+05:39.360 --> 05:42.780
+come in and dissolve every other edge.
+
+05:42.780 --> 05:50.220
+Let me just show you what I mean here so we can select every other edge in here and change these from
+
+05:50.220 --> 05:53.210
+tri's or triangles to quads.
+
+05:53.490 --> 06:01.920
+So I could just come in here select those hit X and choose dissolve edges instead of edges and then
+
+06:02.010 --> 06:09.090
+that will change these two four sided quads and try them and help clean up that pulling that happens
+
+06:09.090 --> 06:12.220
+when so many edges come down to a single point.
+
+06:12.540 --> 06:18.560
+But as I said this is just kind of a temporary thing so we don't need to get too intricate with it.
+
+06:18.960 --> 06:26.460
+So now that we've got the I created let's take that up and put it in the character I'll shift click
+
+06:26.460 --> 06:33.750
+on the first letter to bring the character back and let's bring this up and scale it and try and put
+
+06:33.750 --> 06:34.770
+it in there.
+
+06:34.850 --> 06:40.800
+We're going to go over to my character images screen lay out and hit the three key here.
+
+06:41.630 --> 06:49.070
+And for this guy a better turn on optimal display or else it's going to be too dense and I'll just move
+
+06:49.070 --> 06:56.240
+this over here and I'm just going to try and use the character drawings as a guide to try and get this
+
+06:56.330 --> 07:01.730
+I where we needed to go and he pressed the T to get rid of that panel.
+
+07:02.480 --> 07:11.990
+So let's see I scale it a bit bring it forward some let's see how this looks.
+
+07:11.990 --> 07:18.560
+I'm going to hit the Z key like so little big you scale that down a bit
+
+07:22.490 --> 07:25.930
+I'll move this right about here and let's try this.
+
+07:25.930 --> 07:32.880
+All right let's go back to our default view and zoom in yeah I think I'm going to leave it right there
+
+07:32.880 --> 07:36.000
+for now and begin pulling these out a bit.
+
+07:36.820 --> 07:42.880
+So let me go ahead and mirror this over to the other side.
+
+07:42.970 --> 07:45.380
+I'll call this one.
+
+07:45.790 --> 07:47.320
+I left
+
+07:50.820 --> 07:59.910
+and I'm going to go ahead and apply the rotation and scale here so I'll press control a and apply the
+
+07:59.910 --> 08:03.640
+rotation and scale ago.
+
+08:04.000 --> 08:10.540
+Now what I want to do is mirror it over but I need to know that the cursor is in the center.
+
+08:10.540 --> 08:16.780
+It looks like it is going to go ahead and make sure cursor to center and then I'm going to set the origin
+
+08:16.780 --> 08:19.380
+of that object to the 3D cursor.
+
+08:19.380 --> 08:23.250
+So now the origin of the object is right down here at the center of the grid.
+
+08:23.500 --> 08:31.030
+So now when I mirror it it will mirror around that pivot point or Scuse me around the origin of the
+
+08:31.030 --> 08:32.060
+object.
+
+08:32.200 --> 08:37.490
+So click add modifier and mirror and there we go.
+
+08:37.780 --> 08:41.760
+So now it's a mirroring across the x axis.
+
+08:41.800 --> 08:44.980
+So now what I'll do is just apply that
+
+08:47.740 --> 08:50.920
+and then I'll come in here and select this.
+
+08:50.930 --> 08:56.360
+I over here in edit mode because when I applied it these became all one object.
+
+08:56.560 --> 09:02.950
+So what I need to do is just hover over this object in an edit mode and press the L key and that will
+
+09:03.010 --> 09:07.510
+select all linked faces of that piece of the object.
+
+09:07.690 --> 09:14.180
+And now I just need to hit the P key and choose separate by selection.
+
+09:14.790 --> 09:19.110
+And now that creates a whole new object for this piece over here.
+
+09:19.120 --> 09:22.320
+So now we've got I underscore.
+
+09:22.320 --> 09:28.460
+Well now this one needs to be I underscore our.
+
+09:28.690 --> 09:34.030
+And the last thing I'd like to do is just bring the origins back to these two objects so I'll select
+
+09:34.030 --> 09:38.630
+this and say set origin to geometry and there it is.
+
+09:38.860 --> 09:41.090
+And do the same thing with that over here.
+
+09:42.480 --> 09:43.460
+Now we go.
+
+09:43.980 --> 09:51.060
+So now we've got two eyes that we can use to better understand of where things on our head is going
+
+09:51.060 --> 09:51.750
+to go.
+
+09:51.750 --> 09:59.190
+There are things on the character's head I should say so in the next video we'll begin using our eyes
+
+09:59.190 --> 10:06.780
+to create the cheekbones the brows the nose and kind of finalize the structure of the face.

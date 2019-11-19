@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.730 --> 00:06.450
+Well we've finally come to the U-V mapping portion of our character model here.
+
+00:06.490 --> 00:13.580
+I've done a couple of things since the last video I've gone ahead and made everything all one object.
+
+00:13.600 --> 00:17.840
+So if I select one part of them you can see the whole thing is selected.
+
+00:17.840 --> 00:22.210
+I've just called this entire thing low poly character.
+
+00:22.210 --> 00:27.550
+We've got a lot of other things over here and the other layers and that's fine.
+
+00:27.550 --> 00:34.750
+We don't need to worry about all that right now but I've taken all of those pieces the fingers the tunic
+
+00:34.780 --> 00:43.320
+the belt buckles everything and selected them all and press control J and join them into all one object.
+
+00:43.380 --> 00:46.580
+Now you don't have to do this as you U-V map.
+
+00:46.630 --> 00:53.520
+But ultimately I think it's going to be beneficial before we do the character rigging process.
+
+00:53.560 --> 00:58.690
+But I did this because I wanted to show you just how much you can break apart and put your character
+
+00:58.690 --> 01:01.780
+back together as you U-V map.
+
+01:01.780 --> 01:03.490
+So there are two tools.
+
+01:03.520 --> 01:09.610
+One is edge split and one is remove doubles that use a lot as the map.
+
+01:09.640 --> 01:11.480
+And let me just show you what I mean here.
+
+01:11.770 --> 01:19.810
+If I zoom in to say this glove piece here and I'm a tab into edit mode if I hover over this glove and
+
+01:20.050 --> 01:29.170
+press the key you can see it selects the entire connected or linked piece of the glove and the arm and
+
+01:29.170 --> 01:31.060
+the torso and the straps.
+
+01:31.150 --> 01:34.040
+Those are all one piece of the object.
+
+01:34.210 --> 01:42.070
+But if I just wanted to focus on this glove what I could do is I could actually select this edge here
+
+01:42.070 --> 01:43.560
+with Allt click.
+
+01:43.690 --> 01:47.710
+And then I could go to Control E and choose edge split.
+
+01:48.100 --> 01:56.230
+And what that'll do now is if I hover over this glove again and press the key it'll only select that
+
+01:56.230 --> 01:57.310
+piece.
+
+01:57.310 --> 02:06.100
+Now I could do things like use Shift h to isolate that and I can just concentrate on this one piece
+
+02:06.100 --> 02:11.670
+of the model while I'm U-V mapping now to bring everything back I can choose Alt.
+
+02:11.710 --> 02:12.650
+H.
+
+02:12.790 --> 02:19.510
+And then in the end if I want to connect these pieces back together which I think will be good when
+
+02:19.510 --> 02:23.740
+we get to the rigging and skinning stage.
+
+02:23.740 --> 02:29.800
+What I can do is just hit the Z key to go to wireframe and I'm going to go to vertex mode and I can
+
+02:29.800 --> 02:35.950
+press the control key and click and drag to lasso these points.
+
+02:36.280 --> 02:44.200
+And now if I go to Control V for the vertex menu I can choose remove doubles and that will just take
+
+02:44.200 --> 02:50.590
+any two vertices that are right on top of each other and merge them into one.
+
+02:50.610 --> 02:53.730
+So now it says removed 10 vertices.
+
+02:53.730 --> 03:01.080
+Now if I come back and hover over this glove I can press the L key again and it will select that whole
+
+03:01.080 --> 03:02.570
+piece.
+
+03:02.610 --> 03:09.970
+So that's kind of the process I use to break things apart and put them back together as I U.V. map.
+
+03:09.990 --> 03:10.290
+All right.
+
+03:10.290 --> 03:15.920
+So let's now take a look at what we would like to U-V map first.
+
+03:16.080 --> 03:19.380
+For me I like to do the easiest thing first.
+
+03:19.380 --> 03:23.220
+I know people tell you you know get the hard stuff out of the way.
+
+03:23.280 --> 03:26.150
+I don't believe in that when it comes to 3D work.
+
+03:26.390 --> 03:33.360
+What I like to do for something like this is begin with the absolute simplest part first and then move
+
+03:33.360 --> 03:34.750
+toward the complex.
+
+03:34.890 --> 03:39.720
+And then by the time you get to the end of the process you've had a lot of practice.
+
+03:39.750 --> 03:45.270
+So now when you get to the complex parts you're better at it and can do it better.
+
+03:45.300 --> 03:49.720
+I may be completely fooling myself about this but this is the way I work.
+
+03:49.950 --> 03:58.810
+So for me I think the easiest part of this would be these little buckles on the belt and the strap.
+
+03:58.860 --> 04:04.840
+So what I'm going to do is go to my U.V. editing screen layout up here.
+
+04:06.200 --> 04:14.380
+And over in this window I'll press the period key to zoom into that belt buckle the U.V. editing view
+
+04:14.380 --> 04:20.160
+by default has this kind of ghost image shading and I'm not a big fan of this.
+
+04:20.170 --> 04:26.620
+I'm just going to come down here and turn this off and I go now to see all of this I'm going to go ahead
+
+04:26.620 --> 04:29.790
+and hide everything else I'm going to press shift H.
+
+04:30.190 --> 04:39.100
+And that will hide everything but this and I think I want to split this piece off from the rest of the
+
+04:39.100 --> 04:40.000
+object.
+
+04:40.300 --> 04:47.200
+So what I'm going to do is create a seam along this edge so I press alt and click that edge to select
+
+04:47.200 --> 04:51.090
+that entire edge loop and I'll press control E..
+
+04:52.030 --> 04:54.750
+And choose Marxian.
+
+04:54.980 --> 04:57.870
+Now that seam has been created there.
+
+04:57.950 --> 05:05.640
+When I use the map that is when I unwrap it those two parts will be broken out as two separate islands
+
+05:05.720 --> 05:07.200
+over here in the U-V map.
+
+05:08.720 --> 05:13.190
+So to unwrap this I'll select everything by pressing the a key.
+
+05:13.190 --> 05:20.980
+I'll bring up the U-V mapping menu by pressing the U key and then I'll just click unwrap and there it
+
+05:20.980 --> 05:22.210
+is.
+
+05:22.240 --> 05:25.210
+So there is our first U-V map.
+
+05:25.210 --> 05:32.210
+Now we can turn on this little stretched view right here and that will give us this blue shading.
+
+05:32.350 --> 05:40.300
+And it basically tells us that anything that is dark blue is not stretched and anything that's red or
+
+05:40.300 --> 05:43.020
+moving towards red is stretched.
+
+05:43.300 --> 05:45.960
+So you can see we've got some stretching here.
+
+05:46.110 --> 05:50.620
+It may not be a bad thing but we probably want to test it and see.
+
+05:50.680 --> 05:58.630
+So to test this to see if this is going to work for us we need to apply a test texture or test pattern
+
+05:59.110 --> 06:05.380
+to the object so we can see if there's any stretching and to do that we've got to apply a material to
+
+06:05.380 --> 06:06.460
+the object.
+
+06:06.460 --> 06:09.960
+So let's go and create a new window here.
+
+06:09.960 --> 06:15.430
+I'm just going to click on this upper corner right here and click and move that down.
+
+06:15.430 --> 06:23.710
+So we get a new window and I'm going to change this one from the U-V editing view to a node editor.
+
+06:24.150 --> 06:32.210
+Now right up front I want to point out that I've got the cycles a render engine chosen here by default
+
+06:32.220 --> 06:38.280
+I believe Blendr still opens up with the Blendr internal engine you just need to come up here and click
+
+06:38.280 --> 06:45.630
+on this menu and choose cycle's render and that will make sure that your note editor looks the same
+
+06:45.630 --> 06:47.050
+as mine here.
+
+06:47.070 --> 06:53.640
+So now we need to create a material for our object so here's where we can create a new material I'll
+
+06:53.640 --> 07:02.490
+just click that and I'll call this test pattern and you can see it's created two nodes in the node.
+
+07:02.500 --> 07:07.190
+Editor one for the material and one for the diffuse shader.
+
+07:07.210 --> 07:14.220
+Now I need to create a texture to be applied to that shader So when it come down here and create a new
+
+07:14.280 --> 07:21.630
+image or a new texture so click this and now I get this window and I'm going to go ahead and call this
+
+07:21.630 --> 07:28.950
+texture the same thing pattern I want to call it test pattern 10:24 by 10:24 is fine for now and I'm
+
+07:28.950 --> 07:34.160
+going to change the type from blank to the grid.
+
+07:34.170 --> 07:41.490
+Now if I click OK it will create this checker pattern for me that I can use to test how much stretching
+
+07:41.490 --> 07:43.200
+is happening on my object.
+
+07:43.200 --> 07:51.330
+So to add that texture appear in the note editor I just need to go to add texture and image texture
+
+07:52.620 --> 07:56.070
+and it's just here it is and I just click to drop it.
+
+07:56.070 --> 08:01.590
+Now I need to choose that texture and I'll just click on the little browse menu and you can see here
+
+08:01.590 --> 08:04.410
+I have the test pattern right here.
+
+08:05.150 --> 08:11.810
+I'll choose that and then I just need to connect the color channel from the image texture to the color
+
+08:11.810 --> 08:14.480
+channel of the diffuse shader.
+
+08:14.480 --> 08:18.460
+And then we have our basic node set up for our material.
+
+08:18.470 --> 08:18.680
+All right.
+
+08:18.680 --> 08:24.700
+Now I still can't see it over here and all we need to do is switch from solid view to texture.
+
+08:25.670 --> 08:27.260
+And there we go.
+
+08:27.260 --> 08:35.700
+Now we can see what it looks like and it looks like to me we've got some stretching along here and that
+
+08:36.210 --> 08:40.490
+makes sense because we were seeing kind of a light blue around the edge here
+
+08:43.260 --> 08:47.520
+so to alleviate that kind of stretching.
+
+08:47.560 --> 08:49.220
+Let's try one more thing.
+
+08:49.420 --> 08:56.250
+Let's try adding seam right along this edge almoner press control the mark seam.
+
+08:56.710 --> 09:04.530
+And now if I select everything and press you and on unwrap see what happens there I've still got that
+
+09:04.680 --> 09:05.850
+pulling there.
+
+09:05.850 --> 09:07.390
+So there's one more thing I can do.
+
+09:07.620 --> 09:13.230
+I can come down here and choose one more edge down here and break this apart.
+
+09:13.230 --> 09:18.570
+This cylindrical piece break this apart so it lays out flat.
+
+09:18.720 --> 09:22.840
+So I'll press control key and mark a seam there.
+
+09:22.920 --> 09:30.670
+Now if I select everything and press you and unwrap and where we go now it takes this cylindrical part
+
+09:30.690 --> 09:34.340
+right around here and lays it all out flat.
+
+09:34.770 --> 09:40.470
+And now that's nice and blue meaning there's very little stretching to it and that's good.
+
+09:40.470 --> 09:41.390
+That's what we want.
+
+09:43.370 --> 09:44.060
+All right.
+
+09:44.060 --> 09:45.860
+So there is our first piece.

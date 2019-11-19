@@ -1,0 +1,325 @@
+WEBVTT
+
+00:00.820 --> 00:07.660
+Today I think I'd like to work a little bit on proportions here now that I've got some of the basic
+
+00:07.660 --> 00:15.430
+forms of the character roughed in I can begin to look at the proportions of the character as a whole.
+
+00:15.700 --> 00:22.610
+And I think it looks to me like the torso is a little too long and the legs are a little too short.
+
+00:22.900 --> 00:31.330
+And also as I continued down here on the hips and the legs I think I'm going to want these legs to be
+
+00:31.840 --> 00:34.530
+spread apart just a little bit more.
+
+00:34.600 --> 00:39.370
+So let's work on those things right now for the torso.
+
+00:39.700 --> 00:47.140
+I think what I should do is come back to my character images screen layout and it looks to me like I
+
+00:47.140 --> 00:52.530
+could bring this up just a bit if I hit the Z key.
+
+00:52.540 --> 00:55.940
+I get this very dense mesh.
+
+00:55.960 --> 01:04.630
+But if I hit this optimal display checkbox over here in the multi resolution modifier I get the original
+
+01:04.750 --> 01:07.730
+edge lines of the mesh here.
+
+01:07.810 --> 01:16.440
+So what I like to do is just go to Edit mode and just grab the vertices of the hips.
+
+01:16.750 --> 01:23.590
+So I'll just press B for border select and drag select these and then just move them up some maybe up
+
+01:23.590 --> 01:26.530
+to that belt area.
+
+01:26.530 --> 01:32.650
+Now if I hit tab and go back to object mode I'll also go back to sculpt mode and take a look at that.
+
+01:34.270 --> 01:41.090
+Right so that's pulled that area up a little bit more it's collapse the bottom of that abdomen area
+
+01:41.180 --> 01:42.800
+a bit.
+
+01:42.840 --> 01:44.040
+I think that might do it.
+
+01:44.040 --> 01:45.090
+Let's take a look.
+
+01:46.450 --> 01:53.270
+Yeah that gives us a little bit more length in the legs and not as much in the torso.
+
+01:55.290 --> 01:57.150
+Yeah I think I like that.
+
+01:57.750 --> 02:01.810
+Let's take a look at spreading the legs out here.
+
+02:02.010 --> 02:09.720
+When you go back to that character images view and let me just go to this front view.
+
+02:09.720 --> 02:17.670
+I can press control up arrow and that will make that one view that my cursor was hovering over full
+
+02:17.670 --> 02:25.740
+screen so I'll tab into edit mode and what I'll do is I'll just select this edge right here and I'm
+
+02:25.740 --> 02:29.640
+going to tumble around an alt shift select that.
+
+02:29.640 --> 02:36.690
+So now I've got that ring around the top of the leg there and I'll press shift s and I'm going to move
+
+02:36.690 --> 02:41.690
+the cursor to those selected objects right there.
+
+02:41.720 --> 02:49.530
+Now the one key to go back to the front view and that what I'd like to do is select all of these and
+
+02:49.560 --> 02:50.940
+rotate the leg.
+
+02:50.940 --> 02:53.540
+At this point out just a bit.
+
+02:53.540 --> 02:56.610
+So it's kind of like this leg here.
+
+02:56.610 --> 02:59.440
+So they're spread out just a bit.
+
+02:59.730 --> 03:05.470
+I'm going to hit Control up arrow again so that I can look at my tools panel.
+
+03:05.520 --> 03:11.390
+I'll hit the T key and over here while I'm in edit mode I've got this Options tab.
+
+03:11.730 --> 03:20.070
+And I want to turn on X mirror and that will allow me to change this one leg in the other leg will stay
+
+03:20.070 --> 03:21.600
+symmetrical.
+
+03:21.600 --> 03:27.600
+All right so I've got that I'll go back to my full screen view with control up arrow.
+
+03:28.650 --> 03:36.720
+And here I'll go to face mode and select this row of faces down here with Allt select an edge right
+
+03:36.720 --> 03:42.790
+between faces and control plus to expand my selection.
+
+03:42.840 --> 03:49.800
+Up to that point where the cursor is now I want to move this pivot point after that cursor so I'll change
+
+03:49.800 --> 03:53.360
+my pivot point from median to 3D cursor.
+
+03:54.340 --> 03:59.920
+And now when I move or rotate or scale it will happen from that point.
+
+03:59.940 --> 04:02.310
+So now I need to rotate.
+
+04:02.310 --> 04:09.450
+I'm going to I could come over here and click this and drag this but I'm actually going to press the
+
+04:09.540 --> 04:17.850
+R key for rotate and then press the Y key to rotate just around the y axis and then I'm going to pull
+
+04:17.850 --> 04:20.440
+these out just a bit like that.
+
+04:20.610 --> 04:23.360
+They're all right.
+
+04:23.440 --> 04:28.720
+So now we've got that now I need to do the same thing for the feet and bend them back so they're flat
+
+04:28.720 --> 04:30.270
+on the ground.
+
+04:30.310 --> 04:32.170
+So let's come in here.
+
+04:32.220 --> 04:39.760
+I mean we hit a de-select Z for wireframe and I'm going to hit the B key for border select and drag
+
+04:39.760 --> 04:41.830
+select the foot area.
+
+04:41.830 --> 04:48.420
+This is what I need to rotate but the cursor or the center of rotation is still up here.
+
+04:48.520 --> 04:50.300
+I need to change that now don't I.
+
+04:50.310 --> 05:01.480
+So I'll hit the alt key and tumble around and all shift to select this ring around the ankle and then
+
+05:01.480 --> 05:05.800
+I'll press shift as cursor to selected.
+
+05:05.880 --> 05:19.850
+And now if I go to face mode select these control plus and then control minus to get back down to there.
+
+05:20.100 --> 05:31.020
+Now I should be able to hit bar and Y and rotate these back and maybe even move them down so maybe I'll
+
+05:31.020 --> 05:41.810
+hit G and Z and pull these down just a hair like that all right did we actually do it.
+
+05:42.130 --> 05:43.400
+Let's see.
+
+05:43.430 --> 05:44.670
+I'll hit tab.
+
+05:44.860 --> 05:55.130
+And there's our sculpted version all heat control up arrow and then I'll come back to my default view.
+
+05:55.150 --> 06:06.070
+So there we have our character with the torso not quite so long and the feet and legs spread apart just
+
+06:06.160 --> 06:07.000
+a little bit.
+
+06:07.000 --> 06:09.500
+I think that looks a little bit better.
+
+06:09.640 --> 06:13.430
+Now the other bit of proportion work I might do is with the neck.
+
+06:13.450 --> 06:21.280
+I feel like the neck and shoulder area the the traps up here seem a little bit too beefy for
+
+06:24.230 --> 06:25.340
+the actual image.
+
+06:25.340 --> 06:26.570
+Let me take a look here.
+
+06:26.570 --> 06:30.140
+I'm just going to select another layer so I can see.
+
+06:30.230 --> 06:33.890
+Yes see I've got his neck pretty small here.
+
+06:33.890 --> 06:38.570
+He's still got a bit of traps here but not quite that beefy.
+
+06:38.570 --> 06:41.320
+So I need to work on that a bit.
+
+06:42.650 --> 06:51.690
+Let's bring him back and let's take a look at this part and see if I can maybe do it like I did before
+
+06:52.470 --> 06:56.030
+with just the bass Masch.
+
+06:56.150 --> 07:03.350
+It's possible because if we look at it here you can see that the base match isn't quite right either.
+
+07:03.740 --> 07:10.630
+So I'm going to hit the Tiki and turn off x mirror and I'll go to edge mode here.
+
+07:10.640 --> 07:13.440
+And I want to select this edge right here.
+
+07:14.690 --> 07:22.630
+I'd like to change the pivot point back to median and let's scale this in and see what happens.
+
+07:26.130 --> 07:36.770
+So I will just hit the s key and scale this in a bit like so so and maybe scale this one in as well.
+
+07:39.680 --> 07:46.890
+Let's also try and just move this one down a hair like this and let's see what happens when we do this
+
+07:50.680 --> 07:52.620
+and try this.
+
+07:52.670 --> 07:58.790
+All right so now let's go back to our sculped mode and let's see if anything changed.
+
+07:58.790 --> 08:02.680
+Not really a little bit but not a lot.
+
+08:02.780 --> 08:08.870
+What I'm going to do is hit the T key and come back over here to the Tools panel and go to the grab
+
+08:08.870 --> 08:10.590
+brush.
+
+08:10.730 --> 08:14.290
+I'm just going to gently try and bring these down a bit.
+
+08:23.620 --> 08:24.510
+Something like that.
+
+08:24.520 --> 08:26.590
+Let's see how that looks.
+
+08:26.590 --> 08:31.440
+I'll go back and minimize this screen with control up arrow again.
+
+08:31.540 --> 08:35.880
+Go back to my default view and let's take a look at this.
+
+08:36.820 --> 08:43.330
+So yeah I think that helped with the neck there I think I like that a little bit better.
+
+08:43.330 --> 08:50.290
+He doesn't look quite as beefy but also he's got a little bit more of a heroic stance with the shorter
+
+08:50.290 --> 08:53.200
+torso and longer legs.
+
+08:53.200 --> 08:59.610
+I think one last bit of adjustments on proportion here is the width of the chest.
+
+08:59.620 --> 09:04.810
+I think I'd like to try and pull this out just a little bit and see what happens.
+
+09:04.840 --> 09:10.390
+I don't know if it's going to work or if it's going to help but I'd like to try it and see just the
+
+09:10.390 --> 09:14.670
+width here so I'm going to bring this out a bit.
+
+09:14.710 --> 09:21.780
+I just want to gently bring this part out like this.
+
+09:22.960 --> 09:32.160
+Very gently and maybe even pull some of these in a hair.
+
+09:32.530 --> 09:35.010
+All right we'll see how that works.
+
+09:35.140 --> 09:38.530
+These kinds of adjustments can be made throughout the process.
+
+09:38.530 --> 09:44.260
+But I thought this was a good time now to take a look at the character as a whole now that some of the
+
+09:44.350 --> 09:46.820
+muscles have been roughed in.
+
+09:46.840 --> 09:54.190
+Also I want to make another pitch for using good reference images get a lot of them from a lot of different
+
+09:54.190 --> 09:59.690
+angles even if you're creating some sort of fantasy character like this.
+
+09:59.770 --> 10:04.450
+It really helps to ground your work in reality when you use reference images.

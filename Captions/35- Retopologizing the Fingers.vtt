@@ -1,0 +1,340 @@
+WEBVTT
+
+00:00.770 --> 00:03.250
+Well today I'd like to work on the fingers.
+
+00:03.590 --> 00:11.240
+As I mentioned before I'm going to have these be separate pieces or a separate piece from the rest of
+
+00:11.240 --> 00:12.530
+the character.
+
+00:13.610 --> 00:20.180
+But I am going to begin with a cylinder like I have for the arms and legs so first of all what I'm going
+
+00:20.180 --> 00:29.900
+to do is tab into edit mode for the body and just select an edge here and then I'm going to press shift.
+
+00:29.950 --> 00:30.410
+Yes.
+
+00:30.440 --> 00:39.110
+And I'm going to move the cursor to the selected edges here and now I'm going to tab back into object
+
+00:39.110 --> 00:39.950
+mode.
+
+00:40.010 --> 00:46.310
+Now when I create a cylinder it will pop into the location where the 3D cursor is.
+
+00:46.310 --> 00:55.670
+So I'll come over here to the Create tab and click on cylinder and for this I think I only need 8 sides
+
+00:55.790 --> 00:58.550
+for this particular object.
+
+00:59.120 --> 01:00.870
+I'll turn off the cap.
+
+01:00.890 --> 01:04.430
+Phil I don't need anything on the ends.
+
+01:04.430 --> 01:13.700
+And now let me rotate in scale etc. this thing and tell it's about where we need it on the finger.
+
+01:13.700 --> 01:15.470
+So I'm going to scale it down.
+
+01:16.330 --> 01:22.360
+Rotate it a bit and just try and get it as well as I can.
+
+01:22.410 --> 01:26.970
+So it's fitting around this object or this finger.
+
+01:26.970 --> 01:30.930
+I'm going to switch to local transform orientation.
+
+01:31.110 --> 01:39.240
+Just so when I go to the scale to it I can scale it in the length of the object there and I'll just
+
+01:39.240 --> 01:45.870
+start rotating and moving it until I can get it right around that finger.
+
+01:45.910 --> 01:53.170
+Now I think also I will tab into edit mode and add a few more cross sections here by pressing control
+
+01:53.230 --> 02:00.530
+r and scrolling the mouse wheel and I'm going to need quite a few for this actually.
+
+02:01.000 --> 02:03.710
+I'm going to give myself six edges.
+
+02:03.820 --> 02:05.680
+Let's try that.
+
+02:05.680 --> 02:14.500
+And I would also like to rotate this or I should say bend this at the joint here so it fits around the
+
+02:14.500 --> 02:16.020
+finger a little better.
+
+02:16.270 --> 02:25.330
+So I'm going to select this edge and then press control plus and expand the selection up to say here
+
+02:26.410 --> 02:35.020
+and then I'll go ahead and move the pivot point of this rotation to the 3D cursor and I'll go to the
+
+02:35.020 --> 02:41.930
+rotate tool and I'll just rotate this down a bit like this and then we go.
+
+02:42.320 --> 02:44.210
+All right let's give this a try now.
+
+02:44.270 --> 02:47.360
+I'm going to tab back into object mode.
+
+02:47.480 --> 02:55.780
+I will go to the modifiers panel click add modifier and let's add the shrinkwrapped modifier.
+
+02:56.120 --> 03:01.040
+And now for my target I'll just choose character because that's the character object.
+
+03:01.460 --> 03:03.590
+And let's see how that works.
+
+03:04.010 --> 03:05.030
+It's working pretty well.
+
+03:05.030 --> 03:10.720
+There's some problems here you can see it's trying to pick up the other finger.
+
+03:10.940 --> 03:16.200
+And that's the difficulty with something so close to another object there.
+
+03:16.280 --> 03:18.840
+Let me try and move this just a hair.
+
+03:19.100 --> 03:26.210
+So all I'm doing is just moving this in Object mode and you can see as I do it will pick up or move
+
+03:26.210 --> 03:30.100
+off of that other finger so I'm just going to go with that.
+
+03:30.110 --> 03:36.890
+I think right about there and then I'm going to come over here to the object panel and turn on x ray
+
+03:36.890 --> 03:39.380
+Let's see what it looks like.
+
+03:39.380 --> 03:42.320
+All right that's looking pretty good.
+
+03:42.320 --> 03:47.370
+What I need to make sure of too is that there are edges at the joints.
+
+03:47.480 --> 03:55.130
+So if I turn off x ray here and go into edit mode while the shrinkwrapped modifier is still on we can
+
+03:55.130 --> 03:59.300
+take a look at the edges and where they're placed.
+
+03:59.300 --> 04:03.120
+So this edge is placed pretty much on that joint.
+
+04:03.140 --> 04:04.160
+That's good.
+
+04:04.400 --> 04:08.640
+And this edge right here is placed pretty much on that joint.
+
+04:09.020 --> 04:09.820
+So that's pretty good.
+
+04:09.830 --> 04:12.140
+I think that will work.
+
+04:12.290 --> 04:19.450
+So I'll tab back into object mode go back to the modifiers panel and just click apply.
+
+04:19.640 --> 04:20.670
+And there we go.
+
+04:20.810 --> 04:25.050
+Now that modifier is baked permanently into the object.
+
+04:25.550 --> 04:33.170
+It looks like I could move these points down a bit so I may do a little bit of work just moving points
+
+04:33.170 --> 04:34.510
+around.
+
+04:34.670 --> 04:38.410
+I think I'd better turn on the snap tool.
+
+04:38.530 --> 04:39.670
+I'll do that.
+
+04:39.670 --> 04:44.180
+And now as I move things around they should snap to the object.
+
+04:44.400 --> 04:44.930
+So
+
+04:47.700 --> 04:52.730
+and I'm just moving these to get them in line with that joint.
+
+04:53.450 --> 04:55.550
+And this one up here looks pretty good.
+
+04:55.610 --> 05:05.210
+I think I might move this down a bit and I can slide this edge down by pressing G twice I'll hit G two
+
+05:05.210 --> 05:08.300
+times and now it'll slide along that edge.
+
+05:08.410 --> 05:15.910
+I can move these down to about here and do that and move this joint up a little bit.
+
+05:15.920 --> 05:20.800
+And I what I want is three edges for every joint.
+
+05:20.810 --> 05:30.170
+So if this joint is going to bend here I've got an edge on either side to help hold the shape of the
+
+05:30.170 --> 05:31.990
+mesh when it bends.
+
+05:32.000 --> 05:35.280
+So maybe I'll add one right in here as well.
+
+05:35.430 --> 05:36.360
+Like that.
+
+05:36.740 --> 05:44.810
+I'll turn the pivot point back to medium point and if I like this I wonder if I can rotate it a bit
+
+05:44.960 --> 05:52.840
+and we go and slide it around some and we go so now let me turn on x ray and let's take a look at that.
+
+05:53.360 --> 06:00.230
+Yes so we've got the bend happening in the finger here and the bend happening here.
+
+06:01.970 --> 06:03.900
+I think that'll worked out alright.
+
+06:06.270 --> 06:11.680
+Let's now think about that fingernail what are we going to do with this.
+
+06:12.380 --> 06:19.040
+Well I think what I want to try is selecting this edge right here on the top of the fingernail.
+
+06:19.250 --> 06:24.430
+And I'd like to extrude this down so I'm just going to hit me and pull down here.
+
+06:25.370 --> 06:27.890
+And I want to snap these two.
+
+06:27.890 --> 06:29.310
+The fingernail.
+
+06:29.650 --> 06:37.340
+Actually I'm a turn off x ray for just a moment and try and move these with the G key so they snap to
+
+06:37.340 --> 06:38.150
+the fingernail
+
+06:42.230 --> 06:44.360
+I'd like to extrude them one more time.
+
+06:44.460 --> 06:51.160
+Now we pull these down a bit and right down to the tip of that fingernail.
+
+06:51.170 --> 06:57.300
+And I will snap these.
+
+06:57.560 --> 07:06.110
+Now what I'm going to need to do is extrude these to give it thickness on the back because if we see
+
+07:06.110 --> 07:12.710
+it from the back we don't want to see through the back of the polygons and then are connected up with
+
+07:12.710 --> 07:14.740
+these edges here.
+
+07:14.810 --> 07:17.030
+So let's try that.
+
+07:17.030 --> 07:20.360
+I will select these points here.
+
+07:22.250 --> 07:28.800
+Extrude and pull down a bit and then I just need to connect these up now.
+
+07:29.030 --> 07:32.660
+So I'll take it easy and pull them back.
+
+07:32.660 --> 07:35.770
+This should come over here.
+
+07:35.810 --> 07:38.150
+This should come over here.
+
+07:39.510 --> 07:42.060
+And then we can begin hooking these up.
+
+07:42.060 --> 07:55.710
+So these four points can be a face and these four points can be a face like so and now I want to select
+
+07:56.610 --> 07:58.930
+these points around here.
+
+08:01.630 --> 08:12.690
+And extrude these down to the tip of the finger like that and will then connect these up to the fingernail
+
+08:12.700 --> 08:15.820
+let me turn this off real quick and snap these
+
+08:22.340 --> 08:31.840
+I will connect these up and extrude and pull these out and snap these to these points with Allt.
+
+08:31.870 --> 08:33.680
+And then at last
+
+08:36.630 --> 08:45.620
+and then finally connect these up so I'm going to hit this point this point this one and this one and
+
+08:45.620 --> 08:51.650
+connect it and then do the same with this over here.
+
+08:51.650 --> 08:56.790
+And then you can see I've got some interesting work to do here.
+
+08:58.030 --> 09:02.480
+What I'll do for this is just insert one edge loop here.
+
+09:04.760 --> 09:08.940
+And then connect these up like so
+
+09:12.890 --> 09:14.050
+there we go.
+
+09:15.950 --> 09:17.530
+And do the same thing over here.
+
+09:22.070 --> 09:24.900
+So that gives us a good beginning to the finger.
+
+09:24.920 --> 09:31.310
+Now I will probably go ahead and add a cylinder for each one of these and do a similar thing.
+
+09:31.430 --> 09:40.670
+You could also duplicate this duplicate this object and move it over and scale it to fit each of the
+
+09:40.670 --> 09:41.900
+fingers.
+
+09:42.020 --> 09:49.120
+But I think I will go ahead and add each cylinder so they fit kind of exactly to the model.
+
+09:49.400 --> 09:56.000
+And in the next video we'll work on connecting all the fingers up and extruding them back into the glove.

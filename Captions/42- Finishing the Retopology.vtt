@@ -1,0 +1,541 @@
+WEBVTT
+
+00:00.330 --> 00:04.080
+Well let's see if we can work on the U-V mapping for the face.
+
+00:04.080 --> 00:16.210
+Now when we last left off I was kind of wondering what we could do about the face and the problem is
+
+00:16.210 --> 00:22.380
+is that we've got a pretty big difference between the back of the head and the front of the head in
+
+00:22.380 --> 00:26.510
+terms of the size of the U-V test pattern.
+
+00:27.280 --> 00:33.730
+So what I'd like to do is try and change the proportion a bit so we have more even squares from the
+
+00:33.730 --> 00:36.920
+front of the face to the back of the head.
+
+00:36.970 --> 00:38.660
+So let's see if we can do that.
+
+00:39.040 --> 00:42.630
+So here is our you've had head.
+
+00:43.060 --> 00:50.680
+I'm going to press the control up arrow to go to full screen here for this particular window and I'm
+
+00:50.680 --> 00:59.020
+going to choose U-V Island selection right down here and I can select this and hit the G key and move
+
+00:59.020 --> 01:02.580
+it around in the Arkie and rotate it.
+
+01:02.710 --> 01:06.980
+And I also think i'll scale it up a bit just so I can see it a little better.
+
+01:07.920 --> 01:16.720
+All right so how are we going to make this part of the face larger in proportion to the rest of the
+
+01:16.720 --> 01:18.050
+U-V Island.
+
+01:18.060 --> 01:23.640
+Well Blendr has some tools down here that we can use I'm going to click on the UVA's menu and it's got
+
+01:23.640 --> 01:29.600
+this pin feature and it's got live unwrap and these can be pretty useful.
+
+01:29.600 --> 01:31.020
+Let's try these.
+
+01:31.050 --> 01:40.170
+I'm going to first turn on live unwrap and now I'm going to come out here and in Virtex mode I'm going
+
+01:40.170 --> 01:49.040
+to click here or U-V selection mode I should say I'm going to select just these four corners here.
+
+01:50.330 --> 01:54.610
+You know what I should do is seal up this particular seam.
+
+01:54.620 --> 01:57.220
+I don't really need this seemed to be broken out.
+
+01:57.380 --> 01:59.960
+So let me go back and do that real quick.
+
+01:59.960 --> 02:08.030
+All we have to do is just select these edges and clear the clear the seams so I'm just going to select
+
+02:08.030 --> 02:13.570
+these edges and press control E and clear seam.
+
+02:13.580 --> 02:21.020
+Now I can come back and hover over this portion of the model press the L key that will only select this
+
+02:21.020 --> 02:27.110
+area and I'm going to unwrap this again I'll press you and unwrap and there we go.
+
+02:27.110 --> 02:32.250
+So it's just the head again without that seem broken off.
+
+02:32.400 --> 02:40.010
+Press Control arrow again to go to full screen and now I'm going to select these points again all the
+
+02:40.010 --> 02:40.520
+way around.
+
+02:40.520 --> 02:47.780
+So one here one here and one here just so I've got these four corners selected and then I'm just going
+
+02:47.780 --> 02:49.330
+to press the key.
+
+02:49.580 --> 02:55.670
+And if you can see what it's done it's added these little red markers to each of those points and those
+
+02:55.670 --> 02:57.220
+are our pins.
+
+02:57.230 --> 03:00.960
+Now with live unwrap on here I have it checked.
+
+03:00.980 --> 03:09.600
+I can select one of these points hit the key to move and you can see it kind of stretches it and scales
+
+03:09.600 --> 03:15.400
+it based on the position of those pinned vertices.
+
+03:15.480 --> 03:23.790
+So I'm going to try and just reduce the size of everything else but the face a bit like this just selecting
+
+03:23.790 --> 03:33.140
+these and moving them around a little bit like so fast control up there and go take a look at this and
+
+03:33.140 --> 03:34.610
+it's helped a little bit.
+
+03:34.610 --> 03:37.490
+These now are a little bit bigger in the back.
+
+03:38.350 --> 03:41.600
+These are still kind of too big in the front.
+
+03:41.680 --> 03:49.420
+So let's see if we can find another tool that will help us what we can use now is the proportional editing
+
+03:49.420 --> 03:55.570
+tool and I'm going to middle mouse button click and drag over here so I can move this bar and we can
+
+03:55.570 --> 03:57.180
+see it here.
+
+03:57.190 --> 04:03.880
+So what this can allow us to do is will basically change the proportion of the island here so I'm going
+
+04:03.880 --> 04:09.750
+to first of all press the C key and that gives me the circle select brush.
+
+04:09.760 --> 04:15.770
+And I'm just going to come in here and select I'm going to scroll the mouse wheel to make the brush
+
+04:15.770 --> 04:22.460
+a little bigger and then I'm going to select everything in here.
+
+04:22.470 --> 04:24.210
+Let me try this.
+
+04:24.240 --> 04:32.460
+Now going to come down here and turn on the proportional editing tool and let me once again press control
+
+04:32.460 --> 04:36.540
+up arrow to make this a little bit bigger so we can see it.
+
+04:37.200 --> 04:43.740
+And if I press the esky for the scale tool we can't see it yet I'm going to zoom out now and press the
+
+04:43.980 --> 04:51.540
+key here is the proportional editing brush and I'm going to zoom in with the scroll wheel or make it
+
+04:51.660 --> 04:53.700
+smaller with the scroll wheel.
+
+04:53.700 --> 05:00.680
+So now if I hit the key you can see I've got the boundaries of the proportional editing scale.
+
+05:00.870 --> 05:05.070
+And if I move the mouse it'll kind of scale it up like this.
+
+05:05.070 --> 05:08.790
+See how it's kind of scaling up the center of the brush.
+
+05:08.790 --> 05:10.810
+Bigger than the outside of it.
+
+05:11.610 --> 05:18.650
+So let me go back here control up arrow and let me watch this to see what I can do with this.
+
+05:18.660 --> 05:28.880
+See if we can do to press the s key and I'm going to expand that a bit maybe scroll in some Yeah see
+
+05:28.880 --> 05:37.020
+how it's kind of getting those squares to be a little bit smaller in proportion to the rest of the island.
+
+05:37.380 --> 05:39.340
+And we come around here and look.
+
+05:39.510 --> 05:47.910
+Now we're getting some stretching here and that's going to happen a bit let me try this again maybe
+
+05:47.910 --> 05:50.360
+something like this let's try this.
+
+05:50.700 --> 05:52.020
+That's not looking too bad.
+
+05:52.020 --> 06:00.690
+We've got the squares up front and the squares in the back about the same size and kind of like it to
+
+06:00.690 --> 06:04.140
+be a little bit bigger if I could.
+
+06:04.180 --> 06:05.950
+There we go something like that.
+
+06:08.080 --> 06:08.740
+OK.
+
+06:08.760 --> 06:09.750
+So that's pretty good.
+
+06:09.750 --> 06:13.740
+We've got some stretching as I said and you can see it here.
+
+06:13.800 --> 06:15.890
+So what can we do about that.
+
+06:15.990 --> 06:23.790
+Well let's press the control up here again and zoom in and what we can do about this is once again press
+
+06:23.790 --> 06:33.240
+the C key and I'm going to select these vertices are these Uvas in here where the stretching is happening.
+
+06:33.460 --> 06:36.380
+And let's see if we can do something about this.
+
+06:36.410 --> 06:43.120
+Now I'm going to if you look under the Uvas menu you can see that we've got this minimized stretch which
+
+06:43.120 --> 06:45.080
+is control the.
+
+06:45.100 --> 06:51.530
+So I'm going to press control the and then look how it's relaxed it quite a bit.
+
+06:51.540 --> 06:59.070
+And then I can scroll the mouse wheel and change how much it's being relaxed.
+
+06:59.180 --> 07:03.830
+Now if there we go see you can see it on the model there.
+
+07:04.170 --> 07:09.080
+And that's kind of stretched but that's not bad right there.
+
+07:09.120 --> 07:16.290
+So that's a couple of ways that we can read proportion are U.V. Islands to get a better lay out for
+
+07:16.380 --> 07:18.450
+something like the face.
+
+07:18.450 --> 07:18.780
+All right.
+
+07:18.780 --> 07:25.680
+Let's go back to the default view and let's think about these hands.
+
+07:25.680 --> 07:32.820
+So for this I'm going to press the L key to select this and the L key to it that and then press shift.
+
+07:32.830 --> 07:39.120
+H Well I think what I'm going to do is I'm going to try using a seam right down here or something to
+
+07:39.300 --> 07:48.450
+press the old key and click on this edge and I'll center that up and then press the C key and press
+
+07:48.600 --> 07:59.370
+the middle mouse button to de-select these edges right here and then oh Mark ISim control e and Marxian.
+
+07:59.370 --> 08:02.960
+Now let's go see how this is going to work for us.
+
+08:03.000 --> 08:10.930
+Back to the editor frame that up and press you and unwrap.
+
+08:10.940 --> 08:11.630
+All right.
+
+08:11.870 --> 08:12.860
+Yeah that's not too bad.
+
+08:12.860 --> 08:17.940
+So let's go ahead and do that with the rest of the fingers as well.
+
+08:18.050 --> 08:21.160
+I'll break them apart with these edges down here.
+
+08:22.250 --> 08:29.250
+I like this and I'll grab this edge right along here as well.
+
+08:32.060 --> 08:39.360
+Now that I've broken those apart with those seams I'll go ahead and select these edges here.
+
+08:39.500 --> 08:40.430
+This edge.
+
+08:40.460 --> 08:51.750
+This this this and then with that circle select tool that c key I will come in here and middle mouse
+
+08:51.750 --> 08:54.750
+button click and drag to de-select these
+
+08:58.510 --> 09:07.090
+like so control easy mark scheme and let's see what we can do with these you and unwrap.
+
+09:07.450 --> 09:09.710
+Yeah that looks pretty good.
+
+09:09.730 --> 09:12.890
+Let's go back to the default view.
+
+09:13.630 --> 09:22.300
+Press alt h to bring everything back and all go back to object mode and press shift see to center everything
+
+09:22.300 --> 09:23.890
+up.
+
+09:23.890 --> 09:36.190
+Now you may have noticed that I haven't done this glove this hand or this leg as well as the buckle
+
+09:36.190 --> 09:42.130
+here and that's because I'm going to mirror these over from one side to the other.
+
+09:42.230 --> 09:47.810
+So I'm actually going to wait and mirror these over at the very end and there you the islands will then
+
+09:47.810 --> 09:51.000
+be one on top of the other and therefore will.
+
+09:51.020 --> 09:58.110
+We should be able to get all the remaining islands a little bigger and therefore more resolution the
+
+09:58.120 --> 09:59.210
+U.V. map.
+
+09:59.720 --> 10:06.530
+So to do that let's go through and select all of these pieces and I'm just going to hit X and delete
+
+10:06.680 --> 10:10.970
+faces all of these.
+
+10:11.140 --> 10:19.040
+So now let's go back to the U-V editor and what we can do here is select everything and I'll select
+
+10:19.340 --> 10:20.790
+everything over here.
+
+10:20.990 --> 10:24.560
+And I notice I mean press control up arrow again.
+
+10:24.790 --> 10:29.160
+I still have some pins I need to clear those.
+
+10:29.180 --> 10:34.680
+So with everything is selected I can come down to this Uvas menu and you can see here that unpinned
+
+10:34.700 --> 10:35.270
+is Alt.
+
+10:35.270 --> 10:40.030
+P So I'll just press alt P to get rid of all the pens.
+
+10:40.340 --> 10:47.960
+And now what I want to do is I'm going to use this average Island scale control a and pack islands control
+
+10:47.960 --> 10:53.090
+P So I'll average the scale of all the U-V islands with control a.
+
+10:53.390 --> 10:58.630
+And then I'll pack them all into this zero to one space with control P.
+
+10:58.730 --> 11:07.130
+Now that's not bad but I think I would like the characters face to be a little bit bigger in relation
+
+11:07.130 --> 11:11.940
+to everything else because that's where they're going to be a main focus of the character.
+
+11:12.140 --> 11:19.900
+So I'm going to come over here to U-V Island select and just click on this U-V island.
+
+11:20.210 --> 11:23.610
+I'll come down here and turn off the proportional editing tool.
+
+11:24.630 --> 11:31.830
+And then I'll hit R and rotate it so we can see it here and I'll scale it up just a bit just so we get
+
+11:31.830 --> 11:35.000
+a little bit more resolution on that.
+
+11:35.010 --> 11:42.060
+Now what I'll do is all REPAK so I'll press a to select everything and this time I won't press control
+
+11:42.090 --> 11:44.810
+a because I don't want to read average everything.
+
+11:44.820 --> 11:51.950
+I just want to pack everything in with its current proportions so I press control P and there we go.
+
+11:52.410 --> 12:00.750
+Now if I press control up arrow to come back here you can see in this panel I've got my rotate checkbox
+
+12:00.810 --> 12:08.160
+I'm going to click this and that'll bring it back so that face U-V island is kind of upright.
+
+12:08.160 --> 12:09.720
+All right so that looks pretty good.
+
+12:09.720 --> 12:12.860
+So I'm in a press control up there again and take a look at it.
+
+12:13.200 --> 12:14.290
+And here we have it.
+
+12:14.340 --> 12:17.070
+Now what about the other pieces.
+
+12:17.070 --> 12:24.270
+Well all we need to do is duplicate them mirror them over and they're U-V islands will appear right
+
+12:24.360 --> 12:26.320
+underneath the current ones.
+
+12:26.430 --> 12:29.000
+So let's give that a try.
+
+12:29.010 --> 12:33.930
+I'm going to do this in the default view just so I can see it a little better.
+
+12:33.930 --> 12:37.840
+So what I mean by that is I'll take the leg here.
+
+12:38.940 --> 12:47.110
+Pressing the L key to select all of that or select that to we go.
+
+12:47.510 --> 12:54.860
+So now I want to duplicate this with shift D and I'll press enter and then I want to split it out into
+
+12:54.860 --> 13:02.450
+its own object so I'll press the P key which will bring up the separate menu and I'll click selection.
+
+13:02.450 --> 13:04.490
+Now here it is here.
+
+13:04.500 --> 13:07.160
+There it is I mean just press the key and you can see it there.
+
+13:08.090 --> 13:15.850
+Now I'll just go to add a modifier and mirror and then I'll click apply.
+
+13:16.020 --> 13:23.550
+And what that did is it duplicated it married it over with the U-V map and placed it right underneath
+
+13:23.550 --> 13:25.610
+the current U-V Island.
+
+13:25.650 --> 13:30.580
+So let's do that again let's try this glove here.
+
+13:30.960 --> 13:42.270
+I'm going to hit the L key to select that press shift d enter press P selection here it is here I'll
+
+13:42.500 --> 13:46.970
+add a mirror modifier and then apply it there.
+
+13:47.000 --> 13:48.520
+All right how about the hand.
+
+13:48.980 --> 13:50.460
+Let's tap into here.
+
+13:50.480 --> 13:55.840
+I'll press the L key for this shift D.
+
+13:56.310 --> 14:02.030
+Press the enter key p separate by selection.
+
+14:02.030 --> 14:08.360
+Here it is mere modifier and apply.
+
+14:08.470 --> 14:15.840
+And then lastly if we just select this belt buckle I can select that and duplicate it.
+
+14:16.390 --> 14:18.680
+Chris P and separate it out.
+
+14:19.700 --> 14:24.940
+And there it is now the pivot point is down here.
+
+14:24.950 --> 14:30.760
+I'm going to move that origin to the geometry zoom in.
+
+14:30.760 --> 14:35.110
+And now I can just move it up and put it into place.
+
+14:35.110 --> 14:42.980
+So now if we go back to the U-V editor once we combine all of these objects together because if I select
+
+14:43.010 --> 14:49.220
+this you can see that the pieces that we duplicated and mirrored still aren't a part of this so we need
+
+14:49.220 --> 14:51.790
+to hit the A key to select everything.
+
+14:51.920 --> 14:53.620
+Press Control J.
+
+14:53.990 --> 14:57.500
+To join all the pieces into one object.
+
+14:57.500 --> 15:05.210
+Now if I hit the tab key and the A key you can see that they're all in here.
+
+15:05.350 --> 15:07.930
+They're just one underneath the other.
+
+15:07.990 --> 15:10.300
+So let's see if we can find one.
+
+15:10.310 --> 15:11.330
+There it is.
+
+15:11.410 --> 15:16.180
+So you can see the duplicate of that piece is right there underneath it.
+
+15:16.180 --> 15:22.220
+And that's just one way to help maximize the resolution within the U-V map.
+
+15:22.510 --> 15:23.050
+All right.
+
+15:23.080 --> 15:24.850
+Well I think we did it.
+
+15:24.850 --> 15:33.780
+I think we've U-V mapped our character and in the next series of videos we'll begin working on breaking
+
+15:33.790 --> 15:42.010
+out our normal map and our ambient occlusion map so that we can capture our high resolution sculped
+
+15:42.010 --> 15:45.070
+details onto the low polygon object.

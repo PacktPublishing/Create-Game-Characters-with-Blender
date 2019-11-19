@@ -1,0 +1,505 @@
+WEBVTT
+
+00:00.860 --> 00:08.040
+Let's take a look at this arm band Gauntlett glove type thing that we've got on the character.
+
+00:08.300 --> 00:16.030
+I think I'd like to begin sculpting on it but right now it's very thin it's just one sided.
+
+00:16.040 --> 00:19.290
+And I'd like to give it a little bit of thickness.
+
+00:19.430 --> 00:26.000
+Now I could use the solidify modifier on this but what I think I'll do for this one is just tab and
+
+00:26.070 --> 00:33.930
+edit moment here press control tab and choose edge and I'm just going to all to click the edge is here
+
+00:34.820 --> 00:41.060
+to select that whole edge loop and all I'll do is just hit the e key and extrude and then I'll hit the
+
+00:41.060 --> 00:49.670
+ESC key and just scale in and I'm just scaling in right into the hand there and that gives it the illusion
+
+00:49.670 --> 00:51.490
+of thickness at least.
+
+00:51.650 --> 00:55.860
+So I'll do the same thing here with me and then ask for scale.
+
+00:57.660 --> 00:59.690
+And I'll do that up here.
+
+01:05.790 --> 01:11.520
+Now what I'd like to know is how much of this thing is going to collapse or will this thing collapse
+
+01:11.520 --> 01:18.330
+too much when I add the multi resolution modifier or is it just going to collapse into a blob or is
+
+01:18.330 --> 01:25.410
+it going to hold some of these edges fairly well one way to test that it's just instead of using a multi
+
+01:25.410 --> 01:34.320
+resolution just add a subdivision surface and maybe move this view up to two and you can kind of get
+
+01:34.320 --> 01:38.870
+a sense of what's going to happen with that multi resolution modifier.
+
+01:38.880 --> 01:42.210
+And that I think is collapsing a little too much.
+
+01:42.210 --> 01:46.950
+I'd like to have the edges a little tighter when I collapse that.
+
+01:46.950 --> 01:52.860
+Now I can of course go in and sculpt and pinch these edges but I think it's sometimes a little easier
+
+01:53.190 --> 01:55.600
+to just add a few edge loops to hold them.
+
+01:55.830 --> 02:03.000
+So tab in the edit mode and you can kind of see now the cage over the smooth geometry and I'll just
+
+02:03.000 --> 02:09.720
+press control are and kind of drag that up and just try and hold that edge just a little bit better.
+
+02:10.020 --> 02:13.170
+Maybe one in here as well.
+
+02:13.340 --> 02:15.850
+I don't want it too tight just something.
+
+02:15.870 --> 02:17.750
+So it doesn't collapse terribly.
+
+02:17.750 --> 02:23.960
+And of course in the sculpting process I can always smooth those edges out a bit.
+
+02:23.960 --> 02:26.500
+So I'm not too worried about that.
+
+02:26.930 --> 02:33.950
+I'll go in and do the same thing in here for this one I think I'll just add an edge loop inside here
+
+02:34.340 --> 02:39.950
+and pull it out some and see if I can get one around here.
+
+02:42.620 --> 02:45.600
+And maybe in here as well.
+
+02:45.600 --> 02:52.360
+So that just helps hold the edges just a little bit better than they would have otherwise.
+
+02:52.360 --> 02:58.750
+So now that I've done that I can come back over here to this subdivision surfaces modifier and just
+
+02:58.900 --> 02:59.730
+remove it.
+
+03:00.610 --> 03:04.820
+And now I can begin again with the multi resolution one.
+
+03:05.210 --> 03:10.770
+So I've got a couple of reference images over here I've got this one from my drawing.
+
+03:10.940 --> 03:15.080
+These drawings are really just kind of ideas for me to go toward.
+
+03:15.140 --> 03:20.930
+I don't really know exactly what I was doing here and how that's going to look on the 3D model or what
+
+03:20.930 --> 03:25.650
+that's going to be but it's just something to move towards.
+
+03:25.910 --> 03:28.450
+I've got this reference image here.
+
+03:28.460 --> 03:36.050
+I like the little seams or thread lines here on the model I think I want to somehow get that kind of
+
+03:36.050 --> 03:37.060
+thing on there.
+
+03:37.430 --> 03:44.540
+And although I don't want these buckles I thought these were nice in that they kind of mirrored what
+
+03:44.540 --> 03:46.530
+I was doing here.
+
+03:46.640 --> 03:54.150
+So I just wanted this up while I'm sculpting so I have some sort of visual reference.
+
+03:54.340 --> 03:55.850
+All right so let's give this a try.
+
+03:55.850 --> 04:07.900
+I'll go ahead and add a multi resolution modifier to this and click subdivide and there's one there's
+
+04:07.900 --> 04:13.860
+two go ahead and hit it with three for now and see how that works.
+
+04:13.970 --> 04:21.050
+Also come over here to the Tools tab and under shading and click on smooth and that'll smooth that up
+
+04:21.050 --> 04:21.840
+quite a bit.
+
+04:22.950 --> 04:32.530
+So now I'm going to go over to sculpt mode here and click sculpt and let's see what we can do here.
+
+04:32.670 --> 04:39.960
+I'm just going to click on the icon and go straight over to the sculpt draw tool and just to test this
+
+04:39.960 --> 04:40.720
+out.
+
+04:40.740 --> 04:44.400
+Let's see about my strength of the brush.
+
+04:44.610 --> 04:46.360
+Just try that.
+
+04:46.590 --> 04:51.730
+It's not too bad.
+
+04:51.880 --> 04:57.610
+I think I can work with this for now just to bring the shape of the glove out a bit.
+
+04:57.670 --> 05:02.880
+I'm going to probably need to add a subdivision or two to get more detail on it.
+
+05:02.890 --> 05:05.450
+But for now let's work with this.
+
+05:05.500 --> 05:07.030
+Bring the strength down a bit
+
+05:12.020 --> 05:17.180
+increase the radius let's just see what we can do here.
+
+05:19.900 --> 05:24.470
+Just want to sculpt this out and get this out over the palm of the hand here.
+
+05:26.520 --> 05:32.820
+And if I press shift and stroke it will smooth it back a bit.
+
+05:32.970 --> 05:38.380
+I just want to hint at some of the structure in the hand just by sculpting out a bit here.
+
+05:40.140 --> 05:41.300
+Bring that out.
+
+05:44.420 --> 05:50.320
+Maybe I need more volume over the hand here the top of the hand
+
+05:54.570 --> 05:56.310
+and down here around the arm.
+
+05:56.310 --> 05:58.020
+I'll bring these out a bit to
+
+06:02.860 --> 06:05.760
+looking a little too much like a cast.
+
+06:05.760 --> 06:14.320
+Like he broke his arm so when I want to do is bring in the wrist some I think and I'll just use the
+
+06:14.590 --> 06:25.000
+Shift key to smooth that in see if that'll work some and I'll also use the Control key I'll push that
+
+06:25.570 --> 06:31.270
+and stroke in that will cut in just a bit into the glove here.
+
+06:32.690 --> 06:38.430
+And I think I'd like to pull this edge out just a bit so I'll go over to the grab tool here.
+
+06:39.430 --> 06:46.610
+And maybe increase the size by pushing the F key and moving the mouse a bit.
+
+06:46.670 --> 06:57.540
+I just want to drag that out just a hair to get the shape of that arm piece a little bit wider They're
+
+07:00.020 --> 07:02.240
+come around the bottom and do the same thing.
+
+07:02.240 --> 07:06.840
+I think.
+
+07:07.100 --> 07:07.450
+All right.
+
+07:07.450 --> 07:11.720
+So I think now I want to start working on these bands whatever these are.
+
+07:11.720 --> 07:18.840
+I'm not exactly sure I think there are more decorative overlays rather than actual bands.
+
+07:19.070 --> 07:25.820
+So what I'm going to do is come over to the mask tool here and I'll press the F key and reduce the size
+
+07:26.240 --> 07:34.580
+of the brush a bit and I think I'll just use the mass to kind of draw out these things and then sculpt
+
+07:34.580 --> 07:36.480
+them out from there.
+
+07:36.590 --> 07:47.060
+So let's see if I take the mast tool and I'll just begin here and just draw out what I think might be
+
+07:47.780 --> 07:49.710
+one of those bands here.
+
+07:51.280 --> 07:58.710
+Let's just test this before I do all the rest of them here let's just test one and see what we think.
+
+07:58.720 --> 08:08.110
+So now that I have that press control I to invert the mask and then let's just come over to let's use
+
+08:08.110 --> 08:16.960
+the clay strips and I'll increase the brush size a bit maybe reduce the strength and let me just try
+
+08:18.090 --> 08:23.160
+and gently sculpt in here with clay strips.
+
+08:23.250 --> 08:24.370
+See what I can get.
+
+08:27.740 --> 08:33.630
+OK so now I can come down here to hide mask and I can clear the mask here or I can press Alt.
+
+08:33.630 --> 08:36.350
+Am so clear that.
+
+08:36.410 --> 08:42.770
+So we've got the beginnings of that strap or that inlay thing.
+
+08:42.770 --> 08:50.360
+It's not real great and this is why I'm testing it here and I choose the pinch to here and let's come
+
+08:50.360 --> 08:51.320
+in here.
+
+08:52.360 --> 08:59.110
+See if we can pinch this a bit to make it a little tighter around the edges.
+
+08:59.380 --> 09:05.780
+Something like this.
+
+09:06.010 --> 09:07.870
+Something like that.
+
+09:07.940 --> 09:12.140
+So you got kind of this hint of a strap there.
+
+09:12.140 --> 09:18.320
+Now if the viewport isn't quite the way you want it if you're having trouble seeing what you're doing
+
+09:18.320 --> 09:24.140
+here you can always change the way it's viewed with Blender's madcaps.
+
+09:24.260 --> 09:29.630
+So I'm going to press the end key here to bring up the properties panel and imma scroll down here.
+
+09:30.500 --> 09:34.180
+And right down here under shading.
+
+09:34.460 --> 09:42.950
+You've got a selection for matte cap and if I click that you can see how the way the model is being
+
+09:42.950 --> 09:45.200
+displayed is changing.
+
+09:45.200 --> 09:52.250
+Now this doesn't affect how the model is rendered or will ultimately be seen but what it does is it
+
+09:52.250 --> 09:55.780
+allows you to kind of get a better look at it here in the viewport.
+
+09:55.790 --> 10:04.160
+So I'm going to click this ball icon and I can choose different types of materials that my model can
+
+10:04.160 --> 10:05.450
+be viewed with.
+
+10:05.480 --> 10:10.810
+So I kind of like this one here to be able to see what I'm doing.
+
+10:10.910 --> 10:12.770
+Now you can choose any of them.
+
+10:12.770 --> 10:19.740
+I mean this is an interesting line and this is interesting and that's a little too much.
+
+10:20.210 --> 10:28.430
+But they're really good to kind of play with and see what kind of materials helps as you work on the
+
+10:28.430 --> 10:29.050
+model.
+
+10:29.120 --> 10:31.380
+So for me this one works pretty well.
+
+10:31.580 --> 10:36.730
+So when you press the end key to close that again and that's about all I want.
+
+10:36.740 --> 10:44.090
+Now there's another thing I wouldn't mind doing I might try and go back to the mast tool and really
+
+10:44.090 --> 10:50.090
+shrink the brush down and then draw around this thing.
+
+10:50.090 --> 10:57.230
+Let me see if this will work if I come around it here like this and I may need to add a subdivision
+
+10:57.230 --> 10:58.940
+here to be able to do this.
+
+10:58.970 --> 11:00.410
+Why don't I do that.
+
+11:00.620 --> 11:08.240
+I'll undo that with control or command Z and I'll come over here and I'll add I'll add two more subdivisions
+
+11:08.240 --> 11:09.050
+to it.
+
+11:09.470 --> 11:12.440
+And now if I draw on it it's a little cleaner.
+
+11:14.520 --> 11:18.630
+So I'm just going to draw a line all the way around here.
+
+11:19.230 --> 11:24.840
+So what I want to do is add kind of a seam around it.
+
+11:24.840 --> 11:26.400
+I'm not sure that this will work.
+
+11:28.260 --> 11:31.240
+But it's fun to try.
+
+11:31.240 --> 11:39.270
+All right so now I'm going to press control and I'm going to come back over to my sculped brush increased
+
+11:39.400 --> 11:48.150
+the brush size and come in here and just sculpt just a little bit around this like this.
+
+11:48.160 --> 11:57.800
+All right so now press all to him to clear it and it's OK but I think it's a little too much.
+
+11:57.900 --> 12:04.620
+So maybe if I come back with the smooth tool I'm just going to press shift and smooth that back a bit
+
+12:06.150 --> 12:17.570
+and maybe if I come in here with the inflate brush and zoom in here I can maybe inflate this up inside
+
+12:17.580 --> 12:27.310
+here just a little bit so I'm just testing actually this is I was as I said sometimes I'll draw something
+
+12:27.880 --> 12:35.130
+in the heat of the moment and not really understand or know how it's going to be translated into 3D
+
+12:35.140 --> 12:40.030
+and sometimes you've just got to come in and test it out and see what you think.
+
+12:40.090 --> 12:42.520
+That's kind of what I'm doing here.
+
+12:42.760 --> 12:49.330
+And yeah I think that'll work pretty well so I'm going to go in and start working on the other pieces
+
+12:49.330 --> 12:52.240
+like this and see what I can come up with.
+
+12:52.240 --> 13:01.410
+So I'll go back to my mask tool and come in here and let's start masking this out again.
+
+13:06.690 --> 13:10.870
+And I'll work on the next one here just right down here I think.
+
+13:15.160 --> 13:21.760
+And even though I've got three little stripes down here on the top of the hand I think I just try to
+
+13:22.840 --> 13:26.180
+do that and we try that and see how it works.
+
+13:29.650 --> 13:33.610
+So I've got my masks laid out here.
+
+13:33.730 --> 13:38.310
+I'll press control need to invert the selection there.
+
+13:38.830 --> 13:44.550
+And let's go back to the scopes draw brush and give this a try.
+
+13:49.440 --> 13:51.760
+We'll just use that to bring it out a bit.
+
+13:58.870 --> 14:00.090
+All right so is press Alt.
+
+14:00.090 --> 14:03.340
+Him to clear the mask.
+
+14:04.720 --> 14:07.880
+And I actually like those better than that up there.
+
+14:08.420 --> 14:09.870
+Well let's give this a try.
+
+14:09.890 --> 14:15.950
+Now we could probably go in and smooth this out a bit smooth this back some
+
+14:19.390 --> 14:23.910
+like so and go in and redo that.
+
+14:23.950 --> 14:24.810
+Let's try it.
+
+14:26.760 --> 14:33.270
+So now I'm going to go back and hit the mask brush and I'll just draw this out again because I like
+
+14:33.270 --> 14:37.840
+the look of that better than I had before.
+
+14:37.840 --> 14:42.060
+I think it's because I've increased the subdivisions here a bit.
+
+14:42.060 --> 14:45.850
+So let's draw this out again and see if we can get that a little bit better.
+
+14:48.440 --> 15:00.550
+All right so control I now go back to the sculpt draw brush and let's try this one.
+
+15:00.920 --> 15:02.620
+And then Allt him to clear
+
+15:05.570 --> 15:11.770
+and yeah I actually like that a little better than I had it with that seam around it.
+
+15:11.790 --> 15:12.750
+So there you go.
+
+15:12.810 --> 15:15.210
+I think I'm going to go with that for now.
+
+15:15.210 --> 15:22.110
+The next thing for the glove would be to create these little threads seems along maybe the inside and
+
+15:22.110 --> 15:26.850
+the outside edge and around the fingers and armhole here.
+
+15:27.270 --> 15:33.090
+But in the end I think you can see that sometimes you just need to test sometimes you just need to jump
+
+15:33.090 --> 15:39.240
+in and see what you can get because it's hard to know sometimes exactly what you're going for and exactly
+
+15:39.300 --> 15:41.850
+what the tools can do for you.
+
+15:41.850 --> 15:44.700
+So be sure and use a little trial and error in your art work.
+
+15:44.700 --> 15:46.690
+You just never know what you can get.

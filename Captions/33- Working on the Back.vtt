@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00.790 --> 00:07.960
+Well today I'm going to start working on the straps here over the chest and around the back.
+
+00:08.080 --> 00:15.460
+I think what I can do is extend this on down and then extrude out from the main strap the one around
+
+00:15.460 --> 00:23.890
+the side and by doing this I'm going to establish the number of edges that is going to come out from
+
+00:23.920 --> 00:31.960
+this and out around here so I've got to be very mindful of the edges that I'm creating and yes I can
+
+00:31.960 --> 00:37.450
+move them around and create new ones and things like that but I'm going to really try and use this to
+
+00:37.450 --> 00:46.450
+establish the number of edges so as extrude down here I've got one here one here one here etc. So let's
+
+00:46.450 --> 00:47.810
+see if I can do that.
+
+00:47.870 --> 00:49.770
+Be Kind of like a high wire act here.
+
+00:49.780 --> 00:51.980
+Let's see what actually happens.
+
+00:52.000 --> 00:56.170
+I'm going to switch to edge mode and slick these two edges I think.
+
+00:56.530 --> 01:04.810
+And these are the ones I think I'd like to extrude out for this so I'll just take one of these and move
+
+01:04.810 --> 01:13.870
+it a bit over here like this and I'll move this to be kind of as wide as the strap is here.
+
+01:13.870 --> 01:15.820
+So then it's just going to be this edge.
+
+01:15.820 --> 01:19.920
+That's what's going to come down and be this main strap.
+
+01:20.290 --> 01:23.020
+So I've still got snapping on down here.
+
+01:23.170 --> 01:26.860
+Let's see if this will work for me or find if I need to turn it off.
+
+01:26.980 --> 01:29.680
+So I'll just press the e key and begin extruding out.
+
+01:29.680 --> 01:37.090
+So here is that first edge I think here and hit you again.
+
+01:37.110 --> 01:41.690
+There's that second edge.
+
+01:41.800 --> 01:42.630
+The next one
+
+01:46.860 --> 01:51.850
+the next one in here.
+
+01:52.130 --> 01:57.900
+Now I'm going to need edges to extrude out for this strap so I'll just come to here.
+
+01:59.030 --> 02:02.030
+And then extrude all the way up to here.
+
+02:02.280 --> 02:06.090
+I think it's going over that piece.
+
+02:06.110 --> 02:13.850
+I don't want it to really do that per se so let me turn that off and turn off my x ray for a moment
+
+02:14.600 --> 02:22.700
+and just move that back in I'll press alt spacebar to go to the orientation menu and click global and
+
+02:22.700 --> 02:28.330
+then I'll just move that straight back like that and then I'll begin extruding down again now.
+
+02:28.520 --> 02:35.200
+I'll go ahead and turn snapping back on and I'll hit E and bring this down.
+
+02:35.230 --> 02:39.920
+This Edge is going to extend around the side so I'll go ahead and hit me.
+
+02:39.940 --> 02:41.240
+Bring this one.
+
+02:41.570 --> 02:42.070
+The
+
+02:47.770 --> 02:53.170
+and let's go ahead and do one more on down to the belt here.
+
+02:53.320 --> 02:57.470
+Now I may need to come in and try and snap these points a little better now.
+
+02:57.550 --> 03:04.340
+They don't appear to be right on the object which is fine that's understandable.
+
+03:05.170 --> 03:11.140
+Let's go ahead and extrude on around the strap to the back of the character.
+
+03:11.140 --> 03:21.190
+Now let's all go back to edge mode and I'll select this edge I'll just hit the Z key to go into wireframe
+
+03:22.210 --> 03:29.260
+and I'll go ahead and hit E and extrude this like that.
+
+03:29.620 --> 03:30.470
+And there we go.
+
+03:30.460 --> 03:36.620
+So now we can continue on around so I'll hit easy and here.
+
+03:38.370 --> 03:46.400
+And I'm just trying to get these polygons relatively the same size as I go around the number of polygons
+
+03:46.400 --> 03:51.610
+may change as we go depending on what is needed to connect everything up.
+
+03:51.920 --> 03:55.300
+But for now I'm going to try and just get them all the same size.
+
+03:58.060 --> 04:03.610
+And then we go I'll snap a couple of these points
+
+04:07.360 --> 04:08.770
+and there we go.
+
+04:08.770 --> 04:13.290
+So now we've got the strap going back around the character.
+
+04:13.510 --> 04:17.440
+Now we need to go back and do this the same thing over here.
+
+04:19.400 --> 04:25.880
+So once again I'll take one of these edges and just move it to the side a bit to get the width of that
+
+04:25.880 --> 04:28.010
+strap.
+
+04:28.010 --> 04:35.970
+And then let's come down the back and once again I'm going to be mindful of the edges I already have.
+
+04:36.190 --> 04:58.830
+So I'll just hit me and extrude this.
+
+04:58.870 --> 05:04.660
+Now once again I'll come through and begin just snapping a few of these points making sure they're in
+
+05:04.660 --> 05:05.830
+the right place.
+
+05:08.640 --> 05:15.060
+Now let's connect up to these points right in here so I'll select this one and shift select that and
+
+05:15.060 --> 05:22.500
+press alt em and choose at last and I'll snap this on and do the same thing here.
+
+05:22.500 --> 05:24.510
+So we've got them all connected
+
+05:27.310 --> 05:27.730
+all right.
+
+05:27.730 --> 05:35.090
+So for me that gives me kind of a basic frame of the typology that's going to have to happen over here.
+
+05:36.250 --> 05:44.860
+I really wanted all of this to be all one piece all connected to the torso of the character one so that
+
+05:44.860 --> 05:53.410
+we'd have as few polygons as possible and two so that as the character moved we wouldn't have any overlapping
+
+05:53.440 --> 06:00.730
+or bunching up of the straps and the skin and things like that so I just thought it'd be easier to wait
+
+06:00.880 --> 06:03.900
+during the skinning process when we're rigging.
+
+06:04.120 --> 06:09.730
+So I'm probably causing myself a little bit of extra work here but I think it will save me time in the
+
+06:09.820 --> 06:12.190
+rigging process as well.
+
+06:12.190 --> 06:12.450
+All right.
+
+06:12.460 --> 06:21.590
+So what I'll do now is I'd like to connect this row up and move it down to the chest.
+
+06:21.610 --> 06:28.330
+So I'm just going to select these and begin with these first I'm going to hit extrude and just move
+
+06:28.330 --> 06:30.580
+these down here like this.
+
+06:30.770 --> 06:33.880
+And I don't have I don't have all of these.
+
+06:33.880 --> 06:38.690
+All the way to the edge of my strap here so maybe I'll just move that aside.
+
+06:40.000 --> 06:43.100
+So.
+
+06:43.210 --> 06:50.690
+So now I'll just go ahead and connect these up get the F key and just do that along here.
+
+06:51.010 --> 07:00.060
+Yes and then perhaps I'll take this row here and just extrude this out like this.
+
+07:01.120 --> 07:03.470
+Connect this piece up with Allt am.
+
+07:03.490 --> 07:07.260
+Now I should be able to connect these four up.
+
+07:07.580 --> 07:15.990
+So this may need to be a triangle here and this can be a quad here.
+
+07:16.540 --> 07:25.270
+So you can see what I'm doing I'm just using the pattern that I've created on the strap as the basis
+
+07:25.270 --> 07:28.180
+of how this edge flow is going to come out.
+
+07:28.210 --> 07:35.950
+So I'm going to need to do a little bit of adjusting here but I think it's going to work as these come
+
+07:36.040 --> 07:36.580
+around.
+
+07:36.580 --> 07:41.700
+They'll hook up with a strap like that when we turn on x ray here so we can see it.
+
+07:41.890 --> 07:42.660
+Yeah.
+
+07:42.760 --> 07:50.200
+So what I'll do is I'll continue working on the strap here and try and begin connecting up the back
+
+07:50.620 --> 07:58.300
+and the torso on this side at least and then we'll take a look at working on this arm coming up next.

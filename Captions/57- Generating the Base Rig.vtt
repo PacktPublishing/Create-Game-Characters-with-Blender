@@ -1,0 +1,478 @@
+WEBVTT
+
+00:00.680 --> 00:05.820
+In this part of the series I'm going to try and rig the character in the last series.
+
+00:05.840 --> 00:13.340
+I did it all manually because I think it's great to know how to rig manually before you start using
+
+00:13.340 --> 00:17.070
+any automated tools the automated tools are fantastic.
+
+00:17.120 --> 00:22.760
+If they work perfectly but if they don't then how do you go back and fix anything.
+
+00:22.760 --> 00:30.080
+So you need to kind of know the fundamentals before you can actually troubleshoot anything on an automated
+
+00:30.170 --> 00:31.400
+rigging system.
+
+00:31.400 --> 00:36.970
+So for this character I think what I'd like to do is use the rigor Phi add on.
+
+00:37.550 --> 00:39.260
+It's been a while since I've used it.
+
+00:39.260 --> 00:43.720
+There have been a few updates since then so I thought I'd take a look at it.
+
+00:43.760 --> 00:48.770
+The first thing you may need to do is add the add on install the add on.
+
+00:48.770 --> 00:51.660
+So let's go over here to file user preferences.
+
+00:51.890 --> 01:00.650
+And in this window let's click on the add ons button and I'm going to type in rigor Phi.
+
+01:00.780 --> 01:01.850
+There it is.
+
+01:01.880 --> 01:03.600
+You should come up with this entry here.
+
+01:03.620 --> 01:10.430
+Now mine has already checked but if yours isn't you just need to add a checkmark here and then click
+
+01:10.430 --> 01:15.160
+save user settings and then we should be good to go.
+
+01:16.180 --> 01:25.750
+So before we add the rig by rig into the scene let's make sure that the character is is prepared for
+
+01:25.750 --> 01:27.090
+rigging.
+
+01:27.160 --> 01:32.080
+I'm going to hit the key and let's go take a look at the transforms here.
+
+01:32.080 --> 01:34.420
+It turns out that my transforms look pretty good.
+
+01:34.420 --> 01:40.300
+I've got zeroes in location zeros in rotation and ones in scale and that's pretty good.
+
+01:40.300 --> 01:42.610
+My guess is that he's going to be too big.
+
+01:42.610 --> 01:45.940
+This is about 25 meters tall here.
+
+01:45.970 --> 01:51.490
+So when the rig of five rig comes in it's going to be a lot smaller and that's fine we can shrink him
+
+01:51.490 --> 01:52.220
+down.
+
+01:52.360 --> 01:58.420
+If your transforms aren't zeros and ones over here you can always select the character and press control
+
+01:58.480 --> 02:06.160
+a and apply the location and then press controls again and apply the rotation and scale and that will
+
+02:06.160 --> 02:09.580
+get all of these back to their zeros and ones.
+
+02:09.580 --> 02:15.460
+Now let me take a look in the eyes here I've got eyes separate from the head or the main body so it
+
+02:15.460 --> 02:18.850
+looks like that's all zeros and ones that's all zeros and ones.
+
+02:18.850 --> 02:21.360
+OK so it looks like that's pretty good.
+
+02:21.370 --> 02:23.920
+All right so let's go ahead and create the Omniture.
+
+02:23.920 --> 02:30.490
+If I come over here to the Create tab and I scroll down and I click armature all I'm going to get is
+
+02:30.490 --> 02:31.930
+a single bone.
+
+02:31.930 --> 02:40.150
+So if I click this you can see if I zoom in way down here I'll hit the period key on the numpad And
+
+02:40.150 --> 02:42.400
+if we zoom in all we get is just one ball.
+
+02:42.430 --> 02:48.430
+And that's certainly the way you want to be in when you're doing it manually but that's not going to
+
+02:48.430 --> 02:49.180
+help us a whole lot.
+
+02:49.180 --> 02:52.960
+So I'm going to undo this with a control or command Z.
+
+02:53.290 --> 02:58.740
+What we need to do instead of using the Create tab is use Shift A.
+
+02:58.750 --> 03:03.790
+So to add the rig I'll press shift A and I'll choose armature.
+
+03:04.000 --> 03:11.840
+And here's that single bone Here's the rigger fi rig and here's the new pitch you poi rig.
+
+03:11.890 --> 03:21.340
+Now I haven't used this yet I think it was added as an option in version 2.7 for I believe and it includes
+
+03:22.000 --> 03:31.180
+facial rig as well but we don't need that because this character really wasn't set up to open a mouth
+
+03:31.180 --> 03:33.050
+or blink or anything.
+
+03:33.130 --> 03:37.090
+So I'm just going to go ahead and use the rig a FI add on.
+
+03:37.150 --> 03:42.130
+So our click human Metta rig and there we go.
+
+03:42.330 --> 03:44.150
+And you notice that.
+
+03:44.190 --> 03:47.360
+Yes sure enough the rig is really tiny.
+
+03:47.370 --> 03:49.050
+So it's way down here.
+
+03:49.050 --> 03:56.840
+So this is actually more reasonably sized in terms of real world scale.
+
+03:56.910 --> 04:05.220
+The Blendr units are really pretty much meter's if we come over here to I believe the world know about
+
+04:05.220 --> 04:06.390
+the scene here.
+
+04:06.390 --> 04:12.600
+There we go if we come over to the scene you can see that in the unit's field we've got metric units
+
+04:12.660 --> 04:15.260
+and imperial or inches and feet.
+
+04:15.270 --> 04:22.560
+So if we go from the Blendr units here to metric you can see that nothing really changes it's just 1.9
+
+04:22.640 --> 04:23.360
+meters.
+
+04:23.400 --> 04:29.190
+If we change to imperial then the grid gets a little smaller.
+
+04:29.250 --> 04:35.870
+Things change a little bit but the difference between metres and Blendr units is pretty much nothing.
+
+04:36.120 --> 04:39.660
+So this is probably a good size to make our character.
+
+04:39.930 --> 04:42.910
+If we're going to take it into a game engine.
+
+04:42.960 --> 04:43.350
+All right.
+
+04:43.350 --> 04:48.710
+So what I'm going to do now is scale my character down to fit that rig.
+
+04:48.710 --> 04:55.650
+I'm going to go and select low poly character as well as the eyes and I'm to change the center of pivot
+
+04:55.650 --> 04:58.210
+from the median point to the 3D cursor.
+
+04:58.590 --> 05:04.830
+And just to make sure we're scaling from that point down there at the center of the grid and I'll just
+
+05:04.830 --> 05:09.520
+scale everything down until I get it about the right size.
+
+05:09.540 --> 05:16.330
+So let me come to wireframe with a Z key and let me scale down a little bit more.
+
+05:18.010 --> 05:20.810
+Something like that.
+
+05:20.830 --> 05:30.010
+Now if I select the rig and come over to the object display I can turn on x ray here and see it through
+
+05:30.310 --> 05:31.960
+through the character.
+
+05:31.960 --> 05:38.860
+Now I'll hit the three key and the five key to go to orthographic view and I'll take this character
+
+05:39.250 --> 05:41.700
+as well as the eyes.
+
+05:43.270 --> 05:50.070
+I'll switch back to medium point and I'll drag the character forward just a little bit something like
+
+05:51.710 --> 05:53.050
+something like that.
+
+05:54.060 --> 05:55.870
+I think that'll work.
+
+05:55.920 --> 06:04.450
+Now once we've got once I've moved this character I'm going to have to now re-establish the center but
+
+06:04.460 --> 06:11.610
+I think moving this forward just a little bit will save me some headache in setting up the rig.
+
+06:11.610 --> 06:17.810
+Just trying to center up the hips and the neck along the side of the character here.
+
+06:18.780 --> 06:20.600
+And that looks pretty good.
+
+06:20.600 --> 06:21.040
+All right.
+
+06:21.050 --> 06:28.880
+So if I select the character now I need to move this back into the center of the grid move this origin
+
+06:28.880 --> 06:30.720
+point back to the center.
+
+06:30.770 --> 06:38.120
+So I'll just go to tools and set origin and I'll say origin to 3D cursor and that'll pop that back into
+
+06:38.120 --> 06:42.460
+the center and I'll do the same with the eyes.
+
+06:42.560 --> 06:47.810
+I'll select these and put those into the center as well.
+
+06:48.890 --> 06:56.540
+Now we need to make sure that our scale and our rotation and our location are all zeroed out.
+
+06:56.570 --> 07:02.250
+So we've got zeros in the location and the rotation but not in the scale so unimpressed actually I'll
+
+07:02.270 --> 07:12.310
+select all of these here and I'll press control a and let's apply the scale there we go that's what
+
+07:12.310 --> 07:13.360
+we want.
+
+07:13.360 --> 07:21.100
+So now if I select the character you can see that is 1.9 meters tall the transformations are all zeros
+
+07:21.100 --> 07:23.210
+and ones and that's good.
+
+07:23.230 --> 07:31.330
+All right so the next thing we need to do is get these joints in place so I'll select the rig go to
+
+07:31.330 --> 07:37.800
+the front view here and it looks like I've still got my image there and look how big it is.
+
+07:37.990 --> 07:43.500
+Let me scroll down and turn off or get rid of this image.
+
+07:43.540 --> 07:45.660
+Here we go.
+
+07:45.740 --> 07:48.810
+You don't need that.
+
+07:49.150 --> 07:55.060
+All right so now that we've got the general shape or the general proportion of the character correct.
+
+07:55.060 --> 08:02.110
+Let's go ahead and tab into edit mode for the rig here and what we need to do is come over here to the
+
+08:02.110 --> 08:05.500
+options tab and turn on X mirror.
+
+08:05.770 --> 08:13.210
+And what that'll do is that will allow us to move these joints around and have the other side come along.
+
+08:13.210 --> 08:18.370
+So now what we need to do is actually just move these around and tell them in the proper place.
+
+08:18.370 --> 08:23.140
+Now this is going to take a little time not too bad though.
+
+08:23.140 --> 08:31.660
+I'm going to go ahead and start moving these back like this and if I go into wireframe and I'm going
+
+08:31.660 --> 08:39.630
+to press the control key and click and drag I can select all of these joints and move them back a bit.
+
+08:42.490 --> 08:46.000
+I'll select this and move it up to where the ankle should be.
+
+08:47.410 --> 08:57.060
+And maybe these here and move those forward where the toes should be someone's going to move this up
+
+08:57.060 --> 08:59.250
+to about the ball of the toe.
+
+08:59.520 --> 09:05.840
+And then on and move this toe forward all the way like this.
+
+09:06.030 --> 09:07.990
+I need to know where that edge is.
+
+09:07.990 --> 09:12.600
+So what I'm going to do is go back to object mode and select the character and I'm going to come over
+
+09:12.600 --> 09:20.430
+here to the object panel and turn on wires so that I can see where the edges are.
+
+09:20.590 --> 09:29.680
+So now if I go back to the rig I can begin lining up these joints where the edges are that I want things
+
+09:29.680 --> 09:36.090
+to bend that so I want this foot to bend at that edge so I'm going to put that joint right there.
+
+09:36.100 --> 09:39.670
+Same thing applies here for this joint.
+
+09:39.670 --> 09:45.190
+I need to figure out where the knees going to bend and it looks like it's going to bend at this joint
+
+09:45.520 --> 09:47.010
+so I'll put it right there.
+
+09:47.820 --> 09:53.260
+Now also notice there's a bit of a bend in the leg here.
+
+09:53.280 --> 10:02.040
+When we turn on I.K. inverse kinematics that will allow us to grab one control at the foot here and
+
+10:02.040 --> 10:04.350
+move the whole leg around.
+
+10:04.350 --> 10:12.270
+And it needs to know which way the default bend is going to be if we put this chain exactly straight.
+
+10:12.270 --> 10:18.240
+It's going to be a 50 50 chance as to which way the computer is going to bend the leg and if it bends
+
+10:18.240 --> 10:20.390
+it backwards it's going to be painful.
+
+10:20.550 --> 10:28.200
+So we want to put a bit of a bend in that joint to make sure that Blendr knows which way we want it
+
+10:28.200 --> 10:30.040
+to bend.
+
+10:30.040 --> 10:32.430
+All right I'm going to get this right here.
+
+10:33.950 --> 10:40.570
+Come up to the front now and make sure everything's in place here once again I'll hit the Z key to go
+
+10:40.570 --> 10:49.240
+into wireframe and I'll control click and drag this and just drag all these over so they're lined up
+
+10:49.240 --> 10:52.170
+with the foot and we go.
+
+10:52.810 --> 10:53.980
+Let's think about this.
+
+10:53.980 --> 10:56.550
+Are these hips in the proper place.
+
+10:56.560 --> 10:57.730
+They don't seem to be.
+
+10:57.730 --> 11:07.540
+It seems to me like this whole bone can come down to bout where the waist is and it seems like these
+
+11:07.540 --> 11:09.590
+should be able to come down as well.
+
+11:11.310 --> 11:19.990
+Down to where the hip would be the hip joint to the leg that feels like it's a little bit better.
+
+11:21.550 --> 11:22.190
+All right.
+
+11:22.220 --> 11:25.290
+So how about this joint.
+
+11:25.310 --> 11:26.120
+Where is it.
+
+11:26.120 --> 11:28.190
+It's lining up along this edge here.
+
+11:28.190 --> 11:29.210
+That's not bad.
+
+11:29.210 --> 11:30.790
+I like that.
+
+11:30.830 --> 11:39.740
+Now for the arms it looks like I could grab this whole chain here like so and maybe bring this whole
+
+11:39.740 --> 11:43.580
+thing down to kind of where that shoulder joint would be.
+
+11:43.660 --> 11:50.630
+And I could maybe rotated a hair and bring that down like this.
+
+11:50.630 --> 11:55.220
+I'm just trying to place that shoulder joint right in there.
+
+11:55.290 --> 11:59.360
+Now if I'd select these I can move these down a bit.
+
+11:59.550 --> 12:05.620
+I'll see if I can grab these bones here and start moving them into the hand.
+
+12:05.640 --> 12:12.480
+This is probably the most tedious part is getting all the hand joints in place or all the finger joints
+
+12:12.510 --> 12:13.440
+in place.
+
+12:14.570 --> 12:20.660
+I'm just trying to get this joint right on the edge right here at the wrist.
+
+12:20.780 --> 12:27.100
+I think what I'm going to do is try and select these bones here and maybe scale them up just a hair.
+
+12:27.260 --> 12:28.550
+So they're a little bit bigger.
+
+12:29.930 --> 12:35.480
+So they fit into the hand a little bit better maybe a little bit more something like that.
+
+12:35.570 --> 12:36.320
+There we go.
+
+12:36.530 --> 12:43.550
+So now I've got to go through and align each of these joints up with the fingers and it takes a while
+
+12:43.550 --> 12:46.980
+so I'll do that off camera here.
+
+12:47.030 --> 12:54.050
+So what we'll do in the next video is once all the joints are in place will go back to object mode and
+
+12:54.050 --> 13:02.030
+come over here to the armature panel and we're going to click generate down here in the rig 5 panel
+
+13:02.390 --> 13:03.790
+and we'll see how it works.

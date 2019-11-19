@@ -1,0 +1,565 @@
+WEBVTT
+
+00:00.830 --> 00:05.650
+That I realize that we've got a couple of more things that we need to do before we're done rigging the
+
+00:05.650 --> 00:06.680
+character.
+
+00:06.820 --> 00:15.370
+Now in the original design for this character I had a hammer and a shield and I've already modeled and
+
+00:15.370 --> 00:16.120
+textured those.
+
+00:16.120 --> 00:17.850
+I just need to bring them in.
+
+00:18.100 --> 00:20.140
+And then parent them to the rig.
+
+00:20.440 --> 00:22.230
+So let's do that.
+
+00:22.390 --> 00:22.690
+All right.
+
+00:22.690 --> 00:30.550
+So first of all I've got a hammer here I'm going to go over to file and append and I want to append
+
+00:30.610 --> 00:33.470
+a new object into the scene.
+
+00:33.670 --> 00:40.480
+So when I click on this object you can see I get a list of possible things I could import I could import
+
+00:41.230 --> 00:50.290
+material or I could import an object or a world or a scene or whatever but I'm going to import an object
+
+00:50.290 --> 00:54.880
+here and when I click on object I can see the name of the object.
+
+00:54.940 --> 00:56.520
+So I'm ominous like that.
+
+00:56.650 --> 01:00.640
+And then I'm just going to come over here and click append from a library.
+
+01:00.760 --> 01:03.330
+And that brings it into the scene and there it is.
+
+01:03.370 --> 01:05.740
+It's huge.
+
+01:06.010 --> 01:09.760
+I'm going to de-select it and select it again.
+
+01:09.790 --> 01:11.180
+There it is.
+
+01:11.200 --> 01:19.050
+So now I need to scale it down a bit and put it into place so I'll hit the key and scale it down so
+
+01:19.120 --> 01:23.140
+you can see it's pretty big compared to the character.
+
+01:23.510 --> 01:28.150
+I'm going to press the End key to bring up the properties panel and come over here.
+
+01:28.160 --> 01:36.560
+And for the scale I've tested this out before in it and it seemed to me like a scale of about point
+
+01:36.650 --> 01:42.640
+0 5 to 5 or something like that was pretty good.
+
+01:42.650 --> 01:44.220
+Let's try that.
+
+01:44.270 --> 01:51.950
+I'm going to also Press Control alt and Q and that will bring up the quad view so I can see this from
+
+01:52.820 --> 01:55.350
+different angles.
+
+01:55.370 --> 02:02.870
+Let me bring this down here like this and I'm going to try and just put it in his hand or turn it.
+
+02:02.870 --> 02:05.380
+So it's in line with the hand.
+
+02:05.450 --> 02:10.910
+Actually one thing I should do is I'm going to move the pivot point about where he's going to be holding
+
+02:10.910 --> 02:11.140
+it.
+
+02:11.180 --> 02:14.390
+I think it will be easier to move around if I do that.
+
+02:14.390 --> 02:22.860
+So in a press control alt cue again to get out of that quad view and I'll move the cursor with shift
+
+02:22.880 --> 02:26.790
+s to the selected object.
+
+02:27.990 --> 02:34.350
+And then I'm going to come up here with the key to open up the properties panel and if I scroll down
+
+02:34.380 --> 02:41.610
+I've got this 3D cursor X Y Z fields and I'm just going to click and drag on the Z and you can see I
+
+02:41.610 --> 02:45.930
+can just move that cursor right up and down along the hammer.
+
+02:45.930 --> 02:47.970
+So I think maybe it's going to hold it.
+
+02:48.820 --> 02:51.610
+Right about here let's say.
+
+02:52.280 --> 02:59.330
+Now I want to move the origin of the object to that 3D cursor and there we go.
+
+02:59.340 --> 03:06.970
+Now when I go back to control alt cue and rotated a bit it'll rotate.
+
+03:06.970 --> 03:18.610
+At that point now so here's the trick is to try and get it to be in his hand in a relatively believable
+
+03:18.610 --> 03:19.340
+way.
+
+03:21.100 --> 03:23.980
+Now that I've got it here I want to spin it around.
+
+03:23.980 --> 03:29.130
+I want to rotate it so the angle of the hammer is kind of in line with the arm.
+
+03:29.290 --> 03:36.000
+But if I tried to do that here in global mode that would throw it off.
+
+03:36.000 --> 03:39.210
+I think so I'm gonna switch to local mode.
+
+03:39.810 --> 03:46.230
+And now when I spin it I should be able to spin it right in line like that.
+
+03:46.230 --> 03:47.940
+So I'm going to spin it.
+
+03:47.940 --> 03:51.250
+So it's in line with his arm like that.
+
+03:51.530 --> 03:53.520
+All right control cue.
+
+03:54.170 --> 04:01.150
+And let's see if we can now adjust the fingers to wrap around the handle.
+
+04:01.410 --> 04:09.330
+So I want to press the period key on the numpad and zoom in to the handle here or to the hammer.
+
+04:09.800 --> 04:17.250
+And I'm going to choose a control object for the rig here and it's already in PPOs mode and that's good.
+
+04:17.390 --> 04:23.090
+But what I want to do is come over here to this armature panel and turn on x ray just so I can see the
+
+04:23.090 --> 04:25.360
+controls through the character.
+
+04:25.840 --> 04:32.300
+I think I want maybe let's begin with this joint and I'm going to just move the thumb out a bit.
+
+04:33.750 --> 04:46.230
+And then maybe I'll scale it in with this control like that see how that works and then let's work on
+
+04:46.290 --> 04:47.520
+these fingers here.
+
+04:47.520 --> 04:55.660
+Now if I took all of these controls like that all of them at the same time and then click and drag and
+
+04:56.190 --> 04:57.930
+I could rotate those.
+
+04:57.930 --> 05:06.340
+But it's kind of going through the handle I may have that a little bit too close and see what I can
+
+05:06.340 --> 05:08.840
+do here I think I'll bring it down just a little bit.
+
+05:09.910 --> 05:14.670
+All right I'll try that again so I can bring him in just a little bit here.
+
+05:15.500 --> 05:18.910
+And then if I select all of these controls
+
+05:21.960 --> 05:29.620
+and then scale these in the key and scale these in all right I think we've got the hammer pretty well
+
+05:29.620 --> 05:30.770
+in place.
+
+05:30.790 --> 05:33.960
+Let's go ahead and parent it to the rig.
+
+05:34.130 --> 05:40.090
+Now how do we get this hammered to stay with the hand wherever it goes.
+
+05:40.540 --> 05:43.770
+The way we can do that is to parent it to one of the bones.
+
+05:43.990 --> 05:52.780
+And if we look at the vertex groups of the character here I just select the character.
+
+05:52.780 --> 05:55.270
+Let me bring this up here.
+
+05:55.330 --> 06:01.510
+You can see that the Virtex groups all begin with DPF and that's for the deformed bones.
+
+06:01.510 --> 06:09.580
+Now all of the vertex groups were generated from the bones from the form bones when the rig was being
+
+06:09.580 --> 06:10.640
+created.
+
+06:10.660 --> 06:15.830
+So we've now we've got deformed bones in there we can't see them at this point in time.
+
+06:15.850 --> 06:18.880
+They hit the Z key you can see they're hidden away.
+
+06:18.940 --> 06:22.350
+So how do we find them.
+
+06:22.870 --> 06:27.720
+Well let's come up here to the outliner an in the outliner.
+
+06:27.720 --> 06:37.220
+I'm going to use the search tool and if I type in appear DPF and I'll do a dash.
+
+06:37.220 --> 06:42.430
+We can see we've got a lot of bones here that begin with T.F..
+
+06:42.620 --> 06:49.400
+What we're looking for is the form hand left and there it is right there.
+
+06:49.800 --> 06:57.240
+So when I select that the armature panel comes up down here and you can see there's a little orange
+
+06:57.390 --> 07:03.670
+dot here telling us that that's the layer that that bone is in.
+
+07:03.810 --> 07:07.200
+And the reason why we can't see it is because that layer isn't selected.
+
+07:07.200 --> 07:15.810
+So if I press shift and click that layer you can now see the form bones and that's the bone right there
+
+07:15.810 --> 07:18.580
+that we want to parent this hammer to.
+
+07:18.610 --> 07:27.800
+So let's select the hammer shift select that bone and then press control p.
+
+07:28.250 --> 07:34.230
+And we want to set the parent to the bone so we click that.
+
+07:34.230 --> 07:44.940
+Now if I select that hand I.K. control and if I move that around you can see that I will move the hammer
+
+07:45.000 --> 07:45.760
+as well.
+
+07:47.000 --> 07:47.910
+There we go.
+
+07:48.140 --> 07:48.590
+All right.
+
+07:48.590 --> 07:53.280
+I'm going to press shift and click this layer once again to hide those again.
+
+07:54.290 --> 07:57.310
+Now we need to bring in our shield.
+
+07:57.440 --> 07:59.830
+So let's work on that.
+
+07:59.870 --> 08:10.420
+I'm going to do the same thing here by going to a file and append and this time instead of the hammer.
+
+08:10.700 --> 08:21.910
+I want the shield so I click that go to object select the shield object and append and there it is.
+
+08:21.980 --> 08:24.200
+And it once again is huge.
+
+08:24.200 --> 08:26.600
+So now we got to go through the same process.
+
+08:26.600 --> 08:33.370
+The problem is is while moving the shield here I need to think about what I want to do.
+
+08:33.380 --> 08:42.170
+I'm not sure if I want to parent this shield to the forearm bone or if I want to parent it to the hand
+
+08:42.170 --> 08:42.680
+bone.
+
+08:42.680 --> 08:46.830
+I'm going to have issues either way and I'll show you what I mean.
+
+08:46.910 --> 08:51.100
+But in the meantime I'm going to go ahead and move this into place.
+
+08:51.200 --> 08:58.220
+I'm going to go back to the quad view with control alt cue and kind of move this into place.
+
+08:58.220 --> 09:05.700
+We're going to need to scale it down some it's more like an umbrella than a shield here.
+
+09:07.400 --> 09:09.210
+Let's see how this works.
+
+09:10.050 --> 09:16.260
+I kind of want it to be a little bit smaller than the distance up to his arm or I kind of want it to
+
+09:16.260 --> 09:18.500
+be.
+
+09:18.900 --> 09:22.070
+I don't want to overlap that shoulder armor here.
+
+09:22.740 --> 09:31.060
+I'll select these finger controls and scale these in to try and wrap the fingers around that strap there.
+
+09:33.360 --> 09:37.490
+And also the thumb as well I think I can maybe let's try that.
+
+09:37.500 --> 09:39.860
+Let's go ahead and scale that and see what happens.
+
+09:40.980 --> 09:42.500
+And just not them.
+
+09:42.680 --> 09:50.600
+All right so what I meant about trying to figure out what bone to parent it to is that no matter what
+
+09:51.050 --> 09:58.490
+I do I think I'm going to be dealing with some counter keying or having to move the arm and then rotate
+
+09:58.490 --> 10:03.050
+the shield or the hand or something to get it to work together.
+
+10:03.050 --> 10:10.070
+In other words because I've made this the way I did with these two straps it's going to be a little
+
+10:10.070 --> 10:11.950
+bit difficult to control.
+
+10:12.140 --> 10:20.330
+Now had I created the rig from scratch I may have created the bone structure of the forearm and the
+
+10:20.330 --> 10:22.210
+hand kind of is all one piece.
+
+10:22.220 --> 10:26.400
+I wouldn't have to deal with this but let's give this a try.
+
+10:26.420 --> 10:30.190
+I'm going to open this up and see if I can find the forearm.
+
+10:30.260 --> 10:32.700
+Let me see if I just type in F here.
+
+10:34.380 --> 10:35.370
+Our.
+
+10:35.900 --> 10:39.190
+And we go there are the four arms.
+
+10:39.400 --> 10:45.560
+So down here are the vertex groups I don't want those appear though.
+
+10:45.710 --> 10:46.610
+This is what I want.
+
+10:46.610 --> 10:55.710
+Now I'm going to select one of these on the right and that same layer lights up so all shift click that.
+
+10:55.730 --> 10:58.360
+Now I can see the bones in here.
+
+10:58.400 --> 11:02.950
+So there's the forearm one hears forearm two.
+
+11:03.350 --> 11:05.490
+And down here is the hand.
+
+11:05.540 --> 11:11.280
+So if I parroted to this forearm let's try this.
+
+11:11.280 --> 11:18.200
+I'm a parent to this bone right here so I'll select that shield shift's select that bone press control
+
+11:18.200 --> 11:21.570
+P and parent it to the bone.
+
+11:21.570 --> 11:31.520
+Now if I select that I.K. handle and hit G and move around you can see the shield comes along with the
+
+11:31.520 --> 11:32.210
+forearm.
+
+11:32.210 --> 11:33.290
+But look at the hand.
+
+11:33.380 --> 11:35.420
+So the hands a little off.
+
+11:35.420 --> 11:43.750
+So now what I mean by counter keying if that's where I want the shield to be for this particular pose.
+
+11:43.910 --> 11:47.990
+I then need to rotate the hand into place.
+
+11:48.840 --> 11:54.600
+On the shield and that may be easier said than done.
+
+11:54.600 --> 12:03.510
+See how it's the rotation of the forearm and the hand are connected through constraints I'm going to
+
+12:03.590 --> 12:12.220
+undo that a ways till I get back to where I was and nominate and parent this to unparallel press alt
+
+12:12.220 --> 12:18.310
+P and then clear parent choosing the shield and then clearing that parent.
+
+12:18.310 --> 12:25.090
+Now one thing I ought to do and what I didn't do with the hammer let me press the end key for the properties
+
+12:25.090 --> 12:30.140
+panel is to apply the the transformations.
+
+12:30.150 --> 12:37.180
+Now I've got this where I want it to be I need this to be its zero location and you can see here that
+
+12:37.180 --> 12:42.690
+it's got values in the location and the rotation and and the scale.
+
+12:42.850 --> 12:45.040
+So I need to apply those.
+
+12:45.130 --> 12:53.060
+So I'll press control a and apply the rotation and scale and then I'll press control a and apply the
+
+12:53.060 --> 12:54.670
+location.
+
+12:54.680 --> 12:55.340
+Here we go.
+
+12:56.580 --> 13:04.490
+So I I'm going to need to go back and do that for the hammer as well I think probably be a good idea.
+
+13:04.500 --> 13:04.730
+All right.
+
+13:04.740 --> 13:08.650
+So I tried this bone let's try this bone up here.
+
+13:08.670 --> 13:10.860
+This looks like it's the forearm one.
+
+13:10.860 --> 13:13.220
+So let's try this one.
+
+13:13.360 --> 13:20.470
+So I'll select the shield shift select that forearm one control P set the parent to the bone.
+
+13:20.650 --> 13:30.030
+And now let's select the hand and move it around OK well that's all right.
+
+13:32.010 --> 13:38.020
+If I wanted to move the hammer to that position now what let's see if I can get that hand in place if
+
+13:38.020 --> 13:41.850
+I press R and rotate it.
+
+13:43.780 --> 13:45.600
+A little bit like this.
+
+13:46.380 --> 13:54.150
+It appears that I can get that hand into place pretty easily that the rotation of the forearm isn't
+
+13:54.270 --> 14:00.790
+constrained at all to the hand or this particular forearm bone I should say.
+
+14:00.800 --> 14:01.150
+All right.
+
+14:01.160 --> 14:02.840
+Well that's one way to do it.
+
+14:02.870 --> 14:03.990
+Another way to do it.
+
+14:04.010 --> 14:05.150
+I'm going to undo here.
+
+14:09.130 --> 14:17.730
+Another way to do it is to parent to the hand if I select that shield press alt P to clear the parent.
+
+14:17.780 --> 14:26.970
+And now if I select the shield and shift select this bone or press control P set the parent to the bone.
+
+14:26.970 --> 14:35.760
+And now if I select that I can handle and move it around and see it's now parenting to the hand but
+
+14:35.760 --> 14:40.660
+the problem is you see look at the forearm strap there.
+
+14:40.660 --> 14:45.080
+So once again I've got some counter keying to do to get it into place.
+
+14:45.240 --> 14:49.560
+So it really depends on what I want to do here.
+
+14:50.040 --> 14:56.490
+I think for me I'm going to want to go with this bone here.
+
+14:56.490 --> 15:03.150
+I think I'm going to probably go with the forearm bone because it seems to me to be easier just to counter
+
+15:03.190 --> 15:07.910
+key the hand than the whole shield.
+
+15:08.730 --> 15:10.650
+Like this.
+
+15:10.710 --> 15:11.310
+All right.
+
+15:11.310 --> 15:15.930
+I'm going to shift select this layer here to hide those.
+
+15:16.020 --> 15:22.250
+And now I think we're about ready to animate.
+
+15:22.540 --> 15:28.450
+I'm going to come over here to the outliner real quick and delete that.
+
+15:28.610 --> 15:33.640
+So I get the list of all my objects now in the outliner.
+
+15:33.920 --> 15:35.420
+And so there's our character.
+
+15:35.420 --> 15:37.430
+We're going to begin animating them.
+
+15:37.430 --> 15:40.130
+I think the first thing we'll do is an idle.
